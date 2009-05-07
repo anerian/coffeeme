@@ -1,0 +1,6 @@
+mkdir ~/workspace/iphone
+cd ~/workspace/iphone
+git clone git@github.com:anerian/coffeeme.git
+git clone git://github.com/joehewitt/three20.git
+cd coffeeme
+open CoffeeMe.xcodeproj
