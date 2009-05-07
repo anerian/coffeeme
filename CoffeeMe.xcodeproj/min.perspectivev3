@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -330,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3986826F0FB36E19006E151C</string>
+										<string>398682780FB36EA3006E151C</string>
 										<key>history</key>
 										<array>
 											<string>397D74880FB24E8D00ACE161</string>
@@ -344,7 +342,7 @@
 											<string>398682480FB366C6006E151C</string>
 											<string>398682590FB36C81006E151C</string>
 											<string>3986825A0FB36C81006E151C</string>
-											<string>3986825B0FB36C81006E151C</string>
+											<string>398682770FB36EA3006E151C</string>
 										</array>
 										<key>prevStack</key>
 										<array>

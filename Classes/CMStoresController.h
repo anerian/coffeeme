@@ -14,6 +14,7 @@
     MyCLController *location_;
     NSArray *stores_;
     id alert_;
+    CLLocation *currentLocation_;
 }
 
 - (void)showAlert;

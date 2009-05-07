@@ -53,5 +53,6 @@
 // helpers
 - (NSString *)address;
 - (NSString *)address2;
+- (CLLocation *)location;
 
 @end

@@ -161,6 +161,12 @@
 			398682690FB36DB5006E151C /* PlistBookmark */ = 398682690FB36DB5006E151C /* PlistBookmark */;
 			3986826C0FB36E05006E151C /* PlistBookmark */ = 3986826C0FB36E05006E151C /* PlistBookmark */;
 			3986826F0FB36E19006E151C /* PlistBookmark */ = 3986826F0FB36E19006E151C /* PlistBookmark */;
+			398682720FB36E99006E151C /* PlistBookmark */ = 398682720FB36E99006E151C /* PlistBookmark */;
+			398682730FB36EA0006E151C /* PlistBookmark */ = 398682730FB36EA0006E151C /* PlistBookmark */;
+			398682750FB36EA3006E151C /* PBXTextBookmark */ = 398682750FB36EA3006E151C /* PBXTextBookmark */;
+			398682760FB36EA3006E151C /* PBXTextBookmark */ = 398682760FB36EA3006E151C /* PBXTextBookmark */;
+			398682770FB36EA3006E151C /* PlistBookmark */ = 398682770FB36EA3006E151C /* PlistBookmark */;
+			398682780FB36EA3006E151C /* PlistBookmark */ = 398682780FB36EA3006E151C /* PlistBookmark */;
 		};
 		sourceControlManager = 397D74810FB23DFA00ACE161 /* Source Control */;
 		userBuildSettings = {
@@ -341,8 +347,8 @@
 	};
 	398681740FB35297006E151C /* CMStoresController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1379, 1470}}";
-			sepNavSelRange = "{2378, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 1484}}";
+			sepNavSelRange = "{2435, 0}";
 			sepNavVisRange = "{308, 423}";
 		};
 	};
@@ -918,5 +924,73 @@
 		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
 		rLen = 0;
 		rLoc = 2147483647;
+	};
+	398682720FB36E99006E151C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	398682730FB36EA0006E151C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	398682750FB36EA3006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 103";
+		rLen = 0;
+		rLoc = 2435;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 308;
+	};
+	398682760FB36EA3006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 103";
+		rLen = 0;
+		rLoc = 2435;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 308;
+	};
+	398682770FB36EA3006E151C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	398682780FB36EA3006E151C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 12;
+		rLoc = 0;
 	};
 }

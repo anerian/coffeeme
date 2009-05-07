@@ -66,7 +66,7 @@
         NSMutableArray *items = [NSMutableArray arrayWithCapacity:[stores_ count]];
         
         for (CMStore *store in stores_) {
-            [items addObject:[[[TTSubtextTableField alloc] initWithText:[store street] subtext:[store address2]] autorelease]];
+            [items addObject:[[[TTSubtextTableField alloc] initWithText:[store address] subtext:[NSString stringWithFormat:@"%f miles", ([[store location] getDistanceFrom:currentLocation_] * .000621371192)]] autorelease]];
         }
         return [TTListDataSource dataSourceWithItems:items];
     }
@@ -76,6 +76,10 @@
 #pragma mark MyCLControllerDelegate
 
 - (void)locationUpdate:(CLLocation *)location {
+    [currentLocation_ release];
+    [location retain];
+    currentLocation_ = location;
+    
     [self hideAlert];
     NSArray *stores = [CMStore nearby:location.coordinate];
     [stores_ release];

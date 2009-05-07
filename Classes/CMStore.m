@@ -115,6 +115,10 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
     return [self address];
 }
 
+- (CLLocation *)location {
+    return [[[CLLocation alloc] initWithLatitude:self.latitude longitude:self.longitude] autorelease];
+}
+
 - (NSString *)address {
     return [NSString stringWithFormat:@"%@\n%@, %@. %@", street_, city_, state_, zip_];
 }
