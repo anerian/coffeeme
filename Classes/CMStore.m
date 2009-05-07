@@ -112,11 +112,15 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
 }
 
 - (NSString *)description {
-    return self.city;
+    return [self address];
 }
 
 - (NSString *)address {
     return [NSString stringWithFormat:@"%@\n%@, %@. %@", street_, city_, state_, zip_];
+}
+
+- (NSString *)address2 {
+    return [NSString stringWithFormat:@"%@, %@. %@", city_, state_, zip_];
 }
 
 @end

@@ -43,7 +43,7 @@
 
 - (void)loadView {
     [super loadView];
-    
+    self.variableHeightRows = YES;
     self.tableView = [[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain] autorelease];
   	self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
   	
@@ -66,7 +66,7 @@
         NSMutableArray *items = [NSMutableArray arrayWithCapacity:[stores_ count]];
         
         for (CMStore *store in stores_) {
-            [items addObject:[[[TTIconTableField alloc] initWithText:[store address]] autorelease]];
+            [items addObject:[[[TTSubtextTableField alloc] initWithText:[store street] subtext:[store address2]] autorelease]];
         }
         return [TTListDataSource dataSourceWithItems:items];
     }

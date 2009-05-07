@@ -52,5 +52,6 @@
 
 // helpers
 - (NSString *)address;
+- (NSString *)address2;
 
 @end

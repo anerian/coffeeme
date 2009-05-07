@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -277,7 +279,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>23</integer>
+									<integer>22</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -315,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CMStore.m</string>
+								<string>CoffeeMe-Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,16 +326,14 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CMStore.m</string>
+										<string>CoffeeMe-Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3986824D0FB366F2006E151C</string>
+										<string>3986826F0FB36E19006E151C</string>
 										<key>history</key>
 										<array>
 											<string>397D74880FB24E8D00ACE161</string>
-											<string>397D749D0FB24ED200ACE161</string>
-											<string>397D75260FB2A69900ACE161</string>
 											<string>398680CF0FB33245006E151C</string>
 											<string>397D74F20FB25B5300ACE161</string>
 											<string>398681B10FB359BA006E151C</string>
@@ -341,7 +342,9 @@
 											<string>398681B40FB359BA006E151C</string>
 											<string>398681EE0FB361EF006E151C</string>
 											<string>398682480FB366C6006E151C</string>
-											<string>398682490FB366C6006E151C</string>
+											<string>398682590FB36C81006E151C</string>
+											<string>3986825A0FB36C81006E151C</string>
+											<string>3986825B0FB36C81006E151C</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -356,6 +359,11 @@
 											<string>398681BA0FB359BA006E151C</string>
 											<string>398681F00FB361EF006E151C</string>
 											<string>3986824A0FB366C6006E151C</string>
+											<string>3986825C0FB36C81006E151C</string>
+											<string>3986825D0FB36C81006E151C</string>
+											<string>3986825E0FB36C81006E151C</string>
+											<string>3986825F0FB36C81006E151C</string>
+											<string>398682600FB36C81006E151C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -394,7 +402,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {0, -27}}</string>
+										<string>{{10, 27}, {1072, 343}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -434,8 +444,6 @@
 									<string>PBXCVSModule</string>
 								</dict>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -451,8 +459,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1072, 343}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -668,6 +674,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>398682620FB36C81006E151C</string>
+		<string>398682630FB36C81006E151C</string>
 		<string>/Users/min/workspace/anerian/github/coffeeme/CoffeeMe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
