@@ -10,14 +10,13 @@
 #import "MyCLController.h"
 
 @interface CoffeeMeAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate, MyCLControllerDelegate> {
-    UIWindow *window;
-    UITabBarController *tabBarController;
+    UIWindow *window_;
+    UITabBarController *tabBarController_;
     
     MyCLController *location_;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
 - (void)locationUpdate:(CLLocation *)location; 
 - (void)locationError:(NSError *)error;

@@ -11,8 +11,6 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
-		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		397D74850FB23E5C00ACE161 /* coffeeme.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */; };
@@ -28,6 +26,9 @@
 		397D751D0FB2A52700ACE161 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D751C0FB2A52700ACE161 /* QuartzCore.framework */; };
 		398681040FB336D6006E151C /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 398681030FB336D3006E151C /* libThree20.a */; };
 		398681080FB33720006E151C /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 398681070FB33720006E151C /* Three20.bundle */; };
+		398681750FB35297006E151C /* CMStoresController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398681740FB35297006E151C /* CMStoresController.m */; };
+		398681780FB352A6006E151C /* CMTriviaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398681770FB352A6006E151C /* CMTriviaController.m */; };
+		3986817B0FB352BB006E151C /* CMNutritionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986817A0FB352BB006E151C /* CMNutritionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +36,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 398680F90FB336D3006E151C /* Three20.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20.a */;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
 			remoteInfo = Three20;
 		};
 		3986811D0FB3372F006E151C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 398680F90FB336D3006E151C /* Three20.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20 */;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
 			remoteInfo = Three20;
 		};
 /* End PBXContainerItemProxy section */
@@ -53,9 +54,6 @@
 		1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeMeAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* CoffeeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AB4B0D9B1048005BE974 /* CoffeeMe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeMe_Prefix.pch; sourceTree = "<group>"; };
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
@@ -71,13 +69,19 @@
 		397D74AB0FB250F400ACE161 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = Libraries/FMDB/FMResultSet.h; sourceTree = SOURCE_ROOT; };
 		397D74AC0FB250F400ACE161 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = Libraries/FMDB/FMResultSet.m; sourceTree = SOURCE_ROOT; };
 		397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/lib/libsqlite3.0.dylib; sourceTree = SOURCE_ROOT; };
-		397D74D50FB257B600ACE161 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCLController.h; path = Classes/MyCLController.h; sourceTree = SOURCE_ROOT; };
-		397D74D60FB257B600ACE161 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCLController.m; path = Classes/MyCLController.m; sourceTree = SOURCE_ROOT; };
+		397D74D50FB257B600ACE161 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
+		397D74D60FB257B600ACE161 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
 		397D74D80FB2585B00ACE161 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = SOURCE_ROOT; };
 		397D74ED0FB25B0400ACE161 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = SOURCE_ROOT; };
 		397D751C0FB2A52700ACE161 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = SOURCE_ROOT; };
 		398680F90FB336D3006E151C /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20.xcodeproj; sourceTree = "<group>"; };
 		398681070FB33720006E151C /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Three20.bundle; sourceTree = "<group>"; };
+		398681730FB35297006E151C /* CMStoresController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStoresController.h; sourceTree = "<group>"; };
+		398681740FB35297006E151C /* CMStoresController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStoresController.m; sourceTree = "<group>"; };
+		398681760FB352A6006E151C /* CMTriviaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTriviaController.h; sourceTree = "<group>"; };
+		398681770FB352A6006E151C /* CMTriviaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTriviaController.m; sourceTree = "<group>"; };
+		398681790FB352BB006E151C /* CMNutritionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNutritionController.h; sourceTree = "<group>"; };
+		3986817A0FB352BB006E151C /* CMNutritionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNutritionController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,12 +106,9 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				397D74D50FB257B600ACE161 /* MyCLController.h */,
-				397D74D60FB257B600ACE161 /* MyCLController.m */,
+				398681720FB3523D006E151C /* Controllers */,
 				397D74A50FB250F400ACE161 /* Libraries */,
 				397D749C0FB24ED000ACE161 /* Models */,
-				28216C950DB411BC00E5133A /* FirstViewController.h */,
-				28216C960DB411BC00E5133A /* FirstViewController.m */,
 				1D3623240D0F684500981E51 /* CoffeeMeAppDelegate.h */,
 				1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */,
 			);
@@ -151,7 +152,6 @@
 				397D74ED0FB25B0400ACE161 /* app_icon.png */,
 				397D74920FB24E9700ACE161 /* Default.png */,
 				397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */,
-				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */,
 			);
@@ -208,6 +208,21 @@
 				398681030FB336D3006E151C /* libThree20.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		398681720FB3523D006E151C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				397D74D50FB257B600ACE161 /* MyCLController.h */,
+				397D74D60FB257B600ACE161 /* MyCLController.m */,
+				398681730FB35297006E151C /* CMStoresController.h */,
+				398681740FB35297006E151C /* CMStoresController.m */,
+				398681760FB352A6006E151C /* CMTriviaController.h */,
+				398681770FB352A6006E151C /* CMTriviaController.m */,
+				398681790FB352BB006E151C /* CMNutritionController.h */,
+				3986817A0FB352BB006E151C /* CMNutritionController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +285,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
 				397D74850FB23E5C00ACE161 /* coffeeme.sqlite3 in Resources */,
 				397D74930FB24E9700ACE161 /* Default.png in Resources */,
 				397D74EE0FB25B0400ACE161 /* app_icon.png in Resources */,
@@ -287,12 +301,14 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CoffeeMeAppDelegate.m in Sources */,
-				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
 				397D74A40FB24EF900ACE161 /* CMStore.m in Sources */,
 				397D74AD0FB250F400ACE161 /* FMDatabase.m in Sources */,
 				397D74AE0FB250F400ACE161 /* FMDatabaseAdditions.m in Sources */,
 				397D74AF0FB250F400ACE161 /* FMResultSet.m in Sources */,
 				397D74D70FB257B600ACE161 /* MyCLController.m in Sources */,
+				398681750FB35297006E151C /* CMStoresController.m in Sources */,
+				398681780FB352A6006E151C /* CMTriviaController.m in Sources */,
+				3986817B0FB352BB006E151C /* CMNutritionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,19 +1,18 @@
 //
-//  FirstViewController.m
+//  CMStoresController.m
 //  CoffeeMe
 //
-//  Created by min on 5/6/09.
-//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//  Created by min on 5/7/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "CMStoresController.h"
 
 
-@implementation FirstViewController
-
+@implementation CMStoresController
 
 /*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
+ // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
         // Custom initialization
@@ -59,5 +58,6 @@
 - (void)dealloc {
     [super dealloc];
 }
+
 
 @end

@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -278,8 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>27</integer>
-									<integer>26</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -316,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CoffeeMe_Prefix.pch</string>
+								<string>MyCLController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,20 +322,15 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CoffeeMe_Prefix.pch</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>398681310FB33E0F006E151C</string>
+										<string>MyCLController.h</string>
 										<key>history</key>
 										<array>
 											<string>397D74880FB24E8D00ACE161</string>
 											<string>397D749D0FB24ED200ACE161</string>
 											<string>397D74DE0FB2593700ACE161</string>
-											<string>397D74F00FB25B5300ACE161</string>
 											<string>397D75260FB2A69900ACE161</string>
 											<string>398680CF0FB33245006E151C</string>
-											<string>398680D80FB333BF006E151C</string>
+											<string>397D74F20FB25B5300ACE161</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -346,9 +339,6 @@
 											<string>397D74A00FB24ED200ACE161</string>
 											<string>397D74C20FB2540A00ACE161</string>
 											<string>397D74E00FB2593700ACE161</string>
-											<string>397D74F20FB25B5300ACE161</string>
-											<string>398680AC0FB330FA006E151C</string>
-											<string>398680D10FB33245006E151C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -387,9 +377,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1072, 343}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 59 1440 819 0 0 1440 878 </string>
+										<string>{{10, 27}, {0, -27}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -429,6 +417,8 @@
 									<string>PBXCVSModule</string>
 								</dict>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -444,6 +434,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1072, 343}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -471,11 +463,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>398680AE0FB330FA006E151C</string>
+				<string>3986816D0FB33EEE006E151C</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>398680AF0FB330FA006E151C</string>
+				<string>3986816E0FB33EEE006E151C</string>
 				<string>397D747B0FB23DFA00ACE161</string>
-				<string>398680B00FB330FA006E151C</string>
+				<string>3986816F0FB33EEE006E151C</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -659,7 +651,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/min/workspace/iphone/coffeeme/CoffeeMe.xcodeproj</string>
+		<string>/Users/min/workspace/anerian/github/coffeeme/CoffeeMe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>
