@@ -50,4 +50,7 @@
 // Accessors
 + (NSString *)tableName;
 
+// helpers
+- (NSString *)address;
+
 @end

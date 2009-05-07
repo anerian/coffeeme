@@ -7,32 +7,10 @@
 //
 
 #import "CMStoresController.h"
+#import "CMStore.h"
 
 
 @implementation CMStoresController
-
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -42,22 +20,84 @@
 }
 */
 
+- (id)init {
+    if (self = [super init]) {
+        location_ = [[MyCLController alloc] init];
+    	location_.delegate = self;
+    	[location_.locationManager startUpdatingLocation];
+    }
+    return self;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    if (!stores_) {
+        NSLog(@"show Alert");
+        [self showAlert];
+    }
+}
+
 - (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
+}
+
+- (void)loadView {
+    [super loadView];
+    
+    self.tableView = [[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain] autorelease];
+  	self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+  	
+  	[self.view addSubview:self.tableView];
+  	
+    alert_ = [[UIProgressHUD alloc] initWithWindow:[self.navigationController.view superview]];
 }
 
 - (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
+
 }
 
-
 - (void)dealloc {
+    [alert_ release];
     [super dealloc];
 }
 
+- (id<TTTableViewDataSource>)createDataSource {
+    if (stores_) {
+        NSMutableArray *items = [NSMutableArray arrayWithCapacity:[stores_ count]];
+        
+        for (CMStore *store in stores_) {
+            [items addObject:[[[TTIconTableField alloc] initWithText:[store address]] autorelease]];
+        }
+        return [TTListDataSource dataSourceWithItems:items];
+    }
+    return nil;
+}
+
+#pragma mark MyCLControllerDelegate
+
+- (void)locationUpdate:(CLLocation *)location {
+    [self hideAlert];
+    NSArray *stores = [CMStore nearby:location.coordinate];
+    [stores_ release];
+    [stores retain];
+    stores_ = stores;
+    
+    [self updateView];
+}
+
+- (void)locationError:(NSError *)error {
+    
+}
+
+#pragma mark Alert methods
+
+- (void)hideAlert {
+	[alert_ show:NO];
+}
+
+- (void)showAlert {
+    [alert_ setText:@"One moment while we determine your location."];
+    [alert_ show:YES];
+}
 
 @end

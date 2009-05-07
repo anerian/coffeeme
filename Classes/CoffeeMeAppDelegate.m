@@ -17,7 +17,6 @@
 
 @synthesize window = window_;
 
-
 - (UINavigationController *)createNavItem:(UIViewController *)viewController withName:(NSString *)name {
     viewController.title = name;
     viewController.tabBarItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"tab%@.png", name]];
@@ -31,22 +30,18 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     [CMStore establishConnection];
-	location_ = [[MyCLController alloc] init];
-	location_.delegate = self;
-	[location_.locationManager startUpdatingLocation];
 	
 	// setup tab bar controllers
 	NSMutableArray *viewControllers = [NSMutableArray arrayWithCapacity:3];
     
     tabBarController_ = [[UITabBarController alloc] init];
     
-    [viewControllers addObject:[self createNavItem:[[CMStoresController alloc] init] withName:@"Near By"]];
+    [viewControllers addObject:[self createNavItem:[[CMStoresController alloc] init] withName:@"Near Me"]];
     [viewControllers addObject:[self createNavItem:[[CMNutritionController alloc] init] withName:@"Nutrition"]];
     [viewControllers addObject:[self createNavItem:[[CMTriviaController alloc] init] withName:@"Trivia"]];
     
     tabBarController_.viewControllers = viewControllers;
     
-    // Add the tab bar controller's current view as a subview of the window
     [window_ addSubview:tabBarController_.view];
 }
 
@@ -63,15 +58,6 @@
 }
 */
 
-- (void)locationUpdate:(CLLocation *)location {
-    NSLog(@"location updated: %f %f", location.coordinate.latitude, location.coordinate.longitude);
-    NSLog(@"coffee: %@", [CMStore nearby:location.coordinate]);
-}
-
-- (void)locationError:(NSError *)error {
-    
-}
-
 - (void)dealloc {
     [tabBarController_ release];
     [window_ release];
@@ -79,4 +65,3 @@
 }
 
 @end
-

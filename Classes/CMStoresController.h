@@ -7,10 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyCLController.h"
 
 
-@interface CMStoresController : UIViewController {
-
+@interface CMStoresController : TTTableViewController <MyCLControllerDelegate> {
+    MyCLController *location_;
+    NSArray *stores_;
+    id alert_;
 }
+
+- (void)showAlert;
+- (void)hideAlert;
+
+- (void)locationUpdate:(CLLocation *)location; 
+- (void)locationError:(NSError *)error;
 
 @end

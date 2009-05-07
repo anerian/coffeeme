@@ -7,4 +7,9 @@
     #import <UIKit/UIKit.h>
     #import <CoreLocation/CoreLocation.h>
     #import "Three20/Three20.h"
+    
+    @interface UIProgressHUD : NSObject
+    - (void) show: (BOOL) yesOrNo;
+    - (UIProgressHUD *) initWithWindow: (UIView *) window;
+    @end
 #endif
