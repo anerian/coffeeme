@@ -10,7 +10,7 @@
 #import "MyCLController.h"
 
 
-@interface CMStoresController : TTTableViewController <MyCLControllerDelegate> {
+@interface CMStoresController : UITableViewController <MyCLControllerDelegate> {
     MyCLController *location_;
     NSArray *stores_;
     id alert_;

@@ -20,14 +20,12 @@
 }
 */
 
-- (id)init {
-    if (self = [super init]) {
-        location_ = [[MyCLController alloc] init];
-    	location_.delegate = self;
-    	[location_.locationManager startUpdatingLocation];
-    }
-    return self;
-}
+// - (id)init {
+//     if (self = [super init]) {
+// 
+//     }
+//     return self;
+// }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -43,13 +41,24 @@
 
 - (void)loadView {
     [super loadView];
-    self.variableHeightRows = YES;
-    self.tableView = [[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain] autorelease];
-  	self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-  	
-  	[self.view addSubview:self.tableView];
-  	
+    //     self.variableHeightRows = YES;
+    //     self.tableView = [[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain] autorelease];
+    // self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    // 
+    // [self.view addSubview:self.tableView];
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    location_ = [[MyCLController alloc] init];
+	location_.delegate = self;
+	[location_.locationManager startUpdatingLocation];
     alert_ = [[UIProgressHUD alloc] initWithWindow:[self.navigationController.view superview]];
+    
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.rowHeight = 100;
+    self.tableView.backgroundColor = [UIColor clearColor];
 }
 
 - (void)viewDidUnload {
@@ -78,9 +87,42 @@
     return nil;
 }
 
+#pragma mark UITableViewDelegate
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    CMStore *store = [stores_ objectAtIndex:indexPath.row];
+    
+    static NSString *CellIdentifier = @"CMStoreCell";
+	
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	if (cell == nil) {
+		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+        // cell.contentView.backgroundColor = [UIColor clearColor];
+        cell.backgroundView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg-cell.png"]] autorelease];
+        cell.backgroundColor = [UIColor clearColor];
+	}
+	[[cell viewWithTag:99] removeFromSuperview];
+    [cell addSubview:[store cell]];
+	
+	return cell;
+}
+
+
+#pragma mark UITableViewDatasource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    if (!stores_) return 0;
+	return [stores_ count];
+}
+
 #pragma mark MyCLControllerDelegate
 
 - (void)locationUpdate:(CLLocation *)location {
+    NSLog(@"location update");
     [location_.locationManager stopUpdatingLocation];
     
     [currentLocation_ release];
@@ -92,7 +134,7 @@
     [stores retain];
     stores_ = stores;
     
-    [self updateView];
+    [self.tableView reloadData];
 }
 
 - (void)locationError:(NSError *)error {

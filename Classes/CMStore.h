@@ -18,6 +18,8 @@
     NSString *phone_;
     NSUInteger type_;
     
+    UIView *cell_;
+    
     double latitude_;
     double longitude_;
 }
@@ -27,6 +29,7 @@
 @property (nonatomic, retain) NSString *state;
 @property (nonatomic, retain) NSString *zip;
 @property (nonatomic, retain) NSString *phone;
+@property (nonatomic, retain) UIView *cell;
 
 @property (nonatomic, assign) NSUInteger type;
 @property (nonatomic, assign) double latitude;

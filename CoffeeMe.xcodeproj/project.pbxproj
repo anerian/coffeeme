@@ -32,6 +32,11 @@
 		398682970FB47075006E151C /* starbucks.png in Resources */ = {isa = PBXBuildFile; fileRef = 398682960FB47075006E151C /* starbucks.png */; };
 		398682A10FB48050006E151C /* CMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682A00FB48050006E151C /* CMModel.m */; };
 		398682A90FB48213006E151C /* CMTrivia.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682A80FB48213006E151C /* CMTrivia.m */; };
+		398682DF0FB4A386006E151C /* CMStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682DE0FB4A386006E151C /* CMStoreCell.m */; };
+		398683100FB4A84A006E151C /* bg-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986830F0FB4A84A006E151C /* bg-cell.png */; };
+		398683230FB4B424006E151C /* cup-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683200FB4B424006E151C /* cup-0.png */; };
+		398683240FB4B424006E151C /* cup-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683210FB4B424006E151C /* cup-1.png */; };
+		398683250FB4B424006E151C /* cup-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683220FB4B424006E151C /* cup-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +95,12 @@
 		398682A00FB48050006E151C /* CMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMModel.m; sourceTree = "<group>"; };
 		398682A70FB48213006E151C /* CMTrivia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTrivia.h; sourceTree = "<group>"; };
 		398682A80FB48213006E151C /* CMTrivia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTrivia.m; sourceTree = "<group>"; };
+		398682DD0FB4A386006E151C /* CMStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStoreCell.h; sourceTree = "<group>"; };
+		398682DE0FB4A386006E151C /* CMStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStoreCell.m; sourceTree = "<group>"; };
+		3986830F0FB4A84A006E151C /* bg-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-cell.png"; sourceTree = "<group>"; };
+		398683200FB4B424006E151C /* cup-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-0.png"; sourceTree = "<group>"; };
+		398683210FB4B424006E151C /* cup-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-1.png"; sourceTree = "<group>"; };
+		398683220FB4B424006E151C /* cup-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-2.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +128,7 @@
 				398681720FB3523D006E151C /* Controllers */,
 				397D74A50FB250F400ACE161 /* Libraries */,
 				397D749C0FB24ED000ACE161 /* Models */,
+				398682DC0FB4A376006E151C /* Views */,
 				1D3623240D0F684500981E51 /* CoffeeMeAppDelegate.h */,
 				1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */,
 			);
@@ -157,6 +169,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				398683200FB4B424006E151C /* cup-0.png */,
+				398683210FB4B424006E151C /* cup-1.png */,
+				398683220FB4B424006E151C /* cup-2.png */,
+				3986830F0FB4A84A006E151C /* bg-cell.png */,
 				398682960FB47075006E151C /* starbucks.png */,
 				397D74ED0FB25B0400ACE161 /* app_icon.png */,
 				397D74920FB24E9700ACE161 /* Default.png */,
@@ -238,6 +254,15 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		398682DC0FB4A376006E151C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				398682DD0FB4A386006E151C /* CMStoreCell.h */,
+				398682DE0FB4A386006E151C /* CMStoreCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,6 +328,10 @@
 				397D74EE0FB25B0400ACE161 /* app_icon.png in Resources */,
 				398681080FB33720006E151C /* Three20.bundle in Resources */,
 				398682970FB47075006E151C /* starbucks.png in Resources */,
+				398683100FB4A84A006E151C /* bg-cell.png in Resources */,
+				398683230FB4B424006E151C /* cup-0.png in Resources */,
+				398683240FB4B424006E151C /* cup-1.png in Resources */,
+				398683250FB4B424006E151C /* cup-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +354,7 @@
 				3986817B0FB352BB006E151C /* CMNutritionController.m in Sources */,
 				398682A10FB48050006E151C /* CMModel.m in Sources */,
 				398682A90FB48213006E151C /* CMTrivia.m in Sources */,
+				398682DF0FB4A386006E151C /* CMStoreCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

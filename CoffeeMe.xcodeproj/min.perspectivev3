@@ -268,8 +268,7 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>398681720FB3523D006E151C</string>
-								<string>397D749C0FB24ED000ACE161</string>
+								<string>398682DC0FB4A376006E151C</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
@@ -277,8 +276,15 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
-									<integer>22</integer>
+									<integer>8</integer>
+									<integer>7</integer>
+									<integer>3</integer>
+									<integer>0</integer>
+								</array>
+								<array>
+									<integer>9</integer>
+									<integer>7</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -318,7 +324,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CMStoresController.m</string>
+								<string>CMStoreCell.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +332,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CMStoresController.m</string>
+										<string>CMStoreCell.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>398682950FB4706F006E151C</string>
+										<string>398683010FB4A722006E151C</string>
 										<key>history</key>
 										<array>
 											<string>397D74880FB24E8D00ACE161</string>
@@ -344,7 +350,11 @@
 											<string>398682590FB36C81006E151C</string>
 											<string>3986825A0FB36C81006E151C</string>
 											<string>3986828B0FB46E4A006E151C</string>
-											<string>3986828C0FB46E4A006E151C</string>
+											<string>398682E60FB4A483006E151C</string>
+											<string>398682E70FB4A483006E151C</string>
+											<string>398682E80FB4A483006E151C</string>
+											<string>398682E90FB4A483006E151C</string>
+											<string>398683000FB4A720006E151C</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -365,6 +375,10 @@
 											<string>3986825F0FB36C81006E151C</string>
 											<string>398682600FB36C81006E151C</string>
 											<string>3986828D0FB46E4A006E151C</string>
+											<string>398682EB0FB4A483006E151C</string>
+											<string>398682EC0FB4A483006E151C</string>
+											<string>398682ED0FB4A483006E151C</string>
+											<string>398682EE0FB4A483006E151C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

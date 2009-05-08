@@ -11,7 +11,27 @@
 @implementation CMStore
 
 @synthesize pk = pk_, street = street_, city = city_, state = state_, zip = zip_, phone = phone_, 
-type = type_, latitude = latitude_, longitude = longitude_;
+type = type_, latitude = latitude_, longitude = longitude_, cell = cell_;
+
+- (UIView *)viewForCell {
+    UIView *cell = [[[UIView alloc] initWithFrame:CGRectMake(0,0,320,100)] autorelease];
+    cell.backgroundColor = [UIColor clearColor];
+    
+    UIImageView *imageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"cup-%d.png", self.type]]] autorelease];
+    imageView.frame = CGRectMake(10, 23, 53, 53);
+    
+    UILabel *lblStreet = [[UILabel alloc] initWithFrame:CGRectMake(70, 10, 250, 40)];
+    lblStreet.backgroundColor = [UIColor clearColor];
+    lblStreet.text = [self address];
+    lblStreet.numberOfLines = 2;
+    lblStreet.font= [UIFont boldSystemFontOfSize:14];
+    
+    [cell addSubview:lblStreet];
+    [cell addSubview:imageView];
+    
+    cell.tag = 99;
+    return cell;
+}
 
 - (id)initWithFMResultSet:(FMResultSet *)resultSet {
     if (self = [super init]) {
@@ -24,6 +44,7 @@ type = type_, latitude = latitude_, longitude = longitude_;
         self.type      = [resultSet intForColumn:@"store_type"];
         self.latitude  = [resultSet doubleForColumn:@"latitude"];
         self.longitude = [resultSet doubleForColumn:@"longitude"];
+        self.cell      = [self viewForCell];
 	}
 	
 	return self;
