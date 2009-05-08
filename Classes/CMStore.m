@@ -13,6 +13,22 @@
 @synthesize pk = pk_, street = street_, city = city_, state = state_, zip = zip_, phone = phone_, 
 type = type_, latitude = latitude_, longitude = longitude_, cell = cell_;
 
++ (NSString *)storeNameForCode:(NSUInteger)code {
+    NSString *store;
+    switch(code) {
+        case 0:
+            store = @"Starbucks";
+            break;
+		case 1:
+            store = @"Dunkin Donuts";
+            break;
+		case 2:
+            store = @"Caribou Coffee";
+            break;
+	}    
+    return store;
+}
+
 - (UIView *)viewForCell {
     UIView *cell = [[[UIView alloc] initWithFrame:CGRectMake(0,0,320,100)] autorelease];
     cell.backgroundColor = [UIColor clearColor];
@@ -20,12 +36,18 @@ type = type_, latitude = latitude_, longitude = longitude_, cell = cell_;
     UIImageView *imageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"cup-%d.png", self.type]]] autorelease];
     imageView.frame = CGRectMake(10, 23, 53, 53);
     
-    UILabel *lblStreet = [[UILabel alloc] initWithFrame:CGRectMake(70, 10, 250, 40)];
+    UILabel *lblStore = [[[UILabel alloc] initWithFrame:CGRectMake(70, 10, 250, 20)] autorelease];
+    lblStore.backgroundColor = [UIColor clearColor];
+    lblStore.text = [[self class] storeNameForCode:[self type]];
+    lblStore.font= [UIFont boldSystemFontOfSize:16];
+    
+    UILabel *lblStreet = [[[UILabel alloc] initWithFrame:CGRectMake(70, 30, 250, 40)] autorelease];
     lblStreet.backgroundColor = [UIColor clearColor];
     lblStreet.text = [self address];
     lblStreet.numberOfLines = 2;
     lblStreet.font= [UIFont boldSystemFontOfSize:14];
     
+    [cell addSubview:lblStore];
     [cell addSubview:lblStreet];
     [cell addSubview:imageView];
     

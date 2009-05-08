@@ -40,6 +40,8 @@
 + (NSArray *)nearby:(CLLocationCoordinate2D)coordinate;
 
 // helpers
++ (NSString *)storeNameForCode:(NSUInteger)code;
+
 - (NSString *)address;
 - (NSString *)address2;
 - (CLLocation *)location;

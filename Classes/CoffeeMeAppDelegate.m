@@ -23,6 +23,8 @@
     
     UINavigationController *navigationController = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];
     navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
+    navigationController.navigationBar.tintColor = HexToUIColor(0x56523c);
+    
     [viewController release];
     
     return navigationController;
