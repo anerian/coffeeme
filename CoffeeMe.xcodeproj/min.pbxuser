@@ -167,6 +167,13 @@
 			398682760FB36EA3006E151C /* PBXTextBookmark */ = 398682760FB36EA3006E151C /* PBXTextBookmark */;
 			398682770FB36EA3006E151C /* PlistBookmark */ = 398682770FB36EA3006E151C /* PlistBookmark */;
 			398682780FB36EA3006E151C /* PlistBookmark */ = 398682780FB36EA3006E151C /* PlistBookmark */;
+			3986828B0FB46E4A006E151C /* PlistBookmark */ = 3986828B0FB46E4A006E151C /* PlistBookmark */;
+			3986828C0FB46E4A006E151C /* PBXTextBookmark */ = 3986828C0FB46E4A006E151C /* PBXTextBookmark */;
+			3986828D0FB46E4A006E151C /* PlistBookmark */ = 3986828D0FB46E4A006E151C /* PlistBookmark */;
+			3986828E0FB46E4A006E151C /* PBXTextBookmark */ = 3986828E0FB46E4A006E151C /* PBXTextBookmark */;
+			398682900FB46E5D006E151C /* PBXTextBookmark */ = 398682900FB46E5D006E151C /* PBXTextBookmark */;
+			398682920FB46E68006E151C /* PBXTextBookmark */ = 398682920FB46E68006E151C /* PBXTextBookmark */;
+			398682950FB4706F006E151C /* PBXTextBookmark */ = 398682950FB4706F006E151C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 397D74810FB23DFA00ACE161 /* Source Control */;
 		userBuildSettings = {
@@ -347,9 +354,9 @@
 	};
 	398681740FB35297006E151C /* CMStoresController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1379, 1484}}";
-			sepNavSelRange = "{2435, 0}";
-			sepNavVisRange = "{308, 423}";
+			sepNavIntBoundsRect = "{{0, 0}, {1440, 1470}}";
+			sepNavSelRange = "{2845, 0}";
+			sepNavVisRange = "{1666, 939}";
 		};
 	};
 	398681760FB352A6006E151C /* CMTriviaController.h */ = {
@@ -992,5 +999,84 @@
 		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
 		rLen = 12;
 		rLoc = 0;
+	};
+	3986828B0FB46E4A006E151C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	3986828C0FB46E4A006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: syntax error before ‘]’ token";
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		rLen = 1;
+		rLoc = 70;
+		rType = 1;
+	};
+	3986828D0FB46E4A006E151C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	3986828E0FB46E4A006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 70";
+		rLen = 0;
+		rLoc = 1999;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 1460;
+	};
+	398682900FB46E5D006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 111";
+		rLen = 0;
+		rLoc = 2848;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 1460;
+	};
+	398682920FB46E68006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 111";
+		rLen = 0;
+		rLoc = 2859;
+		rType = 0;
+		vrLen = 1035;
+		vrLoc = 1554;
+	};
+	398682950FB4706F006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 111";
+		rLen = 0;
+		rLoc = 2845;
+		rType = 0;
+		vrLen = 939;
+		vrLoc = 1666;
+	};
+	3986829F0FB48050006E151C /* CMModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 644}}";
+			sepNavSelRange = "{658, 0}";
+			sepNavVisRange = "{0, 423}";
+		};
 	};
 }

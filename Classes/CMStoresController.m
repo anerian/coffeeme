@@ -66,7 +66,12 @@
         NSMutableArray *items = [NSMutableArray arrayWithCapacity:[stores_ count]];
         
         for (CMStore *store in stores_) {
-            [items addObject:[[[TTSubtextTableField alloc] initWithText:[store address] subtext:[NSString stringWithFormat:@"%f miles", ([[store location] getDistanceFrom:currentLocation_] * .000621371192)]] autorelease]];
+            // TTImageTableField *imageField_ = [[[TTImageTableField alloc] initWithText:[store address] subtext:[NSString stringWithFormat:@"%f miles", ([[store location] getDistanceFrom:currentLocation_] * .000621371192)]] autorelease];
+            TTIconTableField *iconField_ = [[[TTIconTableField alloc] initWithText:[store address]] autorelease];
+            iconField_.image = @"bundle://starbucks.png";
+            
+            // bundle://person.jpg
+            [items addObject:iconField_];
         }
         return [TTListDataSource dataSourceWithItems:items];
     }
@@ -76,10 +81,11 @@
 #pragma mark MyCLControllerDelegate
 
 - (void)locationUpdate:(CLLocation *)location {
+    [location_.locationManager stopUpdatingLocation];
+    
     [currentLocation_ release];
     [location retain];
     currentLocation_ = location;
-    
     [self hideAlert];
     NSArray *stores = [CMStore nearby:location.coordinate];
     [stores_ release];

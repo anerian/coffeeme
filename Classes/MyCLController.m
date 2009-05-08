@@ -9,6 +9,7 @@
 	self = [super init];
 	if (self != nil) {
 		self.locationManager = [[[CLLocationManager alloc] init] autorelease];
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
 		self.locationManager.delegate = self;
 	}
 	return self;

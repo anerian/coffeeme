@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FMDatabase.h"
+#import "CMModel.h"
 
 
-@interface CMStore : NSObject {
-    int pk_;
+@interface CMStore : CMModel<CMModel> {
     NSString *street_;
     NSString *city_;
     NSString *state_;
@@ -23,7 +22,6 @@
     double longitude_;
 }
 
-@property (nonatomic, assign) int pk;
 @property (nonatomic, retain) NSString *street;
 @property (nonatomic, retain) NSString *city;
 @property (nonatomic, retain) NSString *state;
@@ -36,19 +34,7 @@
 
 - (id)initWithFMResultSet:(FMResultSet *)resultSet;
 
-// Connections
-+ (FMDatabase *)connection;
-+ (void)establishConnection;
-
-+ (id)fromDB:(FMResultSet *)result;
-
-+ (id)query:(NSString *)sql;
-- (id)query:(NSString *)sql;
-
 + (NSArray *)nearby:(CLLocationCoordinate2D)coordinate;
-
-// Accessors
-+ (NSString *)tableName;
 
 // helpers
 - (NSString *)address;

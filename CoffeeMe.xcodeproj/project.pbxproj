@@ -29,6 +29,9 @@
 		398681750FB35297006E151C /* CMStoresController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398681740FB35297006E151C /* CMStoresController.m */; };
 		398681780FB352A6006E151C /* CMTriviaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398681770FB352A6006E151C /* CMTriviaController.m */; };
 		3986817B0FB352BB006E151C /* CMNutritionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986817A0FB352BB006E151C /* CMNutritionController.m */; };
+		398682970FB47075006E151C /* starbucks.png in Resources */ = {isa = PBXBuildFile; fileRef = 398682960FB47075006E151C /* starbucks.png */; };
+		398682A10FB48050006E151C /* CMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682A00FB48050006E151C /* CMModel.m */; };
+		398682A90FB48213006E151C /* CMTrivia.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682A80FB48213006E151C /* CMTrivia.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,11 @@
 		398681770FB352A6006E151C /* CMTriviaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTriviaController.m; sourceTree = "<group>"; };
 		398681790FB352BB006E151C /* CMNutritionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNutritionController.h; sourceTree = "<group>"; };
 		3986817A0FB352BB006E151C /* CMNutritionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNutritionController.m; sourceTree = "<group>"; };
+		398682960FB47075006E151C /* starbucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks.png; sourceTree = "<group>"; };
+		3986829F0FB48050006E151C /* CMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMModel.h; sourceTree = "<group>"; };
+		398682A00FB48050006E151C /* CMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMModel.m; sourceTree = "<group>"; };
+		398682A70FB48213006E151C /* CMTrivia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTrivia.h; sourceTree = "<group>"; };
+		398682A80FB48213006E151C /* CMTrivia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTrivia.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +157,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				398682960FB47075006E151C /* starbucks.png */,
 				397D74ED0FB25B0400ACE161 /* app_icon.png */,
 				397D74920FB24E9700ACE161 /* Default.png */,
 				397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */,
@@ -176,6 +185,10 @@
 			children = (
 				397D74A20FB24EF900ACE161 /* CMStore.h */,
 				397D74A30FB24EF900ACE161 /* CMStore.m */,
+				3986829F0FB48050006E151C /* CMModel.h */,
+				398682A00FB48050006E151C /* CMModel.m */,
+				398682A70FB48213006E151C /* CMTrivia.h */,
+				398682A80FB48213006E151C /* CMTrivia.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -289,6 +302,7 @@
 				397D74930FB24E9700ACE161 /* Default.png in Resources */,
 				397D74EE0FB25B0400ACE161 /* app_icon.png in Resources */,
 				398681080FB33720006E151C /* Three20.bundle in Resources */,
+				398682970FB47075006E151C /* starbucks.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +323,8 @@
 				398681750FB35297006E151C /* CMStoresController.m in Sources */,
 				398681780FB352A6006E151C /* CMTriviaController.m in Sources */,
 				3986817B0FB352BB006E151C /* CMNutritionController.m in Sources */,
+				398682A10FB48050006E151C /* CMModel.m in Sources */,
+				398682A90FB48213006E151C /* CMTrivia.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
