@@ -278,7 +278,7 @@
 							<array>
 								<array>
 									<integer>26</integer>
-									<integer>23</integer>
+									<integer>25</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CMStore.m</string>
+								<string>CMModalView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CMStore.m</string>
+										<string>CMModalView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>398683690FB4C8A0006E151C</string>
+										<string>3986853A0FB5F881006E151C</string>
 										<key>history</key>
 										<array>
 											<string>397D74880FB24E8D00ACE161</string>
@@ -350,7 +350,10 @@
 											<string>3986834A0FB4C492006E151C</string>
 											<string>3986834B0FB4C492006E151C</string>
 											<string>398683560FB4C7BB006E151C</string>
-											<string>398683570FB4C7BB006E151C</string>
+											<string>398684D50FB5AFEF006E151C</string>
+											<string>398684D60FB5AFEF006E151C</string>
+											<string>3986851D0FB5F40A006E151C</string>
+											<string>3986852A0FB5F46C006E151C</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -380,6 +383,9 @@
 											<string>3986834F0FB4C492006E151C</string>
 											<string>398683500FB4C492006E151C</string>
 											<string>398683580FB4C7BB006E151C</string>
+											<string>398684D80FB5AFEF006E151C</string>
+											<string>398684D90FB5AFEF006E151C</string>
+											<string>3986851F0FB5F40A006E151C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -692,7 +698,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>3986836A0FB4C8A0006E151C</string>
 		<string>398682620FB36C81006E151C</string>
 		<string>398682630FB36C81006E151C</string>
 		<string>/Users/min/workspace/anerian/github/coffeeme/CoffeeMe.xcodeproj</string>

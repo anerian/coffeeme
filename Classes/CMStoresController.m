@@ -56,6 +56,8 @@
 	[location_.locationManager startUpdatingLocation];
     alert_ = [[UIProgressHUD alloc] initWithWindow:[self.navigationController.view superview]];
     
+    modal_ = [[[CMModalView alloc] initWithWindow:[self.navigationController.view superview]] retain];
+    
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.rowHeight = 100;
     self.tableView.backgroundColor = [UIColor clearColor];
@@ -144,12 +146,12 @@
 #pragma mark Alert methods
 
 - (void)hideAlert {
-	[alert_ show:NO];
+    [modal_ show:NO];
 }
 
 - (void)showAlert {
-    [alert_ setText:@"One moment while we determine your location."];
-    [alert_ show:YES];
+    // [alert_ setText:@"One moment while we determine your location."];
+    [modal_ show:YES];
 }
 
 @end
