@@ -14,7 +14,6 @@ static FMDatabase *database_ = nil;
 
 @synthesize pk = pk_;
 
-#define DEG2RAD(degrees) (degrees * 0.01745327) // degrees * pi over 180
 
 static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **argv) {
     // check that we have four arguments (lat1, lon1, lat2, lon2)

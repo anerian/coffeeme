@@ -375,6 +375,8 @@
 			398686B90FB8BDF6006E151C /* PBXTextBookmark */ = 398686B90FB8BDF6006E151C /* PBXTextBookmark */;
 			398686BC0FB8BE15006E151C /* PBXTextBookmark */ = 398686BC0FB8BE15006E151C /* PBXTextBookmark */;
 			398686BD0FB8BE16006E151C /* PBXTextBookmark */ = 398686BD0FB8BE16006E151C /* PBXTextBookmark */;
+			398686BF0FB8C94E006E151C /* PBXTextBookmark */ = 398686BF0FB8C94E006E151C /* PBXTextBookmark */;
+			398686C00FB8C951006E151C /* PBXTextBookmark */ = 398686C00FB8C951006E151C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 397D74810FB23DFA00ACE161 /* Source Control */;
 		userBuildSettings = {
@@ -465,9 +467,9 @@
 	};
 	397D74A30FB24EF900ACE161 /* CMStore.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1272, 2016}}";
-			sepNavSelRange = "{5236, 0}";
-			sepNavVisRange = "{2239, 1684}";
+			sepNavIntBoundsRect = "{{0, 0}, {1272, 1946}}";
+			sepNavSelRange = "{4737, 0}";
+			sepNavVisRange = "{2239, 1549}";
 		};
 	};
 	397D74C20FB2540A00ACE161 /* PBXTextBookmark */ = {
@@ -3159,6 +3161,26 @@
 		rLoc = 5236;
 		rType = 0;
 		vrLen = 1684;
+		vrLoc = 2239;
+	};
+	398686BF0FB8C94E006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
+		name = "CMStore.m: 138";
+		rLen = 0;
+		rLoc = 4737;
+		rType = 0;
+		vrLen = 171;
+		vrLoc = 3367;
+	};
+	398686C00FB8C951006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
+		name = "CMStore.m: 138";
+		rLen = 0;
+		rLoc = 4737;
+		rType = 0;
+		vrLen = 1549;
 		vrLoc = 2239;
 	};
 }

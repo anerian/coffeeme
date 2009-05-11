@@ -43,6 +43,7 @@
 		398685700FB85AEE006E151C /* CMDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986856F0FB85AEE006E151C /* CMDetailController.m */; };
 		3986863B0FB88FFD006E151C /* NSNotificationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986863A0FB88FFD006E151C /* NSNotificationAdditions.m */; };
 		3986864A0FB89381006E151C /* CMDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398686490FB89381006E151C /* CMDetailView.m */; };
+		398686C30FB8C96B006E151C /* CMTriviaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398686C20FB8C96B006E151C /* CMTriviaView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,8 @@
 		3986863A0FB88FFD006E151C /* NSNotificationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificationAdditions.m; sourceTree = "<group>"; };
 		398686480FB89381006E151C /* CMDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDetailView.h; sourceTree = "<group>"; };
 		398686490FB89381006E151C /* CMDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDetailView.m; sourceTree = "<group>"; };
+		398686C10FB8C96B006E151C /* CMTriviaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTriviaView.h; sourceTree = "<group>"; };
+		398686C20FB8C96B006E151C /* CMTriviaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTriviaView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -279,6 +282,8 @@
 		398682DC0FB4A376006E151C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				398686C10FB8C96B006E151C /* CMTriviaView.h */,
+				398686C20FB8C96B006E151C /* CMTriviaView.m */,
 				398682DD0FB4A386006E151C /* CMStoreCell.h */,
 				398682DE0FB4A386006E151C /* CMStoreCell.m */,
 				398684BC0FB5AA5B006E151C /* CMModalView.h */,
@@ -387,6 +392,7 @@
 				398685700FB85AEE006E151C /* CMDetailController.m in Sources */,
 				3986863B0FB88FFD006E151C /* NSNotificationAdditions.m in Sources */,
 				3986864A0FB89381006E151C /* CMDetailView.m in Sources */,
+				398686C30FB8C96B006E151C /* CMTriviaView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
