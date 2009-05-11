@@ -37,6 +37,10 @@
 		398683230FB4B424006E151C /* cup-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683200FB4B424006E151C /* cup-0.png */; };
 		398683240FB4B424006E151C /* cup-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683210FB4B424006E151C /* cup-1.png */; };
 		398683250FB4B424006E151C /* cup-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683220FB4B424006E151C /* cup-2.png */; };
+		398684BE0FB5AA5B006E151C /* CMModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398684BD0FB5AA5B006E151C /* CMModalView.m */; };
+		3986854D0FB7ACC8006E151C /* cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986854C0FB7ACC8006E151C /* cup.png */; };
+		3986855A0FB858BE006E151C /* navbar-coffeeme.png in Resources */ = {isa = PBXBuildFile; fileRef = 398685590FB858BE006E151C /* navbar-coffeeme.png */; };
+		398685700FB85AEE006E151C /* CMDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986856F0FB85AEE006E151C /* CMDetailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +105,12 @@
 		398683200FB4B424006E151C /* cup-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-0.png"; sourceTree = "<group>"; };
 		398683210FB4B424006E151C /* cup-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-1.png"; sourceTree = "<group>"; };
 		398683220FB4B424006E151C /* cup-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-2.png"; sourceTree = "<group>"; };
+		398684BC0FB5AA5B006E151C /* CMModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMModalView.h; sourceTree = "<group>"; };
+		398684BD0FB5AA5B006E151C /* CMModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMModalView.m; sourceTree = "<group>"; };
+		3986854C0FB7ACC8006E151C /* cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup.png; sourceTree = "<group>"; };
+		398685590FB858BE006E151C /* navbar-coffeeme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-coffeeme.png"; sourceTree = "<group>"; };
+		3986856E0FB85AEE006E151C /* CMDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDetailController.h; sourceTree = "<group>"; };
+		3986856F0FB85AEE006E151C /* CMDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDetailController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,6 +179,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				398685590FB858BE006E151C /* navbar-coffeeme.png */,
+				3986854C0FB7ACC8006E151C /* cup.png */,
 				398683200FB4B424006E151C /* cup-0.png */,
 				398683210FB4B424006E151C /* cup-1.png */,
 				398683220FB4B424006E151C /* cup-2.png */,
@@ -250,6 +262,8 @@
 				398681770FB352A6006E151C /* CMTriviaController.m */,
 				398681790FB352BB006E151C /* CMNutritionController.h */,
 				3986817A0FB352BB006E151C /* CMNutritionController.m */,
+				3986856E0FB85AEE006E151C /* CMDetailController.h */,
+				3986856F0FB85AEE006E151C /* CMDetailController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -259,6 +273,8 @@
 			children = (
 				398682DD0FB4A386006E151C /* CMStoreCell.h */,
 				398682DE0FB4A386006E151C /* CMStoreCell.m */,
+				398684BC0FB5AA5B006E151C /* CMModalView.h */,
+				398684BD0FB5AA5B006E151C /* CMModalView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -332,6 +348,8 @@
 				398683230FB4B424006E151C /* cup-0.png in Resources */,
 				398683240FB4B424006E151C /* cup-1.png in Resources */,
 				398683250FB4B424006E151C /* cup-2.png in Resources */,
+				3986854D0FB7ACC8006E151C /* cup.png in Resources */,
+				3986855A0FB858BE006E151C /* navbar-coffeeme.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +373,8 @@
 				398682A10FB48050006E151C /* CMModel.m in Sources */,
 				398682A90FB48213006E151C /* CMTrivia.m in Sources */,
 				398682DF0FB4A386006E151C /* CMStoreCell.m in Sources */,
+				398684BE0FB5AA5B006E151C /* CMModalView.m in Sources */,
+				398685700FB85AEE006E151C /* CMDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

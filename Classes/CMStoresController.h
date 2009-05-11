@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "MyCLController.h"
+#import "CMModalView.h"
+#import "CMDetailController.h"
 
 
 @interface CMStoresController : UITableViewController <MyCLControllerDelegate> {
@@ -15,6 +17,7 @@
     NSArray *stores_;
     id alert_;
     CLLocation *currentLocation_;
+    CMModalView *modal_;
 }
 
 - (void)showAlert;

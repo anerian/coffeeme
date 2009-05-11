@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -278,7 +280,7 @@
 							<array>
 								<array>
 									<integer>26</integer>
-									<integer>23</integer>
+									<integer>25</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -316,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CMStore.m</string>
+								<string>navbar-coffeeme.png</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CMStore.m</string>
+										<string>navbar-coffeeme.png</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>398683690FB4C8A0006E151C</string>
+										<string>3986856C0FB85A89006E151C</string>
 										<key>history</key>
 										<array>
 											<string>397D74880FB24E8D00ACE161</string>
@@ -350,7 +352,11 @@
 											<string>3986834A0FB4C492006E151C</string>
 											<string>3986834B0FB4C492006E151C</string>
 											<string>398683560FB4C7BB006E151C</string>
-											<string>398683570FB4C7BB006E151C</string>
+											<string>398684D50FB5AFEF006E151C</string>
+											<string>398684D60FB5AFEF006E151C</string>
+											<string>3986855C0FB8594E006E151C</string>
+											<string>3986855D0FB8594E006E151C</string>
+											<string>3986855E0FB8594E006E151C</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -380,6 +386,10 @@
 											<string>3986834F0FB4C492006E151C</string>
 											<string>398683500FB4C492006E151C</string>
 											<string>398683580FB4C7BB006E151C</string>
+											<string>398684D80FB5AFEF006E151C</string>
+											<string>398684D90FB5AFEF006E151C</string>
+											<string>3986855F0FB8594E006E151C</string>
+											<string>398685600FB8594E006E151C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -458,8 +468,6 @@
 									<string>PBXCVSModule</string>
 								</dict>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -692,7 +700,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>3986836A0FB4C8A0006E151C</string>
 		<string>398682620FB36C81006E151C</string>
 		<string>398682630FB36C81006E151C</string>
 		<string>/Users/min/workspace/anerian/github/coffeeme/CoffeeMe.xcodeproj</string>

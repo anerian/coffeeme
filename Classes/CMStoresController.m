@@ -51,10 +51,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //     UIImageView *imageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navbar-coffeeme.png"]] autorelease];
+    // imageView.contentMode = UIViewContentModeCenter;
+    // self.navigationItem.titleView = imageView;
+	
     location_ = [[MyCLController alloc] init];
 	location_.delegate = self;
 	[location_.locationManager startUpdatingLocation];
     alert_ = [[UIProgressHUD alloc] initWithWindow:[self.navigationController.view superview]];
+    
+    modal_ = [[[CMModalView alloc] initWithWindow:[self.navigationController.view superview]] retain];
     
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.rowHeight = 100;
@@ -111,6 +117,14 @@
 	return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    CMDetailController *detailController = [[[CMDetailController alloc] initWithStore:[stores_ objectAtIndex:indexPath.row]] autorelease];
+    
+    [self.navigationController pushViewController:detailController animated:YES];
+}
+
 
 #pragma mark UITableViewDatasource
 
@@ -122,7 +136,6 @@
 #pragma mark MyCLControllerDelegate
 
 - (void)locationUpdate:(CLLocation *)location {
-    NSLog(@"location update");
     [location_.locationManager stopUpdatingLocation];
     
     [currentLocation_ release];
@@ -144,12 +157,12 @@
 #pragma mark Alert methods
 
 - (void)hideAlert {
-	[alert_ show:NO];
+    [modal_ show:NO];
 }
 
 - (void)showAlert {
-    [alert_ setText:@"One moment while we determine your location."];
-    [alert_ show:YES];
+    // [alert_ setText:@"One moment while we determine your location."];
+    [modal_ show:YES];
 }
 
 @end
