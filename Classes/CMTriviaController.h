@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CMTrivia.h"
 
 
 @interface CMTriviaController : UIViewController {
-
 }
 
 @end
