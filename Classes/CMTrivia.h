@@ -7,10 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CMModel.h"
 
-
-@interface CMTrivia : NSObject {
-
+@interface CMTrivia : CMModel<CMModel> {
+    NSString *fact_;
 }
+@property (nonatomic, retain) NSString *fact;
+
+- (id)initWithFMResultSet:(FMResultSet *)resultSet;
+
++ (CMTrivia *)randomTrivia;
++ (NSString *)tableName;
 
 @end

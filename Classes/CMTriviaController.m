@@ -7,9 +7,16 @@
 //
 
 #import "CMTriviaController.h"
+#import "CMTriviaView.h"
 
 
 @implementation CMTriviaController
+
+-(id) init {
+    self = [super init];
+    NSLog(@"test random trivia: %@", [CMTrivia randomTrivia].fact);
+    return self;
+}
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -21,11 +28,20 @@
 }
 */
 
-/*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
+  NSLog(@"Calling initWithTriviaAndFrame");
+  CMTriviaView *view = [[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
+
+  //view->trivia = self.facts;
+
+  [view setAutoresizingMask:UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth];
+
+
+  self.view = view;
+
+  [view release];
 }
-*/
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
