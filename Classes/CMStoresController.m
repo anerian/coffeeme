@@ -51,6 +51,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //     UIImageView *imageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navbar-coffeeme.png"]] autorelease];
+    // imageView.contentMode = UIViewContentModeCenter;
+    // self.navigationItem.titleView = imageView;
+	
     location_ = [[MyCLController alloc] init];
 	location_.delegate = self;
 	[location_.locationManager startUpdatingLocation];
@@ -113,6 +117,14 @@
 	return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    CMDetailController *detailController = [[[CMDetailController alloc] initWithStore:[stores_ objectAtIndex:indexPath.row]] autorelease];
+    
+    [self.navigationController pushViewController:detailController animated:YES];
+}
+
 
 #pragma mark UITableViewDatasource
 
@@ -124,7 +136,6 @@
 #pragma mark MyCLControllerDelegate
 
 - (void)locationUpdate:(CLLocation *)location {
-    NSLog(@"location update");
     [location_.locationManager stopUpdatingLocation];
     
     [currentLocation_ release];

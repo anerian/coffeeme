@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -316,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CMModalView.m</string>
+								<string>navbar-coffeeme.png</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CMModalView.m</string>
+										<string>navbar-coffeeme.png</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3986853A0FB5F881006E151C</string>
+										<string>3986856C0FB85A89006E151C</string>
 										<key>history</key>
 										<array>
 											<string>397D74880FB24E8D00ACE161</string>
@@ -352,8 +354,9 @@
 											<string>398683560FB4C7BB006E151C</string>
 											<string>398684D50FB5AFEF006E151C</string>
 											<string>398684D60FB5AFEF006E151C</string>
-											<string>3986851D0FB5F40A006E151C</string>
-											<string>3986852A0FB5F46C006E151C</string>
+											<string>3986855C0FB8594E006E151C</string>
+											<string>3986855D0FB8594E006E151C</string>
+											<string>3986855E0FB8594E006E151C</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -385,7 +388,8 @@
 											<string>398683580FB4C7BB006E151C</string>
 											<string>398684D80FB5AFEF006E151C</string>
 											<string>398684D90FB5AFEF006E151C</string>
-											<string>3986851F0FB5F40A006E151C</string>
+											<string>3986855F0FB8594E006E151C</string>
+											<string>398685600FB8594E006E151C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -464,8 +468,6 @@
 									<string>PBXCVSModule</string>
 								</dict>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>

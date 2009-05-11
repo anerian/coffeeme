@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MyCLController.h"
 #import "CMModalView.h"
+#import "CMDetailController.h"
 
 
 @interface CMStoresController : UITableViewController <MyCLControllerDelegate> {

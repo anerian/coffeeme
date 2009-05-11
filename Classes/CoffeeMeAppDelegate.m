@@ -38,7 +38,7 @@
     
     tabBarController_ = [[UITabBarController alloc] init];
     
-    [viewControllers addObject:[self createNavItem:[[CMStoresController alloc] initWithStyle:UITableViewStylePlain] withName:@"Near Me"]];
+    [viewControllers addObject:[self createNavItem:[[CMStoresController alloc] initWithStyle:UITableViewStylePlain] withName:@"coffeeme"]];
     [viewControllers addObject:[self createNavItem:[[CMNutritionController alloc] init] withName:@"Nutrition"]];
     [viewControllers addObject:[self createNavItem:[[CMTriviaController alloc] init] withName:@"Trivia"]];
     

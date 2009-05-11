@@ -39,17 +39,25 @@
     
     if (shouldShow) {
         [window_ addSubview:self];
+        cup_.alpha = 0;
+        background_.alpha = 0;
+        
+        [UIView beginAnimations:nil context:nil];
+        [UIView setAnimationDuration:1];
+        cup_.alpha = 1;
+        background_.alpha = 0.8;
+        
+        [UIView commitAnimations];
 
         [self startAnimation];
     } else {
         [self stopAnimation];
-        cup_.transform = CGAffineTransformMakeRotation(0);
         
         [UIView beginAnimations:nil context:nil];
         [UIView setAnimationDuration:1];
         [UIView setAnimationDelegate:self];
         [UIView setAnimationDidStopSelector:@selector(willDisappear)];
-        cup_.transform = CGAffineTransformMakeScale(3.0,3.0);
+        cup_.transform = CGAffineTransformConcat(CGAffineTransformMakeRotation(-2 * M_PI), CGAffineTransformMakeScale(3.0,3.0));
         cup_.alpha = 0;
         background_.alpha = 0;
         
