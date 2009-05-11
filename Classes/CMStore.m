@@ -7,11 +7,12 @@
 //
 
 #import "CMStore.h"
+#import "math.h"
 
 @implementation CMStore
 
 @synthesize pk = pk_, street = street_, city = city_, state = state_, zip = zip_, phone = phone_, 
-type = type_, latitude = latitude_, longitude = longitude_, cell = cell_;
+type = type_, latitude = latitude_, longitude = longitude_, cell = cell_, distance = distance_;
 
 + (NSString *)storeNameForCode:(NSUInteger)code {
     NSString *store;
@@ -66,6 +67,7 @@ type = type_, latitude = latitude_, longitude = longitude_, cell = cell_;
         self.type      = [resultSet intForColumn:@"store_type"];
         self.latitude  = [resultSet doubleForColumn:@"latitude"];
         self.longitude = [resultSet doubleForColumn:@"longitude"];
+        self.distance  = [resultSet doubleForColumn:@"dist"];
         self.cell      = [self viewForCell];
 	}
 	
@@ -73,12 +75,25 @@ type = type_, latitude = latitude_, longitude = longitude_, cell = cell_;
 }
 
 + (NSArray *)nearby:(CLLocationCoordinate2D)coordinate {
-    return [self query:[NSString stringWithFormat:@"select * from %@ order by distance(latitude, longitude, %f, %f) limit 10", [self tableName], coordinate.latitude, coordinate.longitude]];
+    NSString *query = [NSString stringWithFormat:@"select stores.*, distance(latitude, longitude, %f, %f) as dist from stores where dist < 10 order by dist limit 20", coordinate.latitude, coordinate.longitude];
+    NSLog(query);
+    return [self query:query];
 }
 
 + (NSString *)tableName {
     return @"stores";
 }
+
+// + (CGPoint)coordinate2CGPoint:(CLLocationCoordinate2D)coordinate {
+//     double offset = 268435456;
+//     double radius = offset / M_PI;
+//     double targetX = round(offset * radius * coordinate.longitude * M_PI / 180);
+//     double targetY = round(offset - radius * log((1 + sin(coordinate.latitude * M_PI / 180)) / (1 - sin(coordinate.latitude * M_PI / 180))) / 2);
+//     double deltaX = ((targetX - 128) >> (21 - 14));
+//     double deltaY = ((targetY - 128) >> (21 - 14));
+//     
+//     return CGPointMake(deltaX, deltaY);    
+// }
 
 - (NSString *)description {
     return [self address];
@@ -95,5 +110,29 @@ type = type_, latitude = latitude_, longitude = longitude_, cell = cell_;
 - (NSString *)address2 {
     return [NSString stringWithFormat:@"%@, %@. %@", city_, state_, zip_];
 }
+
+- (NSString *)directionFrom:(CLLocationCoordinate2D)coordinate {
+    double dLng = DEG2RAD(longitude_ - coordinate.longitude);
+    double fromLat = DEG2RAD(latitude_);
+    double toLat = DEG2RAD(coordinate.latitude);
+    double y = sin(dLng) * cos(toLat);
+    double x = cos(fromLat) * sin(toLat) - sin(fromLat) * cos(toLat) * cos(dLng);
+    int heading = round(atan2(y,x) * 180 / M_PI);
+    int direction = (heading+360) % 360;
+    
+    NSLog(@"direction: %d", direction);
+    
+    return @"direction";
+}
+
+- (NSString *)formattedDistance {
+    return [NSString stringWithFormat:@"%f mi", (self.distance * .000621371192)];
+}
+
+- (NSString *)gmapUrl {
+    return [NSString stringWithFormat:@"http://maps.google.com/staticmap?center=%f,%f&zoom=14&size=256x256&maptype=mobile&key=%2&sensor=false", self.latitude, self.longitude, GMAP_KEY];
+}
+
+
 
 @end

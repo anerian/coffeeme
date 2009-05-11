@@ -41,6 +41,8 @@
 		3986854D0FB7ACC8006E151C /* cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986854C0FB7ACC8006E151C /* cup.png */; };
 		3986855A0FB858BE006E151C /* navbar-coffeeme.png in Resources */ = {isa = PBXBuildFile; fileRef = 398685590FB858BE006E151C /* navbar-coffeeme.png */; };
 		398685700FB85AEE006E151C /* CMDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986856F0FB85AEE006E151C /* CMDetailController.m */; };
+		3986863B0FB88FFD006E151C /* NSNotificationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986863A0FB88FFD006E151C /* NSNotificationAdditions.m */; };
+		3986864A0FB89381006E151C /* CMDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398686490FB89381006E151C /* CMDetailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +113,10 @@
 		398685590FB858BE006E151C /* navbar-coffeeme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-coffeeme.png"; sourceTree = "<group>"; };
 		3986856E0FB85AEE006E151C /* CMDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDetailController.h; sourceTree = "<group>"; };
 		3986856F0FB85AEE006E151C /* CMDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDetailController.m; sourceTree = "<group>"; };
+		398686390FB88FFD006E151C /* NSNotificationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificationAdditions.h; sourceTree = "<group>"; };
+		3986863A0FB88FFD006E151C /* NSNotificationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificationAdditions.m; sourceTree = "<group>"; };
+		398686480FB89381006E151C /* CMDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDetailView.h; sourceTree = "<group>"; };
+		398686490FB89381006E151C /* CMDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDetailView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +147,8 @@
 				398682DC0FB4A376006E151C /* Views */,
 				1D3623240D0F684500981E51 /* CoffeeMeAppDelegate.h */,
 				1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */,
+				398686390FB88FFD006E151C /* NSNotificationAdditions.h */,
+				3986863A0FB88FFD006E151C /* NSNotificationAdditions.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -275,6 +283,8 @@
 				398682DE0FB4A386006E151C /* CMStoreCell.m */,
 				398684BC0FB5AA5B006E151C /* CMModalView.h */,
 				398684BD0FB5AA5B006E151C /* CMModalView.m */,
+				398686480FB89381006E151C /* CMDetailView.h */,
+				398686490FB89381006E151C /* CMDetailView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -375,6 +385,8 @@
 				398682DF0FB4A386006E151C /* CMStoreCell.m in Sources */,
 				398684BE0FB5AA5B006E151C /* CMModalView.m in Sources */,
 				398685700FB85AEE006E151C /* CMDetailController.m in Sources */,
+				3986863B0FB88FFD006E151C /* NSNotificationAdditions.m in Sources */,
+				3986864A0FB89381006E151C /* CMDetailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

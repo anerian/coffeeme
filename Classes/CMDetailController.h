@@ -10,7 +10,7 @@
 #import "CMStore.h"
 
 
-@interface CMDetailController : UIViewController {
+@interface CMDetailController : TTTableViewController {
     CMStore *store_;
 }
 

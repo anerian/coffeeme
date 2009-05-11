@@ -6,6 +6,7 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
+#import "NSNotificationAdditions.h"
 #import "CMStoresController.h"
 #import "CMStore.h"
 
@@ -30,7 +31,6 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     if (!stores_) {
-        NSLog(@"show Alert");
         [self showAlert];
     }
 }
@@ -41,11 +41,14 @@
 
 - (void)loadView {
     [super loadView];
-    //     self.variableHeightRows = YES;
-    //     self.tableView = [[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain] autorelease];
-    // self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    // 
-    // [self.view addSubview:self.tableView];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(storesReceived:) name:@"stores:received" object:nil];
+}
+
+- (void)updateLocation {
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	[location_.locationManager startUpdatingLocation];
+	[pool release];
 }
 
 - (void)viewDidLoad {
@@ -54,10 +57,10 @@
     //     UIImageView *imageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navbar-coffeeme.png"]] autorelease];
     // imageView.contentMode = UIViewContentModeCenter;
     // self.navigationItem.titleView = imageView;
-	
-    location_ = [[MyCLController alloc] init];
+	location_ = [[MyCLController alloc] init];
 	location_.delegate = self;
-	[location_.locationManager startUpdatingLocation];
+	[NSThread detachNewThreadSelector:@selector(updateLocation) toTarget:self withObject:nil];
+	
     alert_ = [[UIProgressHUD alloc] initWithWindow:[self.navigationController.view superview]];
     
     modal_ = [[[CMModalView alloc] initWithWindow:[self.navigationController.view superview]] retain];
@@ -135,17 +138,22 @@
 
 #pragma mark MyCLControllerDelegate
 
+- (void)getStores {
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc ]init];
+    [[NSNotificationCenter defaultCenter] postNotificationOnMainThreadWithName:@"stores:received" object:[CMStore nearby:currentLocation_.coordinate]];
+    [pool release];
+}
+
 - (void)locationUpdate:(CLLocation *)location {
     [location_.locationManager stopUpdatingLocation];
+    
+    if (currentLocation_) return;
     
     [currentLocation_ release];
     [location retain];
     currentLocation_ = location;
-    [self hideAlert];
-    NSArray *stores = [CMStore nearby:location.coordinate];
-    [stores_ release];
-    [stores retain];
-    stores_ = stores;
+    
+    [NSThread detachNewThreadSelector:@selector(getStores) toTarget:self withObject:nil];
     
     [self.tableView reloadData];
 }
@@ -161,8 +169,19 @@
 }
 
 - (void)showAlert {
-    // [alert_ setText:@"One moment while we determine your location."];
     [modal_ show:YES];
+}
+
+#pragma mark Notifications methods
+
+- (void)storesReceived:(NSNotification*)notify {
+	NSArray *stores = [notify object];
+	
+    [stores_ release];
+    [stores retain];
+    stores_ = stores;
+    [self.tableView reloadData];
+    [self hideAlert];
 }
 
 @end

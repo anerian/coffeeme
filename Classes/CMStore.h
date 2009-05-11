@@ -22,6 +22,9 @@
     
     double latitude_;
     double longitude_;
+    double distance_;
+    
+    CLLocationCoordinate2D userCoordinate_;
 }
 
 @property (nonatomic, retain) NSString *street;
@@ -34,6 +37,8 @@
 @property (nonatomic, assign) NSUInteger type;
 @property (nonatomic, assign) double latitude;
 @property (nonatomic, assign) double longitude;
+@property (nonatomic, assign) double distance;
+@property (nonatomic, assign) CLLocationCoordinate2D userCoordinate;
 
 - (id)initWithFMResultSet:(FMResultSet *)resultSet;
 
@@ -44,6 +49,11 @@
 
 - (NSString *)address;
 - (NSString *)address2;
+- (NSString *)formattedDistance;
 - (CLLocation *)location;
+- (NSString *)gmapUrl;
+- (NSString *)directionFrom:(CLLocationCoordinate2D)coordinate;
+// - (NSString *)direction;
+// + (CGPoint)coordinate2CGPoint:(CLLocationCoordinate2D)coordinate;
 
 @end

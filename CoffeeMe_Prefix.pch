@@ -14,4 +14,10 @@
     @end
     
     #define HexToUIColor(c) [UIColor colorWithRed:((c>>16)&0xFF)/255.0 green:((c>>8)&0xFF)/255.0 blue:(c&0xFF)/255.0 alpha:1.0];
+    
+    #define GMAP_KEY @"ABQIAAAAPbIrQY6Tw4qExHaj02Mk2hRVqMhVQ_5kbSl3aRaLvxPKrOmdqRQ20bPBuwPn-AtQx0rYiRgLXkADFQ"
+    
+    #define DEG2RAD(degrees) degrees * M_PI / 180
+    #define RAD2DEG(radians) radians * 180 / M_PI
+    
 #endif

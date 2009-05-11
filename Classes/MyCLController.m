@@ -9,7 +9,8 @@
 	self = [super init];
 	if (self != nil) {
 		self.locationManager = [[[CLLocationManager alloc] init] autorelease];
-        self.locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
+        self.locationManager.distanceFilter = 1000;
 		self.locationManager.delegate = self;
 	}
 	return self;
@@ -17,8 +18,9 @@
 
 - (void)locationManager:(CLLocationManager *)manager
 	didUpdateToLocation:(CLLocation *)newLocation
-		   fromLocation:(CLLocation *)oldLocation
-{
+		   fromLocation:(CLLocation *)oldLocation {
+    NSLog(@"newLocation: %@", newLocation);
+    [self.locationManager stopUpdatingLocation];
 	[self.delegate locationUpdate:newLocation];
 }
 
