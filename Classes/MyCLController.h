@@ -7,6 +7,7 @@
 @interface MyCLController : NSObject <CLLocationManagerDelegate> {
 	CLLocationManager *locationManager;
 	id delegate;
+    BOOL first_;
 }
 
 @property (nonatomic, retain) CLLocationManager *locationManager;

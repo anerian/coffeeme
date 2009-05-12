@@ -33,7 +33,6 @@
 		398682A10FB48050006E151C /* CMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682A00FB48050006E151C /* CMModel.m */; };
 		398682A90FB48213006E151C /* CMTrivia.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682A80FB48213006E151C /* CMTrivia.m */; };
 		398682DF0FB4A386006E151C /* CMStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682DE0FB4A386006E151C /* CMStoreCell.m */; };
-		398683100FB4A84A006E151C /* bg-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986830F0FB4A84A006E151C /* bg-cell.png */; };
 		398683230FB4B424006E151C /* cup-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683200FB4B424006E151C /* cup-0.png */; };
 		398683240FB4B424006E151C /* cup-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683210FB4B424006E151C /* cup-1.png */; };
 		398683250FB4B424006E151C /* cup-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683220FB4B424006E151C /* cup-2.png */; };
@@ -44,6 +43,10 @@
 		3986863B0FB88FFD006E151C /* NSNotificationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986863A0FB88FFD006E151C /* NSNotificationAdditions.m */; };
 		3986864A0FB89381006E151C /* CMDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398686490FB89381006E151C /* CMDetailView.m */; };
 		398686C30FB8C96B006E151C /* CMTriviaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398686C20FB8C96B006E151C /* CMTriviaView.m */; };
+		398687E80FB91373006E151C /* bg-trivia.png in Resources */ = {isa = PBXBuildFile; fileRef = 398687E70FB91373006E151C /* bg-trivia.png */; };
+		398688E30FB94296006E151C /* bg-shadow-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 398688E20FB94296006E151C /* bg-shadow-top.png */; };
+		398688F80FB9459A006E151C /* bg-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 398688F70FB9459A006E151C /* bg-cell.png */; };
+		398688FB0FB945ED006E151C /* bg-shadow-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 398688FA0FB945ED006E151C /* bg-shadow-bottom.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +107,6 @@
 		398682A80FB48213006E151C /* CMTrivia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTrivia.m; sourceTree = "<group>"; };
 		398682DD0FB4A386006E151C /* CMStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStoreCell.h; sourceTree = "<group>"; };
 		398682DE0FB4A386006E151C /* CMStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStoreCell.m; sourceTree = "<group>"; };
-		3986830F0FB4A84A006E151C /* bg-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-cell.png"; sourceTree = "<group>"; };
 		398683200FB4B424006E151C /* cup-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-0.png"; sourceTree = "<group>"; };
 		398683210FB4B424006E151C /* cup-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-1.png"; sourceTree = "<group>"; };
 		398683220FB4B424006E151C /* cup-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-2.png"; sourceTree = "<group>"; };
@@ -120,6 +122,10 @@
 		398686490FB89381006E151C /* CMDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDetailView.m; sourceTree = "<group>"; };
 		398686C10FB8C96B006E151C /* CMTriviaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTriviaView.h; sourceTree = "<group>"; };
 		398686C20FB8C96B006E151C /* CMTriviaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTriviaView.m; sourceTree = "<group>"; };
+		398687E70FB91373006E151C /* bg-trivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-trivia.png"; sourceTree = "<group>"; };
+		398688E20FB94296006E151C /* bg-shadow-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-shadow-top.png"; sourceTree = "<group>"; };
+		398688F70FB9459A006E151C /* bg-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-cell.png"; sourceTree = "<group>"; };
+		398688FA0FB945ED006E151C /* bg-shadow-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-shadow-bottom.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,12 +196,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				398688F70FB9459A006E151C /* bg-cell.png */,
+				398688FA0FB945ED006E151C /* bg-shadow-bottom.png */,
+				398688E20FB94296006E151C /* bg-shadow-top.png */,
+				398687E70FB91373006E151C /* bg-trivia.png */,
 				398685590FB858BE006E151C /* navbar-coffeeme.png */,
 				3986854C0FB7ACC8006E151C /* cup.png */,
 				398683200FB4B424006E151C /* cup-0.png */,
 				398683210FB4B424006E151C /* cup-1.png */,
 				398683220FB4B424006E151C /* cup-2.png */,
-				3986830F0FB4A84A006E151C /* bg-cell.png */,
 				398682960FB47075006E151C /* starbucks.png */,
 				397D74ED0FB25B0400ACE161 /* app_icon.png */,
 				397D74920FB24E9700ACE161 /* Default.png */,
@@ -359,12 +368,15 @@
 				397D74EE0FB25B0400ACE161 /* app_icon.png in Resources */,
 				398681080FB33720006E151C /* Three20.bundle in Resources */,
 				398682970FB47075006E151C /* starbucks.png in Resources */,
-				398683100FB4A84A006E151C /* bg-cell.png in Resources */,
 				398683230FB4B424006E151C /* cup-0.png in Resources */,
 				398683240FB4B424006E151C /* cup-1.png in Resources */,
 				398683250FB4B424006E151C /* cup-2.png in Resources */,
 				3986854D0FB7ACC8006E151C /* cup.png in Resources */,
 				3986855A0FB858BE006E151C /* navbar-coffeeme.png in Resources */,
+				398687E80FB91373006E151C /* bg-trivia.png in Resources */,
+				398688E30FB94296006E151C /* bg-shadow-top.png in Resources */,
+				398688F80FB9459A006E151C /* bg-cell.png in Resources */,
+				398688FB0FB945ED006E151C /* bg-shadow-bottom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

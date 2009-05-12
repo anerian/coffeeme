@@ -25,7 +25,8 @@
         [self.label setText: str ];
         [self.label setTextAlignment:UITextAlignmentCenter];
         [self addSubview:self.label];
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor blackColor];
+        
     }
     return self;
 }

@@ -17,7 +17,7 @@
     
     #define GMAP_KEY @"ABQIAAAAPbIrQY6Tw4qExHaj02Mk2hRVqMhVQ_5kbSl3aRaLvxPKrOmdqRQ20bPBuwPn-AtQx0rYiRgLXkADFQ"
     
-    #define DEG2RAD(degrees) degrees * M_PI / 180
-    #define RAD2DEG(radians) radians * 180 / M_PI
+    #define DEG2RAD(degrees) (M_PI * degrees / 180)
+    #define RAD2DEG(radians) (radians * 180 / M_PI)
     
 #endif

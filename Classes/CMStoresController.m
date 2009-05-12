@@ -53,6 +53,14 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.rowHeight = 100;
     self.tableView.backgroundColor = [UIColor clearColor];
+    
+    UIImageView *top = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
+    top.image = [UIImage imageNamed:@"bg-shadow-top.png"];
+    UIImageView *btm = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
+    btm.image = [UIImage imageNamed:@"bg-shadow-bottom.png"];
+    self.tableView.tableHeaderView = top;
+    self.tableView.contentInset = UIEdgeInsetsMake(-20, 0, 0, 0);
+    self.tableView.tableFooterView = btm;
 }
 
 - (void)viewDidUnload {
@@ -130,7 +138,7 @@
 }
 
 - (void)locationUpdate:(CLLocation *)location {
-    [location_.locationManager stopUpdatingLocation];
+    // [location_.locationManager stopUpdatingLocation];
     
     if (currentLocation_) return;
     

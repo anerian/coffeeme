@@ -12,7 +12,8 @@
 @implementation CMStore
 
 @synthesize pk = pk_, street = street_, city = city_, state = state_, zip = zip_, phone = phone_, 
-type = type_, latitude = latitude_, longitude = longitude_, cell = cell_, distance = distance_;
+type = type_, latitude = latitude_, longitude = longitude_, cell = cell_, distance = distance_,
+userLatitude = userLatitude_, userLongitude = userLongitude_;
 
 + (NSString *)storeNameForCode:(NSUInteger)code {
     NSString *store;
@@ -35,7 +36,7 @@ type = type_, latitude = latitude_, longitude = longitude_, cell = cell_, distan
     cell.backgroundColor = [UIColor clearColor];
     
     UIImageView *imageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"cup-%d.png", self.type]]] autorelease];
-    imageView.frame = CGRectMake(10, 23, 53, 53);
+    imageView.frame = CGRectMake(10, 10, 53, 53);
     
     UILabel *lblStore = [[[UILabel alloc] initWithFrame:CGRectMake(70, 10, 250, 20)] autorelease];
     lblStore.backgroundColor = [UIColor clearColor];
@@ -48,9 +49,17 @@ type = type_, latitude = latitude_, longitude = longitude_, cell = cell_, distan
     lblStreet.numberOfLines = 2;
     lblStreet.font= [UIFont boldSystemFontOfSize:14];
     
+    UILabel *lblDistance = [[[UILabel alloc] initWithFrame:CGRectMake(70, 70, 230, 20)] autorelease];
+    lblDistance.backgroundColor = [UIColor clearColor];
+    lblDistance.text = [NSString stringWithFormat:@"%@ %@", [self formattedDistance], [self directionFrom]];
+    lblDistance.font = [UIFont systemFontOfSize:12];
+    
     [cell addSubview:lblStore];
+    [cell addSubview:lblDistance];
     [cell addSubview:lblStreet];
     [cell addSubview:imageView];
+    
+    [self directionFrom];
     
     cell.tag = 99;
     return cell;
@@ -67,6 +76,8 @@ type = type_, latitude = latitude_, longitude = longitude_, cell = cell_, distan
         self.type      = [resultSet intForColumn:@"store_type"];
         self.latitude  = [resultSet doubleForColumn:@"latitude"];
         self.longitude = [resultSet doubleForColumn:@"longitude"];
+        self.userLatitude = [resultSet doubleForColumn:@"user_latitude"];
+        self.userLongitude = [resultSet doubleForColumn:@"user_longitude"];
         self.distance  = [resultSet doubleForColumn:@"dist"];
         self.cell      = [self viewForCell];
 	}
@@ -75,8 +86,7 @@ type = type_, latitude = latitude_, longitude = longitude_, cell = cell_, distan
 }
 
 + (NSArray *)nearby:(CLLocationCoordinate2D)coordinate {
-    NSString *query = [NSString stringWithFormat:@"select stores.*, distance(latitude, longitude, %f, %f) as dist from stores where dist < 10 order by dist limit 20", coordinate.latitude, coordinate.longitude];
-    NSLog(query);
+    NSString *query = [NSString stringWithFormat:@"select stores.*, %f as user_latitude, %f as user_longitude, distance(latitude, longitude, %f, %f) as dist from stores where dist < 10 order by dist limit 20", coordinate.latitude, coordinate.longitude, coordinate.latitude, coordinate.longitude];
     return [self query:query];
 }
 
@@ -111,28 +121,74 @@ type = type_, latitude = latitude_, longitude = longitude_, cell = cell_, distan
     return [NSString stringWithFormat:@"%@, %@. %@", city_, state_, zip_];
 }
 
-- (NSString *)directionFrom:(CLLocationCoordinate2D)coordinate {
-    double dLng = DEG2RAD(longitude_ - coordinate.longitude);
-    double fromLat = DEG2RAD(latitude_);
-    double toLat = DEG2RAD(coordinate.latitude);
-    double y = sin(dLng) * cos(toLat);
-    double x = cos(fromLat) * sin(toLat) - sin(fromLat) * cos(toLat) * cos(dLng);
-    int heading = round(atan2(y,x) * 180 / M_PI);
-    int direction = (heading+360) % 360;
+// public static Double Bearing(Coordinate coordinate1, Coordinate coordinate2)
+//    6:       {
+//    7:           var latitude1 = coordinate1.Latitude.ToRadian();
+//    8:           var latitude2 = coordinate2.Latitude.ToRadian();
+//    9:  
+//   10:           var longitudeDifference = (coordinate2.Longitude - coordinate1.Longitude).ToRadian();
+//   11:  
+//   12:           var y = Math.Sin(longitudeDifference) * Math.Cos(latitude2);
+//   13:           var x = Math.Cos(latitude1) * Math.Sin(latitude2) -
+//   14:                   Math.Sin(latitude1) * Math.Cos(latitude2) * Math.Cos(longitudeDifference);
+//   15:  
+//   16:           return (Math.Atan2(y, x).ToDegree() + 360) % 360;
+//   17:       }
+
+
+- (NSString *)directionFrom {
     
-    NSLog(@"direction: %d", direction);
+    double rLat1 = DEG2RAD(userLatitude_);
+    double rLat2 = DEG2RAD(latitude_);
+    double lngDelta = DEG2RAD((longitude_ - userLongitude_));
     
-    return @"direction";
+    // double rLat1 = DEG2RAD(38.906786);
+    // double rLat2 = DEG2RAD(38.907635);
+    // double lngDelta = DEG2RAD(-77.041919) - DEG2RAD(-77.041787);
+    
+    double y = asin(lngDelta) * cos(rLat2);
+    double x = (cos(rLat1) * sin(rLat2)) - (sin(rLat1) * cos(rLat2) * cos(lngDelta));
+    
+    double bearing = fmod(RAD2DEG(atan2(y,x)) + 360, 360);
+    
+    NSLog(@"bearing: %f", bearing);
+    
+    NSString *direction = @"N";
+    
+    if (bearing >= 0 && bearing < 22.5) {
+        direction = @"N";
+    }
+    else if (bearing >= 22.5 && bearing < 67.5) {
+        direction = @"NE";
+    }
+    else if (bearing >= 67.5  && bearing < 112.5) {
+        direction = @"E";
+    }
+    else if (bearing >= 112.5  && bearing < 157.5) {
+        direction = @"SE";
+    }
+    else if (bearing >= 157.5 && bearing < 202.5) {
+        direction = @"S";
+    }
+    else if (bearing >= 202.5 && bearing < 247.5) {
+        direction = @"SW";
+    }
+    else if (bearing >= 247.5 && bearing < 292.5) {
+        direction = @"W";
+    }
+    else if (bearing >= 292.5 && bearing < 337.5) {
+        direction = @"NW";
+    }
+    
+    return direction;
 }
 
 - (NSString *)formattedDistance {
-    return [NSString stringWithFormat:@"%f mi", (self.distance * .000621371192)];
+    return [NSString stringWithFormat:@"%.2f mi", (self.distance * .621371192)];
 }
 
 - (NSString *)gmapUrl {
     return [NSString stringWithFormat:@"http://maps.google.com/staticmap?center=%f,%f&zoom=14&size=256x256&maptype=mobile&key=%2&sensor=false", self.latitude, self.longitude, GMAP_KEY];
 }
-
-
 
 @end

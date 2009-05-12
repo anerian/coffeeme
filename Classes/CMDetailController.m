@@ -28,7 +28,7 @@
 
 - (void)loadView {
   [super loadView];
-
+  self.variableHeightRows = YES;
   self.tableView = [[[UITableView alloc] initWithFrame:self.view.bounds
     style:UITableViewStyleGrouped] autorelease];
 	self.tableView.autoresizingMask = 
@@ -38,44 +38,19 @@
 
 - (id<TTTableViewDataSource>)createDataSource {
     
-    TTImageTableField *map = [[[TTImageTableField alloc] init] autorelease];
+    TTImageTableField *map = [[[TTImageTableField alloc] initWithText:@"Map"] autorelease];
     map.url = [store_ gmapUrl];
     
     return [TTSectionedDataSource dataSourceWithObjects:
-      @"Map",
-      map,
-      [[[TTTableField alloc] initWithText:@"Search Bar"
-        url:@"tt://searchTest"] autorelease],
-
-      @"Styles",
-      [[[TTTableField alloc] initWithText:@"Styled Views"
-        url:@"tt://styleTest"] autorelease],
-      [[[TTTableField alloc] initWithText:@"Styled Labels"
-        url:@"tt://styledTextTest"] autorelease],
-
-      @"Controls",
-      [[[TTTableField alloc] initWithText:@"Buttons"
-        url:@"tt://buttonTest"] autorelease],
-      [[[TTTableField alloc] initWithText:@"Tabs"
-        url:@"tt://tabBarTest"] autorelease],
-
-      @"Tables",
-      [[[TTTableField alloc] initWithText:@"Table States"
-        url:@"tt://tableTest"] autorelease],
-      [[[TTTableField alloc] initWithText:@"Table Cells"
-        url:@"tt://tableFieldTest"] autorelease],
-      [[[TTTableField alloc] initWithText:@"Styled Labels in Table"
-        url:@"tt://styledTextTableTest"] autorelease],
-      [[[TTTableField alloc] initWithText:@"Web Images in Table"
-        url:@"tt://imageTest2"] autorelease],
-
-      @"General",
-      [[[TTTableField alloc] initWithText:@"Web Image"
-        url:@"tt://imageTest1"] autorelease],
-      [[[TTTableField alloc] initWithText:@"Activity Labels"
-        url:@"tt://activityTest"] autorelease],
-      [[[TTTableField alloc] initWithText:@"Scroll View"
-        url:@"tt://scrollViewTest"] autorelease],
+      @"",
+      [[[TTTitledTableField alloc] initWithTitle:@"Address"
+        text:[store_ address]] autorelease],
+      [[[TTTitledTableField alloc] initWithTitle:@"Call"
+        text:[store_ phone]] autorelease],
+      [[[TTTitledTableField alloc] initWithTitle:@"Distance"
+        text:[store_ formattedDistance]] autorelease],
+      @"",
+      [[[TTButtonTableField alloc] initWithText:@"Map"] autorelease],
       nil];
 }
 
