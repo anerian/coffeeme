@@ -17,26 +17,29 @@
 @implementation CMTriviaController
 
 -(id) init {
-    self = [super init];
-    return self;
-}
-
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
+    if (self = [super init]) {
     }
     return self;
 }
-*/
 
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
     self.view = [[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
+    [[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / kAccelerometerFrequency)];
+    [[UIAccelerometer sharedAccelerometer] setDelegate:self];
+    
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self 
+                                             selector:@selector(storesReceived:) 
+                                                 name:@"stores:received" 
+                                               object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self 
+                                             selector:@selector(locationUpdated:) 
+                                                 name:@"location:updated" 
+                                                   object:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    [self refresh];
     [super viewWillAppear:animated];
 }
 
@@ -44,13 +47,6 @@
     [((CMTriviaView*)self.view) updateTrivia];
 }
 
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.
