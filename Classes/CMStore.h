@@ -42,7 +42,6 @@
 @property (nonatomic, assign) double userLatitude;
 @property (nonatomic, assign) double userLongitude;
 @property (nonatomic, assign) double distance;
-@property (nonatomic, assign) CLLocationCoordinate2D userCoordinate;
 
 - (id)initWithFMResultSet:(FMResultSet *)resultSet;
 
@@ -50,15 +49,16 @@
 
 // helpers
 + (NSString *)storeNameForCode:(NSUInteger)code;
++ (CGPoint)coordinate2CGPoint:(CLLocationCoordinate2D)coordinate;
 
 - (NSString *)address;
 - (NSString *)address2;
 - (NSString *)formattedDistance;
 - (CLLocation *)location;
 - (NSString *)gmapUrl;
-- (NSString *)directionFrom;
+- (NSString *)bearing;
 - (NSString *)formattedDistance;
-// - (NSString *)direction;
-// + (CGPoint)coordinate2CGPoint:(CLLocationCoordinate2D)coordinate;
+- (CGPoint)point;
+
 
 @end

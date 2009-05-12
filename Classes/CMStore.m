@@ -31,6 +31,17 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     return store;
 }
 
+- (UILabel *)labelForFrame:(CGRect)frame withText:(NSString *)text withFontSize:(double)fontSize {
+    UILabel *label = [[[UILabel alloc] initWithFrame:frame] autorelease];
+    label.text = text;
+	label.font = [UIFont boldSystemFontOfSize:fontSize];
+    label.backgroundColor = [UIColor clearColor];
+    label.shadowOffset = CGSizeMake(0,1);
+    label.shadowColor = [UIColor whiteColor];
+    label.textColor = [UIColor blackColor];
+    return label;
+}
+
 - (UIView *)viewForCell {
     UIView *cell = [[[UIView alloc] initWithFrame:CGRectMake(0,0,320,100)] autorelease];
     cell.backgroundColor = [UIColor clearColor];
@@ -38,28 +49,15 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     UIImageView *imageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"cup-%d.png", self.type]]] autorelease];
     imageView.frame = CGRectMake(10, 10, 53, 53);
     
-    UILabel *lblStore = [[[UILabel alloc] initWithFrame:CGRectMake(70, 10, 250, 20)] autorelease];
-    lblStore.backgroundColor = [UIColor clearColor];
-    lblStore.text = [[self class] storeNameForCode:[self type]];
-    lblStore.font= [UIFont boldSystemFontOfSize:16];
-    
-    UILabel *lblStreet = [[[UILabel alloc] initWithFrame:CGRectMake(70, 30, 250, 40)] autorelease];
-    lblStreet.backgroundColor = [UIColor clearColor];
-    lblStreet.text = [self address];
+    UILabel *lblStore = [self labelForFrame:CGRectMake(70, 10, 250, 20) withText:[[self class] storeNameForCode:[self type]] withFontSize:16];
+    UILabel *lblStreet = [self labelForFrame:CGRectMake(70, 30, 250, 40) withText:[self address] withFontSize:14];
     lblStreet.numberOfLines = 2;
-    lblStreet.font= [UIFont boldSystemFontOfSize:14];
-    
-    UILabel *lblDistance = [[[UILabel alloc] initWithFrame:CGRectMake(70, 70, 230, 20)] autorelease];
-    lblDistance.backgroundColor = [UIColor clearColor];
-    lblDistance.text = [NSString stringWithFormat:@"%@ %@", [self formattedDistance], [self directionFrom]];
-    lblDistance.font = [UIFont systemFontOfSize:12];
+    UILabel *lblDistance = [self labelForFrame:CGRectMake(70, 70, 230, 20) withText:[NSString stringWithFormat:@"%@ %@", [self formattedDistance], [self bearing]] withFontSize:12];
     
     [cell addSubview:lblStore];
     [cell addSubview:lblDistance];
     [cell addSubview:lblStreet];
     [cell addSubview:imageView];
-    
-    [self directionFrom];
     
     cell.tag = 99;
     return cell;
@@ -94,16 +92,21 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     return @"stores";
 }
 
-// + (CGPoint)coordinate2CGPoint:(CLLocationCoordinate2D)coordinate {
-//     double offset = 268435456;
-//     double radius = offset / M_PI;
-//     double targetX = round(offset * radius * coordinate.longitude * M_PI / 180);
-//     double targetY = round(offset - radius * log((1 + sin(coordinate.latitude * M_PI / 180)) / (1 - sin(coordinate.latitude * M_PI / 180))) / 2);
-//     double deltaX = ((targetX - 128) >> (21 - 14));
-//     double deltaY = ((targetY - 128) >> (21 - 14));
-//     
-//     return CGPointMake(deltaX, deltaY);    
-// }
++ (CGPoint)coordinate2CGPoint:(CLLocationCoordinate2D)coordinate {
+    double offset = 268435456;
+    double radius = offset / M_PI;
+    int targetX = round(offset * radius * coordinate.longitude * M_PI / 180) - 128;
+    int targetY = round(offset - radius * log((1 + sin(coordinate.latitude * M_PI / 180)) / (1 - sin(coordinate.latitude * M_PI / 180))) / 2) - 128;
+    
+    int deltaX = targetX >> (21 - 14);
+    int deltaY = targetY >> (21 - 14);
+    
+    return CGPointMake(deltaX, deltaY);
+}
+
+- (CGPoint)point {
+    return [[self class] coordinate2CGPoint:(CLLocationCoordinate2D){latitude_, longitude_}];
+}
 
 - (NSString *)description {
     return [self address];
@@ -121,37 +124,15 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     return [NSString stringWithFormat:@"%@, %@. %@", city_, state_, zip_];
 }
 
-// public static Double Bearing(Coordinate coordinate1, Coordinate coordinate2)
-//    6:       {
-//    7:           var latitude1 = coordinate1.Latitude.ToRadian();
-//    8:           var latitude2 = coordinate2.Latitude.ToRadian();
-//    9:  
-//   10:           var longitudeDifference = (coordinate2.Longitude - coordinate1.Longitude).ToRadian();
-//   11:  
-//   12:           var y = Math.Sin(longitudeDifference) * Math.Cos(latitude2);
-//   13:           var x = Math.Cos(latitude1) * Math.Sin(latitude2) -
-//   14:                   Math.Sin(latitude1) * Math.Cos(latitude2) * Math.Cos(longitudeDifference);
-//   15:  
-//   16:           return (Math.Atan2(y, x).ToDegree() + 360) % 360;
-//   17:       }
-
-
-- (NSString *)directionFrom {
-    
+- (NSString *)bearing {
     double rLat1 = DEG2RAD(userLatitude_);
     double rLat2 = DEG2RAD(latitude_);
     double lngDelta = DEG2RAD((longitude_ - userLongitude_));
-    
-    // double rLat1 = DEG2RAD(38.906786);
-    // double rLat2 = DEG2RAD(38.907635);
-    // double lngDelta = DEG2RAD(-77.041919) - DEG2RAD(-77.041787);
     
     double y = asin(lngDelta) * cos(rLat2);
     double x = (cos(rLat1) * sin(rLat2)) - (sin(rLat1) * cos(rLat2) * cos(lngDelta));
     
     double bearing = fmod(RAD2DEG(atan2(y,x)) + 360, 360);
-    
-    NSLog(@"bearing: %f", bearing);
     
     NSString *direction = @"N";
     
@@ -189,6 +170,16 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
 
 - (NSString *)gmapUrl {
     return [NSString stringWithFormat:@"http://maps.google.com/staticmap?center=%f,%f&zoom=14&size=256x256&maptype=mobile&key=%2&sensor=false", self.latitude, self.longitude, GMAP_KEY];
+}
+
+- (void)dealloc {
+    [street_ release];
+    [city_ release];
+    [state_ release];
+    [zip_ release];
+    [phone_ release];
+    [cell_ release];
+    [super dealloc];
 }
 
 @end

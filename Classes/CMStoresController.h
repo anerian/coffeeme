@@ -12,14 +12,19 @@
 #import "CMDetailController.h"
 
 
-@interface CMStoresController : UITableViewController <MyCLControllerDelegate> {
+@interface CMStoresController : UITableViewController <MyCLControllerDelegate, UIAccelerometerDelegate> {
     MyCLController *location_;
     NSArray *stores_;
     id alert_;
     CLLocation *currentLocation_;
     CMModalView *modal_;
+    
+    CFTimeInterval lastShake_;
+    
+    BOOL isLoading_;
 }
 
+- (void)refresh;
 - (void)showAlert;
 - (void)hideAlert;
 

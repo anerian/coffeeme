@@ -10,13 +10,25 @@
 #import "CMStoresController.h"
 #import "CMStore.h"
 
+#define kAccelerometerFrequency      25 //Hz
+#define kFilteringFactor             0.1
+#define kMinEraseInterval            0.5
+#define kEraseAccelerationThreshold  2.0
 
 @implementation CMStoresController
+
+- (id)initWithStyle:(UITableViewStyle)style {
+    if (self = [super initWithStyle:style]) {
+        [[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / kAccelerometerFrequency)];
+        [[UIAccelerometer sharedAccelerometer] setDelegate:self];
+    }
+    return self;
+}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     if (!stores_) {
-        [self showAlert];
+        [self refresh];
     }
 }
 
@@ -30,21 +42,11 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(storesReceived:) name:@"stores:received" object:nil];
 }
 
-- (void)updateLocation {
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	[location_.locationManager startUpdatingLocation];
-	[pool release];
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //     UIImageView *imageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navbar-coffeeme.png"]] autorelease];
-    // imageView.contentMode = UIViewContentModeCenter;
-    // self.navigationItem.titleView = imageView;
 	location_ = [[MyCLController alloc] init];
 	location_.delegate = self;
-	[NSThread detachNewThreadSelector:@selector(updateLocation) toTarget:self withObject:nil];
 	
     alert_ = [[UIProgressHUD alloc] initWithWindow:[self.navigationController.view superview]];
     
@@ -58,13 +60,19 @@
     top.image = [UIImage imageNamed:@"bg-shadow-top.png"];
     UIImageView *btm = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
     btm.image = [UIImage imageNamed:@"bg-shadow-bottom.png"];
+    
     self.tableView.tableHeaderView = top;
     self.tableView.contentInset = UIEdgeInsetsMake(-20, 0, 0, 0);
     self.tableView.tableFooterView = btm;
+    
+    self.navigationItem.rightBarButtonItem = 
+        [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh 
+                                                       target:self 
+                                                       action:@selector(refresh)] autorelease];
 }
 
 - (void)viewDidUnload {
-
+    
 }
 
 - (void)dealloc {
@@ -72,21 +80,12 @@
     [super dealloc];
 }
 
-- (id<TTTableViewDataSource>)createDataSource {
-    if (stores_) {
-        NSMutableArray *items = [NSMutableArray arrayWithCapacity:[stores_ count]];
-        
-        for (CMStore *store in stores_) {
-            // TTImageTableField *imageField_ = [[[TTImageTableField alloc] initWithText:[store address] subtext:[NSString stringWithFormat:@"%f miles", ([[store location] getDistanceFrom:currentLocation_] * .000621371192)]] autorelease];
-            TTIconTableField *iconField_ = [[[TTIconTableField alloc] initWithText:[store address]] autorelease];
-            iconField_.image = @"bundle://starbucks.png";
-            
-            // bundle://person.jpg
-            [items addObject:iconField_];
-        }
-        return [TTListDataSource dataSourceWithItems:items];
-    }
-    return nil;
+- (void)refresh {
+    if (isLoading_) return;
+    
+    isLoading_ = YES;
+    [self showAlert];
+    [location_.locationManager startUpdatingLocation];
 }
 
 #pragma mark UITableViewDelegate
@@ -121,7 +120,6 @@
     [self.navigationController pushViewController:detailController animated:YES];
 }
 
-
 #pragma mark UITableViewDatasource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -137,11 +135,7 @@
     [pool release];
 }
 
-- (void)locationUpdate:(CLLocation *)location {
-    // [location_.locationManager stopUpdatingLocation];
-    
-    if (currentLocation_) return;
-    
+- (void)locationUpdate:(CLLocation *)location {    
     [currentLocation_ release];
     [location retain];
     currentLocation_ = location;
@@ -149,6 +143,8 @@
     [NSThread detachNewThreadSelector:@selector(getStores) toTarget:self withObject:nil];
     
     [self.tableView reloadData];
+    
+    isLoading_ = NO;
 }
 
 - (void)locationError:(NSError *)error {
@@ -175,6 +171,28 @@
     stores_ = stores;
     [self.tableView reloadData];
     [self hideAlert];
+}
+
+#pragma mark UIAccelerometerDelegate methods
+
+- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
+    UIAccelerationValue length, x, y, z;
+    
+    UIAccelerationValue myAccelerometer[3];
+    myAccelerometer[0] = acceleration.x * kFilteringFactor + myAccelerometer[0] * (1.0 - kFilteringFactor);
+    myAccelerometer[1] = acceleration.y * kFilteringFactor + myAccelerometer[1] * (1.0 - kFilteringFactor);
+    myAccelerometer[2] = acceleration.z * kFilteringFactor + myAccelerometer[2] * (1.0 - kFilteringFactor);
+
+    x = acceleration.x - myAccelerometer[0];
+    y = acceleration.y - myAccelerometer[0];
+    z = acceleration.z - myAccelerometer[0];
+    
+    length = sqrt(x * x + y * y + z * z);
+    
+    if ((length >= kEraseAccelerationThreshold) && (CFAbsoluteTimeGetCurrent() > lastShake_ + kMinEraseInterval)) {    
+        lastShake_ = CFAbsoluteTimeGetCurrent();
+        [self refresh];
+    }
 }
 
 @end
