@@ -99,10 +99,9 @@
     isDirty_ = NO;
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc ]init];
     CLLocation *location = [CMLocation instance].currentLocation;
-    NSLog(@"updating...");
     
     NSArray *stores = [CMStore nearby:location.coordinate];
-    NSLog(@"stores: %@", stores);
+
     [[NSNotificationCenter defaultCenter] postNotificationOnMainThreadWithName:@"stores:received" object:stores];
     
     [pool release];
@@ -111,7 +110,6 @@
 #pragma mark Notifications methods
 
 - (void)storesReceived:(NSNotification*)notify {
-    NSLog(@"storesReceived");
 	NSArray *stores = [notify object];
 	
     [stores_ release];
@@ -124,7 +122,6 @@
 }
 
 - (void)locationUpdated:(NSNotification*)notify {    
-    NSLog(@"locationUpdated");
     [NSThread detachNewThreadSelector:@selector(getStores) toTarget:self withObject:nil];
 }
 

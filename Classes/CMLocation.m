@@ -58,7 +58,6 @@ static CMLocation *instance;
         [self stop];
         self.currentLocation = newLocation;
         
-        NSLog(@"posting notification");
         [[NSNotificationCenter defaultCenter] postNotificationName:@"location:updated" 
                                                             object:newLocation];
     }
