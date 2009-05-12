@@ -14,7 +14,6 @@
 
 -(id) init {
     self = [super init];
-    // NSLog(@"test random trivia: %@", [CMTrivia randomTrivia].fact);
     return self;
 }
 
@@ -30,18 +29,13 @@
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
-  NSLog(@"Calling initWithTriviaAndFrame");
-  CMTriviaView *view = [[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
-
-  //view->trivia = self.facts;
-
-  [view setAutoresizingMask:UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth];
-
-
-  self.view = view;
-
-  [view release];
+    self.view = [[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
 }
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -49,11 +43,6 @@
     [super viewDidLoad];
 }
 */
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-}
-
 
 /*
 // Override to allow orientations other than the default portrait orientation.

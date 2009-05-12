@@ -17,18 +17,30 @@
     if (self = [super initWithFrame:frame]) {
         self.contentMode = UIViewContentModeCenter;
         // Initialization code
-        NSLog(@"Loading View");
-        self.label = [[[UILabel alloc] initWithFrame:frame] autorelease];
-        NSLog(@"getting random trivia");
-        // NSString *str = [CMTrivia randomTrivia].fact;
-        // NSLog(@"display random trivia: %@", str);
-        // [self.label setText: str ];
-        [self.label setTextAlignment:UITextAlignmentCenter];
+        self.image = [UIImage imageNamed:@"trivia-bg.png"];
+
+        // center the label over the coffee cup
+        CGRect rect = CGRectMake(60.0f, 90.0f, 180.0f, 200.0f);
+
+        self.label = [[[UILabel alloc] initWithFrame:rect] autorelease];
+        self.label.backgroundColor = [UIColor clearColor];
+        self.label.textColor = [UIColor whiteColor];
+        self.label.numberOfLines = 10;
+        self.label.adjustsFontSizeToFitWidth = YES;
+        self.label.lineBreakMode = UILineBreakModeWordWrap;
+
+        [self updateTrivia];
+
+        [self setAutoresizingMask:UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth];
         [self addSubview:self.label];
-        self.backgroundColor = [UIColor blackColor];
-        
     }
     return self;
+}
+
+-(void) updateTrivia {
+    NSString *str = [CMTrivia randomTrivia].fact;
+    [self.label setText: str ];
+    [self.label setTextAlignment:UITextAlignmentCenter];
 }
 
 - (void)drawRect:(CGRect)rect {

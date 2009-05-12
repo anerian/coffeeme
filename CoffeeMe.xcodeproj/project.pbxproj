@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09DBB88E0FBA3A53005357D6 /* trivia-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 09DBB88D0FBA3A53005357D6 /* trivia-bg.png */; };
 		1D3623260D0F684500981E51 /* CoffeeMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -71,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09DBB88D0FBA3A53005357D6 /* trivia-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trivia-bg.png"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* CoffeeMeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeMeAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeMeAppDelegate.m; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				09DBB88D0FBA3A53005357D6 /* trivia-bg.png */,
 				3986897C0FB9CC25006E151C /* pin-blue.png */,
 				398689760FB9C8BD006E151C /* pin-orange.png */,
 				398688F70FB9459A006E151C /* bg-cell.png */,
@@ -395,6 +398,7 @@
 				398688FB0FB945ED006E151C /* bg-shadow-bottom.png in Resources */,
 				398689770FB9C8BD006E151C /* pin-orange.png in Resources */,
 				3986897D0FB9CC25006E151C /* pin-blue.png in Resources */,
+				09DBB88E0FBA3A53005357D6 /* trivia-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "CMTrivia.h"
 
-@interface CMTriviaView : UIView {
+@interface CMTriviaView : UIImageView {
   UILabel *label_;
 }
 @property (nonatomic, retain) UILabel *label;
+
+-(void) updateTrivia;
 
 @end
