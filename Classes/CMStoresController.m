@@ -49,8 +49,6 @@
     [[UIAccelerometer sharedAccelerometer] setDelegate:nil];
 }
 
-
-
 - (void)loadView {
     [super loadView];
 
@@ -59,7 +57,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    modal_ = [[[CMModalView alloc] initWithWindow:[self.navigationController.view superview]] retain];
+    NSLog(@"super view: %@", [self.view window]);
+    modal_ = [[[CMModalView alloc] initWithWindow:[self.navigationController.view window]] retain];
 
     UIImageView *top = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
     top.image = [UIImage imageNamed:@"bg-shadow-top.png"];
