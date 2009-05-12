@@ -20,7 +20,7 @@
         self.image = [UIImage imageNamed:@"trivia-bg.png"];
 
         // center the label over the coffee cup
-        CGRect rect = CGRectMake(60.0f, 90.0f, 180.0f, 200.0f);
+        CGRect rect = CGRectMake(60.0f, 130.0f, 180.0f, 130.0f);
 
         self.label = [[[UILabel alloc] initWithFrame:rect] autorelease];
         self.label.backgroundColor = [UIColor clearColor];
@@ -41,6 +41,15 @@
     NSString *str = [CMTrivia randomTrivia].fact;
     [self.label setText: str ];
     [self.label setTextAlignment:UITextAlignmentCenter];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touches began count %d, %@", [touches count], touches);
+    [self setNeedsDisplay];
+}
+- (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touches moved count %d, %@", [touches count], touches);
+    [self updateTrivia];
 }
 
 - (void)drawRect:(CGRect)rect {
