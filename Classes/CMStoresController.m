@@ -22,9 +22,6 @@
         isLoading_ = NO;
         isDirty_ = YES;
         
-        [[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / kAccelerometerFrequency)];
-        [[UIAccelerometer sharedAccelerometer] setDelegate:self];
-        
         
         [[NSNotificationCenter defaultCenter] addObserver:self 
                                                  selector:@selector(storesReceived:) 
@@ -43,7 +40,16 @@
     if (!stores_) {
         [self refresh];
     }
+    
+    [[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / kAccelerometerFrequency)];
+    [[UIAccelerometer sharedAccelerometer] setDelegate:self];
 }
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [[UIAccelerometer sharedAccelerometer] setDelegate:nil];
+}
+
+
 
 - (void)loadView {
     [super loadView];
