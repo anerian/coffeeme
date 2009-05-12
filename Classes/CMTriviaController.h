@@ -10,7 +10,10 @@
 #import "CMTrivia.h"
 
 
-@interface CMTriviaController : UIViewController {
+@interface CMTriviaController : UIViewController<UIAccelerometerDelegate> {
+    CFTimeInterval lastShake_;
 }
+
+- (void)refresh;
 
 @end

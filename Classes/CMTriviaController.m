@@ -9,6 +9,10 @@
 #import "CMTriviaController.h"
 #import "CMTriviaView.h"
 
+#define kAccelerometerFrequency      25
+#define kFilteringFactor             0.1
+#define kMinEraseInterval            0.5
+#define kEraseAccelerationThreshold  2.0
 
 @implementation CMTriviaController
 
@@ -34,6 +38,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+}
+
+- (void)refresh {
+    [((CMTriviaView*)self.view) updateTrivia];
 }
 
 
@@ -69,5 +77,26 @@
     [super dealloc];
 }
 
+#pragma mark UIAccelerometerDelegate methods
+
+- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
+    UIAccelerationValue length, x, y, z;
+    
+    UIAccelerationValue myAccelerometer[3];
+    myAccelerometer[0] = acceleration.x * kFilteringFactor + myAccelerometer[0] * (1.0 - kFilteringFactor);
+    myAccelerometer[1] = acceleration.y * kFilteringFactor + myAccelerometer[1] * (1.0 - kFilteringFactor);
+    myAccelerometer[2] = acceleration.z * kFilteringFactor + myAccelerometer[2] * (1.0 - kFilteringFactor);
+
+    x = acceleration.x - myAccelerometer[0];
+    y = acceleration.y - myAccelerometer[0];
+    z = acceleration.z - myAccelerometer[0];
+    
+    length = sqrt(x * x + y * y + z * z);
+    
+    if ((length >= kEraseAccelerationThreshold) && (CFAbsoluteTimeGetCurrent() > lastShake_ + kMinEraseInterval)) {    
+        lastShake_ = CFAbsoluteTimeGetCurrent();
+        [self refresh];
+    }
+}
 
 @end
