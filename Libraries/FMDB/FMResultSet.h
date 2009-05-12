@@ -28,6 +28,9 @@
 
 - (BOOL) next;
 
+- (int) columnIndexForName:(NSString*)columnName;
+- (NSString*) columnNameForIndex:(int)index;
+
 - (int) intForColumn:(NSString*)columnName;
 - (int) intForColumnIndex:(int)columnIdx;
 
@@ -59,6 +62,9 @@ If you don't, you're going to be in a world of hurt when you try and use the dat
 */
 - (NSData*) dataNoCopyForColumn:(NSString*)columnName;
 - (NSData*) dataNoCopyForColumnIndex:(int)columnIdx;
+
+- (BOOL) columnIndexIsNull:(int)columnIdx;
+- (BOOL) columnIsNull:(NSString*)columnName;
 
 - (void) kvcMagic:(id)object;
 

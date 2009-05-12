@@ -8,12 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "CMStore.h"
+#import "CMMapView.h"
 
 
-@interface CMDetailView : UIView<TTImageViewDelegate> {
+@interface CMDetailView : UIScrollView<TTImageViewDelegate> {
     CMStore *store_;
+    CMMapView *mapView_;
     
-    TTImageView *gmapView_;
+    UILabel *company_;
+    UILabel *address_;
+    UILabel *distance_;
 }
 
 - (id)initWithFrame:(CGRect)frame withStore:(CMStore *)store;

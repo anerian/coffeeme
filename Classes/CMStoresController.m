@@ -10,7 +10,7 @@
 #import "CMStoresController.h"
 #import "CMStore.h"
 
-#define kAccelerometerFrequency      25 //Hz
+#define kAccelerometerFrequency      25
 #define kFilteringFactor             0.1
 #define kMinEraseInterval            0.5
 #define kEraseAccelerationThreshold  2.0
@@ -19,8 +19,21 @@
 
 - (id)initWithStyle:(UITableViewStyle)style {
     if (self = [super initWithStyle:style]) {
+        isLoading_ = NO;
+        isDirty_ = YES;
+        
         [[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / kAccelerometerFrequency)];
         [[UIAccelerometer sharedAccelerometer] setDelegate:self];
+        
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self 
+                                                 selector:@selector(storesReceived:) 
+                                                     name:@"stores:received" 
+                                                   object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self 
+                                                 selector:@selector(locationUpdated:) 
+                                                     name:@"location:updated" 
+                                                   object:nil];
     }
     return self;
 }
@@ -32,38 +45,27 @@
     }
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
-
 - (void)loadView {
     [super loadView];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(storesReceived:) name:@"stores:received" object:nil];
+
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-	location_ = [[MyCLController alloc] init];
-	location_.delegate = self;
-	
-    alert_ = [[UIProgressHUD alloc] initWithWindow:[self.navigationController.view superview]];
-    
     modal_ = [[[CMModalView alloc] initWithWindow:[self.navigationController.view superview]] retain];
-    
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    self.tableView.rowHeight = 100;
-    self.tableView.backgroundColor = [UIColor clearColor];
-    
+
     UIImageView *top = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
     top.image = [UIImage imageNamed:@"bg-shadow-top.png"];
     UIImageView *btm = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
     btm.image = [UIImage imageNamed:@"bg-shadow-bottom.png"];
-    
-    self.tableView.tableHeaderView = top;
+
     self.tableView.contentInset = UIEdgeInsetsMake(-20, 0, 0, 0);
+    self.tableView.tableHeaderView = top;
     self.tableView.tableFooterView = btm;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.rowHeight = 100;
+    self.tableView.backgroundColor = [UIColor clearColor];
     
     self.navigationItem.rightBarButtonItem = 
         [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh 
@@ -71,21 +73,59 @@
                                                        action:@selector(refresh)] autorelease];
 }
 
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
+
 - (void)viewDidUnload {
     
 }
 
 - (void)dealloc {
-    [alert_ release];
     [super dealloc];
 }
 
 - (void)refresh {
     if (isLoading_) return;
     
+    isDirty_ = YES;
     isLoading_ = YES;
     [self showAlert];
-    [location_.locationManager startUpdatingLocation];
+    [[CMLocation instance] start];
+}
+
+- (void)getStores {
+    if (!isDirty_) return;
+    isDirty_ = NO;
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc ]init];
+    CLLocation *location = [CMLocation instance].currentLocation;
+    NSLog(@"updating...");
+    
+    NSArray *stores = [CMStore nearby:location.coordinate];
+    NSLog(@"stores: %@", stores);
+    [[NSNotificationCenter defaultCenter] postNotificationOnMainThreadWithName:@"stores:received" object:stores];
+    
+    [pool release];
+}
+
+#pragma mark Notifications methods
+
+- (void)storesReceived:(NSNotification*)notify {
+    NSLog(@"storesReceived");
+	NSArray *stores = [notify object];
+	
+    [stores_ release];
+    [stores retain];
+    stores_ = stores;
+    
+    [self.tableView reloadData];
+    [self hideAlert];
+    isLoading_ = NO;
+}
+
+- (void)locationUpdated:(NSNotification*)notify {    
+    NSLog(@"locationUpdated");
+    [NSThread detachNewThreadSelector:@selector(getStores) toTarget:self withObject:nil];
 }
 
 #pragma mark UITableViewDelegate
@@ -127,30 +167,6 @@
 	return [stores_ count];
 }
 
-#pragma mark MyCLControllerDelegate
-
-- (void)getStores {
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc ]init];
-    [[NSNotificationCenter defaultCenter] postNotificationOnMainThreadWithName:@"stores:received" object:[CMStore nearby:currentLocation_.coordinate]];
-    [pool release];
-}
-
-- (void)locationUpdate:(CLLocation *)location {    
-    [currentLocation_ release];
-    [location retain];
-    currentLocation_ = location;
-    
-    [NSThread detachNewThreadSelector:@selector(getStores) toTarget:self withObject:nil];
-    
-    [self.tableView reloadData];
-    
-    isLoading_ = NO;
-}
-
-- (void)locationError:(NSError *)error {
-    
-}
-
 #pragma mark Alert methods
 
 - (void)hideAlert {
@@ -159,18 +175,6 @@
 
 - (void)showAlert {
     [modal_ show:YES];
-}
-
-#pragma mark Notifications methods
-
-- (void)storesReceived:(NSNotification*)notify {
-	NSArray *stores = [notify object];
-	
-    [stores_ release];
-    [stores retain];
-    stores_ = stores;
-    [self.tableView reloadData];
-    [self hideAlert];
 }
 
 #pragma mark UIAccelerometerDelegate methods

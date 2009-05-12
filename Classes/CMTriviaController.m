@@ -14,7 +14,7 @@
 
 -(id) init {
     self = [super init];
-    NSLog(@"test random trivia: %@", [CMTrivia randomTrivia].fact);
+    // NSLog(@"test random trivia: %@", [CMTrivia randomTrivia].fact);
     return self;
 }
 
@@ -49,6 +49,11 @@
     [super viewDidLoad];
 }
 */
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.

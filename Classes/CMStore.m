@@ -50,6 +50,7 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     imageView.frame = CGRectMake(10, 10, 53, 53);
     
     UILabel *lblStore = [self labelForFrame:CGRectMake(70, 10, 250, 20) withText:[[self class] storeNameForCode:[self type]] withFontSize:16];
+    lblStore.textColor = HexToUIColor(0x56523c);
     UILabel *lblStreet = [self labelForFrame:CGRectMake(70, 30, 250, 40) withText:[self address] withFontSize:14];
     lblStreet.numberOfLines = 2;
     UILabel *lblDistance = [self labelForFrame:CGRectMake(70, 70, 230, 20) withText:[NSString stringWithFormat:@"%@ %@", [self formattedDistance], [self bearing]] withFontSize:12];
@@ -169,7 +170,7 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
 }
 
 - (NSString *)gmapUrl {
-    return [NSString stringWithFormat:@"http://maps.google.com/staticmap?center=%f,%f&zoom=14&size=256x256&maptype=mobile&key=%2&sensor=false", self.latitude, self.longitude, GMAP_KEY];
+    return [NSString stringWithFormat:@"http://maps.google.com/staticmap?center=%f,%f&zoom=14&size=280x280&maptype=mobile&key=%2&sensor=false", self.latitude, self.longitude, GMAP_KEY];
 }
 
 - (void)dealloc {

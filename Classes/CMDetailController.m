@@ -16,25 +16,27 @@
 - (id)initWithStore:(CMStore *)store {
     if (self = [super init]) {
         store_ = [store retain];
+        
+        self.title = @"Info";
     }
     return self;
 }
 
-// - (void)loadView {
-//     [super loadView];
-//     
-//     self.view = [[[CMDetailView alloc] initWithFrame:self.view.bounds withStore:store_] autorelease];
-// }
-
 - (void)loadView {
-  [super loadView];
-  self.variableHeightRows = YES;
-  self.tableView = [[[UITableView alloc] initWithFrame:self.view.bounds
-    style:UITableViewStyleGrouped] autorelease];
-	self.tableView.autoresizingMask = 
-    UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-  [self.view addSubview:self.tableView];
+    [super loadView];
+    
+    self.view = [[[CMDetailView alloc] initWithFrame:self.view.bounds withStore:store_] autorelease];
 }
+
+// - (void)loadView {
+//   [super loadView];
+//   self.variableHeightRows = YES;
+//   self.tableView = [[[UITableView alloc] initWithFrame:self.view.bounds
+//     style:UITableViewStyleGrouped] autorelease];
+//  self.tableView.autoresizingMask = 
+//     UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+//   [self.view addSubview:self.tableView];
+// }
 
 - (id<TTTableViewDataSource>)createDataSource {
     

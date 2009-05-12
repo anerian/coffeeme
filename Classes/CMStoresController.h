@@ -7,28 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyCLController.h"
 #import "CMModalView.h"
 #import "CMDetailController.h"
+#import "CMLocation.h"
 
 
-@interface CMStoresController : UITableViewController <MyCLControllerDelegate, UIAccelerometerDelegate> {
-    MyCLController *location_;
+@interface CMStoresController : UITableViewController <UIAccelerometerDelegate> {
     NSArray *stores_;
-    id alert_;
-    CLLocation *currentLocation_;
     CMModalView *modal_;
-    
     CFTimeInterval lastShake_;
     
     BOOL isLoading_;
+    BOOL isDirty_;
 }
 
 - (void)refresh;
 - (void)showAlert;
 - (void)hideAlert;
-
-- (void)locationUpdate:(CLLocation *)location; 
-- (void)locationError:(NSError *)error;
 
 @end

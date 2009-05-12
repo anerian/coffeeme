@@ -20,9 +20,9 @@
         NSLog(@"Loading View");
         self.label = [[[UILabel alloc] initWithFrame:frame] autorelease];
         NSLog(@"getting random trivia");
-        NSString *str = [CMTrivia randomTrivia].fact;
-        NSLog(@"display random trivia: %@", str);
-        [self.label setText: str ];
+        // NSString *str = [CMTrivia randomTrivia].fact;
+        // NSLog(@"display random trivia: %@", str);
+        // [self.label setText: str ];
         [self.label setTextAlignment:UITextAlignmentCenter];
         [self addSubview:self.label];
         self.backgroundColor = [UIColor blackColor];

@@ -17,7 +17,10 @@
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
+    
     NSTimeInterval howRecent = [newLocation.timestamp timeIntervalSinceNow];
+    
+    NSLog(@"didUpdateToLocation: %f", howRecent);
     
     if (howRecent < -5) {
         first_ = NO;

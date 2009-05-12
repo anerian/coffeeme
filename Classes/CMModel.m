@@ -40,24 +40,23 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
     if (database_ == nil) {
         NSString *databaseName = @"coffeeme.sqlite3";
 
-    	NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    	NSString *documentsDir = [documentPaths objectAtIndex:0];
-    	NSString *databasePath = [documentsDir stringByAppendingPathComponent:databaseName];
+        NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+        NSString *documentsDir = [documentPaths objectAtIndex:0];
+        NSString *databasePath = [documentsDir stringByAppendingPathComponent:databaseName];
 
-    	NSFileManager *fileManager = [NSFileManager defaultManager];
+        NSFileManager *fileManager = [NSFileManager defaultManager];
 
         if (![fileManager fileExistsAtPath:databasePath]) {
             NSString *databasePathFromApp = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:databaseName];
             [fileManager copyItemAtPath:databasePathFromApp toPath:databasePath error:nil];
-        	[fileManager release];
         }
 
-        database_ = [[FMDatabase alloc] initWithPath:[[documentPaths objectAtIndex:0] stringByAppendingPathComponent:databaseName]];
-        [database_ open];
-     	[database_ setCrashOnErrors:NO];
+        database_ = [[[FMDatabase alloc] initWithPath:[[documentPaths objectAtIndex:0] stringByAppendingPathComponent:databaseName]] retain];
+        if ([database_ open]) {
+            [database_ setCrashOnErrors:NO];
+            sqlite3_create_function([database_ sqliteHandle], "distance", 4, SQLITE_UTF8, NULL, &distanceFunc, NULL, NULL);
+        }
     }
-    
-    sqlite3_create_function([database_ sqliteHandle], "distance", 4, SQLITE_UTF8, NULL, &distanceFunc, NULL, NULL);
 }
 
 + (id)query:(NSString *)sql {
@@ -85,8 +84,10 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
 
 + (id)fromDB:(FMResultSet *)result {
     NSMutableArray *results = [NSMutableArray arrayWithCapacity:0];
-    
-    while ([result next]) [results addObject:[[[[self class] alloc] initWithFMResultSet:result] autorelease]];
+
+    while ([result next])  {
+        [results addObject:[[[[self class] alloc] initWithFMResultSet:result] autorelease]];
+    }
     
     [result close];
     

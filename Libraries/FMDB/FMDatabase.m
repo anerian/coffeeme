@@ -1,4 +1,5 @@
 #import "FMDatabase.h"
+#import "unistd.h"
 
 @implementation FMDatabase
 
@@ -261,7 +262,7 @@
     if (!pStmt) {
         do {
             retry   = NO;
-            rc      = sqlite3_prepare(db, [sql UTF8String], -1, &pStmt, 0);
+            rc      = sqlite3_prepare_v2(db, [sql UTF8String], -1, &pStmt, 0);
             
             if (SQLITE_BUSY == rc) {
                 retry = YES;
@@ -282,7 +283,7 @@
                     NSLog(@"DB Error: %d \"%@\"", [self lastErrorCode], [self lastErrorMessage]);
                     NSLog(@"DB Query: %@", sql);
                     if (crashOnErrors) {
-#ifdef __BIG_ENDIAN__
+#if defined(__BIG_ENDIAN__) && !TARGET_IPHONE_SIMULATOR
                         asm{ trap };
 #endif
                         NSAssert2(false, @"DB Error: %d \"%@\"", [self lastErrorCode], [self lastErrorMessage]);
@@ -385,7 +386,7 @@
         
         do {
             retry   = NO;
-            rc      = sqlite3_prepare(db, [sql UTF8String], -1, &pStmt, 0);
+            rc      = sqlite3_prepare_v2(db, [sql UTF8String], -1, &pStmt, 0);
             if (SQLITE_BUSY == rc) {
                 retry = YES;
                 usleep(20);
@@ -405,7 +406,7 @@
                     NSLog(@"DB Error: %d \"%@\"", [self lastErrorCode], [self lastErrorMessage]);
                     NSLog(@"DB Query: %@", sql);
                     if (crashOnErrors) {
-#ifdef __BIG_ENDIAN__
+#if defined(__BIG_ENDIAN__) && !TARGET_IPHONE_SIMULATOR
                         asm{ trap };
 #endif
                         NSAssert2(false, @"DB Error: %d \"%@\"", [self lastErrorCode], [self lastErrorMessage]);
@@ -640,6 +641,10 @@
 }
 
 
+- (int)changes {
+    return(sqlite3_changes(db));
+}
+
 @end
 
 
@@ -694,8 +699,6 @@
         useCount = value;
     }
 }
-
-
 
 - (NSString*) description {
     return [NSString stringWithFormat:@"%@ %d hit(s) for query %@", [super description], useCount, query];
