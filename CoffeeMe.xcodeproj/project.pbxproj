@@ -47,12 +47,12 @@
 		39868C1E0FBB6090006E151C /* cup-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C0F0FBB6090006E151C /* cup-1.png */; };
 		39868C1F0FBB6090006E151C /* cup-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C100FBB6090006E151C /* cup-2.png */; };
 		39868C200FBB6090006E151C /* cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C110FBB6090006E151C /* cup.png */; };
-		39868C210FBB6090006E151C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C120FBB6090006E151C /* Default.png */; };
 		39868C230FBB6090006E151C /* pin-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C140FBB6090006E151C /* pin-blue.png */; };
 		39868C240FBB6090006E151C /* pin-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C150FBB6090006E151C /* pin-orange.png */; };
 		39868C490FBB6301006E151C /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C480FBB6301006E151C /* app_icon.png */; };
 		39868C790FBB6457006E151C /* bg-trivia.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C770FBB6457006E151C /* bg-trivia.png */; };
 		39868CBD0FBB6F4E006E151C /* bg-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868CBC0FBB6F4E006E151C /* bg-coffee.png */; };
+		39868CE20FBB7E9E006E151C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868CE10FBB7E9E006E151C /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,12 +136,12 @@
 		39868C0F0FBB6090006E151C /* cup-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-1.png"; sourceTree = "<group>"; };
 		39868C100FBB6090006E151C /* cup-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-2.png"; sourceTree = "<group>"; };
 		39868C110FBB6090006E151C /* cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup.png; sourceTree = "<group>"; };
-		39868C120FBB6090006E151C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		39868C140FBB6090006E151C /* pin-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin-blue.png"; sourceTree = "<group>"; };
 		39868C150FBB6090006E151C /* pin-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin-orange.png"; sourceTree = "<group>"; };
 		39868C480FBB6301006E151C /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
 		39868C770FBB6457006E151C /* bg-trivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-trivia.png"; sourceTree = "<group>"; };
 		39868CBC0FBB6F4E006E151C /* bg-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-coffee.png"; sourceTree = "<group>"; };
+		39868CE10FBB7E9E006E151C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -321,6 +321,7 @@
 		39868C080FBB6090006E151C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				39868CE10FBB7E9E006E151C /* Default.png */,
 				39868CBC0FBB6F4E006E151C /* bg-coffee.png */,
 				39868C770FBB6457006E151C /* bg-trivia.png */,
 				39868C480FBB6301006E151C /* app_icon.png */,
@@ -331,7 +332,6 @@
 				39868C0F0FBB6090006E151C /* cup-1.png */,
 				39868C100FBB6090006E151C /* cup-2.png */,
 				39868C110FBB6090006E151C /* cup.png */,
-				39868C120FBB6090006E151C /* Default.png */,
 				39868C140FBB6090006E151C /* pin-blue.png */,
 				39868C150FBB6090006E151C /* pin-orange.png */,
 			);
@@ -407,12 +407,12 @@
 				39868C1E0FBB6090006E151C /* cup-1.png in Resources */,
 				39868C1F0FBB6090006E151C /* cup-2.png in Resources */,
 				39868C200FBB6090006E151C /* cup.png in Resources */,
-				39868C210FBB6090006E151C /* Default.png in Resources */,
 				39868C230FBB6090006E151C /* pin-blue.png in Resources */,
 				39868C240FBB6090006E151C /* pin-orange.png in Resources */,
 				39868C490FBB6301006E151C /* app_icon.png in Resources */,
 				39868C790FBB6457006E151C /* bg-trivia.png in Resources */,
 				39868CBD0FBB6F4E006E151C /* bg-coffee.png in Resources */,
+				39868CE20FBB7E9E006E151C /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

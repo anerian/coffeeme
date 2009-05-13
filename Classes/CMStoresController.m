@@ -85,7 +85,7 @@
         [[[UIBarButtonItem alloc] initWithTitle:@"Settings" 
                                           style:UIBarButtonItemStyleBordered
                                          target:self 
-                                        action:@selector(settings)] autorelease];                                                        
+                                        action:@selector(settings)] autorelease];
     modal_ = [[[CMModalView alloc] initWithWindow:[self appWindow]] retain];
 }
 
@@ -105,6 +105,7 @@
 - (void)settings {
     CMSettingsController *settingsController = [[[CMSettingsController alloc] init] autorelease];
     UINavigationController *modal = [[[UINavigationController alloc] initWithRootViewController:settingsController] autorelease];
+    modal.navigationBar.tintColor = HexToUIColor(0x3d2210);
     [self.navigationController presentModalViewController:modal animated:YES];
 }
 

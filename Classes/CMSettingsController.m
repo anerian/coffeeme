@@ -27,12 +27,18 @@
 }
 */
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Done"
+                                                                              style:UIBarButtonItemStyleDone
+                                                                             target:self 
+                                                                             action:@selector(done)] autorelease];
 }
-*/
+
+- (void)done {
+    [self.parentViewController dismissModalViewControllerAnimated:YES];
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.

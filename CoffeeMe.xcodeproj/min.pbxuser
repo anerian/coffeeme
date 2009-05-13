@@ -23,7 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 397D74710FB23DF000ACE161 /* CoffeeMe */;
-		activeSDKPreference = iphoneos2.2.1;
+		activeSDKPreference = iphonesimulator2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CoffeeMe */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* CoffeeMe */,
@@ -854,6 +854,7 @@
 			39868CC80FBB744B006E151C /* PBXTextBookmark */ = 39868CC80FBB744B006E151C /* PBXTextBookmark */;
 			39868CC90FBB744B006E151C /* PBXBookmark */ = 39868CC90FBB744B006E151C /* PBXBookmark */;
 			39868CDB0FBB76E5006E151C /* PBXBookmark */ = 39868CDB0FBB76E5006E151C /* PBXBookmark */;
+			39868CDE0FBB7D01006E151C /* PBXBookmark */ = 39868CDE0FBB7D01006E151C /* PBXBookmark */;
 		};
 		sourceControlManager = 397D74810FB23DFA00ACE161 /* Source Control */;
 		userBuildSettings = {
@@ -7496,6 +7497,13 @@
 		vrLen = 1506;
 		vrLoc = 2195;
 	};
+	39868C120FBB6090006E151C /* Default.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = Default.png;
+		path = /Users/min/workspace/anerian/github/coffeeme/Images/Default.png;
+		sourceTree = "<absolute>";
+	};
 	39868C270FBB60D3006E151C /* bg-trivia.png */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = image.png;
@@ -7915,6 +7923,10 @@
 		fRef = 39868CBC0FBB6F4E006E151C /* bg-coffee.png */;
 	};
 	39868CDB0FBB76E5006E151C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 39868CBC0FBB6F4E006E151C /* bg-coffee.png */;
+	};
+	39868CDE0FBB7D01006E151C /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 39868CBC0FBB6F4E006E151C /* bg-coffee.png */;
 	};
