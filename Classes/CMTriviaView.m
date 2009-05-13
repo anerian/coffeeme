@@ -15,6 +15,8 @@
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
+        self.userInteractionEnabled = YES;
+
         self.contentMode = UIViewContentModeCenter;
         // Initialization code
         self.image = [UIImage imageNamed:@"trivia-bg.png"];
