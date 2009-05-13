@@ -16,18 +16,11 @@
 
 @implementation CMTriviaController
 
--(id) init {
-    if (self = [super init]) {
-    }
-    return self;
-}
-
 - (void)loadView {
     self.view = [[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
     [[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / kAccelerometerFrequency)];
     [[UIAccelerometer sharedAccelerometer] setDelegate:self];
-    
-    
+ 
     [[NSNotificationCenter defaultCenter] addObserver:self 
                                              selector:@selector(storesReceived:) 
                                                  name:@"stores:received" 
@@ -35,7 +28,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self 
                                              selector:@selector(locationUpdated:) 
                                                  name:@"location:updated" 
-                                                   object:nil];
+                                               object:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
