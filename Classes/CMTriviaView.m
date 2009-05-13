@@ -43,11 +43,11 @@
     NSString *str = [CMTrivia randomTrivia].fact;
     [self.label setText: str ];
     [self.label setTextAlignment:UITextAlignmentCenter];
+    [str release];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     NSLog(@"touches began count %d, %@", [touches count], touches);
-    [self setNeedsDisplay];
 }
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     NSLog(@"touches moved count %d, %@", [touches count], touches);
