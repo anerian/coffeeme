@@ -9,7 +9,25 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090508151128) do
+ActiveRecord::Schema.define(:version => 20090513170542) do
+
+  create_table "drinks", :force => true do |t|
+    t.string  "name"
+    t.integer "serving_size",        :default => 0
+    t.integer "calories",            :default => 0
+    t.integer "fat_calories",        :default => 0
+    t.integer "total_fat",           :default => 0
+    t.integer "saturated_fat",       :default => 0
+    t.integer "trans_fat",           :default => 0
+    t.integer "cholesterol",         :default => 0
+    t.integer "sodium",              :default => 0
+    t.integer "total_carbohydrates", :default => 0
+    t.integer "fiber",               :default => 0
+    t.integer "sugars",              :default => 0
+    t.integer "protein",             :default => 0
+    t.integer "size"
+    t.integer "milk"
+  end
 
   create_table "stores", :force => true do |t|
     t.string  "street"
