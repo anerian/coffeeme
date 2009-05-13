@@ -1,0 +1,34 @@
+--- 
+552984f2-9dab-4b36-a38a-88600019ad0f: 
+  :enum: 1
+  :name: grande
+8a99d8f8-5d5b-432b-b295-cc00a38d215b: 
+  :enum: 0
+  :name: tall
+0b9e8ced-2321-41a0-9f6a-ddcb20170824: 
+  :enum: 5
+  :name: short
+589a09fc-1d10-4006-af15-dc3d4512a5ab: 
+  :enum: 2
+  :name: venti
+5c13e86d-0615-44f5-8497-5ebe6fe9ed96: 
+  :enum: 4
+  :name: doppio
+c132c29e-468d-43e9-bf0a-951f5baac5f9: 
+  :enum: 3
+  :name: soy (us)
+a5868afb-2847-4596-998a-8c9d34c7ebaf: 
+  :enum: 2
+  :name: 2%
+9ae9456f-0595-45b3-bb83-794c33e3edea: 
+  :enum: 1
+  :name: whole
+99f9e016-e7f3-4cf1-a6ce-2d74c15cd00c: 
+  :enum: 3
+  :name: solo
+8c5065e7-68c7-4ea6-9f49-db62ed888519: 
+  :enum: 4
+  :name: soy (cd)
+c446800f-0d30-4b24-89fb-26695827d534: 
+  :enum: 0
+  :name: nonfat

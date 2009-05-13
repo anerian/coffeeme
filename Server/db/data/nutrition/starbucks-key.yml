@@ -1,0 +1,27 @@
+--- 
+:milks: 
+- :value: c446800f-0d30-4b24-89fb-26695827d534
+  :name: Nonfat
+- :value: 9ae9456f-0595-45b3-bb83-794c33e3edea
+  :name: Whole
+- :value: a5868afb-2847-4596-998a-8c9d34c7ebaf
+  :name: 2%
+- :value: c132c29e-468d-43e9-bf0a-951f5baac5f9
+  :name: Soy (US)
+- :value: 8c5065e7-68c7-4ea6-9f49-db62ed888519
+  :name: Soy (CD)
+:sizes: 
+- :value: 8a99d8f8-5d5b-432b-b295-cc00a38d215b
+  :name: Tall
+- :value: 552984f2-9dab-4b36-a38a-88600019ad0f
+  :name: Grande
+- :value: 589a09fc-1d10-4006-af15-dc3d4512a5ab
+  :name: "Venti\xAE"
+- :value: 99f9e016-e7f3-4cf1-a6ce-2d74c15cd00c
+  :name: Solo
+- :value: 5c13e86d-0615-44f5-8497-5ebe6fe9ed96
+  :name: Doppio
+- :value: 0b9e8ced-2321-41a0-9f6a-ddcb20170824
+  :name: Short
+:category: cefe1de0-7395-4fe6-acf3-61ebb884a380
+:subcategory: ""
