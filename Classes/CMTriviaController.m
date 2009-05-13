@@ -18,28 +18,23 @@
 
 - (void)loadView {
     self.view = [[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
-    [[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / kAccelerometerFrequency)];
-    [[UIAccelerometer sharedAccelerometer] setDelegate:self];
- 
-    [[NSNotificationCenter defaultCenter] addObserver:self 
-                                             selector:@selector(storesReceived:) 
-                                                 name:@"stores:received" 
-                                               object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self 
-                                             selector:@selector(locationUpdated:) 
-                                                 name:@"location:updated" 
-                                               object:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    [self refresh];
     [super viewWillAppear:animated];
+    [self refresh];
+    
+    [[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / kAccelerometerFrequency)];
+    [[UIAccelerometer sharedAccelerometer] setDelegate:self];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [[UIAccelerometer sharedAccelerometer] setDelegate:nil];
 }
 
 - (void)refresh {
     [((CMTriviaView*)self.view) updateTrivia];
 }
-
 
 /*
 // Override to allow orientations other than the default portrait orientation.
