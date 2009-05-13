@@ -10,9 +10,12 @@
 
 @interface CoffeeMeAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
     UIWindow *window_;
+    UIImageView *splash_;
     UITabBarController *tabBarController_;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+
+- (void)startupAnimationDone:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context;
 
 @end

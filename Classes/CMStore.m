@@ -51,7 +51,7 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     
     UILabel *lblStore = [self labelForFrame:CGRectMake(70, 10, 250, 20) withText:[[self class] storeNameForCode:[self type]] withFontSize:16];
     lblStore.textColor = HexToUIColor(0x56523c);
-    UILabel *lblStreet = [self labelForFrame:CGRectMake(70, 30, 250, 40) withText:[self address] withFontSize:14];
+    UILabel *lblStreet = [self labelForFrame:CGRectMake(70, 30, 250, 40) withText:[[[self address] copy] autorelease] withFontSize:14];
     lblStreet.numberOfLines = 2;
     UILabel *lblDistance = [self labelForFrame:CGRectMake(70, 70, 230, 20) withText:[NSString stringWithFormat:@"%@ %@", [self formattedDistance], [self bearing]] withFontSize:12];
     

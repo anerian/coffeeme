@@ -44,6 +44,24 @@
     tabBarController_.viewControllers = viewControllers;
     
     [window_ addSubview:tabBarController_.view];
+    
+    splash_ = [[UIImageView alloc] initWithFrame:CGRectMake(0,0, 320, 480)];
+    splash_.image = [UIImage imageNamed:@"Default.png"];
+    [window_ addSubview:splash_];
+    [window_ bringSubviewToFront:splash_];
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1];
+    [UIView setAnimationTransition:UIViewAnimationTransitionNone forView:window_ cache:YES];
+    [UIView setAnimationDelegate:self]; 
+    [UIView setAnimationDidStopSelector:@selector(startupAnimationDone:finished:context:)];
+    splash_.alpha = 0.0;
+    splash_.frame = CGRectMake(-60, -60, 440, 600);
+    [UIView commitAnimations];
+}
+
+- (void)startupAnimationDone:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context {
+    [splash_ removeFromSuperview];
+    [splash_ release];
 }
 
 

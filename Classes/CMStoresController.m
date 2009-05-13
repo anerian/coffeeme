@@ -57,8 +57,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"super view: %@", [self.view window]);
-    modal_ = [[[CMModalView alloc] initWithWindow:[self.navigationController.view window]] retain];
+    modal_ = [[[CMModalView alloc] initWithWindow:[self tableView]] retain];
 
     UIImageView *top = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
     top.image = [UIImage imageNamed:@"bg-shadow-top.png"];

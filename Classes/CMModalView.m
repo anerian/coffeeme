@@ -18,10 +18,10 @@
 @implementation CMModalView
 
 - (id)initWithWindow:(UIView *)window {
-    if (self = [super initWithFrame:window.frame]) {
+    if (self = [super initWithFrame:window.bounds]) {
         window_ = window;
         
-        background_ = [[[UIView alloc] initWithFrame:window.frame] autorelease];
+        background_ = [[[UIView alloc] initWithFrame:self.frame] autorelease];
         background_.backgroundColor = [UIColor blackColor];
         background_.alpha = 0.8;
         
@@ -39,6 +39,7 @@
     
     if (shouldShow) {
         [window_ addSubview:self];
+        [window_ bringSubviewToFront:self];
         cup_.alpha = 0;
         background_.alpha = 0;
         
