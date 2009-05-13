@@ -10,60 +10,64 @@
 #import "CMStoresController.h"
 #import "CMStore.h"
 
-#define kAccelerometerFrequency      25
-#define kFilteringFactor             0.1
-#define kMinEraseInterval            0.5
-#define kEraseAccelerationThreshold  2.0
-
 @implementation CMStoresController
 
+@synthesize tableView = tableView_;
+
 - (id)initWithStyle:(UITableViewStyle)style {
-    if (self = [super initWithStyle:style]) {
+    if (self = [super init]) {
         isLoading_ = NO;
         isDirty_ = YES;
-        
-        
-        [[NSNotificationCenter defaultCenter] addObserver:self 
-                                                 selector:@selector(storesReceived:) 
-                                                     name:@"stores:received" 
-                                                   object:nil];
-        [[NSNotificationCenter defaultCenter] addObserver:self 
-                                                 selector:@selector(locationUpdated:) 
-                                                     name:@"location:updated" 
-                                                   object:nil];
     }
     return self;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    
     if (!stores_) {
         [self refresh];
     }
     
-    [[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / kAccelerometerFrequency)];
-    [[UIAccelerometer sharedAccelerometer] setDelegate:self];
+    [[NSNotificationCenter defaultCenter] addObserver:self 
+                                             selector:@selector(storesReceived:) 
+                                                 name:@"stores:received" 
+                                               object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self 
+                                             selector:@selector(locationUpdated:) 
+                                                 name:@"location:updated" 
+                                               object:nil];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
-    [[UIAccelerometer sharedAccelerometer] setDelegate:nil];
+    [super viewWillDisappear:animated];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self 
+                                                    name:@"stores:received" 
+                                                  object:nil];
+                                                  
+    [[NSNotificationCenter defaultCenter] removeObserver:self 
+                                                    name:@"location:updated" 
+                                                  object:nil];
 }
 
 - (void)loadView {
     [super loadView];
-
+    UITableView *tableView = [[[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain] autorelease];
+    self.view = tableView;
+    self.tableView = tableView;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    modal_ = [[[CMModalView alloc] initWithWindow:[self tableView]] retain];
-
     UIImageView *top = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
     top.image = [UIImage imageNamed:@"bg-shadow-top.png"];
     UIImageView *btm = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
     btm.image = [UIImage imageNamed:@"bg-shadow-bottom.png"];
 
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
     self.tableView.contentInset = UIEdgeInsetsMake(-20, 0, 0, 0);
     self.tableView.tableHeaderView = top;
     self.tableView.tableFooterView = btm;
@@ -75,14 +79,8 @@
         [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh 
                                                        target:self 
                                                        action:@selector(refresh)] autorelease];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
-
-- (void)viewDidUnload {
-    
+                                                       
+    modal_ = [[[CMModalView alloc] initWithWindow:self.view] retain];
 }
 
 - (void)dealloc {
@@ -178,26 +176,8 @@
     [modal_ show:YES];
 }
 
-#pragma mark UIAccelerometerDelegate methods
-
-- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
-    UIAccelerationValue length, x, y, z;
-    
-    UIAccelerationValue myAccelerometer[3];
-    myAccelerometer[0] = acceleration.x * kFilteringFactor + myAccelerometer[0] * (1.0 - kFilteringFactor);
-    myAccelerometer[1] = acceleration.y * kFilteringFactor + myAccelerometer[1] * (1.0 - kFilteringFactor);
-    myAccelerometer[2] = acceleration.z * kFilteringFactor + myAccelerometer[2] * (1.0 - kFilteringFactor);
-
-    x = acceleration.x - myAccelerometer[0];
-    y = acceleration.y - myAccelerometer[0];
-    z = acceleration.z - myAccelerometer[0];
-    
-    length = sqrt(x * x + y * y + z * z);
-    
-    if ((length >= kEraseAccelerationThreshold) && (CFAbsoluteTimeGetCurrent() > lastShake_ + kMinEraseInterval)) {    
-        lastShake_ = CFAbsoluteTimeGetCurrent();
-        [self refresh];
-    }
+- (void)userDidShake {
+    [self refresh];
 }
 
 @end
