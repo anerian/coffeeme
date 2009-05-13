@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -292,7 +292,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {346, 760}}</string>
+							<string>{{0, 566}, {346, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -308,8 +308,6 @@
 							<string>MainColumn</string>
 							<real>346</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>0 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -320,14 +318,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CMBaseController.m</string>
+								<string>CMBaseController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -335,11 +331,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CMBaseController.m</string>
+										<string>CMBaseController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39868B7E0FBB2411006E151C</string>
+										<string>39868BA10FBB36A6006E151C</string>
 										<key>history</key>
 										<array>
 											<string>397D74880FB24E8D00ACE161</string>
@@ -381,8 +377,8 @@
 											<string>39868A8F0FBA2D10006E151C</string>
 											<string>39868A910FBA2D10006E151C</string>
 											<string>39868B530FBB1E07006E151C</string>
-											<string>39868B540FBB1E07006E151C</string>
-											<string>39868B730FBB2388006E151C</string>
+											<string>39868B920FBB354D006E151C</string>
+											<string>39868B930FBB354D006E151C</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -426,6 +422,7 @@
 											<string>39868A940FBA2D10006E151C</string>
 											<string>39868B560FBB1E07006E151C</string>
 											<string>39868B570FBB1E07006E151C</string>
+											<string>39868B940FBB354D006E151C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -440,8 +437,6 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {1072, 613}}</string>
-								<key>RubberWindowFrame</key>
-								<string>0 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -519,8 +514,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1072, 133}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -602,6 +595,8 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1440, 527}}</string>
+						<key>RubberWindowFrame</key>
+						<string>0 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -676,7 +671,11 @@
 							</array>
 							<key>Frame</key>
 							<string>{{703, 0}, {737, 125}}</string>
+							<key>RubberWindowFrame</key>
+							<string>0 59 1440 819 0 0 1440 878 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>0 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -736,6 +735,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>39868BA20FBB36A6006E151C</string>
 		<string>39868B120FBA43A7006E151C</string>
 		<string>39868B130FBA43A7006E151C</string>
 		<string>/Users/min/workspace/anerian/github/coffeeme/CoffeeMe.xcodeproj</string>

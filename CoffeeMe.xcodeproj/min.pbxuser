@@ -23,7 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 397D74710FB23DF000ACE161 /* CoffeeMe */;
-		activeSDKPreference = iphonesimulator2.2.1;
+		activeSDKPreference = iphoneos2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CoffeeMe */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* CoffeeMe */,
@@ -749,6 +749,19 @@
 			39868B740FBB238C006E151C /* PBXTextBookmark */ = 39868B740FBB238C006E151C /* PBXTextBookmark */;
 			39868B7A0FBB23CF006E151C /* PBXTextBookmark */ = 39868B7A0FBB23CF006E151C /* PBXTextBookmark */;
 			39868B7E0FBB2411006E151C /* PBXTextBookmark */ = 39868B7E0FBB2411006E151C /* PBXTextBookmark */;
+			39868B890FBB33E5006E151C /* PBXTextBookmark */ = 39868B890FBB33E5006E151C /* PBXTextBookmark */;
+			39868B8A0FBB33E6006E151C /* PBXTextBookmark */ = 39868B8A0FBB33E6006E151C /* PBXTextBookmark */;
+			39868B8E0FBB34BC006E151C /* PBXTextBookmark */ = 39868B8E0FBB34BC006E151C /* PBXTextBookmark */;
+			39868B8F0FBB34BF006E151C /* PBXTextBookmark */ = 39868B8F0FBB34BF006E151C /* PBXTextBookmark */;
+			39868B920FBB354D006E151C /* PBXTextBookmark */ = 39868B920FBB354D006E151C /* PBXTextBookmark */;
+			39868B930FBB354D006E151C /* PBXTextBookmark */ = 39868B930FBB354D006E151C /* PBXTextBookmark */;
+			39868B940FBB354D006E151C /* PBXTextBookmark */ = 39868B940FBB354D006E151C /* PBXTextBookmark */;
+			39868B950FBB354D006E151C /* PBXTextBookmark */ = 39868B950FBB354D006E151C /* PBXTextBookmark */;
+			39868B970FBB35C0006E151C /* PBXTextBookmark */ = 39868B970FBB35C0006E151C /* PBXTextBookmark */;
+			39868B9B0FBB3625006E151C /* PBXTextBookmark */ = 39868B9B0FBB3625006E151C /* PBXTextBookmark */;
+			39868B9C0FBB3626006E151C /* PBXTextBookmark */ = 39868B9C0FBB3626006E151C /* PBXTextBookmark */;
+			39868B9D0FBB3626006E151C /* PBXTextBookmark */ = 39868B9D0FBB3626006E151C /* PBXTextBookmark */;
+			39868BA10FBB36A6006E151C /* PBXTextBookmark */ = 39868BA10FBB36A6006E151C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 397D74810FB23DFA00ACE161 /* Source Control */;
 		userBuildSettings = {
@@ -6765,16 +6778,16 @@
 	};
 	39868B4A0FBB1A2C006E151C /* CMBaseController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 581}}";
-			sepNavSelRange = "{398, 0}";
-			sepNavVisRange = "{0, 398}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 558}}";
+			sepNavSelRange = "{423, 0}";
+			sepNavVisRange = "{0, 423}";
 		};
 	};
 	39868B4B0FBB1A2C006E151C /* CMBaseController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1760}}";
-			sepNavSelRange = "{2860, 0}";
-			sepNavVisRange = "{1730, 1126}";
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 1760}}";
+			sepNavSelRange = "{3005, 0}";
+			sepNavVisRange = "{2264, 437}";
 		};
 	};
 	39868B530FBB1E07006E151C /* PBXTextBookmark */ = {
@@ -6974,5 +6987,133 @@
 		rType = 0;
 		vrLen = 1126;
 		vrLoc = 1730;
+	};
+	39868B890FBB33E5006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4B0FBB1A2C006E151C /* CMBaseController.m */;
+		name = "CMBaseController.m: 110";
+		rLen = 0;
+		rLoc = 2860;
+		rType = 0;
+		vrLen = 1126;
+		vrLoc = 1730;
+	};
+	39868B8A0FBB33E6006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4B0FBB1A2C006E151C /* CMBaseController.m */;
+		name = "CMBaseController.m: 110";
+		rLen = 0;
+		rLoc = 2860;
+		rType = 0;
+		vrLen = 1125;
+		vrLoc = 1730;
+	};
+	39868B8E0FBB34BC006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4B0FBB1A2C006E151C /* CMBaseController.m */;
+		name = "CMBaseController.m: 113";
+		rLen = 0;
+		rLoc = 2977;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 2379;
+	};
+	39868B8F0FBB34BF006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4B0FBB1A2C006E151C /* CMBaseController.m */;
+		name = "CMBaseController.m: 113";
+		rLen = 0;
+		rLoc = 2977;
+		rType = 0;
+		vrLen = 1130;
+		vrLoc = 1847;
+	};
+	39868B920FBB354D006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4B0FBB1A2C006E151C /* CMBaseController.m */;
+		name = "CMBaseController.m: 113";
+		rLen = 0;
+		rLoc = 2977;
+		rType = 0;
+		vrLen = 1130;
+		vrLoc = 1847;
+	};
+	39868B930FBB354D006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: syntax error before ‘CoffeeMeAppDelegate’";
+		fRef = 39868B4A0FBB1A2C006E151C /* CMBaseController.h */;
+		rLen = 1;
+		rLoc = 20;
+		rType = 1;
+	};
+	39868B940FBB354D006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4B0FBB1A2C006E151C /* CMBaseController.m */;
+		name = "CMBaseController.m: 113";
+		rLen = 0;
+		rLoc = 2977;
+		rType = 0;
+		vrLen = 1130;
+		vrLoc = 1847;
+	};
+	39868B950FBB354D006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4A0FBB1A2C006E151C /* CMBaseController.h */;
+		name = "CMBaseController.h: 21";
+		rLen = 0;
+		rLoc = 418;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 0;
+	};
+	39868B970FBB35C0006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4A0FBB1A2C006E151C /* CMBaseController.h */;
+		name = "CMBaseController.h: 23";
+		rLen = 0;
+		rLoc = 398;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	39868B9B0FBB3625006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4A0FBB1A2C006E151C /* CMBaseController.h */;
+		name = "CMBaseController.h: 24";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	39868B9C0FBB3626006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4A0FBB1A2C006E151C /* CMBaseController.h */;
+		name = "CMBaseController.h: 24";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	39868B9D0FBB3626006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4A0FBB1A2C006E151C /* CMBaseController.h */;
+		name = "CMBaseController.h: 24";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	39868BA10FBB36A6006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4A0FBB1A2C006E151C /* CMBaseController.h */;
+		name = "CMBaseController.h: 24";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
 	};
 }

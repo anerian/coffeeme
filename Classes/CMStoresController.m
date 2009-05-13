@@ -80,7 +80,7 @@
                                                        target:self 
                                                        action:@selector(refresh)] autorelease];
                                                        
-    modal_ = [[[CMModalView alloc] initWithWindow:self.view] retain];
+    modal_ = [[[CMModalView alloc] initWithWindow:[self appWindow]] retain];
 }
 
 - (void)dealloc {

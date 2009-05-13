@@ -7,6 +7,7 @@
 //
 
 #import "CMBaseController.h"
+#import "CoffeeMeAppDelegate.h"
 
 static const int   kAccelerometerFrequency = 25; //Hz
 static const float kFilteringFactor = 0.1;
@@ -68,7 +69,6 @@ static const float kEraseAccelerationThreshold = 3.0;
 }
 
 - (void)userDidShake {
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -86,6 +86,10 @@ static const float kEraseAccelerationThreshold = 3.0;
 
 - (void)dealloc {
     [super dealloc];
+}
+
+- (UIWindow *)appWindow {
+    return [(CoffeeMeAppDelegate *)[[UIApplication sharedApplication] delegate] window];
 }
 
 #pragma mark UIAccelerometerDelegate methods

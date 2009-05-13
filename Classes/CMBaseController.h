@@ -18,5 +18,6 @@
 @property(nonatomic) BOOL supportsShake;
 
 - (void)userDidShake;
+- (UIWindow *)appWindow;
 
 @end
