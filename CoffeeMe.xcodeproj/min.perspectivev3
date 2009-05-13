@@ -335,7 +335,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39868BA10FBB36A6006E151C</string>
+										<string>39868BAC0FBB39D4006E151C</string>
 										<key>history</key>
 										<array>
 											<string>397D74880FB24E8D00ACE161</string>
@@ -735,7 +735,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>39868BA20FBB36A6006E151C</string>
 		<string>39868B120FBA43A7006E151C</string>
 		<string>39868B130FBA43A7006E151C</string>
 		<string>/Users/min/workspace/anerian/github/coffeeme/CoffeeMe.xcodeproj</string>

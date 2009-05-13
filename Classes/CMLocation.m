@@ -35,6 +35,7 @@ static CMLocation *instance;
     if (self = [super init]) {
         self.currentLocation = [[CLLocation alloc] init];
         locationManager = [[CLLocationManager alloc] init];
+        locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
         locationManager.delegate = self;
         [self start];
     }

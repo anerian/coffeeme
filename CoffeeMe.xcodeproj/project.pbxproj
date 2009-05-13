@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09DBB88E0FBA3A53005357D6 /* trivia-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 09DBB88D0FBA3A53005357D6 /* trivia-bg.png */; };
 		1D3623260D0F684500981E51 /* CoffeeMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -15,7 +14,6 @@
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		397D74850FB23E5C00ACE161 /* coffeeme.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */; };
-		397D74930FB24E9700ACE161 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 397D74920FB24E9700ACE161 /* Default.png */; };
 		397D74A40FB24EF900ACE161 /* CMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74A30FB24EF900ACE161 /* CMStore.m */; };
 		397D74AD0FB250F400ACE161 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74A80FB250F400ACE161 /* FMDatabase.m */; };
 		397D74AE0FB250F400ACE161 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74AA0FB250F400ACE161 /* FMDatabaseAdditions.m */; };
@@ -23,36 +21,25 @@
 		397D74B40FB2519100ACE161 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */; };
 		397D74D70FB257B600ACE161 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74D60FB257B600ACE161 /* MyCLController.m */; };
 		397D74D90FB2585B00ACE161 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74D80FB2585B00ACE161 /* CoreLocation.framework */; };
-		397D74EE0FB25B0400ACE161 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 397D74ED0FB25B0400ACE161 /* app_icon.png */; };
 		397D751D0FB2A52700ACE161 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D751C0FB2A52700ACE161 /* QuartzCore.framework */; };
 		398681040FB336D6006E151C /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 398681030FB336D3006E151C /* libThree20.a */; };
 		398681080FB33720006E151C /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 398681070FB33720006E151C /* Three20.bundle */; };
 		398681750FB35297006E151C /* CMStoresController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398681740FB35297006E151C /* CMStoresController.m */; };
 		398681780FB352A6006E151C /* CMTriviaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398681770FB352A6006E151C /* CMTriviaController.m */; };
 		3986817B0FB352BB006E151C /* CMNutritionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986817A0FB352BB006E151C /* CMNutritionController.m */; };
-		398682970FB47075006E151C /* starbucks.png in Resources */ = {isa = PBXBuildFile; fileRef = 398682960FB47075006E151C /* starbucks.png */; };
 		398682A10FB48050006E151C /* CMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682A00FB48050006E151C /* CMModel.m */; };
 		398682A90FB48213006E151C /* CMTrivia.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682A80FB48213006E151C /* CMTrivia.m */; };
 		398682DF0FB4A386006E151C /* CMStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 398682DE0FB4A386006E151C /* CMStoreCell.m */; };
-		398683230FB4B424006E151C /* cup-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683200FB4B424006E151C /* cup-0.png */; };
-		398683240FB4B424006E151C /* cup-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683210FB4B424006E151C /* cup-1.png */; };
-		398683250FB4B424006E151C /* cup-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 398683220FB4B424006E151C /* cup-2.png */; };
 		398684BE0FB5AA5B006E151C /* CMModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398684BD0FB5AA5B006E151C /* CMModalView.m */; };
-		3986854D0FB7ACC8006E151C /* cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986854C0FB7ACC8006E151C /* cup.png */; };
-		3986855A0FB858BE006E151C /* navbar-coffeeme.png in Resources */ = {isa = PBXBuildFile; fileRef = 398685590FB858BE006E151C /* navbar-coffeeme.png */; };
 		398685700FB85AEE006E151C /* CMDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986856F0FB85AEE006E151C /* CMDetailController.m */; };
 		3986863B0FB88FFD006E151C /* NSNotificationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986863A0FB88FFD006E151C /* NSNotificationAdditions.m */; };
 		3986864A0FB89381006E151C /* CMDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398686490FB89381006E151C /* CMDetailView.m */; };
 		398686C30FB8C96B006E151C /* CMTriviaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398686C20FB8C96B006E151C /* CMTriviaView.m */; };
-		398687E80FB91373006E151C /* bg-trivia.png in Resources */ = {isa = PBXBuildFile; fileRef = 398687E70FB91373006E151C /* bg-trivia.png */; };
-		398688E30FB94296006E151C /* bg-shadow-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 398688E20FB94296006E151C /* bg-shadow-top.png */; };
-		398688F80FB9459A006E151C /* bg-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 398688F70FB9459A006E151C /* bg-cell.png */; };
-		398688FB0FB945ED006E151C /* bg-shadow-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 398688FA0FB945ED006E151C /* bg-shadow-bottom.png */; };
-		398689770FB9C8BD006E151C /* pin-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 398689760FB9C8BD006E151C /* pin-orange.png */; };
-		3986897D0FB9CC25006E151C /* pin-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986897C0FB9CC25006E151C /* pin-blue.png */; };
 		398689A70FB9D000006E151C /* CMMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398689A60FB9D000006E151C /* CMMapView.m */; };
 		39868A850FBA2A0A006E151C /* CMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868A840FBA2A0A006E151C /* CMLocation.m */; };
 		39868B4C0FBB1A2C006E151C /* CMBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868B4B0FBB1A2C006E151C /* CMBaseController.m */; };
+		39868BB20FBB3A33006E151C /* CMSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868BB10FBB3A33006E151C /* CMSettingsController.m */; };
+		39868BC40FBB3A7E006E151C /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 39868BB30FBB3A7E006E151C /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +60,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09DBB88D0FBA3A53005357D6 /* trivia-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trivia-bg.png"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* CoffeeMeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeMeAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeMeAppDelegate.m; sourceTree = "<group>"; };
@@ -84,7 +70,6 @@
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffeeme.sqlite3; sourceTree = SOURCE_ROOT; };
-		397D74920FB24E9700ACE161 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
 		397D74A20FB24EF900ACE161 /* CMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStore.h; sourceTree = "<group>"; };
 		397D74A30FB24EF900ACE161 /* CMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStore.m; sourceTree = "<group>"; };
 		397D74A70FB250F400ACE161 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = Libraries/FMDB/FMDatabase.h; sourceTree = SOURCE_ROOT; };
@@ -97,7 +82,6 @@
 		397D74D50FB257B600ACE161 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
 		397D74D60FB257B600ACE161 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
 		397D74D80FB2585B00ACE161 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = SOURCE_ROOT; };
-		397D74ED0FB25B0400ACE161 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = SOURCE_ROOT; };
 		397D751C0FB2A52700ACE161 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = SOURCE_ROOT; };
 		398680F90FB336D3006E151C /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20.xcodeproj; sourceTree = "<group>"; };
 		398681070FB33720006E151C /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Three20.bundle; sourceTree = "<group>"; };
@@ -107,20 +91,14 @@
 		398681770FB352A6006E151C /* CMTriviaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTriviaController.m; sourceTree = "<group>"; };
 		398681790FB352BB006E151C /* CMNutritionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNutritionController.h; sourceTree = "<group>"; };
 		3986817A0FB352BB006E151C /* CMNutritionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNutritionController.m; sourceTree = "<group>"; };
-		398682960FB47075006E151C /* starbucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks.png; sourceTree = "<group>"; };
 		3986829F0FB48050006E151C /* CMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMModel.h; sourceTree = "<group>"; };
 		398682A00FB48050006E151C /* CMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMModel.m; sourceTree = "<group>"; };
 		398682A70FB48213006E151C /* CMTrivia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTrivia.h; sourceTree = "<group>"; };
 		398682A80FB48213006E151C /* CMTrivia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTrivia.m; sourceTree = "<group>"; };
 		398682DD0FB4A386006E151C /* CMStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStoreCell.h; sourceTree = "<group>"; };
 		398682DE0FB4A386006E151C /* CMStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStoreCell.m; sourceTree = "<group>"; };
-		398683200FB4B424006E151C /* cup-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-0.png"; sourceTree = "<group>"; };
-		398683210FB4B424006E151C /* cup-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-1.png"; sourceTree = "<group>"; };
-		398683220FB4B424006E151C /* cup-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-2.png"; sourceTree = "<group>"; };
 		398684BC0FB5AA5B006E151C /* CMModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMModalView.h; sourceTree = "<group>"; };
 		398684BD0FB5AA5B006E151C /* CMModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMModalView.m; sourceTree = "<group>"; };
-		3986854C0FB7ACC8006E151C /* cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup.png; sourceTree = "<group>"; };
-		398685590FB858BE006E151C /* navbar-coffeeme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-coffeeme.png"; sourceTree = "<group>"; };
 		3986856E0FB85AEE006E151C /* CMDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDetailController.h; sourceTree = "<group>"; };
 		3986856F0FB85AEE006E151C /* CMDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDetailController.m; sourceTree = "<group>"; };
 		398686390FB88FFD006E151C /* NSNotificationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificationAdditions.h; sourceTree = "<group>"; };
@@ -129,18 +107,15 @@
 		398686490FB89381006E151C /* CMDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDetailView.m; sourceTree = "<group>"; };
 		398686C10FB8C96B006E151C /* CMTriviaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTriviaView.h; sourceTree = "<group>"; };
 		398686C20FB8C96B006E151C /* CMTriviaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTriviaView.m; sourceTree = "<group>"; };
-		398687E70FB91373006E151C /* bg-trivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-trivia.png"; sourceTree = "<group>"; };
-		398688E20FB94296006E151C /* bg-shadow-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-shadow-top.png"; sourceTree = "<group>"; };
-		398688F70FB9459A006E151C /* bg-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-cell.png"; sourceTree = "<group>"; };
-		398688FA0FB945ED006E151C /* bg-shadow-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-shadow-bottom.png"; sourceTree = "<group>"; };
-		398689760FB9C8BD006E151C /* pin-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin-orange.png"; sourceTree = "<group>"; };
-		3986897C0FB9CC25006E151C /* pin-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin-blue.png"; sourceTree = "<group>"; };
 		398689A50FB9D000006E151C /* CMMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapView.h; sourceTree = "<group>"; };
 		398689A60FB9D000006E151C /* CMMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapView.m; sourceTree = "<group>"; };
 		39868A830FBA2A0A006E151C /* CMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMLocation.h; sourceTree = "<group>"; };
 		39868A840FBA2A0A006E151C /* CMLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMLocation.m; sourceTree = "<group>"; };
 		39868B4A0FBB1A2C006E151C /* CMBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBaseController.h; sourceTree = "<group>"; };
 		39868B4B0FBB1A2C006E151C /* CMBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBaseController.m; sourceTree = "<group>"; };
+		39868BB00FBB3A33006E151C /* CMSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSettingsController.h; sourceTree = "<group>"; };
+		39868BB10FBB3A33006E151C /* CMSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSettingsController.m; sourceTree = "<group>"; };
+		39868BB30FBB3A7E006E151C /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,21 +188,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				09DBB88D0FBA3A53005357D6 /* trivia-bg.png */,
-				3986897C0FB9CC25006E151C /* pin-blue.png */,
-				398689760FB9C8BD006E151C /* pin-orange.png */,
-				398688F70FB9459A006E151C /* bg-cell.png */,
-				398688FA0FB945ED006E151C /* bg-shadow-bottom.png */,
-				398688E20FB94296006E151C /* bg-shadow-top.png */,
-				398687E70FB91373006E151C /* bg-trivia.png */,
-				398685590FB858BE006E151C /* navbar-coffeeme.png */,
-				3986854C0FB7ACC8006E151C /* cup.png */,
-				398683200FB4B424006E151C /* cup-0.png */,
-				398683210FB4B424006E151C /* cup-1.png */,
-				398683220FB4B424006E151C /* cup-2.png */,
-				398682960FB47075006E151C /* starbucks.png */,
-				397D74ED0FB25B0400ACE161 /* app_icon.png */,
-				397D74920FB24E9700ACE161 /* Default.png */,
+				39868BB30FBB3A7E006E151C /* Images */,
 				397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */,
@@ -306,6 +267,8 @@
 				3986856F0FB85AEE006E151C /* CMDetailController.m */,
 				39868B4A0FBB1A2C006E151C /* CMBaseController.h */,
 				39868B4B0FBB1A2C006E151C /* CMBaseController.m */,
+				39868BB00FBB3A33006E151C /* CMSettingsController.h */,
+				39868BB10FBB3A33006E151C /* CMSettingsController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -388,22 +351,8 @@
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
 				397D74850FB23E5C00ACE161 /* coffeeme.sqlite3 in Resources */,
-				397D74930FB24E9700ACE161 /* Default.png in Resources */,
-				397D74EE0FB25B0400ACE161 /* app_icon.png in Resources */,
 				398681080FB33720006E151C /* Three20.bundle in Resources */,
-				398682970FB47075006E151C /* starbucks.png in Resources */,
-				398683230FB4B424006E151C /* cup-0.png in Resources */,
-				398683240FB4B424006E151C /* cup-1.png in Resources */,
-				398683250FB4B424006E151C /* cup-2.png in Resources */,
-				3986854D0FB7ACC8006E151C /* cup.png in Resources */,
-				3986855A0FB858BE006E151C /* navbar-coffeeme.png in Resources */,
-				398687E80FB91373006E151C /* bg-trivia.png in Resources */,
-				398688E30FB94296006E151C /* bg-shadow-top.png in Resources */,
-				398688F80FB9459A006E151C /* bg-cell.png in Resources */,
-				398688FB0FB945ED006E151C /* bg-shadow-bottom.png in Resources */,
-				398689770FB9C8BD006E151C /* pin-orange.png in Resources */,
-				3986897D0FB9CC25006E151C /* pin-blue.png in Resources */,
-				09DBB88E0FBA3A53005357D6 /* trivia-bg.png in Resources */,
+				39868BC40FBB3A7E006E151C /* Images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +384,7 @@
 				398689A70FB9D000006E151C /* CMMapView.m in Sources */,
 				39868A850FBA2A0A006E151C /* CMLocation.m in Sources */,
 				39868B4C0FBB1A2C006E151C /* CMBaseController.m in Sources */,
+				39868BB20FBB3A33006E151C /* CMSettingsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

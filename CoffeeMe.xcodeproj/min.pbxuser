@@ -23,7 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 397D74710FB23DF000ACE161 /* CoffeeMe */;
-		activeSDKPreference = iphoneos2.2.1;
+		activeSDKPreference = iphonesimulator2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CoffeeMe */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* CoffeeMe */,
@@ -762,6 +762,10 @@
 			39868B9C0FBB3626006E151C /* PBXTextBookmark */ = 39868B9C0FBB3626006E151C /* PBXTextBookmark */;
 			39868B9D0FBB3626006E151C /* PBXTextBookmark */ = 39868B9D0FBB3626006E151C /* PBXTextBookmark */;
 			39868BA10FBB36A6006E151C /* PBXTextBookmark */ = 39868BA10FBB36A6006E151C /* PBXTextBookmark */;
+			39868BAC0FBB39D4006E151C /* PBXTextBookmark */ = 39868BAC0FBB39D4006E151C /* PBXTextBookmark */;
+			39868BAD0FBB3A24006E151C /* PBXTextBookmark */ = 39868BAD0FBB3A24006E151C /* PBXTextBookmark */;
+			39868BAE0FBB3A24006E151C /* PBXTextBookmark */ = 39868BAE0FBB3A24006E151C /* PBXTextBookmark */;
+			39868BAF0FBB3A24006E151C /* PBXTextBookmark */ = 39868BAF0FBB3A24006E151C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 397D74810FB23DFA00ACE161 /* Source Control */;
 		userBuildSettings = {
@@ -824,6 +828,13 @@
 		vrLen = 259;
 		vrLoc = 0;
 	};
+	397D74920FB24E9700ACE161 /* Default.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = Default.png;
+		path = /Users/min/workspace/anerian/github/coffeeme/Default.png;
+		sourceTree = "<absolute>";
+	};
 	397D749D0FB24ED200ACE161 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 397D74920FB24E9700ACE161 /* Default.png */;
@@ -876,9 +887,9 @@
 	};
 	397D74D50FB257B600ACE161 /* MyCLController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1379, 308}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 581}}";
 			sepNavSelRange = "{265, 0}";
-			sepNavVisRange = "{44, 460}";
+			sepNavVisRange = "{0, 664}";
 		};
 	};
 	397D74D60FB257B600ACE161 /* MyCLController.m */ = {
@@ -1663,6 +1674,13 @@
 		vrLen = 939;
 		vrLoc = 1666;
 	};
+	398682960FB47075006E151C /* starbucks.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = starbucks.png;
+		path = /Users/min/workspace/anerian/github/coffeeme/starbucks.png;
+		sourceTree = "<absolute>";
+	};
 	3986829F0FB48050006E151C /* CMModel.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 644}}";
@@ -1830,6 +1848,27 @@
 		lastKnownFileType = image.png;
 		name = "bg-cell.png";
 		path = "/Users/min/workspace/anerian/github/coffeeme/bg-cell.png";
+		sourceTree = "<absolute>";
+	};
+	398683200FB4B424006E151C /* cup-0.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "cup-0.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/cup-0.png";
+		sourceTree = "<absolute>";
+	};
+	398683210FB4B424006E151C /* cup-1.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "cup-1.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/cup-1.png";
+		sourceTree = "<absolute>";
+	};
+	398683220FB4B424006E151C /* cup-2.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "cup-2.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/cup-2.png";
 		sourceTree = "<absolute>";
 	};
 	398683480FB4C492006E151C /* PBXTextBookmark */ = {
@@ -2250,6 +2289,20 @@
 		rType = 0;
 		vrLen = 703;
 		vrLoc = 406;
+	};
+	3986854C0FB7ACC8006E151C /* cup.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = cup.png;
+		path = /Users/min/workspace/anerian/github/coffeeme/cup.png;
+		sourceTree = "<absolute>";
+	};
+	398685590FB858BE006E151C /* navbar-coffeeme.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "navbar-coffeeme.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/navbar-coffeeme.png";
+		sourceTree = "<absolute>";
 	};
 	3986855C0FB8594E006E151C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -4261,6 +4314,13 @@
 		vrLen = 1569;
 		vrLoc = 4143;
 	};
+	398687E70FB91373006E151C /* bg-trivia.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "bg-trivia.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/bg-trivia.png";
+		sourceTree = "<absolute>";
+	};
 	398687F00FB914FF006E151C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
@@ -5313,6 +5373,13 @@
 		isa = PBXBookmark;
 		fRef = 398688D90FB940CA006E151C /* bg-cell.png */;
 	};
+	398688E20FB94296006E151C /* bg-shadow-top.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "bg-shadow-top.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/bg-shadow-top.png";
+		sourceTree = "<absolute>";
+	};
 	398688E60FB94457006E151C /* bg-cell.png */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = image.png;
@@ -5353,6 +5420,20 @@
 	398688F00FB944FB006E151C /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 398688E60FB94457006E151C /* bg-cell.png */;
+	};
+	398688F70FB9459A006E151C /* bg-cell.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "bg-cell.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/bg-cell.png";
+		sourceTree = "<absolute>";
+	};
+	398688FA0FB945ED006E151C /* bg-shadow-bottom.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "bg-shadow-bottom.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/bg-shadow-bottom.png";
+		sourceTree = "<absolute>";
 	};
 	398689000FB94A3E006E151C /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -5618,6 +5699,13 @@
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 23258;
+	};
+	3986897C0FB9CC25006E151C /* pin-blue.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "pin-blue.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/pin-blue.png";
+		sourceTree = "<absolute>";
 	};
 	398689810FB9CC98006E151C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -6778,7 +6866,7 @@
 	};
 	39868B4A0FBB1A2C006E151C /* CMBaseController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 581}}";
 			sepNavSelRange = "{423, 0}";
 			sepNavVisRange = "{0, 423}";
 		};
@@ -7115,5 +7203,45 @@
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 0;
+	};
+	39868BAC0FBB39D4006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4A0FBB1A2C006E151C /* CMBaseController.h */;
+		name = "CMBaseController.h: 24";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	39868BAD0FBB3A24006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4B0FBB1A2C006E151C /* CMBaseController.m */;
+		name = "CMBaseController.m: 114";
+		rLen = 0;
+		rLoc = 3005;
+		rType = 0;
+		vrLen = 437;
+		vrLoc = 2264;
+	};
+	39868BAE0FBB3A24006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4A0FBB1A2C006E151C /* CMBaseController.h */;
+		name = "CMBaseController.h: 24";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 95;
+		vrLoc = 328;
+	};
+	39868BAF0FBB3A24006E151C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868B4A0FBB1A2C006E151C /* CMBaseController.h */;
+		name = "CMBaseController.h: 24";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 95;
+		vrLoc = 328;
 	};
 }

@@ -18,6 +18,7 @@
     if (self = [super init]) {
         isLoading_ = NO;
         isDirty_ = YES;
+        self.supportsShake = YES;
     }
     return self;
 }
