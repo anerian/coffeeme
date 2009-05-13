@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "CMBaseController.h"
 #import "CMTrivia.h"
+#import "CMTriviaView.h"
 
 
 @interface CMTriviaController : CMBaseController {
-
+    CMTriviaView *triviaView_;
 }
 
 - (void)refresh;

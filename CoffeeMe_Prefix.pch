@@ -6,6 +6,7 @@
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
     #import <CoreLocation/CoreLocation.h>
+    #import <QuartzCore/CAAnimation.h>
     #import "Three20/Three20.h"
     
     @interface UIProgressHUD : NSObject
@@ -20,4 +21,10 @@
     #define DEG2RAD(degrees) (M_PI * degrees / 180)
     #define RAD2DEG(radians) (radians * 180 / M_PI)
     
+    #ifdef DEBUG
+    #define DLog(...) NSLog(__VA_ARGS__)
+    #else
+    #define DLog(...) /* */
+    #endif
+    #define ALog(...) NSLog(__VA_ARGS__)
 #endif

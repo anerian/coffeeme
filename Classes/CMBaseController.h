@@ -13,11 +13,16 @@
     BOOL supportsShake_;
     CFTimeInterval lastShake_;
 	UIAccelerationValue	accel_[3];
+    
+    float firstCalibrationReading_;
+    float currentRawReading_;
+    float calibrationOffset_;
 }
 
 @property(nonatomic) BOOL supportsShake;
 
 - (void)userDidShake;
+- (void)userDidRotate:(float)angle;
 - (UIWindow *)appWindow;
 
 @end

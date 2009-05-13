@@ -7,22 +7,33 @@
 //
 
 #import "CMTriviaController.h"
-#import "CMTriviaView.h"
 
 @implementation CMTriviaController
 
+- (id)init {
+    if (self = [super init]) {
+        triviaView_ = [[[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame] retain];
+    }
+    return self;
+}
+
 - (void)loadView {
-    self.view = [[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
+    self.view = triviaView_;
     self.supportsShake = YES;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self refresh];
+    [self refresh];    
 }
 
 - (void)userDidShake {
+
     [self refresh];
+}
+
+- (void)userDidRotate:(float)angle {
+    [triviaView_ rotate:angle-90];
 }
 
 - (void)refresh {
@@ -30,6 +41,7 @@
 }
 
 - (void)dealloc {
+    [triviaView_ release];
     [super dealloc];
 }
 

@@ -9,11 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "CMTrivia.h"
 
-@interface CMTriviaView : UIImageView {
-  UILabel *label_;
+@interface CMTriviaView : UIView {
+  UIImageView *cup_;
+  UIImageView *coffee_;
+  UITextView *fact_;
 }
-@property (nonatomic, retain) UILabel *label;
 
--(void) updateTrivia;
+- (void)updateTrivia;
+- (void)rotate:(float)angle;
 
 @end

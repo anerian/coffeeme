@@ -22,6 +22,8 @@ static const float kEraseAccelerationThreshold = 3.0;
     if (self = [super init]) {
         supportsShake_ = NO;
         lastShake_ = 0;
+        calibrationOffset_ = 0.0;
+        firstCalibrationReading_ = 999;
     }
     return self;
 }
@@ -71,6 +73,9 @@ static const float kEraseAccelerationThreshold = 3.0;
 - (void)userDidShake {
 }
 
+- (void)userDidRotate:(float)angle {
+}
+
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
@@ -94,6 +99,11 @@ static const float kEraseAccelerationThreshold = 3.0;
 
 #pragma mark UIAccelerometerDelegate methods
 
+- (float)calibratedAngleFromAngle:(float)angle {
+
+    return calibrationOffset_ + angle;
+}
+
 - (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
     UIAccelerationValue length, x, y, z;
 	accel_[0] = acceleration.x * kFilteringFactor + accel_[0] * (1.0 - kFilteringFactor);
@@ -108,6 +118,10 @@ static const float kEraseAccelerationThreshold = 3.0;
 		lastShake_ = CFAbsoluteTimeGetCurrent();
 
         [self userDidShake];
+	} else {
+	    currentRawReading_ = atan2(accel_[1], accel_[0]);
+        float calibratedAngle = [self calibratedAngleFromAngle:currentRawReading_];
+        [self userDidRotate:-RAD2DEG(calibratedAngle)];
 	}
 }
 

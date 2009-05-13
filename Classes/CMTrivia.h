@@ -12,6 +12,7 @@
 @interface CMTrivia : CMModel<CMModel> {
     NSString *fact_;
 }
+
 @property (nonatomic, retain) NSString *fact;
 
 - (id)initWithFMResultSet:(FMResultSet *)resultSet;

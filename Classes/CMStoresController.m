@@ -8,6 +8,7 @@
 
 #import "NSNotificationAdditions.h"
 #import "CMStoresController.h"
+#import "CMSettingsController.h"
 #import "CMStore.h"
 
 @implementation CMStoresController
@@ -80,7 +81,11 @@
         [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh 
                                                        target:self 
                                                        action:@selector(refresh)] autorelease];
-                                                       
+    self.navigationItem.leftBarButtonItem = 
+        [[[UIBarButtonItem alloc] initWithTitle:@"Settings" 
+                                          style:UIBarButtonItemStyleBordered
+                                         target:self 
+                                        action:@selector(settings)] autorelease];                                                        
     modal_ = [[[CMModalView alloc] initWithWindow:[self appWindow]] retain];
 }
 
@@ -97,6 +102,12 @@
     [[CMLocation instance] start];
 }
 
+- (void)settings {
+    CMSettingsController *settingsController = [[[CMSettingsController alloc] init] autorelease];
+    UINavigationController *modal = [[[UINavigationController alloc] initWithRootViewController:settingsController] autorelease];
+    [self.navigationController presentModalViewController:modal animated:YES];
+}
+
 - (void)getStores {
     if (!isDirty_) return;
     isDirty_ = NO;
@@ -107,6 +118,7 @@
 
     [[NSNotificationCenter defaultCenter] postNotificationOnMainThreadWithName:@"stores:received" object:stores];
     
+    [NSThread exit];
     [pool release];
 }
 
