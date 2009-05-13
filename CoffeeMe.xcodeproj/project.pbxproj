@@ -52,6 +52,7 @@
 		3986897D0FB9CC25006E151C /* pin-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986897C0FB9CC25006E151C /* pin-blue.png */; };
 		398689A70FB9D000006E151C /* CMMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398689A60FB9D000006E151C /* CMMapView.m */; };
 		39868A850FBA2A0A006E151C /* CMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868A840FBA2A0A006E151C /* CMLocation.m */; };
+		39868B4C0FBB1A2C006E151C /* CMBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868B4B0FBB1A2C006E151C /* CMBaseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +139,8 @@
 		398689A60FB9D000006E151C /* CMMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapView.m; sourceTree = "<group>"; };
 		39868A830FBA2A0A006E151C /* CMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMLocation.h; sourceTree = "<group>"; };
 		39868A840FBA2A0A006E151C /* CMLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMLocation.m; sourceTree = "<group>"; };
+		39868B4A0FBB1A2C006E151C /* CMBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBaseController.h; sourceTree = "<group>"; };
+		39868B4B0FBB1A2C006E151C /* CMBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBaseController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -301,6 +304,8 @@
 				3986817A0FB352BB006E151C /* CMNutritionController.m */,
 				3986856E0FB85AEE006E151C /* CMDetailController.h */,
 				3986856F0FB85AEE006E151C /* CMDetailController.m */,
+				39868B4A0FBB1A2C006E151C /* CMBaseController.h */,
+				39868B4B0FBB1A2C006E151C /* CMBaseController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -429,6 +434,7 @@
 				398686C30FB8C96B006E151C /* CMTriviaView.m in Sources */,
 				398689A70FB9D000006E151C /* CMMapView.m in Sources */,
 				39868A850FBA2A0A006E151C /* CMLocation.m in Sources */,
+				39868B4C0FBB1A2C006E151C /* CMBaseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

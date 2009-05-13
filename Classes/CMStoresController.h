@@ -9,18 +9,22 @@
 #import <UIKit/UIKit.h>
 #import "CMModalView.h"
 #import "CMDetailController.h"
+#import "CMBaseController.h"
 #import "CMLocation.h"
 
 
-@interface CMStoresController : UITableViewController <UIAccelerometerDelegate> {
+@interface CMStoresController : CMBaseController<UITableViewDelegate, UITableViewDataSource> {
+    UITableView *tableView_;
     NSArray *stores_;
     CMModalView *modal_;
-    CFTimeInterval lastShake_;
     
     BOOL isLoading_;
     BOOL isDirty_;
 }
 
+@property(nonatomic, retain) UITableView *tableView;
+
+- (id)initWithStyle:(UITableViewStyle)style;
 - (void)refresh;
 - (void)showAlert;
 - (void)hideAlert;
