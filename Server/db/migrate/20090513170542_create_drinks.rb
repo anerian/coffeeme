@@ -16,8 +16,10 @@ class CreateDrinks < ActiveRecord::Migration
       t.integer :protein, :default => 0
  
       # specials (name + size + milk) is unique
-      t.integer :size
-      t.integer :milk
+      t.integer :size, :null => false
+      t.integer :milk, :null => false
+
+      t.integer :store_type, :null => false
     end
   end
 
