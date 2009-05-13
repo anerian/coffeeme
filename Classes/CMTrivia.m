@@ -3,11 +3,10 @@
 //  CoffeeMe
 //
 //  Created by min on 5/8/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  Copyright 2009 Anerian LLC. All rights reserved.
 //
 
 #import "CMTrivia.h"
-
 
 @implementation CMTrivia
 
@@ -26,10 +25,8 @@
 }
 
 + (CMTrivia *)randomTrivia {
-  NSString *table = [self tableName];
-  NSString *query = [NSString stringWithFormat:@"select id,fact from %@ where id >= (abs(random()) %% (select max(id) from %@)) limit 1", table, table];
-  NSLog(@"Querying: '%@'", query);
-  return [self query:query];
+  return [self query:[NSString stringWithFormat:@"select id,fact from %@ where id >= (abs(random()) %% (select max(id) from %@)) limit 1",
+                        [self tableName], [self tableName] ]];
 }
 
 @end
