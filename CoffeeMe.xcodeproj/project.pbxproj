@@ -57,6 +57,8 @@
 		39868D700FBC67C7006E151C /* CMStoreTypesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D6F0FBC67C7006E151C /* CMStoreTypesController.m */; };
 		39868D730FBC67D0006E151C /* CMDrinksController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D720FBC67D0006E151C /* CMDrinksController.m */; };
 		39868D960FBC782C006E151C /* CMDrinksDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D950FBC782C006E151C /* CMDrinksDataSource.m */; };
+		39868E180FBCB380006E151C /* bg-detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868E170FBCB380006E151C /* bg-detail.png */; };
+		39868EA00FBCC7D4006E151C /* bg-detail-content.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868E9F0FBCC7D4006E151C /* bg-detail-content.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +157,9 @@
 		39868D720FBC67D0006E151C /* CMDrinksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDrinksController.m; sourceTree = "<group>"; };
 		39868D940FBC782C006E151C /* CMDrinksDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDrinksDataSource.h; sourceTree = "<group>"; };
 		39868D950FBC782C006E151C /* CMDrinksDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDrinksDataSource.m; sourceTree = "<group>"; };
+		39868DF80FBCA221006E151C /* CMButtonStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMButtonStyleSheet.h; sourceTree = "<group>"; };
+		39868E170FBCB380006E151C /* bg-detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-detail.png"; sourceTree = "<group>"; };
+		39868E9F0FBCC7D4006E151C /* bg-detail-content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-detail-content.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -336,6 +341,7 @@
 				398686490FB89381006E151C /* CMDetailView.m */,
 				398689A50FB9D000006E151C /* CMMapView.h */,
 				398689A60FB9D000006E151C /* CMMapView.m */,
+				39868DF80FBCA221006E151C /* CMButtonStyleSheet.h */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -343,6 +349,8 @@
 		39868C080FBB6090006E151C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				39868E170FBCB380006E151C /* bg-detail.png */,
+				39868E9F0FBCC7D4006E151C /* bg-detail-content.png */,
 				39868CE10FBB7E9E006E151C /* Default.png */,
 				39868CBC0FBB6F4E006E151C /* bg-coffee.png */,
 				39868C770FBB6457006E151C /* bg-trivia.png */,
@@ -435,6 +443,8 @@
 				39868C790FBB6457006E151C /* bg-trivia.png in Resources */,
 				39868CBD0FBB6F4E006E151C /* bg-coffee.png in Resources */,
 				39868CE20FBB7E9E006E151C /* Default.png in Resources */,
+				39868E180FBCB380006E151C /* bg-detail.png in Resources */,
+				39868EA00FBCC7D4006E151C /* bg-detail-content.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

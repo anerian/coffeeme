@@ -127,14 +127,15 @@
 
 - (void)storesReceived:(NSNotification*)notify {
 	NSArray *stores = [notify object];
-	
+
+	[stores retain];
     [stores_ release];
-    [stores retain];
     stores_ = stores;
     
-    [self.tableView reloadData];
     [self hideAlert];
     isLoading_ = NO;
+    
+    [self.tableView reloadData];
 }
 
 - (void)locationUpdated:(NSNotification*)notify {    

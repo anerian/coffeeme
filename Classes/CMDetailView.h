@@ -10,8 +10,16 @@
 #import "CMStore.h"
 #import "CMMapView.h"
 
+@interface CMDetailHeaderView : UIView {
+}
+@end
 
-@interface CMDetailView : UIScrollView<TTImageViewDelegate> {
+@interface CMDetailContentView : UIView {
+}
+@end
+
+@interface CMDetailView : UIView<TTImageViewDelegate, UIScrollViewDelegate> {
+    UIScrollView *scroller_;
     CMStore *store_;
     CMMapView *mapView_;
     

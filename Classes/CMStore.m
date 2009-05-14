@@ -51,7 +51,7 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     
     UILabel *lblStore = [self labelForFrame:CGRectMake(70, 10, 250, 20) withText:[[self class] storeNameForCode:[self type]] withFontSize:16];
     lblStore.textColor = HexToUIColor(0x56523c);
-    UILabel *lblStreet = [self labelForFrame:CGRectMake(70, 30, 250, 40) withText:[[[self address] copy] autorelease] withFontSize:14];
+    UILabel *lblStreet = [self labelForFrame:CGRectMake(70, 30, 250, 40) withText:[self address] withFontSize:14];
     lblStreet.font = [UIFont systemFontOfSize:14];
     lblStreet.numberOfLines = 2;
     UILabel *lblDistance = [self labelForFrame:CGRectMake(70, 70, 230, 20) withText:[NSString stringWithFormat:@"%@ %@", [self formattedDistance], [self bearing]] withFontSize:12];
@@ -68,11 +68,11 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
 - (id)initWithFMResultSet:(FMResultSet *)resultSet {
     if (self = [super init]) {
         self.pk        = [resultSet intForColumn:@"id"];
-        self.street    = [resultSet stringForColumn:@"street"];
-        self.city      = [resultSet stringForColumn:@"city"];
-        self.state     = [resultSet stringForColumn:@"state"];
-        self.zip       = [resultSet stringForColumn:@"zip"];
-        self.phone     = [resultSet stringForColumn:@"phone"];
+        self.street    = [[[resultSet stringForColumn:@"street"] copy] autorelease];
+        self.city      = [[[resultSet stringForColumn:@"city"] copy] autorelease];
+        self.state     = [[[resultSet stringForColumn:@"state"] copy] autorelease];
+        self.zip       = [[[resultSet stringForColumn:@"zip"] copy] autorelease];
+        self.phone     = [[[resultSet stringForColumn:@"phone"] copy] autorelease];
         self.type      = [resultSet intForColumn:@"store_type"];
         self.latitude  = [resultSet doubleForColumn:@"latitude"];
         self.longitude = [resultSet doubleForColumn:@"longitude"];
@@ -92,6 +92,7 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     #endif
     
     NSString *query = [NSString stringWithFormat:@"select stores.*, %f as user_latitude, %f as user_longitude, distance(latitude, longitude, %f, %f) as dist from stores where dist < 10 order by dist limit 20", coordinate.latitude, coordinate.longitude, coordinate.latitude, coordinate.longitude];
+
     return [self query:query];
 }
 

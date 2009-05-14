@@ -7,6 +7,23 @@
 //
 
 #import "CMDetailView.h"
+#import "CMButtonStyleSheet.h"
+
+@implementation CMDetailContentView
+
+- (id)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        
+    }
+    return self;
+}
+
+- (void)drawRect:(CGRect)rect {
+    [super drawRect:rect];
+    [[[UIImage imageNamed:@"bg-detail-content.png"] stretchableImageWithLeftCapWidth:1 topCapHeight:100] drawInRect:rect];
+}
+
+@end
 
 @interface CMDetailView(PrivateMethods)
 
@@ -18,38 +35,52 @@
 
 - (id)initWithFrame:(CGRect)frame withStore:(CMStore *)store {
     if (self = [super initWithFrame:frame]) {
-        self.contentSize = frame.size;
-        store_ = [store retain];
+        [TTStyleSheet setGlobalStyleSheet:[[[CMButtonStyleSheet alloc] init] autorelease]];
+
+        scroller_ = [[UIScrollView alloc] initWithFrame:frame];
+        scroller_.contentSize = CGSizeMake(320, frame.size.height); 
+        scroller_.delegate = self;
+        scroller_.showsVerticalScrollIndicator = NO;
+        scroller_.alwaysBounceVertical = YES;
         
-        mapView_ = [[[CMMapView alloc] initWithFrame:CGRectMake((320-280)/2,100,280,280) withCoordinate:store_.location.coordinate] retain];
-        // mapView_.style = [TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:10] next:
-        // [TTSolidFillStyle styleWithColor:[UIColor whiteColor] next:
-        // [TTInnerShadowStyle styleWithColor:RGBACOLOR(0,0,0,0.5) blur:6 offset:CGSizeMake(1, 1) next:
-        // [TTSolidBorderStyle styleWithColor:[UIColor grayColor] width:1 next:nil]]]];
-        // mapView_.backgroundColor = [UIColor clearColor];
-        // 
-        // gmapView_ = [[[TTImageView alloc] initWithFrame:CGRectMake(0,0,280,280)] retain];
-        // [gmapView_ setUrl:[store_ gmapUrl]];
+        CMDetailContentView *content = [[[CMDetailContentView alloc] initWithFrame:CGRectMake(0,70,320,frame.size.height)] autorelease];
+        content.backgroundColor = [UIColor clearColor];
+        [scroller_ addSubview:content];
         
-        [self addSubview:mapView_];
-        // [mapView_ addSubview:gmapView_];
         
-        // UIImageView *pin_ = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"pin-blue.png"]] autorelease];
-        // pin_.frame = CGRectMake(140-16,140-50,33,50);
-        // [gmapView_ addSubview:pin_];
-        
+        mapView_ = [[[CMMapView alloc] initWithFrame:CGRectMake((320-256)/2,20,256,256) withCoordinate:(CLLocationCoordinate2D){store.latitude, store.longitude}] retain];
+        mapView_.backgroundColor = [UIColor clearColor];
+        [content addSubview:mapView_];
         
         address_ = [[self createLabel:CGRectMake(20,10,280,50)] retain];
-        address_.text = [store_ address];
+
+        address_.text = [store address];
         address_.numberOfLines = 2;
-        
-        // CGPoint point = [CMStore coordinate2CGPoint:store_.location.coordinate];
-        // NSLog(@"center: %f, %f", point.x, point.y);
-        self.backgroundColor = HexToUIColor(0xededed);
-        
+
+        // // // CGPoint point = [CMStore coordinate2CGPoint:store_.location.coordinate];
+        // // // NSLog(@"center: %f, %f", point.x, point.y);
+        // // // self.backgroundColor = HexToUIColor(0xededed);
+        // // self.backgroundColor = [UIColor whiteColor];
+        // // 
+        // // TTButton *call = [TTButton buttonWithStyle:@"embossedButton:" title:@"Call"];
+        // // call.frame = CGRectMake(20,80,135,43);
+        // // 
+        // // TTButton *mapIt = [TTButton buttonWithStyle:@"embossedButton:" title:@"Show on Map"];
+        // // mapIt.frame = CGRectMake(165,80,135,43);
+        // // 
+        // // 
+        // // [self addSubview:call];
+        // // [self addSubview:mapIt];
+        // 
         [self addSubview:address_];
+        [self addSubview:scroller_];
     }
     return self;
+}
+
+- (void)drawRect:(CGRect)rect {
+    [super drawRect:rect];
+    [[[UIImage imageNamed:@"bg-detail.png"] stretchableImageWithLeftCapWidth:1 topCapHeight:100] drawInRect:rect];
 }
 
 # pragma mark Private Methods

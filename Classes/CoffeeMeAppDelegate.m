@@ -23,7 +23,8 @@
     viewController.tabBarItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"tab%@.png", name]];
     
     UINavigationController *navigationController = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];
-    navigationController.navigationBar.tintColor = HexToUIColor(0x3d2210);
+    // navigationController.navigationBar.tintColor = HexToUIColor(0x3d2210);
+    navigationController.navigationBar.tintColor = [UIColor blackColor];
     
     [viewController release];
     

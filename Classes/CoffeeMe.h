@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 typedef enum {
 	CMStoreTypeStarbucks = 0,
 	CMStoreTypeDunkin,

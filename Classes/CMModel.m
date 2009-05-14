@@ -85,7 +85,7 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
 + (id)fromDB:(FMResultSet *)result {
     NSMutableArray *results = [NSMutableArray arrayWithCapacity:0];
 
-    while ([result next])  {
+    while ([result next]) {
         [results addObject:[[[[self class] alloc] initWithFMResultSet:result] autorelease]];
     }
     
