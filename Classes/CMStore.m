@@ -86,6 +86,11 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
 }
 
 + (NSArray *)nearby:(CLLocationCoordinate2D)coordinate {
+    #ifdef DEBUG
+    coordinate.latitude = 38.906786;
+    coordinate.longitude = -77.041787;
+    #endif
+    
     NSString *query = [NSString stringWithFormat:@"select stores.*, %f as user_latitude, %f as user_longitude, distance(latitude, longitude, %f, %f) as dist from stores where dist < 10 order by dist limit 20", coordinate.latitude, coordinate.longitude, coordinate.latitude, coordinate.longitude];
     return [self query:query];
 }

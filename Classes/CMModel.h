@@ -20,7 +20,7 @@
     int pk_;
 }
 
-@property (nonatomic, assign) int pk;
+@property(nonatomic, assign) int pk;
 
 + (FMDatabase *)connection;
 + (void)establishConnection;

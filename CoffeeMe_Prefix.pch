@@ -8,6 +8,7 @@
     #import <CoreLocation/CoreLocation.h>
     #import <QuartzCore/CAAnimation.h>
     #import "Three20/Three20.h"
+    #import "CoffeeMe.h"
     
     @interface UIProgressHUD : NSObject
     - (void) show: (BOOL) yesOrNo;

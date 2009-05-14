@@ -15,9 +15,6 @@
 
 @property (nonatomic, retain) NSString *fact;
 
-- (id)initWithFMResultSet:(FMResultSet *)resultSet;
-
 + (CMTrivia *)randomTrivia;
-+ (NSString *)tableName;
 
 @end

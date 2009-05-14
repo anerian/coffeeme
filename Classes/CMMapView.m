@@ -23,10 +23,6 @@
     return self;
 }
 
-- (void)imageViewDidLoadImage:(UIImage*)image {
-    NSLog(@"did load image")    ;
-}
-
 - (void)dealloc {
     [super dealloc];
 }

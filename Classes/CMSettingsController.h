@@ -10,7 +10,7 @@
 
 
 @interface CMSettingsController : UIViewController {
-
+    UISlider *slider_;
 }
 
 @end

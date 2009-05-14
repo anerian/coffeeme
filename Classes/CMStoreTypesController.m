@@ -1,15 +1,15 @@
 //
-//  CMSettingsController.m
+//  CMStoreTypesController.m
 //  CoffeeMe
 //
-//  Created by min on 5/13/09.
+//  Created by min on 5/14/09.
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
-#import "CMSettingsController.h"
+#import "CMStoreTypesController.h"
 
 
-@implementation CMSettingsController
+@implementation CMStoreTypesController
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -21,37 +21,18 @@
 }
 */
 
-- (id)init {
-    if (self = [super init]) {
-        
-    }
-    return self;
-}
-
 /*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
 }
 */
 
+/*
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
-    
-    slider_ = [[[UISlider alloc] initWithFrame:CGRectMake(10,10,300,100)] retain];
-    slider_.minimumValue = .5;
-    slider_.maximumValue = 25;
-    [self.view addSubview:slider_];
-    
-    self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Done"
-                                                                              style:UIBarButtonItemStyleDone
-                                                                             target:self 
-                                                                             action:@selector(done)] autorelease];
 }
-
-- (void)done {
-    [self.parentViewController dismissModalViewControllerAnimated:YES];
-}
+*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.

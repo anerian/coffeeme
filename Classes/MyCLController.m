@@ -20,20 +20,13 @@
     
     NSTimeInterval howRecent = [newLocation.timestamp timeIntervalSinceNow];
     
-    NSLog(@"didUpdateToLocation: %f", howRecent);
-    
     if (howRecent < -5) {
         first_ = NO;
         return;
     }
 
-    NSLog(@"newLocation: %f", newLocation.horizontalAccuracy);
-    // if (newLocation.horizontalAccuracy < 100) {
-        
-        [self.locationManager stopUpdatingLocation];
-        [self.delegate locationUpdate:newLocation];
-    // }
-	
+    [self.locationManager stopUpdatingLocation];
+    [self.delegate locationUpdate:newLocation];	
 }
 
 

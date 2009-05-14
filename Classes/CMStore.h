@@ -16,7 +16,7 @@
     NSString *state_;
     NSString *zip_;
     NSString *phone_;
-    NSUInteger type_;
+    CMStoreType type_;
     
     UIView *cell_;
     
@@ -36,7 +36,7 @@
 @property (nonatomic, retain) NSString *phone;
 @property (nonatomic, retain) UIView *cell;
 
-@property (nonatomic, assign) NSUInteger type;
+@property (nonatomic, assign) CMStoreType type;
 @property (nonatomic, assign) double latitude;
 @property (nonatomic, assign) double longitude;
 @property (nonatomic, assign) double userLatitude;

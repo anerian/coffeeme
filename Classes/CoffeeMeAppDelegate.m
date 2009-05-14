@@ -8,8 +8,9 @@
 
 #import "CoffeeMeAppDelegate.h"
 #import "CMStore.h"
+#import "CMDrink.h"
 #import "CMStoresController.h"
-#import "CMNutritionController.h"
+#import "CMStoreTypesController.h"
 #import "CMTriviaController.h"
 
 
@@ -38,7 +39,7 @@
     tabBarController_ = [[UITabBarController alloc] init];
     
     [viewControllers addObject:[self createNavItem:[[CMStoresController alloc] initWithStyle:UITableViewStylePlain] withName:@"coffeeme"]];
-    [viewControllers addObject:[self createNavItem:[[CMNutritionController alloc] init] withName:@"Nutrition"]];
+    [viewControllers addObject:[self createNavItem:[[CMStoreTypesController alloc] init] withName:@"Nutrition"]];
     [viewControllers addObject:[self createNavItem:[[CMTriviaController alloc] init] withName:@"Trivia"]];
     
     tabBarController_.viewControllers = viewControllers;
