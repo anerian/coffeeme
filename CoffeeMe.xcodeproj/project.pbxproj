@@ -56,6 +56,7 @@
 		39868D210FBC53CE006E151C /* CMDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D200FBC53CE006E151C /* CMDrink.m */; };
 		39868D700FBC67C7006E151C /* CMStoreTypesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D6F0FBC67C7006E151C /* CMStoreTypesController.m */; };
 		39868D730FBC67D0006E151C /* CMDrinksController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D720FBC67D0006E151C /* CMDrinksController.m */; };
+		39868D960FBC782C006E151C /* CMDrinksDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D950FBC782C006E151C /* CMDrinksDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +153,8 @@
 		39868D6F0FBC67C7006E151C /* CMStoreTypesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStoreTypesController.m; sourceTree = "<group>"; };
 		39868D710FBC67D0006E151C /* CMDrinksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDrinksController.h; sourceTree = "<group>"; };
 		39868D720FBC67D0006E151C /* CMDrinksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDrinksController.m; sourceTree = "<group>"; };
+		39868D940FBC782C006E151C /* CMDrinksDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDrinksDataSource.h; sourceTree = "<group>"; };
+		39868D950FBC782C006E151C /* CMDrinksDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDrinksDataSource.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -259,6 +262,8 @@
 				398682A80FB48213006E151C /* CMTrivia.m */,
 				39868D1F0FBC53CE006E151C /* CMDrink.h */,
 				39868D200FBC53CE006E151C /* CMDrink.m */,
+				39868D940FBC782C006E151C /* CMDrinksDataSource.h */,
+				39868D950FBC782C006E151C /* CMDrinksDataSource.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -465,6 +470,7 @@
 				39868D210FBC53CE006E151C /* CMDrink.m in Sources */,
 				39868D700FBC67C7006E151C /* CMStoreTypesController.m in Sources */,
 				39868D730FBC67D0006E151C /* CMDrinksController.m in Sources */,
+				39868D960FBC782C006E151C /* CMDrinksDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
