@@ -30,3 +30,6 @@ struct CMNutrition {
     int protein;
 };
 typedef struct CMNutrition CMNutrition;
+
+NSString* CMSizeType(NSUInteger type);
+NSString* CMMilkType(NSUInteger type);

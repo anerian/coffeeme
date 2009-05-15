@@ -11,28 +11,38 @@
 
 @implementation CMNutritionController
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
+- (id)initWithDrinkName:(NSString *)drinkName {
+    if (self = [super initWithNibName:@"Nutrition" bundle:nil]) {
+        drinkName_ = [drinkName retain];
+        drinks_ = [[CMDrink forName:drinkName] retain];
+        sizes_ = [[CMDrink sizesForName:drinkName_] retain];
+        milkTypes_ = [[CMDrink milkTypesForName:drinkName_] retain];
+        
+        
     }
     return self;
 }
-*/
 
-/*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
+    [super loadView];
+    nutritionView_ = [[[CMNutritionView alloc] initWithFrame:self.view.bounds] autorelease];
+    nutritionView_.drink = [drinks_ lastObject];
+    self.view = nutritionView_;
 }
-*/
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // self.view.backgroundColor = HexToUIColor(0xdddddd);
+    // 
+    // milkPicker_ = [[[UIPickerView alloc] initWithFrame:CGRectMake(0,0,160,50)] retain];
+    // milkPicker_.delegate = self;
+    // milkPicker_.dataSource = self;
+    
+    // [self.view addSubview:milkPicker_];
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -59,5 +69,15 @@
     [super dealloc];
 }
 
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    return 2;
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    if (component == CMNutritionPickerTagSize) {
+        return [sizes_ count];
+    }
+    return [milkTypes_ count];
+}
 
 @end

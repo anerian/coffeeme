@@ -14,36 +14,34 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 - (id)initWithDrinks:(NSArray*)drinks {
-  if (self = [super init]) {
-    drinks_ = [drinks retain];
-    
-  }
-  return self;
+    if (self = [super init]) {
+        drinks_ = [drinks retain];    
+    }
+    return self;
 }
 
 - (void)dealloc {
-  [drinks_ release];
-  [super dealloc];
+    [drinks_ release];
+    [super dealloc];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // UITableViewDataSource
 
 - (NSArray*)sectionIndexTitlesForTableView:(UITableView*)tableView {
-  return [self lettersForSectionsWithSearch:YES withCount:NO];
+    return [self lettersForSectionsWithSearch:YES withCount:NO];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // TTTableViewDataSource
 
 - (NSString*)tableView:(UITableView*)tableView labelForObject:(id)object {
-  TTTableField* field = object;
-  return field.text;
+    TTTableField* field = object;
+    return field.text;
 }
 
-- (void)tableView:(UITableView*)tableView prepareCell:(UITableViewCell*)cell
-        forRowAtIndexPath:(NSIndexPath*)indexPath {
-  cell.accessoryType = UITableViewCellAccessoryNone;
+- (void)tableView:(UITableView*)tableView prepareCell:(UITableViewCell*)cell forRowAtIndexPath:(NSIndexPath*)indexPath {
+    cell.accessoryType = UITableViewCellAccessoryNone;
 }
 
 - (void)tableView:(UITableView*)tableView search:(NSString*)text {
@@ -74,7 +72,7 @@
 - (void)rebuildItems {
     NSMutableDictionary* map = [NSMutableDictionary dictionary];
     for (CMDrink* drink in drinks_) {
-        NSString *name = drink.name;
+        NSString *name = [drink name];
 
         NSString* letter = [NSString stringWithFormat:@"%c", [name characterAtIndex:0]];
         NSMutableArray* section = [map objectForKey:letter];

@@ -15,9 +15,6 @@
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		397D74850FB23E5C00ACE161 /* coffeeme.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */; };
 		397D74A40FB24EF900ACE161 /* CMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74A30FB24EF900ACE161 /* CMStore.m */; };
-		397D74AD0FB250F400ACE161 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74A80FB250F400ACE161 /* FMDatabase.m */; };
-		397D74AE0FB250F400ACE161 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74AA0FB250F400ACE161 /* FMDatabaseAdditions.m */; };
-		397D74AF0FB250F400ACE161 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74AC0FB250F400ACE161 /* FMResultSet.m */; };
 		397D74B40FB2519100ACE161 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */; };
 		397D74D70FB257B600ACE161 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74D60FB257B600ACE161 /* MyCLController.m */; };
 		397D74D90FB2585B00ACE161 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74D80FB2585B00ACE161 /* CoreLocation.framework */; };
@@ -59,6 +56,19 @@
 		39868D960FBC782C006E151C /* CMDrinksDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D950FBC782C006E151C /* CMDrinksDataSource.m */; };
 		39868E180FBCB380006E151C /* bg-detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868E170FBCB380006E151C /* bg-detail.png */; };
 		39868EA00FBCC7D4006E151C /* bg-detail-content.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868E9F0FBCC7D4006E151C /* bg-detail-content.png */; };
+		39868F1C0FBCDCE2006E151C /* CMPotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868F1B0FBCDCE2006E151C /* CMPotController.m */; };
+		39868F250FBCDF8A006E151C /* bg-pot.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868F240FBCDF8A006E151C /* bg-pot.png */; };
+		39868F280FBCDFB1006E151C /* CMCoffeePotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868F270FBCDFB1006E151C /* CMCoffeePotView.m */; };
+		39868FA10FBD17FC006E151C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868F9C0FBD17FC006E151C /* FMDatabase.m */; };
+		39868FA20FBD17FC006E151C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868F9E0FBD17FC006E151C /* FMDatabaseAdditions.m */; };
+		39868FA30FBD17FC006E151C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868FA00FBD17FC006E151C /* FMResultSet.m */; };
+		39868FAA0FBD1D31006E151C /* CoffeeMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868FA90FBD1D31006E151C /* CoffeeMe.m */; };
+		3986900B0FBDBF1B006E151C /* CMInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3986900A0FBDBF1B006E151C /* CMInfoController.m */; };
+		3986900F0FBDC033006E151C /* tabAnerian.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986900E0FBDC033006E151C /* tabAnerian.png */; };
+		398690150FBDC419006E151C /* bg-cell-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 398690140FBDC419006E151C /* bg-cell-selected.png */; };
+		3986901C0FBDD933006E151C /* tabCoffeeme.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986901B0FBDD933006E151C /* tabCoffeeme.png */; };
+		3986903C0FBDE392006E151C /* Nutrition.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3986903B0FBDE392006E151C /* Nutrition.xib */; };
+		398B48AE0FBDED570075DB78 /* CMNutritionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B48AD0FBDED570075DB78 /* CMNutritionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,12 +101,6 @@
 		397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffeeme.sqlite3; sourceTree = SOURCE_ROOT; };
 		397D74A20FB24EF900ACE161 /* CMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStore.h; sourceTree = "<group>"; };
 		397D74A30FB24EF900ACE161 /* CMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStore.m; sourceTree = "<group>"; };
-		397D74A70FB250F400ACE161 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = Libraries/FMDB/FMDatabase.h; sourceTree = SOURCE_ROOT; };
-		397D74A80FB250F400ACE161 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = Libraries/FMDB/FMDatabase.m; sourceTree = SOURCE_ROOT; };
-		397D74A90FB250F400ACE161 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = Libraries/FMDB/FMDatabaseAdditions.h; sourceTree = SOURCE_ROOT; };
-		397D74AA0FB250F400ACE161 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = Libraries/FMDB/FMDatabaseAdditions.m; sourceTree = SOURCE_ROOT; };
-		397D74AB0FB250F400ACE161 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = Libraries/FMDB/FMResultSet.h; sourceTree = SOURCE_ROOT; };
-		397D74AC0FB250F400ACE161 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = Libraries/FMDB/FMResultSet.m; sourceTree = SOURCE_ROOT; };
 		397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/lib/libsqlite3.0.dylib; sourceTree = SOURCE_ROOT; };
 		397D74D50FB257B600ACE161 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
 		397D74D60FB257B600ACE161 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
@@ -160,6 +164,26 @@
 		39868DF80FBCA221006E151C /* CMButtonStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMButtonStyleSheet.h; sourceTree = "<group>"; };
 		39868E170FBCB380006E151C /* bg-detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-detail.png"; sourceTree = "<group>"; };
 		39868E9F0FBCC7D4006E151C /* bg-detail-content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-detail-content.png"; sourceTree = "<group>"; };
+		39868F1A0FBCDCE2006E151C /* CMPotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPotController.h; sourceTree = "<group>"; };
+		39868F1B0FBCDCE2006E151C /* CMPotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPotController.m; sourceTree = "<group>"; };
+		39868F240FBCDF8A006E151C /* bg-pot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-pot.png"; sourceTree = "<group>"; };
+		39868F260FBCDFB1006E151C /* CMCoffeePotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCoffeePotView.h; sourceTree = "<group>"; };
+		39868F270FBCDFB1006E151C /* CMCoffeePotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCoffeePotView.m; sourceTree = "<group>"; };
+		39868F9B0FBD17FC006E151C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = Libraries/FMDB/FMDatabase.h; sourceTree = SOURCE_ROOT; };
+		39868F9C0FBD17FC006E151C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = Libraries/FMDB/FMDatabase.m; sourceTree = SOURCE_ROOT; };
+		39868F9D0FBD17FC006E151C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = Libraries/FMDB/FMDatabaseAdditions.h; sourceTree = SOURCE_ROOT; };
+		39868F9E0FBD17FC006E151C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = Libraries/FMDB/FMDatabaseAdditions.m; sourceTree = SOURCE_ROOT; };
+		39868F9F0FBD17FC006E151C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = Libraries/FMDB/FMResultSet.h; sourceTree = SOURCE_ROOT; };
+		39868FA00FBD17FC006E151C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = Libraries/FMDB/FMResultSet.m; sourceTree = SOURCE_ROOT; };
+		39868FA90FBD1D31006E151C /* CoffeeMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeMe.m; sourceTree = "<group>"; };
+		398690090FBDBF1B006E151C /* CMInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMInfoController.h; sourceTree = "<group>"; };
+		3986900A0FBDBF1B006E151C /* CMInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMInfoController.m; sourceTree = "<group>"; };
+		3986900E0FBDC033006E151C /* tabAnerian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabAnerian.png; path = Images/tabAnerian.png; sourceTree = SOURCE_ROOT; };
+		398690140FBDC419006E151C /* bg-cell-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-cell-selected.png"; path = "Images/bg-cell-selected.png"; sourceTree = SOURCE_ROOT; };
+		3986901B0FBDD933006E151C /* tabCoffeeme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabCoffeeme.png; path = Images/tabCoffeeme.png; sourceTree = SOURCE_ROOT; };
+		3986903B0FBDE392006E151C /* Nutrition.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Nutrition.xib; sourceTree = "<group>"; };
+		398B48AC0FBDED570075DB78 /* CMNutritionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNutritionView.h; sourceTree = "<group>"; };
+		398B48AD0FBDED570075DB78 /* CMNutritionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNutritionView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,6 +220,7 @@
 				39868A830FBA2A0A006E151C /* CMLocation.h */,
 				39868A840FBA2A0A006E151C /* CMLocation.m */,
 				39868D3D0FBC5989006E151C /* CoffeeMe.h */,
+				39868FA90FBD1D31006E151C /* CoffeeMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -238,6 +263,7 @@
 				397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */,
+				3986903B0FBDE392006E151C /* Nutrition.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -276,23 +302,9 @@
 		397D74A50FB250F400ACE161 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				397D74A60FB250F400ACE161 /* FMDB */,
+				39868F9A0FBD17FC006E151C /* FMDB */,
 			);
 			path = Libraries;
-			sourceTree = SOURCE_ROOT;
-		};
-		397D74A60FB250F400ACE161 /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				397D74A70FB250F400ACE161 /* FMDatabase.h */,
-				397D74A80FB250F400ACE161 /* FMDatabase.m */,
-				397D74A90FB250F400ACE161 /* FMDatabaseAdditions.h */,
-				397D74AA0FB250F400ACE161 /* FMDatabaseAdditions.m */,
-				397D74AB0FB250F400ACE161 /* FMResultSet.h */,
-				397D74AC0FB250F400ACE161 /* FMResultSet.m */,
-			);
-			name = FMDB;
-			path = Libraries/FMDB;
 			sourceTree = SOURCE_ROOT;
 		};
 		398680FF0FB336D3006E151C /* Products */ = {
@@ -324,6 +336,10 @@
 				39868D6F0FBC67C7006E151C /* CMStoreTypesController.m */,
 				39868D710FBC67D0006E151C /* CMDrinksController.h */,
 				39868D720FBC67D0006E151C /* CMDrinksController.m */,
+				39868F1A0FBCDCE2006E151C /* CMPotController.h */,
+				39868F1B0FBCDCE2006E151C /* CMPotController.m */,
+				398690090FBDBF1B006E151C /* CMInfoController.h */,
+				3986900A0FBDBF1B006E151C /* CMInfoController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -342,6 +358,10 @@
 				398689A50FB9D000006E151C /* CMMapView.h */,
 				398689A60FB9D000006E151C /* CMMapView.m */,
 				39868DF80FBCA221006E151C /* CMButtonStyleSheet.h */,
+				39868F260FBCDFB1006E151C /* CMCoffeePotView.h */,
+				39868F270FBCDFB1006E151C /* CMCoffeePotView.m */,
+				398B48AC0FBDED570075DB78 /* CMNutritionView.h */,
+				398B48AD0FBDED570075DB78 /* CMNutritionView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -349,6 +369,10 @@
 		39868C080FBB6090006E151C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				398690140FBDC419006E151C /* bg-cell-selected.png */,
+				3986901B0FBDD933006E151C /* tabCoffeeme.png */,
+				3986900E0FBDC033006E151C /* tabAnerian.png */,
+				39868F240FBCDF8A006E151C /* bg-pot.png */,
 				39868E170FBCB380006E151C /* bg-detail.png */,
 				39868E9F0FBCC7D4006E151C /* bg-detail-content.png */,
 				39868CE10FBB7E9E006E151C /* Default.png */,
@@ -367,6 +391,20 @@
 			);
 			path = Images;
 			sourceTree = "<group>";
+		};
+		39868F9A0FBD17FC006E151C /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				39868F9B0FBD17FC006E151C /* FMDatabase.h */,
+				39868F9C0FBD17FC006E151C /* FMDatabase.m */,
+				39868F9D0FBD17FC006E151C /* FMDatabaseAdditions.h */,
+				39868F9E0FBD17FC006E151C /* FMDatabaseAdditions.m */,
+				39868F9F0FBD17FC006E151C /* FMResultSet.h */,
+				39868FA00FBD17FC006E151C /* FMResultSet.m */,
+			);
+			name = FMDB;
+			path = Libraries/FMDB;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -445,6 +483,11 @@
 				39868CE20FBB7E9E006E151C /* Default.png in Resources */,
 				39868E180FBCB380006E151C /* bg-detail.png in Resources */,
 				39868EA00FBCC7D4006E151C /* bg-detail-content.png in Resources */,
+				39868F250FBCDF8A006E151C /* bg-pot.png in Resources */,
+				3986900F0FBDC033006E151C /* tabAnerian.png in Resources */,
+				398690150FBDC419006E151C /* bg-cell-selected.png in Resources */,
+				3986901C0FBDD933006E151C /* tabCoffeeme.png in Resources */,
+				3986903C0FBDE392006E151C /* Nutrition.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,9 +501,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CoffeeMeAppDelegate.m in Sources */,
 				397D74A40FB24EF900ACE161 /* CMStore.m in Sources */,
-				397D74AD0FB250F400ACE161 /* FMDatabase.m in Sources */,
-				397D74AE0FB250F400ACE161 /* FMDatabaseAdditions.m in Sources */,
-				397D74AF0FB250F400ACE161 /* FMResultSet.m in Sources */,
 				397D74D70FB257B600ACE161 /* MyCLController.m in Sources */,
 				398681750FB35297006E151C /* CMStoresController.m in Sources */,
 				398681780FB352A6006E151C /* CMTriviaController.m in Sources */,
@@ -481,6 +521,14 @@
 				39868D700FBC67C7006E151C /* CMStoreTypesController.m in Sources */,
 				39868D730FBC67D0006E151C /* CMDrinksController.m in Sources */,
 				39868D960FBC782C006E151C /* CMDrinksDataSource.m in Sources */,
+				39868F1C0FBCDCE2006E151C /* CMPotController.m in Sources */,
+				39868F280FBCDFB1006E151C /* CMCoffeePotView.m in Sources */,
+				39868FA10FBD17FC006E151C /* FMDatabase.m in Sources */,
+				39868FA20FBD17FC006E151C /* FMDatabaseAdditions.m in Sources */,
+				39868FA30FBD17FC006E151C /* FMResultSet.m in Sources */,
+				39868FAA0FBD1D31006E151C /* CoffeeMe.m in Sources */,
+				3986900B0FBDBF1B006E151C /* CMInfoController.m in Sources */,
+				398B48AE0FBDED570075DB78 /* CMNutritionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,7 +552,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CoffeeMe_Prefix.pch;
-				HEADER_SEARCH_PATHS = ../three20/src;
+				HEADER_SEARCH_PATHS = (
+					"External/MapView/**",
+					../three20/src,
+				);
 				INFOPLIST_FILE = "CoffeeMe-Info.plist";
 				PRODUCT_NAME = CoffeeMe;
 			};
@@ -517,7 +568,10 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CoffeeMe_Prefix.pch;
-				HEADER_SEARCH_PATHS = ../three20/src;
+				HEADER_SEARCH_PATHS = (
+					"External/MapView/**",
+					../three20/src,
+				);
 				INFOPLIST_FILE = "CoffeeMe-Info.plist";
 				PRODUCT_NAME = CoffeeMe;
 			};

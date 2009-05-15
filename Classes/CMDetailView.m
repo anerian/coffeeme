@@ -48,12 +48,11 @@
         [scroller_ addSubview:content];
         
         
-        mapView_ = [[[CMMapView alloc] initWithFrame:CGRectMake((320-256)/2,20,256,256) withCoordinate:(CLLocationCoordinate2D){store.latitude, store.longitude}] retain];
+        mapView_ = [[[CMMapView alloc] initWithFrame:CGRectMake(10,40,300,236) withCoordinate:(CLLocationCoordinate2D){store.latitude, store.longitude}] retain];
         mapView_.backgroundColor = [UIColor clearColor];
         [content addSubview:mapView_];
         
         address_ = [[self createLabel:CGRectMake(20,10,280,50)] retain];
-
         address_.text = [store address];
         address_.numberOfLines = 2;
 

@@ -7,10 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CMNutritionView.h"
+#import "CMDrink.h"
 
+typedef enum {
+	CMNutritionPickerTagSize = 1,
+	CMNutritionPickerTagMilk
+} CMNutritionPickerTag;
 
-@interface CMNutritionController : UIViewController {
-
+@interface CMNutritionController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource> {
+    NSString *drinkName_;
+    NSArray *drinks_;
+    NSArray *sizes_;
+    NSArray *milkTypes_;
+    
+    UIPickerView *milkPicker_;
+    UIPickerView *sizePicker_;
+    
+    CMNutritionView *nutritionView_;
 }
+
+- (id)initWithDrinkName:(NSString *)drinkName;
 
 @end

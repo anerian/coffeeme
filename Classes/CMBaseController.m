@@ -16,11 +16,11 @@ static const float kEraseAccelerationThreshold = 3.0;
 
 @implementation CMBaseController
 
-@synthesize supportsShake = supportsShake_;
+@synthesize supportsAccelerometer = supportsAccelerometer_;
 
 - (id)init {
     if (self = [super init]) {
-        supportsShake_ = NO;
+        supportsAccelerometer_ = NO;
         lastShake_ = 0;
         calibrationOffset_ = 0.0;
         firstCalibrationReading_ = 999;
@@ -51,18 +51,18 @@ static const float kEraseAccelerationThreshold = 3.0;
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.supportsShake = supportsShake_;
+    self.supportsAccelerometer = supportsAccelerometer_;
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [[UIAccelerometer sharedAccelerometer] setDelegate:nil];
 }
 
-- (void)setSupportsShake:(BOOL)supports {
-    supportsShake_ = supports;
+- (void)setSupportsAccelerometer:(BOOL)supports {
+    supportsAccelerometer_ = supports;
 
     UIAccelerometer* accelerometer = [UIAccelerometer sharedAccelerometer];
-    if (supportsShake_) {
+    if (supportsAccelerometer_) {
         accelerometer.updateInterval = 1.0 / kAccelerometerFrequency;
         accelerometer.delegate = self;
     } else {

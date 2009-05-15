@@ -10,7 +10,7 @@
 
 
 @interface CMBaseController : UIViewController <UIAccelerometerDelegate> {
-    BOOL supportsShake_;
+    BOOL supportsAccelerometer_;
     CFTimeInterval lastShake_;
 	UIAccelerationValue	accel_[3];
     
@@ -19,7 +19,7 @@
     float calibrationOffset_;
 }
 
-@property(nonatomic) BOOL supportsShake;
+@property(nonatomic) BOOL supportsAccelerometer;
 
 - (void)userDidShake;
 - (void)userDidRotate:(float)angle;

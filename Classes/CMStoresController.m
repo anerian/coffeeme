@@ -10,6 +10,7 @@
 #import "CMStoresController.h"
 #import "CMSettingsController.h"
 #import "CMStore.h"
+// #import "RMMapView.h"
 
 @implementation CMStoresController
 
@@ -19,7 +20,7 @@
     if (self = [super init]) {
         isLoading_ = NO;
         isDirty_ = YES;
-        self.supportsShake = YES;
+        self.supportsAccelerometer = YES;
     }
     return self;
 }
@@ -136,6 +137,8 @@
     isLoading_ = NO;
     
     [self.tableView reloadData];
+    
+    // self.view = [[RMMapView alloc] initWithFrame:self.view.frame WithLocation:[CMLocation instance].currentLocation.coordinate];
 }
 
 - (void)locationUpdated:(NSNotification*)notify {    
@@ -156,9 +159,10 @@
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 	if (cell == nil) {
 		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
-        // cell.contentView.backgroundColor = [UIColor clearColor];
         cell.backgroundView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg-cell.png"]] autorelease];
+        cell.selectedBackgroundView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg-cell-selected.png"]] autorelease];
         cell.backgroundColor = [UIColor clearColor];
+        cell.selectedTextColor = [UIColor whiteColor];
 	}
 	[[cell viewWithTag:99] removeFromSuperview];
     [cell addSubview:[store cell]];

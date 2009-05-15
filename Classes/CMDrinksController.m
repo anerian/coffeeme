@@ -7,6 +7,7 @@
 //
 
 #import "CMDrinksController.h"
+#import "CMNutritionController.h"
 #import "CMDrinksDataSource.h"
 
 
@@ -20,12 +21,12 @@
      
     self.tableView = [[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain] autorelease];
 	self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    self.variableHeightRows = YES;
     self.tableView.sectionIndexMinimumDisplayRowCount = 2;
     [self.view addSubview:self.tableView];
 
     TTSearchBar* searchBar = [[[TTSearchBar alloc] initWithFrame:CGRectMake(0, 0, appFrame.size.width, 0)] autorelease];
     searchBar.delegate = self;
-    
     searchBar.dataSource = [[[CMDrinksDataSource alloc] initWithDrinks:drinks_] autorelease];
     searchBar.showsDoneButton = YES;
     searchBar.showsDarkScreen = YES;
@@ -44,43 +45,18 @@
 }
 
 - (void)didSelectObject:(id)object atIndexPath:(NSIndexPath*)indexPath {
-    // [_delegate searchTestController:self didSelectObject:object];
+    NSString *drinkName = [object text];
+    CMNutritionController *nutritionController = [[CMNutritionController alloc] initWithDrinkName:[[drinkName copy] autorelease]];
+    [self.navigationController pushViewController:nutritionController animated:YES];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // TTSearchTextFieldDelegate
 
 - (void)textField:(TTSearchTextField*)textField didSelectObject:(id)object {
+
     // [_delegate searchTestController:self didSelectObject:object];
 }
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
-- (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
-}
-
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
-}
-
 
 - (void)dealloc {
     [super dealloc];

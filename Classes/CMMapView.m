@@ -18,7 +18,7 @@
         // [TTInnerShadowStyle styleWithColor:RGBACOLOR(0,0,0,0.5) blur:6 offset:CGSizeMake(1, 1) next:
         // [TTSolidBorderStyle styleWithColor:[UIColor grayColor] width:1 next:nil]]]];
         
-        self.url = [NSString stringWithFormat:@"http://maps.google.com/staticmap?center=%f,%f&zoom=14&size=256x256&maptype=mobile&key=%@&sensor=false", coordinate.latitude, coordinate.longitude, GMAP_KEY];
+        self.url = [NSString stringWithFormat:@"http://maps.google.com/staticmap?center=%f,%f&zoom=14&size=300x236&maptype=mobile&key=%@&sensor=false", coordinate.latitude, coordinate.longitude, GMAP_KEY];
     }
     return self;
 }

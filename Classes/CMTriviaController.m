@@ -19,7 +19,7 @@
 
 - (void)loadView {
     self.view = triviaView_;
-    self.supportsShake = YES;
+    self.supportsAccelerometer = YES;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
