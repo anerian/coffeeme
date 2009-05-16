@@ -41,11 +41,12 @@
 - (void)updateTrivia {
     fact_.text = [[[CMTrivia randomTrivia].fact copy] autorelease];
     
-    CATransition *transition = [CATransition animation];
+   /* CATransition *transition = [CATransition animation];
     transition.type = @"rippleEffect";
     transition.duration = 2.0f;
     transition.timingFunction = UIViewAnimationCurveEaseInOut;
     [[coffee_ layer] addAnimation:transition forKey:@"transitionViewAnimation"];
+	*/
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
