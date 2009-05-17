@@ -1,0 +1,18 @@
+format for nutrition data
+-------------------------
+
+Storing data in the drinks table.
+
+Normalizing all measurements in mg instead of g ( TODO )
+
+
+store_type is one of 
+  0 : starbucks
+  1 : dunkendiznuts
+  2 : carabo
+
+size is variable and depends on the store
+milk is variable and depends on the store
+
+drinks are uniquely identified by 
+name, size and milk
