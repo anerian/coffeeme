@@ -1,10 +1,26 @@
 require 'uri'
+require 'yaml'
 require 'rubygems'
 require 'hpricot'
 require 'curb'
 
 Sizes = ['Extra Large', 'Small', 'Medium', 'Large']
 Milks = ['Skim Milk and Splenda', 'Skim', 'Splenda', 'Cream']
+
+# Mapping values as parsed to how they're stored
+DunkinToDB =
+  { "Calories from Fat" => :fat_calories,
+    "Trans Fat" => :trans_fat,
+    "Serving Size" => :serving_size,
+    "Sodium" => :sodium,
+    "Cholesterol" => :cholesterol,
+    "Dietary Fiber" => :fiber,
+    "Protein" => :protein,
+    "Total Carbohydrates" => :total_carbohydrates,
+    "Saturated Fat" => :saturated_fat,
+    "Total Fat" => :total_fat,
+    "Calories" => :calories,
+    "Sugar" => :sugars }.freeze
 
 def fetch_drink_list
   c = Curl::Easy.new("https://www.dunkindonuts.com/aboutus/nutrition/ProductList.aspx?category=Beverages")
@@ -40,21 +56,26 @@ def fetch_drink_data(link,name)
         text = span.inner_text.gsub(/\302\240/,'').strip 
         next if (text == 'Nutrition Facts' or text== '' or text.match(/%$/))
         if key
-          data[key] = text
+          data[DunkinToDB[key]] = text if DunkinToDB.key?(key)
           key = nil
         else
           key = text
         end
       end
-      puts data.inspect
+      data[:name] = name
+      return data
     end
   end
 end
 
-#drinks = fetch_drink_list
-#for drink in drinks do
-#  puts "#{drink[:name]} #{drink_classifcation(drink[:name]).inspect} => #{drink[:link]}"
-#end
-#puts "Total drinks: #{drinks.size}"
+drinks = fetch_drink_list
+products = []
+for drink in drinks do
+  puts "#{drink[:name]} #{drink_classifcation(drink[:name]).inspect} => #{drink[:link]}"
+  products << fetch_drink_data("https://www.dunkindonuts.com#{drink[:link]}", drink[:name])
+end
+puts "Total drinks: #{drinks.size}"
+File.open("dunkindonuts.yml", "w") {|f| f << products.to_yaml }
 
-fetch_drink_data("https://www.dunkindonuts.com/aboutus/nutrition/Product.aspx?Category=Beverages&id=DD-1100", "Coffee Medium")
+#drink = fetch_drink_data("https://www.dunkindonuts.com/aboutus/nutrition/Product.aspx?Category=Beverages&id=DD-1100", "Coffee Medium")
+#puts drink.inspect

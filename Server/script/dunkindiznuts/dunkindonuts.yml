@@ -1,0 +1,1782 @@
+--- 
+- :saturated_fat: 0g
+  :sodium: 10mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Coffee Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 1g
+  :serving_size: 14 fl oz
+- :saturated_fat: 0g
+  :sodium: 15mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Coffee Large
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 20 fl oz
+- :saturated_fat: 0g
+  :sodium: 15mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "15"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Coffee Extra Large
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 24 fl oz
+- :saturated_fat: 0g
+  :sodium: 25mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "25"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 2g
+  :name: Coffee with Skim Milk and Splenda Small
+  :trans_fat: 0g
+  :total_carbohydrates: 5g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 35mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "30"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 2g
+  :name: Coffee with Skim Milk and Splenda Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 6g
+  :serving_size: 14 fl oz
+- :saturated_fat: 0g
+  :sodium: 45mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "45"
+  :fiber: 0g
+  :sugars: 3g
+  :fat_calories: "0"
+  :protein: 3g
+  :name: Coffee with Skim Milk and Splenda Large
+  :trans_fat: 0g
+  :total_carbohydrates: 8g
+  :serving_size: 20 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "15"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Coffee with Splenda Small
+  :trans_fat: 0g
+  :total_carbohydrates: 3g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 10mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "15"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Coffee with Splenda Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 3g
+  :serving_size: 14 fl oz
+- :saturated_fat: 0g
+  :sodium: 15mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "25"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Coffee with Splenda Large
+  :trans_fat: 0g
+  :total_carbohydrates: 5g
+  :serving_size: 20 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "5"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Coffee Small
+  :trans_fat: 0g
+  :total_carbohydrates: 1g
+  :serving_size: 10 fl oz
+- :saturated_fat: 4g
+  :sodium: 20mg
+  :total_fat: 6g
+  :cholesterol: 20mg
+  :calories: "60"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "50"
+  :protein: 1g
+  :name: Coffee with Cream Small
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 4g
+  :sodium: 20mg
+  :total_fat: 6g
+  :cholesterol: 20mg
+  :calories: "120"
+  :fiber: 0g
+  :sugars: 17g
+  :fat_calories: "50"
+  :protein: 1g
+  :name: Coffee with Cream and Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 1g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "25"
+  :fiber: 0g
+  :sugars: 1g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: Coffee with Milk Small
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 1g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: Coffee with Milk and Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 20g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 25mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "15"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 2g
+  :name: Coffee with Skim Milk Small
+  :trans_fat: 0g
+  :total_carbohydrates: 3g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 25mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "70"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "0"
+  :protein: 2g
+  :name: Coffee with Skim Milk and Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 20g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "60"
+  :fiber: 0g
+  :sugars: 17g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Coffee with Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 18g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 0mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "0"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: "Turbo Shot \xC2\x99 Small"
+  :trans_fat: 0g
+  :total_carbohydrates: 0g
+  :serving_size: 1.75 fl oz
+- :saturated_fat: 0g
+  :sodium: 10mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "5"
+  :fiber: 0g
+  :sugars: 1g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: "Turbo Shot \xC2\x99 Medium"
+  :trans_fat: 0g
+  :total_carbohydrates: 1g
+  :serving_size: 2.5 fl oz
+- :saturated_fat: 0g
+  :sodium: 15mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: "Turbo Shot \xC2\x99 Large"
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 3.5 fl oz
+- :saturated_fat: 0g
+  :sodium: 15mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: "Turbo Shot \xC2\x99 Extra Large"
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 4 fl oz
+- :saturated_fat: 0g
+  :sodium: 115mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "210"
+  :fiber: 0g
+  :sugars: 44g
+  :fat_calories: "0"
+  :protein: 7g
+  :name: "Coffee Coolatta\xC2\xAE with Skim Milk Medium"
+  :trans_fat: 0g
+  :total_carbohydrates: 45g
+  :serving_size: 24 fl oz
+- :saturated_fat: 0g
+  :sodium: 150mg
+  :total_fat: 0g
+  :cholesterol: 5mg
+  :calories: "270"
+  :fiber: 0g
+  :sugars: 58g
+  :fat_calories: "0"
+  :protein: 9g
+  :name: "Coffee Coolatta\xC2\xAE with Skim Milk Large"
+  :trans_fat: 0g
+  :total_carbohydrates: 59g
+  :serving_size: 32 fl oz
+- :saturated_fat: 14g
+  :sodium: 60mg
+  :total_fat: 23g
+  :cholesterol: 80mg
+  :calories: "330"
+  :fiber: 0g
+  :sugars: 23g
+  :fat_calories: "210"
+  :protein: 3g
+  :name: "Coffee Coolatta\xC2\xAE with Cream Small"
+  :trans_fat: 0.5g
+  :total_carbohydrates: 28g
+  :serving_size: 16 fl oz
+- :saturated_fat: 2.5g
+  :sodium: 75mg
+  :total_fat: 4g
+  :cholesterol: 15mg
+  :calories: "170"
+  :fiber: 0g
+  :sugars: 29g
+  :fat_calories: "35"
+  :protein: 4g
+  :name: "Coffee Coolatta\xC2\xAE with Milk Small"
+  :trans_fat: 0g
+  :total_carbohydrates: 29g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 75mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "140"
+  :fiber: 0g
+  :sugars: 29g
+  :fat_calories: "0"
+  :protein: 4g
+  :name: "Coffee Coolatta\xC2\xAE with Skim Milk Small"
+  :trans_fat: 0g
+  :total_carbohydrates: 30g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 35mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "220"
+  :fiber: 0g
+  :sugars: 50g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: "Tropicana Orange Coolatta\xC2\xAE Small"
+  :trans_fat: 0g
+  :total_carbohydrates: 52g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 40mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "300"
+  :fiber: 0g
+  :sugars: 65g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: "Strawberry Fruit Coolatta\xC2\xAE Small"
+  :trans_fat: 0g
+  :total_carbohydrates: 72g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "15"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Blueberry Coffee Small
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Caramel Coffee Small
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "15"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Cinnamon Coffee Small
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 10mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Hazelnut Coffee Small
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "15"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Raspberry Coffee Small
+  :trans_fat: 0g
+  :total_carbohydrates: 3g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "15"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Toasted Almond Coffee Small
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 10mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: French Vanilla Coffee Small
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Coconut Coffee Small
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 6g
+  :sodium: 140mg
+  :total_fat: 9g
+  :cholesterol: 35mg
+  :calories: "330"
+  :fiber: 2g
+  :sugars: 48g
+  :fat_calories: "80"
+  :protein: 10g
+  :name: Mocha Spice Latte Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 53g
+  :serving_size: 16 fl oz
+- :saturated_fat: 8g
+  :sodium: 190mg
+  :total_fat: 12g
+  :cholesterol: 50mg
+  :calories: "450"
+  :fiber: 2g
+  :sugars: 64g
+  :fat_calories: "110"
+  :protein: 13g
+  :name: Mocha Spice Latte Large
+  :trans_fat: 0g
+  :total_carbohydrates: 70g
+  :serving_size: 20 fl oz
+- :saturated_fat: 4g
+  :sodium: 95mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "220"
+  :fiber: 1g
+  :sugars: 32g
+  :fat_calories: "60"
+  :protein: 7g
+  :name: Mocha Spice Latte Small
+  :trans_fat: 0g
+  :total_carbohydrates: 35g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 170mg
+  :total_fat: 0g
+  :cholesterol: 5mg
+  :calories: "120"
+  :fiber: 0g
+  :sugars: 15g
+  :fat_calories: "0"
+  :protein: 10g
+  :name: Latte Lite Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 220mg
+  :total_fat: 0g
+  :cholesterol: 5mg
+  :calories: "160"
+  :fiber: 0g
+  :sugars: 20g
+  :fat_calories: "0"
+  :protein: 14g
+  :name: Latte Lite Large
+  :trans_fat: 0g
+  :total_carbohydrates: 25g
+  :serving_size: 20 fl oz
+- :saturated_fat: 0g
+  :sodium: 170mg
+  :total_fat: 0g
+  :cholesterol: 5mg
+  :calories: "130"
+  :fiber: 0g
+  :sugars: 15g
+  :fat_calories: "0"
+  :protein: 10g
+  :name: Vanilla Latte Lite Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 20g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 220mg
+  :total_fat: 0g
+  :cholesterol: 5mg
+  :calories: "170"
+  :fiber: 0g
+  :sugars: 20g
+  :fat_calories: "0"
+  :protein: 14g
+  :name: Vanilla Latte Lite Large
+  :trans_fat: 0g
+  :total_carbohydrates: 28g
+  :serving_size: 20 fl oz
+- :saturated_fat: 4g
+  :sodium: 110mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "230"
+  :fiber: 1g
+  :sugars: 32g
+  :fat_calories: "60"
+  :protein: 7g
+  :name: Mocha Raspberry Latte Small
+  :trans_fat: 0g
+  :total_carbohydrates: 36g
+  :serving_size: 10 fl oz
+- :saturated_fat: 6g
+  :sodium: 160mg
+  :total_fat: 9g
+  :cholesterol: 35mg
+  :calories: "340"
+  :fiber: 2g
+  :sugars: 48g
+  :fat_calories: "80"
+  :protein: 10g
+  :name: Mocha Raspberry Latte Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 54g
+  :serving_size: 16 fl oz
+- :saturated_fat: 8g
+  :sodium: 220mg
+  :total_fat: 12g
+  :cholesterol: 50mg
+  :calories: "450"
+  :fiber: 2g
+  :sugars: 64g
+  :fat_calories: "110"
+  :protein: 13g
+  :name: Mocha Raspberry Latte Large
+  :trans_fat: 0g
+  :total_carbohydrates: 73g
+  :serving_size: 20 fl oz
+- :saturated_fat: 3.5g
+  :sodium: 105mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "120"
+  :fiber: 0g
+  :sugars: 10g
+  :fat_calories: "50"
+  :protein: 6g
+  :name: Latte Small
+  :trans_fat: 0g
+  :total_carbohydrates: 10g
+  :serving_size: 10 fl oz
+- :saturated_fat: 3.5g
+  :sodium: 100mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "170"
+  :fiber: 0g
+  :sugars: 27g
+  :fat_calories: "50"
+  :protein: 6g
+  :name: Latte with Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 27g
+  :serving_size: 10 fl oz
+- :saturated_fat: 3.5g
+  :sodium: 150mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "220"
+  :fiber: 0g
+  :sugars: 34g
+  :fat_calories: "50"
+  :protein: 8g
+  :name: Caramel Swirl Latte Small
+  :trans_fat: 0g
+  :total_carbohydrates: 35g
+  :serving_size: 10 fl oz
+- :saturated_fat: 4g
+  :sodium: 115mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "220"
+  :fiber: 1g
+  :sugars: 32g
+  :fat_calories: "60"
+  :protein: 7g
+  :name: Mocha Swirl Latte Small
+  :trans_fat: 0g
+  :total_carbohydrates: 35g
+  :serving_size: 10 fl oz
+- :saturated_fat: 2.5g
+  :sodium: 70mg
+  :total_fat: 4g
+  :cholesterol: 15mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 7g
+  :fat_calories: "35"
+  :protein: 4g
+  :name: Cappuccino Small
+  :trans_fat: 0g
+  :total_carbohydrates: 7g
+  :serving_size: 10 fl oz
+- :saturated_fat: 2.5g
+  :sodium: 70mg
+  :total_fat: 4g
+  :cholesterol: 15mg
+  :calories: "140"
+  :fiber: 0g
+  :sugars: 24g
+  :fat_calories: "35"
+  :protein: 4g
+  :name: Cappuccino with Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 24g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 0mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "0"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Espresso
+  :trans_fat: 0g
+  :total_carbohydrates: 0g
+  :serving_size: 1.75 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "30"
+  :fiber: 0g
+  :sugars: 7g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Espresso with Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 7g
+  :serving_size: 1.75 fl oz
+- :saturated_fat: 0g
+  :sodium: 110mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 10g
+  :fat_calories: "0"
+  :protein: 7g
+  :name: Latte Lite Small
+  :trans_fat: 0g
+  :total_carbohydrates: 13g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 110mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "90"
+  :fiber: 0g
+  :sugars: 10g
+  :fat_calories: "0"
+  :protein: 7g
+  :name: Vanilla Latte Lite Small
+  :trans_fat: 0g
+  :total_carbohydrates: 14g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 10mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "15"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Iced Coffee Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 24 fl oz
+- :saturated_fat: 0g
+  :sodium: 15mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "20"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Iced Coffee Large
+  :trans_fat: 0g
+  :total_carbohydrates: 3g
+  :serving_size: 32 fl oz
+- :saturated_fat: 0g
+  :sodium: 25mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "30"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 2g
+  :name: Iced Coffee with Skim Milk and Splenda Small
+  :trans_fat: 0g
+  :total_carbohydrates: 5g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 35mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "40"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 3g
+  :name: Iced Coffee with Skim Milk and Splenda Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 8g
+  :serving_size: 24 fl oz
+- :saturated_fat: 0g
+  :sodium: 45mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "60"
+  :fiber: 0g
+  :sugars: 3g
+  :fat_calories: "0"
+  :protein: 3g
+  :name: Iced Coffee with Skim Milk and Splenda Large
+  :trans_fat: 0g
+  :total_carbohydrates: 10g
+  :serving_size: 32 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Iced Coffee Small
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 16 fl oz
+- :saturated_fat: 4g
+  :sodium: 20mg
+  :total_fat: 6g
+  :cholesterol: 20mg
+  :calories: "70"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "50"
+  :protein: 1g
+  :name: Iced Coffee with Cream Small
+  :trans_fat: 0g
+  :total_carbohydrates: 3g
+  :serving_size: 16 fl oz
+- :saturated_fat: 4g
+  :sodium: 20mg
+  :total_fat: 6g
+  :cholesterol: 20mg
+  :calories: "120"
+  :fiber: 0g
+  :sugars: 17g
+  :fat_calories: "50"
+  :protein: 1g
+  :name: Iced Coffee with Cream and Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 20g
+  :serving_size: 16 fl oz
+- :saturated_fat: 1g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "30"
+  :fiber: 0g
+  :sugars: 1g
+  :fat_calories: "10"
+  :protein: 2g
+  :name: Iced Coffee with Milk Small
+  :trans_fat: 0g
+  :total_carbohydrates: 3g
+  :serving_size: 16 fl oz
+- :saturated_fat: 1g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "90"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "10"
+  :protein: 2g
+  :name: Iced Coffee with Milk and Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 21g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 25mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "20"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 2g
+  :name: Iced Coffee with Skim Milk Small
+  :trans_fat: 0g
+  :total_carbohydrates: 3g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 25mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "0"
+  :protein: 2g
+  :name: Iced Coffee with Skim Milk and Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 21g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "70"
+  :fiber: 0g
+  :sugars: 17g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Iced Coffee with Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 16 fl oz
+- :saturated_fat: 4g
+  :sodium: 95mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "220"
+  :fiber: 1g
+  :sugars: 32g
+  :fat_calories: "60"
+  :protein: 7g
+  :name: Mocha Spice Iced Latte Small
+  :trans_fat: 0g
+  :total_carbohydrates: 35g
+  :serving_size: 16 fl oz
+- :saturated_fat: 6g
+  :sodium: 140mg
+  :total_fat: 9g
+  :cholesterol: 35mg
+  :calories: "330"
+  :fiber: 2g
+  :sugars: 48g
+  :fat_calories: "80"
+  :protein: 10g
+  :name: Mocha Spice Iced Latte Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 53g
+  :serving_size: 24 fl oz
+- :saturated_fat: 8g
+  :sodium: 190mg
+  :total_fat: 12g
+  :cholesterol: 50mg
+  :calories: "450"
+  :fiber: 2g
+  :sugars: 64g
+  :fat_calories: "110"
+  :protein: 13g
+  :name: Mocha Spice Iced Latte Large
+  :trans_fat: 0g
+  :total_carbohydrates: 70g
+  :serving_size: 32 fl oz
+- :saturated_fat: 0g
+  :sodium: 170mg
+  :total_fat: 0g
+  :cholesterol: 5mg
+  :calories: "120"
+  :fiber: 0g
+  :sugars: 15g
+  :fat_calories: "0"
+  :protein: 10g
+  :name: Iced Latte Lite Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 24 fl oz
+- :saturated_fat: 0g
+  :sodium: 220mg
+  :total_fat: 0g
+  :cholesterol: 5mg
+  :calories: "160"
+  :fiber: 0g
+  :sugars: 20g
+  :fat_calories: "0"
+  :protein: 14g
+  :name: Iced Latte Lite Large
+  :trans_fat: 0g
+  :total_carbohydrates: 25g
+  :serving_size: 32 fl oz
+- :saturated_fat: 4g
+  :sodium: 110mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "230"
+  :fiber: 1g
+  :sugars: 32g
+  :fat_calories: "60"
+  :protein: 7g
+  :name: Mocha Raspberry Iced Latte Small
+  :trans_fat: 0g
+  :total_carbohydrates: 36g
+  :serving_size: 16 fl oz
+- :saturated_fat: 6g
+  :sodium: 160mg
+  :total_fat: 9g
+  :cholesterol: 35mg
+  :calories: "340"
+  :fiber: 2g
+  :sugars: 48g
+  :fat_calories: "80"
+  :protein: 10g
+  :name: Mocha Raspberry Iced Latte Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 54g
+  :serving_size: 24 fl oz
+- :saturated_fat: 8g
+  :sodium: 220mg
+  :total_fat: 12g
+  :cholesterol: 50mg
+  :calories: "450"
+  :fiber: 2g
+  :sugars: 64g
+  :fat_calories: "110"
+  :protein: 13g
+  :name: Mocha Raspberry Iced Latte Large
+  :trans_fat: 0g
+  :total_carbohydrates: 73g
+  :serving_size: 32 fl oz
+- :saturated_fat: 3.5g
+  :sodium: 105mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "120"
+  :fiber: 0g
+  :sugars: 10g
+  :fat_calories: "50"
+  :protein: 6g
+  :name: Iced Latte Small
+  :trans_fat: 0g
+  :total_carbohydrates: 10g
+  :serving_size: 16 fl oz
+- :saturated_fat: 3.5g
+  :sodium: 100mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "170"
+  :fiber: 0g
+  :sugars: 27g
+  :fat_calories: "50"
+  :protein: 6g
+  :name: Iced Latte with Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 27g
+  :serving_size: 16 fl oz
+- :saturated_fat: 3.5g
+  :sodium: 150mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "220"
+  :fiber: 0g
+  :sugars: 34g
+  :fat_calories: "50"
+  :protein: 8g
+  :name: Iced Caramel Swirl Latte Small
+  :trans_fat: 0g
+  :total_carbohydrates: 35g
+  :serving_size: 16 fl oz
+- :saturated_fat: 4g
+  :sodium: 115mg
+  :total_fat: 6g
+  :cholesterol: 25mg
+  :calories: "220"
+  :fiber: 1g
+  :sugars: 32g
+  :fat_calories: "60"
+  :protein: 7g
+  :name: Iced Mocha Swirl Latte Small
+  :trans_fat: 0g
+  :total_carbohydrates: 35g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 110mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "130"
+  :fiber: 0g
+  :sugars: 27g
+  :fat_calories: "0"
+  :protein: 7g
+  :name: Iced Latte with Skim Milk and Sugar Small
+  :trans_fat: 0g
+  :total_carbohydrates: 28g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 150mg
+  :total_fat: 0g
+  :cholesterol: 5mg
+  :calories: "180"
+  :fiber: 0g
+  :sugars: 35g
+  :fat_calories: "0"
+  :protein: 9g
+  :name: Iced Caramel Swirl Latte with Skim Milk Small
+  :trans_fat: 0g
+  :total_carbohydrates: 36g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 125mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "180"
+  :fiber: 1g
+  :sugars: 32g
+  :fat_calories: "0"
+  :protein: 8g
+  :name: Iced Mocha Swirl Latte with Skim Milk Small
+  :trans_fat: 0g
+  :total_carbohydrates: 36g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 110mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "70"
+  :fiber: 0g
+  :sugars: 10g
+  :fat_calories: "0"
+  :protein: 7g
+  :name: Iced Latte with Skim Milk Small
+  :trans_fat: 0g
+  :total_carbohydrates: 11g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 110mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 10g
+  :fat_calories: "0"
+  :protein: 7g
+  :name: Iced Latte Lite Small
+  :trans_fat: 0g
+  :total_carbohydrates: 13g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 110mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "90"
+  :fiber: 0g
+  :sugars: 10g
+  :fat_calories: "0"
+  :protein: 7g
+  :name: Vanilla Iced Latte Lite Small
+  :trans_fat: 0g
+  :total_carbohydrates: 14g
+  :serving_size: 16 fl oz
+- :saturated_fat: 7g
+  :sodium: 440mg
+  :total_fat: 7g
+  :cholesterol: 0mg
+  :calories: "210"
+  :fiber: 1g
+  :sugars: 31g
+  :fat_calories: "60"
+  :protein: 2g
+  :name: Milky Way Hot Chocolate Small
+  :trans_fat: 0g
+  :total_carbohydrates: 39g
+  :serving_size: 10 fl oz
+- :saturated_fat: 10g
+  :sodium: 640mg
+  :total_fat: 11g
+  :cholesterol: 0mg
+  :calories: "320"
+  :fiber: 2g
+  :sugars: 46g
+  :fat_calories: "90"
+  :protein: 2g
+  :name: Milky Way Hot Chocolate Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 58g
+  :serving_size: 14 fl oz
+- :saturated_fat: 14g
+  :sodium: 900mg
+  :total_fat: 15g
+  :cholesterol: 0mg
+  :calories: "440"
+  :fiber: 2g
+  :sugars: 64g
+  :fat_calories: "130"
+  :protein: 3g
+  :name: Milky Way Hot Chocolate Large
+  :trans_fat: 0g
+  :total_carbohydrates: 81g
+  :serving_size: 20 fl oz
+- :saturated_fat: 9g
+  :sodium: 190mg
+  :total_fat: 11g
+  :cholesterol: 10mg
+  :calories: "230"
+  :fiber: 1g
+  :sugars: 24g
+  :fat_calories: "100"
+  :protein: 2g
+  :name: "Dunkaccino\xC2\xAE Small"
+  :trans_fat: 0g
+  :total_carbohydrates: 35g
+  :serving_size: 10 fl oz
+- :saturated_fat: 7g
+  :sodium: 270mg
+  :total_fat: 7g
+  :cholesterol: 0mg
+  :calories: "210"
+  :fiber: 2g
+  :sugars: 30g
+  :fat_calories: "60"
+  :protein: 2g
+  :name: Hot Chocolate Small
+  :trans_fat: 0g
+  :total_carbohydrates: 39g
+  :serving_size: 10 fl oz
+- :saturated_fat: 8g
+  :sodium: 170mg
+  :total_fat: 9g
+  :cholesterol: 10mg
+  :calories: "330"
+  :fiber: 0g
+  :sugars: 46g
+  :fat_calories: "80"
+  :protein: 11g
+  :name: Vanilla Chai
+  :trans_fat: 0g
+  :total_carbohydrates: 53g
+  :serving_size: 14 fl oz
+- :saturated_fat: 7g
+  :sodium: 310mg
+  :total_fat: 9g
+  :cholesterol: 0mg
+  :calories: "230"
+  :fiber: 0g
+  :sugars: 31g
+  :fat_calories: "80"
+  :protein: 2g
+  :name: White Hot Chocolate Small
+  :trans_fat: 0g
+  :total_carbohydrates: 38g
+  :serving_size: 10 fl oz
+- :saturated_fat: 11g
+  :sodium: 460mg
+  :total_fat: 13g
+  :cholesterol: 0mg
+  :calories: "340"
+  :fiber: 0g
+  :sugars: 45g
+  :fat_calories: "110"
+  :protein: 3g
+  :name: White Hot Chocolate Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 56g
+  :serving_size: 14 fl oz
+- :saturated_fat: 15g
+  :sodium: 640mg
+  :total_fat: 18g
+  :cholesterol: 0mg
+  :calories: "480"
+  :fiber: 0g
+  :sugars: 63g
+  :fat_calories: "160"
+  :protein: 4g
+  :name: White Hot Chocolate Large
+  :trans_fat: 0g
+  :total_carbohydrates: 79g
+  :serving_size: 20 fl oz
+- :saturated_fat: 0g
+  :sodium: 0mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "5"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Freshly Brewed Unsweetened Iced Tea Medium
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 24 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Freshly Brewed Unsweetened Iced Tea Large
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 32 fl oz
+- :saturated_fat: 0g
+  :sodium: 0mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "120"
+  :fiber: 0g
+  :sugars: 28g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Sweet Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 29g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "0"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Earl Grey Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 0g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "0"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: English Breakfast Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 0g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "0"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Decaffeinated Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 0g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "0"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Green Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 0g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "0"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Freshly Brewed Unsweetened Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 0g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "0"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Lemon Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 0g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0.5g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "20"
+  :fiber: 0g
+  :sugars: 1g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: Freshly Brewed Tea with Milk
+  :trans_fat: 0g
+  :total_carbohydrates: 1g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0.5g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "20"
+  :fiber: 0g
+  :sugars: 1g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: Decaffeinated Tea with Milk
+  :trans_fat: 0g
+  :total_carbohydrates: 1g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0.5g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "20"
+  :fiber: 0g
+  :sugars: 1g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: English Breakfast Tea with Milk
+  :trans_fat: 0g
+  :total_carbohydrates: 1g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0.5g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "20"
+  :fiber: 0g
+  :sugars: 1g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: Earl Grey Tea with Milk
+  :trans_fat: 0g
+  :total_carbohydrates: 1g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0.5g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "20"
+  :fiber: 0g
+  :sugars: 1g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: Green Tea with Milk
+  :trans_fat: 0g
+  :total_carbohydrates: 1g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0.5g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: Freshly Brewed Tea with Milk and Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0.5g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: Decaffeinated Tea with Milk and Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0.5g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: English Breakfast Tea with Milk and Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0.5g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: Earl Grey Tea with Milk and Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0.5g
+  :sodium: 20mg
+  :total_fat: 1g
+  :cholesterol: 5mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "10"
+  :protein: 1g
+  :name: Green Tea with Milk and Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 20mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Freshly Brewed Tea with Skim Milk
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 20mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Decaffeinated Tea with Skim Milk
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 20mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: English Breakfast Tea with Skim Milk
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 20mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Earl Grey Tea with Skim Milk
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 20mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 2g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Green Tea with Skim Milk
+  :trans_fat: 0g
+  :total_carbohydrates: 2g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 20mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "70"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Freshly Brewed Tea with Skim Milk and Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 20mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "70"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Decaffeinated Tea with Skim Milk and Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 20mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "70"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: English Breakfast Tea with Skim Milk and Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 20mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "70"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Earl Grey Tea with Skim Milk and Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 20mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "70"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "0"
+  :protein: 1g
+  :name: Green Tea with Skim Milk and Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 19g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "60"
+  :fiber: 0g
+  :sugars: 17g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Freshly Brewed Tea with Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 17g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "60"
+  :fiber: 0g
+  :sugars: 17g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Decaffeinated Tea with Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 17g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "60"
+  :fiber: 0g
+  :sugars: 17g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Lemon Tea with Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 17g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "60"
+  :fiber: 0g
+  :sugars: 17g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: English Breakfast Tea with Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 17g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "60"
+  :fiber: 0g
+  :sugars: 17g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Earl Grey Tea with Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 17g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 5mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "60"
+  :fiber: 0g
+  :sugars: 17g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Green Tea with Sugar
+  :trans_fat: 0g
+  :total_carbohydrates: 17g
+  :serving_size: 10 fl oz
+- :saturated_fat: 0g
+  :sodium: 0mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "5"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Freshly Brewed Unsweetened Iced Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 1g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 0mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "80"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Freshly Brewed Sweetened Iced Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 20g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 0mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "10"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Raspberry Flavored Iced Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 3g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 0mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "15"
+  :fiber: 0g
+  :sugars: 0g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Peach Flavored Iced Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 3g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 0mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "90"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Raspberry Flavored Sweetened Iced Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 22g
+  :serving_size: 16 fl oz
+- :saturated_fat: 0g
+  :sodium: 0mg
+  :total_fat: 0g
+  :cholesterol: 0mg
+  :calories: "90"
+  :fiber: 0g
+  :sugars: 19g
+  :fat_calories: "0"
+  :protein: 0g
+  :name: Peach Flavored Sweetened Iced Tea
+  :trans_fat: 0g
+  :total_carbohydrates: 22g
+  :serving_size: 16 fl oz
