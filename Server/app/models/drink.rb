@@ -3,7 +3,9 @@ class Drink < ActiveRecord::Base
             # starbucks
             'tall', 'grande', 'venti', 'solo', 'doppio', 'short',
             # dunkindonuts
-            'medium', 'large', 'extra large', 'small'
+            'medium', 'large', 'extra large', 'small', 
+            # caribou
+            'junior'
           ].freeze
   Milks = [
             # starbucks
