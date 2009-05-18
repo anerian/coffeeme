@@ -26,6 +26,13 @@
     [super viewWillAppear:animated];
     [self refresh];    
 }
+- (void)viewDidLoad {
+    self.navigationItem.rightBarButtonItem = 
+        [[[UIBarButtonItem alloc] initWithTitle:@"More" 
+                                          style:UIBarButtonItemStyleBordered
+                                         target:self 
+                                         action:@selector(refresh)] autorelease];
+}
 
 - (void)userDidShake {
 
