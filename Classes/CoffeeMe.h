@@ -17,7 +17,7 @@ typedef enum {
 	CMStoreTypeCount
 } CMStoreType;
 
-struct CMNutrition {
+typedef struct _CMNutrition {
     int servingSize;
     int calories;
     int totalFat;
@@ -29,8 +29,7 @@ struct CMNutrition {
     int fiber;
     int sugars;
     int protein;
-};
-typedef struct CMNutrition CMNutrition;
+} CMNutrition;
 
 NSString* CMSizeType(NSUInteger type);
 NSString* CMMilkType(NSUInteger type);

@@ -78,7 +78,8 @@
 		398B49770FBEF6BF0075DB78 /* steam_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 398B49720FBEF6BF0075DB78 /* steam_1.png */; };
 		398B49780FBEF6BF0075DB78 /* steam_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 398B49730FBEF6BF0075DB78 /* steam_4.png */; };
 		398B49790FBEF6BF0075DB78 /* steam_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 398B49740FBEF6BF0075DB78 /* steam_2.png */; };
-		39D5972B0FC19E6400735F60 /* coffeeme.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 39D5972A0FC19E6400735F60 /* coffeeme.sqlite3 */; };
+		39D597460FC1A1A300735F60 /* coffeeme.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 39D597450FC1A1A300735F60 /* coffeeme.sqlite3 */; };
+		39D597550FC1A43300735F60 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D597540FC1A43300735F60 /* About.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,7 +206,8 @@
 		398B49720FBEF6BF0075DB78 /* steam_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steam_1.png; sourceTree = "<group>"; };
 		398B49730FBEF6BF0075DB78 /* steam_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steam_4.png; sourceTree = "<group>"; };
 		398B49740FBEF6BF0075DB78 /* steam_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steam_2.png; sourceTree = "<group>"; };
-		39D5972A0FC19E6400735F60 /* coffeeme.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffeeme.sqlite3; sourceTree = "<group>"; };
+		39D597450FC1A1A300735F60 /* coffeeme.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffeeme.sqlite3; sourceTree = "<group>"; };
+		39D597540FC1A43300735F60 /* About.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -281,12 +283,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				39D5972A0FC19E6400735F60 /* coffeeme.sqlite3 */,
+				39D597450FC1A1A300735F60 /* coffeeme.sqlite3 */,
 				39868C080FBB6090006E151C /* Images */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */,
 				3986903B0FBDE392006E151C /* Nutrition.xib */,
 				39474C530FC0C0D800B1D410 /* AppConfig.plist */,
+				39D597540FC1A43300735F60 /* About.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -529,7 +532,8 @@
 				39474C540FC0C0D800B1D410 /* AppConfig.plist in Resources */,
 				39474C9C0FC0FDF400B1D410 /* bg-nutrition.png in Resources */,
 				39474CB80FC106C300B1D410 /* bg-metrics.png in Resources */,
-				39D5972B0FC19E6400735F60 /* coffeeme.sqlite3 in Resources */,
+				39D597460FC1A1A300735F60 /* coffeeme.sqlite3 in Resources */,
+				39D597550FC1A43300735F60 /* About.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

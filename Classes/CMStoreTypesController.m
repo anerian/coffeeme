@@ -41,8 +41,6 @@
     nav.frontNavigationController.navigationBar.tintColor = HexToUIColor(0x372010);
     
     [nav addView:@"drinks" controller:[CMDrinksController class]];
-    
-    
 }
 
 - (id<TTTableViewDataSource>)createDataSource {
