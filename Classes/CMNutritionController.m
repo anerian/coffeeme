@@ -74,7 +74,7 @@
                                              target:self 
                                             action:@selector(settings)] autorelease];
     }
-
+    
 }
 
 - (void)settings {

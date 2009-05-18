@@ -310,6 +310,10 @@
 			39D597510FC1A2C600735F60 /* PBXTextBookmark */ = 39D597510FC1A2C600735F60 /* PBXTextBookmark */;
 			39D597520FC1A2C600735F60 /* PBXTextBookmark */ = 39D597520FC1A2C600735F60 /* PBXTextBookmark */;
 			39D597530FC1A2C700735F60 /* PBXTextBookmark */ = 39D597530FC1A2C700735F60 /* PBXTextBookmark */;
+			39D5975A0FC1A71200735F60 /* PBXTextBookmark */ = 39D5975A0FC1A71200735F60 /* PBXTextBookmark */;
+			39D5975B0FC1A71200735F60 /* PBXTextBookmark */ = 39D5975B0FC1A71200735F60 /* PBXTextBookmark */;
+			39D5975C0FC1A71200735F60 /* PBXTextBookmark */ = 39D5975C0FC1A71200735F60 /* PBXTextBookmark */;
+			39D5975D0FC1A71200735F60 /* PBXTextBookmark */ = 39D5975D0FC1A71200735F60 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 397D74810FB23DFA00ACE161 /* Source Control */;
 		userBuildSettings = {
@@ -1912,6 +1916,13 @@
 			sepNavVisRange = "{0, 220}";
 		};
 	};
+	3986900A0FBDBF1B006E151C /* CMInfoController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 976}}";
+			sepNavSelRange = "{411, 0}";
+			sepNavVisRange = "{0, 854}";
+		};
+	};
 	398690270FBDDDFE006E151C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 398690090FBDBF1B006E151C /* CMInfoController.h */;
@@ -2615,5 +2626,45 @@
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 3452;
+	};
+	39D5975A0FC1A71200735F60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3986817A0FB352BB006E151C /* CMNutritionController.m */;
+		name = "CMNutritionController.m: 176";
+		rLen = 0;
+		rLoc = 5707;
+		rType = 0;
+		vrLen = 1375;
+		vrLoc = 3452;
+	};
+	39D5975B0FC1A71200735F60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3986900A0FBDBF1B006E151C /* CMInfoController.m */;
+		name = "CMInfoController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 0;
+	};
+	39D5975C0FC1A71200735F60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3986817A0FB352BB006E151C /* CMNutritionController.m */;
+		name = "CMNutritionController.m: 176";
+		rLen = 0;
+		rLoc = 5707;
+		rType = 0;
+		vrLen = 1375;
+		vrLoc = 3452;
+	};
+	39D5975D0FC1A71200735F60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3986900A0FBDBF1B006E151C /* CMInfoController.m */;
+		name = "CMInfoController.m: 16";
+		rLen = 0;
+		rLoc = 411;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 0;
 	};
 }
