@@ -16,7 +16,7 @@
     if (self = [super init]) {
         store_ = [store retain];
         
-        self.title = @"Info";
+        self.title = @"Details";
     }
     return self;
 }

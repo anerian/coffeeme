@@ -99,7 +99,7 @@
     
     isDirty_ = YES;
     isLoading_ = YES;
-    [self showAlert];
+    // [self showAlert];
     [[CMLocation instance] start];
 }
 
@@ -133,7 +133,7 @@
     [stores_ release];
     stores_ = stores;
     
-    [self hideAlert];
+    // [self hideAlert];
     isLoading_ = NO;
     
     [self.tableView reloadData];

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "CMAppConfig.h"
 
+#define CMTextColor HexToUIColor(0x351f0f)
 
 typedef enum {
 	CMStoreTypeStarbucks = 0,

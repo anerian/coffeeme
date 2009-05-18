@@ -20,7 +20,6 @@
 		39474CB80FC106C300B1D410 /* bg-metrics.png in Resources */ = {isa = PBXBuildFile; fileRef = 39474CB70FC106C300B1D410 /* bg-metrics.png */; };
 		397D74A40FB24EF900ACE161 /* CMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74A30FB24EF900ACE161 /* CMStore.m */; };
 		397D74B40FB2519100ACE161 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */; };
-		397D74D70FB257B600ACE161 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74D60FB257B600ACE161 /* MyCLController.m */; };
 		397D74D90FB2585B00ACE161 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74D80FB2585B00ACE161 /* CoreLocation.framework */; };
 		397D751D0FB2A52700ACE161 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D751C0FB2A52700ACE161 /* QuartzCore.framework */; };
 		398681040FB336D6006E151C /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 398681030FB336D3006E151C /* libThree20.a */; };
@@ -119,8 +118,6 @@
 		397D74A20FB24EF900ACE161 /* CMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStore.h; sourceTree = "<group>"; };
 		397D74A30FB24EF900ACE161 /* CMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStore.m; sourceTree = "<group>"; };
 		397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/lib/libsqlite3.0.dylib; sourceTree = SOURCE_ROOT; };
-		397D74D50FB257B600ACE161 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
-		397D74D60FB257B600ACE161 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
 		397D74D80FB2585B00ACE161 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = SOURCE_ROOT; };
 		397D751C0FB2A52700ACE161 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = SOURCE_ROOT; };
 		398680F90FB336D3006E151C /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20.xcodeproj; sourceTree = "<group>"; };
@@ -346,8 +343,6 @@
 		398681720FB3523D006E151C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				397D74D50FB257B600ACE161 /* MyCLController.h */,
-				397D74D60FB257B600ACE161 /* MyCLController.m */,
 				398681730FB35297006E151C /* CMStoresController.h */,
 				398681740FB35297006E151C /* CMStoresController.m */,
 				398681760FB352A6006E151C /* CMTriviaController.h */,
@@ -547,7 +542,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CoffeeMeAppDelegate.m in Sources */,
 				397D74A40FB24EF900ACE161 /* CMStore.m in Sources */,
-				397D74D70FB257B600ACE161 /* MyCLController.m in Sources */,
 				398681750FB35297006E151C /* CMStoresController.m in Sources */,
 				398681780FB352A6006E151C /* CMTriviaController.m in Sources */,
 				3986817B0FB352BB006E151C /* CMNutritionController.m in Sources */,

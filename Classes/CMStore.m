@@ -16,9 +16,9 @@ type = type_, latitude = latitude_, longitude = longitude_, cell = cell_, distan
 userLatitude = userLatitude_, userLongitude = userLongitude_;
 
 + (NSString *)storeNameForCode:(NSUInteger)code {
-    NSString *store;
-    switch(code) {
-        case 0:
+  NSString *store;
+  switch(code) {
+    case 0:
             store = @"Starbucks";
             break;
 		case 1:
@@ -95,7 +95,7 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
 }
 
 + (NSArray *)nearby:(CLLocationCoordinate2D)coordinate {
-    #ifdef DEBUG
+    #ifdef TARGET_IPHONE_SIMULATOR
     coordinate.latitude = 38.906786;
     coordinate.longitude = -77.041787;
     #endif

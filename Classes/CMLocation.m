@@ -16,52 +16,56 @@
 static CMLocation *instance;
 
 + (CMLocation *)instance {
-    @synchronized(self) {
-        if (!instance)
-            [[CMLocation alloc] init];              
-    }
-    return instance;
+  @synchronized(self) {
+    if (!instance)
+      [[CMLocation alloc] init];              
+  }
+  return instance;
 }
 
 + (id)alloc {
-    @synchronized(self) {
-        NSAssert(instance == nil, @"Attempted to allocate a second instance of a singleton LocationController.");
-        instance = [super alloc];
-    }
-    return instance;
+  @synchronized(self) {
+    NSAssert(instance == nil, @"Attempted to allocate a second instance of a singleton LocationController.");
+    instance = [super alloc];
+  }
+  return instance;
 }
 
 - (id)init {
-    if (self = [super init]) {
-        self.currentLocation = [[CLLocation alloc] init];
-        locationManager = [[CLLocationManager alloc] init];
-        locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
-        locationManager.delegate = self;
-        [self start];
-    }
-    return self;
+  if (self = [super init]) {
+    self.currentLocation = [[CLLocation alloc] init];
+    locationManager = [[CLLocationManager alloc] init];
+    locationManager.delegate = self;
+    [self start];
+  }
+  return self;
 }
 
 - (void)start {
-    [locationManager startUpdatingLocation];
+  [locationManager startUpdatingLocation];
 }
 
 - (void)stop {
-    [locationManager stopUpdatingLocation];
+  [locationManager stopUpdatingLocation];
 }
 
 - (BOOL)locationKnown {
-    return (currentLocation ? YES : NO);
+  return (currentLocation ? YES : NO);
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
-    if (abs([newLocation.timestamp timeIntervalSinceDate:[NSDate date]]) < 5) {
-        [self stop];
-        self.currentLocation = newLocation;
-        
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"location:updated" 
-                                                            object:newLocation];
+  DLog(@"verticalAccuracty: %f", newLocation.verticalAccuracy);
+  DLog(@"verticalAccuracty: %f", newLocation.horizontalAccuracy);
+  if (abs([newLocation.timestamp timeIntervalSinceDate:[NSDate date]]) < 5) {
+    
+    if (newLocation.verticalAccuracy > 0) {
+      [self stop];
+      DLog(@"verticalAccuracty: %f", newLocation.verticalAccuracy);
+      self.currentLocation = newLocation;
+
+      [[NSNotificationCenter defaultCenter] postNotificationName:@"location:updated" object:newLocation];
     }
+  }
 }
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
