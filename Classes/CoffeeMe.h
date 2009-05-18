@@ -33,4 +33,4 @@ typedef struct _CMNutrition {
 
 NSString* CMSizeType(NSUInteger type);
 NSString* CMMilkType(NSUInteger type);
-UILabel* CMLabelMake(CGRect rect, CGFloat fontSize);
+UILabel* CMLabelMake(CGRect rect, CGFloat fontSize, BOOL bold);

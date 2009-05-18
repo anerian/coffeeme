@@ -20,12 +20,13 @@
 }
 
 - (void)drawRect:(CGRect)rect {
-    const CGFloat *clr = CGColorGetComponents([UIColor whiteColor].CGColor);
+    UIColor *color = HexToUIColor(0x351f0f);
+    const CGFloat *clr = CGColorGetComponents(color.CGColor);
 	
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineWidth(context, thickness_);
     CGContextSetRGBFillColor(context, clr[0], clr[1], clr[2], clr[3]);
-    CGContextSetRGBStrokeColor(context, 0.25, 0.25, 0.25, 0.8);
+    CGContextSetRGBStrokeColor(context, clr[0], clr[1], clr[2], clr[3]);
     CGContextMoveToPoint(context, 0, rect.size.height);
     CGContextAddLineToPoint(context, rect.size.width, rect.size.height);
     CGContextStrokePath(context);
@@ -70,12 +71,12 @@
             indent = subvalue_ ? 30 : 10;
         }
 
-        title_ = [[self createLabel:CGRectMake(indent,11,200,20) withText:titleText isBold:!(subvalue_)] retain];
+        title_ = [[self createLabel:CGRectMake(indent,5,200,20) withText:titleText isBold:!(subvalue_)] retain];
         [title_ sizeToFit];
         
-        value_ = [[self createLabel:CGRectMake(5 + indent + title_.frame.size.width,11,200,20) withText:@"" isBold:NO] retain];
+        value_ = [[self createLabel:CGRectMake(5 + indent + title_.frame.size.width,5,200,20) withText:@"" isBold:NO] retain];
         
-        daily_ = [[self createLabel:CGRectMake(170,11,100,20) withText:@"" isBold:NO] retain];
+        daily_ = [[self createLabel:CGRectMake(170,5,100,20) withText:@"" isBold:NO] retain];
         daily_.textAlignment = UITextAlignmentRight;
         if (total_ < 0)
             daily_.hidden = YES;
@@ -99,7 +100,7 @@
     UILabel *label = [[[UILabel alloc] initWithFrame:frame] autorelease];
     label.font = bold ? [UIFont boldSystemFontOfSize:16] : [UIFont systemFontOfSize:16];
     label.backgroundColor = [UIColor clearColor];
-    label.textColor = [UIColor whiteColor];
+    label.textColor = HexToUIColor(0x351f0f);
     label.text = text;
     return label;
 }
@@ -123,29 +124,20 @@
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {        
-        self.backgroundColor = [UIColor blackColor];
+        self.backgroundColor = HexToUIColor(0xeae2d6);
 
-        drinkName_ = [CMLabelMake(CGRectMake(20,20,280,40), 16) retain];
+        drinkName_ = [CMLabelMake(CGRectMake(20,20,280,48), 20, NO) retain];
         drinkName_.numberOfLines = 2;
-        drinkName_.textColor = [UIColor whiteColor];
+        drinkName_.textColor = HexToUIColor(0x351f0f);
         
         metrics_ = [[[CMMetricView alloc] initWithFrame:CGRectMake(20,100,280,267)] retain];
-        metrics_.contentSize = CGSizeMake(280,473); 
+        metrics_.contentSize = CGSizeMake(280,330); 
         metrics_.showsVerticalScrollIndicator = NO;
         metrics_.alwaysBounceVertical = YES;
         metrics_.backgroundColor = [UIColor clearColor];
         
-        UIImageView *bg = [[[UIImageView alloc] initWithFrame:metrics_.frame] autorelease];
-        bg.image = [UIImage imageNamed:@"bg-nutrition.png"];
-        
-        UIImageView *bgMetrics = [[[UIImageView alloc] initWithFrame:metrics_.frame] autorelease];
-        bgMetrics.image = [[UIImage imageNamed:@"bg-metrics.png"] stretchableImageWithLeftCapWidth:1 topCapHeight:1];
-        bgMetrics.backgroundColor = [UIColor clearColor];
-        
         [self addSubview:drinkName_];
-        [self addSubview:bg];
         [self addSubview:metrics_];
-        [self addSubview:bgMetrics];
         [self createMetrics];
     }
     return self;
@@ -154,27 +146,27 @@
 - (void)createMetrics {
     NSArray *nutrition = [[CMAppConfig instance].plist objectForKey:@"nutrition"];
     
-    CMNutritionUnderlinedView *caloriesView = [[[CMNutritionUnderlinedView alloc] initWithFrame:CGRectMake(0,0,280,43)] autorelease];
+    CMNutritionUnderlinedView *caloriesView = [[[CMNutritionUnderlinedView alloc] initWithFrame:CGRectMake(0,0,280,30)] autorelease];
 
-    UILabel *lblServing = CMLabelMake(CGRectMake(10,0,270,43), 16);
-    lblServing.textColor = [UIColor whiteColor];
+    UILabel *lblServing = CMLabelMake(CGRectMake(10,0,270,30), 16, YES);
+    lblServing.textColor = HexToUIColor(0x351f0f);
     lblServing.text = @"Amount Per Serving";
     [caloriesView addSubview:lblServing];
     [metrics_ addSubview:caloriesView];
     
-    CMNutritionUnderlinedView *dailyView = [[[CMNutritionUnderlinedView alloc] initWithFrame:CGRectMake(0,86,280,43)] autorelease];
-    UILabel *lblDaily = CMLabelMake(CGRectMake(0,0,270,43), 16);
-    lblDaily.textColor = [UIColor whiteColor];
+    CMNutritionUnderlinedView *dailyView = [[[CMNutritionUnderlinedView alloc] initWithFrame:CGRectMake(0,60,280,30)] autorelease];
+    UILabel *lblDaily = CMLabelMake(CGRectMake(0,0,270,30), 16, YES);
+    lblDaily.textColor = HexToUIColor(0x351f0f);
     lblDaily.text = @"% Daily Value";
     lblDaily.textAlignment = UITextAlignmentRight;
     [dailyView addSubview:lblDaily];
     [metrics_ addSubview:dailyView];
     
-    calories_= [[[CMNutritionValueView alloc] initWithFrame:CGRectMake(0,43,280,43) withOptions:nil] retain];
+    calories_= [[[CMNutritionValueView alloc] initWithFrame:CGRectMake(0,30,280,30) withOptions:nil] retain];
     [metrics_ addSubview:calories_];
     
     for (int i = 0; i < [nutrition count]; i++) {
-        CMNutritionValueView *view = [[CMNutritionValueView alloc] initWithFrame:CGRectMake(0,129+i*43,280,43) withOptions:[nutrition objectAtIndex:i]];
+        CMNutritionValueView *view = [[CMNutritionValueView alloc] initWithFrame:CGRectMake(0,90+i*30,280,30) withOptions:[nutrition objectAtIndex:i]];
         view.tag = 100 + i;
         
         [metrics_ addSubview:view];
