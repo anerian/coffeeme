@@ -13,6 +13,8 @@
 #import "CMStoreTypesController.h"
 #import "CMTriviaController.h"
 #import "CMInfoController.h"
+#import "CMButtonStyleSheet.h"
+
 
 
 @implementation CoffeeMeAppDelegate
@@ -24,8 +26,7 @@
     viewController.tabBarItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"tab%@.png", name]];
     
     UINavigationController *navigationController = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];
-    // navigationController.navigationBar.tintColor = HexToUIColor(0x3d2210);
-    navigationController.navigationBar.tintColor = [UIColor blackColor];
+    navigationController.navigationBar.tintColor = HexToUIColor(0x372010);
     
     [viewController release];
     
@@ -33,6 +34,7 @@
 }
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
+    [TTStyleSheet setGlobalStyleSheet:[[[CMButtonStyleSheet alloc] init] autorelease]];
     [CMStore establishConnection];
 	
 	// setup tab bar controllers

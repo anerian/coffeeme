@@ -7,7 +7,6 @@
 //
 
 #import "CMDetailView.h"
-#import "CMButtonStyleSheet.h"
 
 @implementation CMDetailContentView
 
@@ -35,8 +34,6 @@
 
 - (id)initWithFrame:(CGRect)frame withStore:(CMStore *)store {
     if (self = [super initWithFrame:frame]) {
-        [TTStyleSheet setGlobalStyleSheet:[[[CMButtonStyleSheet alloc] init] autorelease]];
-
         scroller_ = [[UIScrollView alloc] initWithFrame:frame];
         scroller_.contentSize = CGSizeMake(320, frame.size.height); 
         scroller_.delegate = self;

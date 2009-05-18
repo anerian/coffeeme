@@ -38,8 +38,11 @@
     nav.mainViewController = self.navigationController;
     nav.delegate = self;
     nav.urlSchemes = [NSArray arrayWithObject:@"cm"];
+    nav.frontNavigationController.navigationBar.tintColor = HexToUIColor(0x372010);
     
     [nav addView:@"drinks" controller:[CMDrinksController class]];
+    
+    
 }
 
 - (id<TTTableViewDataSource>)createDataSource {

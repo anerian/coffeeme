@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nutrition</key>
+	<array>
+		<dict>
+			<key>unit</key>
+			<string>g</string>
+			<key>total</key>
+			<integer>65</integer>
+			<key>title</key>
+			<string>Total Fat</string>
+			<key>isSubtitle</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>unit</key>
+			<string>g</string>
+			<key>total</key>
+			<real>20</real>
+			<key>title</key>
+			<string>Saturated Fat</string>
+			<key>isSubtitle</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>unit</key>
+			<string>mg</string>
+			<key>total</key>
+			<integer>300</integer>
+			<key>title</key>
+			<string>Cholesterol</string>
+			<key>isSubtitle</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>unit</key>
+			<string>mg</string>
+			<key>total</key>
+			<integer>2400</integer>
+			<key>title</key>
+			<string>Sodium</string>
+			<key>isSubtitle</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>unit</key>
+			<string>g</string>
+			<key>total</key>
+			<integer>300</integer>
+			<key>title</key>
+			<string>Total Carbohydrate</string>
+			<key>isSubtitle</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>unit</key>
+			<string>g</string>
+			<key>total</key>
+			<integer>25</integer>
+			<key>title</key>
+			<string>Dietary Fiber</string>
+			<key>isSubtitle</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>unit</key>
+			<string>g</string>
+			<key>total</key>
+			<integer>-1</integer>
+			<key>title</key>
+			<string>Sugars</string>
+			<key>isSubtitle</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>unit</key>
+			<string>g</string>
+			<key>total</key>
+			<integer>-1</integer>
+			<key>title</key>
+			<string>Protein</string>
+			<key>isSubtitle</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

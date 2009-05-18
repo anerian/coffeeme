@@ -108,6 +108,17 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
     return result;
 }
 
++ (NSArray *)selectOneColumn:(NSString *)column withCondition:(NSString *)condition {
+    NSMutableArray *results = [NSMutableArray arrayWithCapacity:0];
+
+    FMResultSet *resultSet = [[CMModel connection] executeQuery:[NSString stringWithFormat:@"select %@ from %@ where %@", column, [[self class] tableName], condition]];
+    
+    while ([resultSet next]) [results addObject:[NSNumber numberWithInt:[resultSet intForColumn:column]]];
+    [resultSet close];
+    
+    return results;
+}
+
 + (NSString *)tableName {
     [self doesNotRecognizeSelector:_cmd];
     return nil;

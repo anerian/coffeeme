@@ -35,6 +35,7 @@
 
 + (id)find:(int)pk;
 + (NSArray *)all;
++ (NSArray *)selectOneColumn:(NSString *)column withCondition:(NSString *)condition;
 
 // Accessors
 + (NSString *)tableName;

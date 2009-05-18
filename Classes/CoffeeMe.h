@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CMAppConfig.h"
 
 
 typedef enum {
@@ -33,3 +34,4 @@ typedef struct CMNutrition CMNutrition;
 
 NSString* CMSizeType(NSUInteger type);
 NSString* CMMilkType(NSUInteger type);
+UILabel* CMLabelMake(CGRect rect, CGFloat fontSize);

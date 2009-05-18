@@ -29,7 +29,16 @@
         cup_.center = self.center;
         
         [self addSubview:background_];
-        [self addSubview:cup_];
+        // [self addSubview:cup_];
+        UIImageView *steam_ = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,217,288)] autorelease];
+        NSMutableArray *steamImages = [NSMutableArray arrayWithCapacity:5];
+        for (int i = 1; i <= 5; i++) {
+            [steamImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"steam_%d.png", i]]];
+        }
+        steam_.animationImages = steamImages;
+        steam_.animationDuration = 2;
+        [steam_ startAnimating];
+        [self addSubview:steam_];
     }
     return self;
 }
@@ -43,12 +52,10 @@
         cup_.alpha = 0;
         background_.alpha = 0;
         
-        [UIView beginAnimations:nil context:nil];
-        [UIView setAnimationDuration:1];
+        // [UIView beginAnimations:nil context:nil];
+        // [UIView setAnimationDuration:1];
         cup_.alpha = 1;
         background_.alpha = 0.8;
-        
-        [UIView commitAnimations];
 
         [self startAnimation];
     } else {
@@ -79,7 +86,7 @@
 }
 
 - (void)startAnimation {
-    timer_ = [NSTimer scheduledTimerWithTimeInterval:(1.0/30.0) target:self selector:@selector(rotateCup) userInfo:nil repeats:YES];
+    // timer_ = [NSTimer scheduledTimerWithTimeInterval:(1.0/30.0) target:self selector:@selector(rotateCup) userInfo:nil repeats:YES];
 }
 
 - (void)stopAnimation {

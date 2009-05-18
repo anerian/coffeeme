@@ -21,10 +21,18 @@ typedef enum {
     NSArray *sizes_;
     NSArray *milkTypes_;
     
+    BOOL hasMultiple_;
+    
     UIPickerView *milkPicker_;
     UIPickerView *sizePicker_;
     
+    CMDrink *currentDrink_;
+    
     CMNutritionView *nutritionView_;
+    UIView *settingsView_;
+    UIPickerView *picker_;
+    
+    BOOL pickerEnabled_;
 }
 
 - (id)initWithDrinkName:(NSString *)drinkName;

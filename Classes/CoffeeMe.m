@@ -36,4 +36,11 @@ NSString* CMMilkType(NSUInteger type) {
   
     return milk;
 }
+
+UILabel* CMLabelMake(CGRect rect, CGFloat fontSize) {
+    UILabel *label = [[[UILabel alloc] initWithFrame:rect] autorelease];
+    label.font = [UIFont boldSystemFontOfSize:fontSize];
+    label.backgroundColor = [UIColor clearColor];
+    return label;
+}
 	

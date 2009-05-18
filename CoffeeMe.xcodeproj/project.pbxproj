@@ -13,7 +13,11 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
-		397D74850FB23E5C00ACE161 /* coffeeme.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */; };
+		39474C200FC0437B00B1D410 /* CMNutritionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39474C1F0FC0437B00B1D410 /* CMNutritionCell.m */; };
+		39474C540FC0C0D800B1D410 /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39474C530FC0C0D800B1D410 /* AppConfig.plist */; };
+		39474C570FC0C34400B1D410 /* CMAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 39474C560FC0C34400B1D410 /* CMAppConfig.m */; };
+		39474C9C0FC0FDF400B1D410 /* bg-nutrition.png in Resources */ = {isa = PBXBuildFile; fileRef = 39474C9B0FC0FDF400B1D410 /* bg-nutrition.png */; };
+		39474CB80FC106C300B1D410 /* bg-metrics.png in Resources */ = {isa = PBXBuildFile; fileRef = 39474CB70FC106C300B1D410 /* bg-metrics.png */; };
 		397D74A40FB24EF900ACE161 /* CMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74A30FB24EF900ACE161 /* CMStore.m */; };
 		397D74B40FB2519100ACE161 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */; };
 		397D74D70FB257B600ACE161 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74D60FB257B600ACE161 /* MyCLController.m */; };
@@ -69,6 +73,12 @@
 		3986901C0FBDD933006E151C /* tabCoffeeme.png in Resources */ = {isa = PBXBuildFile; fileRef = 3986901B0FBDD933006E151C /* tabCoffeeme.png */; };
 		3986903C0FBDE392006E151C /* Nutrition.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3986903B0FBDE392006E151C /* Nutrition.xib */; };
 		398B48AE0FBDED570075DB78 /* CMNutritionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B48AD0FBDED570075DB78 /* CMNutritionView.m */; };
+		398B49750FBEF6BF0075DB78 /* steam_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 398B49700FBEF6BE0075DB78 /* steam_5.png */; };
+		398B49760FBEF6BF0075DB78 /* steam_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 398B49710FBEF6BF0075DB78 /* steam_3.png */; };
+		398B49770FBEF6BF0075DB78 /* steam_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 398B49720FBEF6BF0075DB78 /* steam_1.png */; };
+		398B49780FBEF6BF0075DB78 /* steam_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 398B49730FBEF6BF0075DB78 /* steam_4.png */; };
+		398B49790FBEF6BF0075DB78 /* steam_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 398B49740FBEF6BF0075DB78 /* steam_2.png */; };
+		39D5972B0FC19E6400735F60 /* coffeeme.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 39D5972A0FC19E6400735F60 /* coffeeme.sqlite3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +108,13 @@
 		28A0AB4B0D9B1048005BE974 /* CoffeeMe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeMe_Prefix.pch; sourceTree = "<group>"; };
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffeeme.sqlite3; sourceTree = SOURCE_ROOT; };
+		39474C1E0FC0437B00B1D410 /* CMNutritionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNutritionCell.h; sourceTree = "<group>"; };
+		39474C1F0FC0437B00B1D410 /* CMNutritionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNutritionCell.m; sourceTree = "<group>"; };
+		39474C530FC0C0D800B1D410 /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
+		39474C550FC0C34400B1D410 /* CMAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAppConfig.h; sourceTree = "<group>"; };
+		39474C560FC0C34400B1D410 /* CMAppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppConfig.m; sourceTree = "<group>"; };
+		39474C9B0FC0FDF400B1D410 /* bg-nutrition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-nutrition.png"; sourceTree = "<group>"; };
+		39474CB70FC106C300B1D410 /* bg-metrics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-metrics.png"; sourceTree = "<group>"; };
 		397D74A20FB24EF900ACE161 /* CMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStore.h; sourceTree = "<group>"; };
 		397D74A30FB24EF900ACE161 /* CMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStore.m; sourceTree = "<group>"; };
 		397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/lib/libsqlite3.0.dylib; sourceTree = SOURCE_ROOT; };
@@ -184,6 +200,12 @@
 		3986903B0FBDE392006E151C /* Nutrition.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Nutrition.xib; sourceTree = "<group>"; };
 		398B48AC0FBDED570075DB78 /* CMNutritionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNutritionView.h; sourceTree = "<group>"; };
 		398B48AD0FBDED570075DB78 /* CMNutritionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNutritionView.m; sourceTree = "<group>"; };
+		398B49700FBEF6BE0075DB78 /* steam_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steam_5.png; sourceTree = "<group>"; };
+		398B49710FBEF6BF0075DB78 /* steam_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steam_3.png; sourceTree = "<group>"; };
+		398B49720FBEF6BF0075DB78 /* steam_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steam_1.png; sourceTree = "<group>"; };
+		398B49730FBEF6BF0075DB78 /* steam_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steam_4.png; sourceTree = "<group>"; };
+		398B49740FBEF6BF0075DB78 /* steam_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steam_2.png; sourceTree = "<group>"; };
+		39D5972A0FC19E6400735F60 /* coffeeme.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffeeme.sqlite3; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -259,11 +281,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				39D5972A0FC19E6400735F60 /* coffeeme.sqlite3 */,
 				39868C080FBB6090006E151C /* Images */,
-				397D74840FB23E5C00ACE161 /* coffeeme.sqlite3 */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */,
 				3986903B0FBDE392006E151C /* Nutrition.xib */,
+				39474C530FC0C0D800B1D410 /* AppConfig.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -295,6 +318,8 @@
 				39868D200FBC53CE006E151C /* CMDrink.m */,
 				39868D940FBC782C006E151C /* CMDrinksDataSource.h */,
 				39868D950FBC782C006E151C /* CMDrinksDataSource.m */,
+				39474C550FC0C34400B1D410 /* CMAppConfig.h */,
+				39474C560FC0C34400B1D410 /* CMAppConfig.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -362,6 +387,8 @@
 				39868F270FBCDFB1006E151C /* CMCoffeePotView.m */,
 				398B48AC0FBDED570075DB78 /* CMNutritionView.h */,
 				398B48AD0FBDED570075DB78 /* CMNutritionView.m */,
+				39474C1E0FC0437B00B1D410 /* CMNutritionCell.h */,
+				39474C1F0FC0437B00B1D410 /* CMNutritionCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -369,6 +396,13 @@
 		39868C080FBB6090006E151C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				39474CB70FC106C300B1D410 /* bg-metrics.png */,
+				39474C9B0FC0FDF400B1D410 /* bg-nutrition.png */,
+				398B49700FBEF6BE0075DB78 /* steam_5.png */,
+				398B49710FBEF6BF0075DB78 /* steam_3.png */,
+				398B49720FBEF6BF0075DB78 /* steam_1.png */,
+				398B49730FBEF6BF0075DB78 /* steam_4.png */,
+				398B49740FBEF6BF0075DB78 /* steam_2.png */,
 				398690140FBDC419006E151C /* bg-cell-selected.png */,
 				3986901B0FBDD933006E151C /* tabCoffeeme.png */,
 				3986900E0FBDC033006E151C /* tabAnerian.png */,
@@ -466,7 +500,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				397D74850FB23E5C00ACE161 /* coffeeme.sqlite3 in Resources */,
 				398681080FB33720006E151C /* Three20.bundle in Resources */,
 				39868C190FBB6090006E151C /* bg-cell.png in Resources */,
 				39868C1A0FBB6090006E151C /* bg-shadow-bottom.png in Resources */,
@@ -488,6 +521,15 @@
 				398690150FBDC419006E151C /* bg-cell-selected.png in Resources */,
 				3986901C0FBDD933006E151C /* tabCoffeeme.png in Resources */,
 				3986903C0FBDE392006E151C /* Nutrition.xib in Resources */,
+				398B49750FBEF6BF0075DB78 /* steam_5.png in Resources */,
+				398B49760FBEF6BF0075DB78 /* steam_3.png in Resources */,
+				398B49770FBEF6BF0075DB78 /* steam_1.png in Resources */,
+				398B49780FBEF6BF0075DB78 /* steam_4.png in Resources */,
+				398B49790FBEF6BF0075DB78 /* steam_2.png in Resources */,
+				39474C540FC0C0D800B1D410 /* AppConfig.plist in Resources */,
+				39474C9C0FC0FDF400B1D410 /* bg-nutrition.png in Resources */,
+				39474CB80FC106C300B1D410 /* bg-metrics.png in Resources */,
+				39D5972B0FC19E6400735F60 /* coffeeme.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +571,8 @@
 				39868FAA0FBD1D31006E151C /* CoffeeMe.m in Sources */,
 				3986900B0FBDBF1B006E151C /* CMInfoController.m in Sources */,
 				398B48AE0FBDED570075DB78 /* CMNutritionView.m in Sources */,
+				39474C200FC0437B00B1D410 /* CMNutritionCell.m in Sources */,
+				39474C570FC0C34400B1D410 /* CMAppConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
