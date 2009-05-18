@@ -56,7 +56,7 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     cell.backgroundColor = [UIColor clearColor];
     
     UIImageView *imageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"cup-%d.png", self.type]]] autorelease];
-    imageView.frame = CGRectMake(10, 10, 53, 53);
+    imageView.frame = CGRectMake(10, 10, 49, 62);
     
     UILabel *lblStore = [self labelForFrame:CGRectMake(70, 10, 250, 20) withText:[[self class] storeNameForCode:[self type]] withFontSize:16];
     lblStore.textColor = HexToUIColor(0x56523c);
