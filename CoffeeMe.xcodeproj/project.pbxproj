@@ -13,6 +13,9 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		392ABD6C0FC2010700603120 /* anerian-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 392ABD690FC2010700603120 /* anerian-logo.png */; };
+		392ABD6D0FC2010700603120 /* cup-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 392ABD6A0FC2010700603120 /* cup-3.png */; };
+		392ABD6E0FC2010700603120 /* cup-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 392ABD6B0FC2010700603120 /* cup-4.png */; };
 		39474C200FC0437B00B1D410 /* CMNutritionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39474C1F0FC0437B00B1D410 /* CMNutritionCell.m */; };
 		39474C540FC0C0D800B1D410 /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39474C530FC0C0D800B1D410 /* AppConfig.plist */; };
 		39474C570FC0C34400B1D410 /* CMAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 39474C560FC0C34400B1D410 /* CMAppConfig.m */; };
@@ -108,6 +111,9 @@
 		28A0AB4B0D9B1048005BE974 /* CoffeeMe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeMe_Prefix.pch; sourceTree = "<group>"; };
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		392ABD690FC2010700603120 /* anerian-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anerian-logo.png"; sourceTree = "<group>"; };
+		392ABD6A0FC2010700603120 /* cup-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-3.png"; sourceTree = "<group>"; };
+		392ABD6B0FC2010700603120 /* cup-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-4.png"; sourceTree = "<group>"; };
 		39474C1E0FC0437B00B1D410 /* CMNutritionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNutritionCell.h; sourceTree = "<group>"; };
 		39474C1F0FC0437B00B1D410 /* CMNutritionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNutritionCell.m; sourceTree = "<group>"; };
 		39474C530FC0C0D800B1D410 /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
@@ -394,6 +400,9 @@
 		39868C080FBB6090006E151C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				392ABD690FC2010700603120 /* anerian-logo.png */,
+				392ABD6A0FC2010700603120 /* cup-3.png */,
+				392ABD6B0FC2010700603120 /* cup-4.png */,
 				39474CB70FC106C300B1D410 /* bg-metrics.png */,
 				39474C9B0FC0FDF400B1D410 /* bg-nutrition.png */,
 				398B49700FBEF6BE0075DB78 /* steam_5.png */,
@@ -529,6 +538,9 @@
 				39474CB80FC106C300B1D410 /* bg-metrics.png in Resources */,
 				39D597460FC1A1A300735F60 /* coffeeme.sqlite3 in Resources */,
 				39D597550FC1A43300735F60 /* About.xib in Resources */,
+				392ABD6C0FC2010700603120 /* anerian-logo.png in Resources */,
+				392ABD6D0FC2010700603120 /* cup-3.png in Resources */,
+				392ABD6E0FC2010700603120 /* cup-4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -58,13 +58,11 @@ static CMLocation *instance;
   DLog(@"verticalAccuracty: %f", newLocation.horizontalAccuracy);
   if (abs([newLocation.timestamp timeIntervalSinceDate:[NSDate date]]) < 5) {
     
-    if (newLocation.verticalAccuracy > 0) {
-      [self stop];
-      DLog(@"verticalAccuracty: %f", newLocation.verticalAccuracy);
-      self.currentLocation = newLocation;
+    [self stop];
+    DLog(@"verticalAccuracty: %f", newLocation.verticalAccuracy);
+    self.currentLocation = newLocation;
 
-      [[NSNotificationCenter defaultCenter] postNotificationName:@"location:updated" object:newLocation];
-    }
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"location:updated" object:newLocation];
   }
 }
 
