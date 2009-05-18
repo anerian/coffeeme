@@ -40,7 +40,7 @@
 
 - (void)updateTrivia {
     fact_.text = [[[CMTrivia randomTrivia].fact copy] autorelease];
-    
+  // XXX: below code cuases the coffee graphic to move out of the cup bounds
    /* CATransition *transition = [CATransition animation];
     transition.type = @"rippleEffect";
     transition.duration = 2.0f;

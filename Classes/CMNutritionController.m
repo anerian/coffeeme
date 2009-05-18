@@ -50,6 +50,8 @@
     self.navigationController.navigationBar.tintColor = HexToUIColor(0x372010);
     
     nutritionView_ = [[[CMNutritionView alloc] initWithFrame:self.view.bounds] autorelease];
+    DLog(@"current drink: %@\n", currentDrink_);
+    DLog(@"current drink name: %@\n", currentDrink_.name);
     nutritionView_.drink = currentDrink_;
     self.view = nutritionView_;
 }

@@ -31,7 +31,8 @@
             [resultSet intForColumn:@"total_carbohydrates"],
             [resultSet intForColumn:@"fiber"],
             [resultSet intForColumn:@"sugars"],
-            [resultSet intForColumn:@"protein"]
+            [resultSet intForColumn:@"protein"],
+            [resultSet intForColumn:@"caffeine"]
         };
     }
     return self;
