@@ -24,6 +24,7 @@ class ReloadCaribouNutritionData < ActiveRecord::Migration
       drink[:size] = caribou_size_to_enum(drink[:size])
       drink[:milk] = caribou_milk_to_enum(drink[:milk])
       drink[:store_type] = Store::StoreType::CARIBOU
+      drink[:name] = drink[:name].humanize
       Drink.create( drink )
     end
   end
