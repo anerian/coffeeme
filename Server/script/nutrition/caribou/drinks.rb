@@ -2,6 +2,7 @@ require 'yaml'
 require 'rubygems'
 require 'curb'
 require 'hpricot'
+require 'activesupport'
 
 test_url = 'http://www.cariboucoffee.com/page/1/beverage-food-detail.jsp?id=1466&type=drink'
 
@@ -25,12 +26,18 @@ CaribouToDB =
     "Caffeine" => :caffeine, # Only found in Caribou so far
     "Surgars" => :sugars }.freeze
 
+class String
+  def cleanstr
+    ActiveSupport::Multibyte::Chars.new(self).mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,' ').downcase.to_s.gsub(/\r|\n/,' ').gsub(/\s/, ' ').squeeze(' ')
+  end
+end
 
 # get all drink combinations
 def fetch_drink_page(name, url, size, milk)
   doc = Hpricot Curl::Easy.http_get(url).body_str
   key = nil
   data = {}
+
   (doc.at('#nutrition')/:td).each do|td|
     value = td.inner_text.gsub(/\(.*\)/,'').strip
     if key.nil?
@@ -40,7 +47,7 @@ def fetch_drink_page(name, url, size, milk)
       key = nil
     end
   end
-  data[:name] = name
+  data[:name] = ((doc.at("#content h1").inner_text) || name).cleanstr
   data[:size] = size
   data[:milk] = milk
   data
@@ -51,7 +58,7 @@ def fetch_drink_list(url)
   refs = []
   (doc.at('#content')/'.menuList').each do|mlist|
     (mlist/'a').each do|anchor|
-      refs << { :name => anchor.inner_text, :link => anchor['href'] }
+      refs << { :name => anchor.inner_text.cleanstr.gsub(/,/,' ').strip, :link => anchor['href'] }
     end
   end
   refs
