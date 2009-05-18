@@ -17,6 +17,32 @@ typedef enum {
 	CMStoreTypeCount
 } CMStoreType;
 
+typedef enum {
+  CMDrinkSizeTall = 0,
+  CMDrinkSizeGrande,
+  CMDrinkSizeVenti,
+  CMDrinkSizeSolo,
+  CMDrinkSizeDoppio,
+  CMDrinkSizeShort,
+  CMDrinkSizeMedium,
+  CMDrinkSizeLarge,
+  CMDrinkSizeExtraLarge,
+  CMDrinkSizeSmall,
+  CMDrinkSizeJunior
+} CMDrinkSize;
+
+typedef enum {
+  CMDrinkMilkNonFat = 0,
+  CMDrinkMilkWhole,
+  CMDrinkMilkTwoPercent,
+  CMDrinkMilkSoyUS,
+  CMDrinkMilkSoyCD,
+  CMDrinkMilkSkim,
+  CMDrinkMilkSplenda,
+  CMDrinkMilkCream,
+  CMDrinkMilkSkimAndSplenda
+} CMDrinkMilk;
+
 typedef struct _CMNutrition {
     int servingSize;
     int calories;
@@ -29,6 +55,7 @@ typedef struct _CMNutrition {
     int fiber;
     int sugars;
     int protein;
+    int caffeine;
 } CMNutrition;
 
 NSString* CMSizeType(NSUInteger type);
