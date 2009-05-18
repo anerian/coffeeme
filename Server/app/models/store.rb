@@ -4,5 +4,6 @@ class Store < ActiveRecord::Base
     DUNKIN     = 1
     CARIBOU    = 2
     TIMHORTONS = 3
+    SAXBYS     = 4
   end
 end
