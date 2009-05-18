@@ -4,12 +4,12 @@
   :saturated_fat: "0.0"
   :sodium: "20.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Coffee of the Day
+  :milk: SKIM
+  :name: coffee of the day
   :caffeine: "211.0"
   :fat_calories: "0.0"
   :protein: "1.0"
@@ -19,12 +19,12 @@
   :saturated_fat: "0.0"
   :sodium: "20.0"
   :total_fat: "0.5"
-  :milk: TWO_PERCENT
   :cholesterol: "0.0"
   :calories: "20.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Coffee of the Day
+  :milk: TWO_PERCENT
+  :name: coffee of the day
   :caffeine: "211.0"
   :fat_calories: "5.0"
   :protein: "1.0"
@@ -34,12 +34,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Coffee of the Day
+  :milk: SOY
+  :name: coffee of the day
   :caffeine: "211.0"
   :fat_calories: "5.0"
   :protein: "1.0"
@@ -49,12 +49,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Coffee of the Day
+  :milk: SKIM
+  :name: coffee of the day
   :caffeine: "288.0"
   :fat_calories: "0.0"
   :protein: "2.0"
@@ -64,12 +64,12 @@
   :saturated_fat: "0.0"
   :sodium: "20.0"
   :total_fat: "0.5"
-  :milk: TWO_PERCENT
   :cholesterol: "0.0"
   :calories: "20.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Coffee of the Day
+  :milk: TWO_PERCENT
+  :name: coffee of the day
   :caffeine: "288.0"
   :fat_calories: "5.0"
   :protein: "2.0"
@@ -79,12 +79,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Coffee of the Day
+  :milk: SOY
+  :name: coffee of the day
   :caffeine: "288.0"
   :fat_calories: "5.0"
   :protein: "1.0"
@@ -94,12 +94,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Coffee of the Day
+  :milk: SKIM
+  :name: coffee of the day
   :caffeine: "364.0"
   :fat_calories: "0.0"
   :protein: "2.0"
@@ -109,12 +109,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.5"
-  :milk: TWO_PERCENT
   :cholesterol: "0.0"
   :calories: "20.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Coffee of the Day
+  :milk: TWO_PERCENT
+  :name: coffee of the day
   :caffeine: "364.0"
   :fat_calories: "5.0"
   :protein: "2.0"
@@ -124,12 +124,12 @@
   :saturated_fat: "0.0"
   :sodium: "30.0"
   :total_fat: "0.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "20.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Coffee of the Day
+  :milk: SOY
+  :name: coffee of the day
   :caffeine: "364.0"
   :fat_calories: "5.0"
   :protein: "2.0"
@@ -139,12 +139,12 @@
   :saturated_fat: "0.0"
   :sodium: "20.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "10.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Decaf of the Day
+  :milk: SKIM
+  :name: decaf of the day
   :caffeine: "3.0"
   :fat_calories: "0.0"
   :protein: "1.0"
@@ -154,12 +154,12 @@
   :saturated_fat: "0.0"
   :sodium: "20.0"
   :total_fat: "0.5"
-  :milk: TWO_PERCENT
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Decaf of the Day
+  :milk: TWO_PERCENT
+  :name: decaf of the day
   :caffeine: "3.0"
   :fat_calories: "5.0"
   :protein: "1.0"
@@ -169,12 +169,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Decaf of the Day
+  :milk: SOY
+  :name: decaf of the day
   :caffeine: "3.0"
   :fat_calories: "5.0"
   :protein: "1.0"
@@ -184,12 +184,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "10.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Decaf of the Day
+  :milk: SKIM
+  :name: decaf of the day
   :caffeine: "4.0"
   :fat_calories: "0.0"
   :protein: "1.0"
@@ -199,12 +199,12 @@
   :saturated_fat: "0.0"
   :sodium: "20.0"
   :total_fat: "0.5"
-  :milk: TWO_PERCENT
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Decaf of the Day
+  :milk: TWO_PERCENT
+  :name: decaf of the day
   :caffeine: "4.0"
   :fat_calories: "5.0"
   :protein: "1.0"
@@ -214,12 +214,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Decaf of the Day
+  :milk: SOY
+  :name: decaf of the day
   :caffeine: "4.0"
   :fat_calories: "5.0"
   :protein: "1.0"
@@ -229,12 +229,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "10.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Decaf of the Day
+  :milk: SKIM
+  :name: decaf of the day
   :caffeine: "6.0"
   :fat_calories: "0.0"
   :protein: "2.0"
@@ -244,12 +244,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.5"
-  :milk: TWO_PERCENT
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Decaf of the Day
+  :milk: TWO_PERCENT
+  :name: decaf of the day
   :caffeine: "6.0"
   :fat_calories: "5.0"
   :protein: "2.0"
@@ -259,12 +259,12 @@
   :saturated_fat: "0.0"
   :sodium: "30.0"
   :total_fat: "0.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Decaf of the Day
+  :milk: SOY
+  :name: decaf of the day
   :caffeine: "6.0"
   :fat_calories: "5.0"
   :protein: "1.0"
@@ -274,12 +274,12 @@
   :saturated_fat: "0.0"
   :sodium: "70.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "45.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Coffee with Steamed Milk
+  :milk: SKIM
+  :name: coffee with steamed milk
   :caffeine: "153.0"
   :fat_calories: "0.0"
   :protein: "4.0"
@@ -289,12 +289,12 @@
   :saturated_fat: "1.5"
   :sodium: "55.0"
   :total_fat: "2.5"
-  :milk: TWO_PERCENT
   :cholesterol: "10.0"
   :calories: "60.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Coffee with Steamed Milk
+  :milk: TWO_PERCENT
+  :name: coffee with steamed milk
   :caffeine: "153.0"
   :fat_calories: "20.0"
   :protein: "4.0"
@@ -304,12 +304,12 @@
   :saturated_fat: "0.0"
   :sodium: "75.0"
   :total_fat: "2.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "50.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Coffee with Steamed Milk
+  :milk: SOY
+  :name: coffee with steamed milk
   :caffeine: "153.0"
   :fat_calories: "15.0"
   :protein: "4.0"
@@ -319,12 +319,12 @@
   :saturated_fat: "0.0"
   :sodium: "100.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "70.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Coffee with Steamed Milk
+  :milk: SKIM
+  :name: coffee with steamed milk
   :caffeine: "192.0"
   :fat_calories: "5.0"
   :protein: "7.0"
@@ -334,12 +334,12 @@
   :saturated_fat: "2.5"
   :sodium: "80.0"
   :total_fat: "3.5"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "90.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Coffee with Steamed Milk
+  :milk: TWO_PERCENT
+  :name: coffee with steamed milk
   :caffeine: "192.0"
   :fat_calories: "35.0"
   :protein: "6.0"
@@ -349,12 +349,12 @@
   :saturated_fat: "0.0"
   :sodium: "110.0"
   :total_fat: "2.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "80.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: Coffee with Steamed Milk
+  :milk: SOY
+  :name: coffee with steamed milk
   :caffeine: "192.0"
   :fat_calories: "25.0"
   :protein: "6.0"
@@ -364,12 +364,12 @@
   :saturated_fat: "0.0"
   :sodium: "125.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "90.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Coffee with Steamed Milk
+  :milk: SKIM
+  :name: coffee with steamed milk
   :caffeine: "230.0"
   :fat_calories: "5.0"
   :protein: "9.0"
@@ -379,12 +379,12 @@
   :saturated_fat: "3.0"
   :sodium: "105.0"
   :total_fat: "5.0"
-  :milk: TWO_PERCENT
   :cholesterol: "20.0"
   :calories: "130.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Coffee with Steamed Milk
+  :milk: TWO_PERCENT
+  :name: coffee with steamed milk
   :caffeine: "230.0"
   :fat_calories: "45.0"
   :protein: "8.0"
@@ -394,12 +394,12 @@
   :saturated_fat: "0.5"
   :sodium: "150.0"
   :total_fat: "3.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "100.0"
   :size: LARGE
   :fiber: "1.0"
-  :name: Coffee with Steamed Milk
+  :milk: SOY
+  :name: coffee with steamed milk
   :caffeine: "230.0"
   :fat_calories: "30.0"
   :protein: "7.0"
@@ -409,12 +409,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Depth Charge
+  :milk: SKIM
+  :name: depth charge
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -424,12 +424,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Depth Charge
+  :milk: TWO_PERCENT
+  :name: depth charge
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -439,72 +439,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Depth Charge
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Depth Charge
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Depth Charge
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: depth charge
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Depth Charge
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Depth Charge
+  :name: depth charge
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -514,12 +469,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Depth Charge
+  :name: depth charge
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -529,12 +484,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
+  :name: depth charge
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: Depth Charge
+  :milk: SKIM
+  :name: depth charge
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: depth charge
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: depth charge
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -544,12 +544,12 @@
   :saturated_fat: "7.0"
   :sodium: "170.0"
   :total_fat: "11.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "280.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Hot Cocoa
+  :milk: SKIM
+  :name: hot cocoa
   :caffeine: "0.0"
   :fat_calories: "105.0"
   :protein: "12.0"
@@ -559,12 +559,12 @@
   :saturated_fat: "11.0"
   :sodium: "135.0"
   :total_fat: "17.0"
-  :milk: TWO_PERCENT
   :cholesterol: "65.0"
   :calories: "330.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Hot Cocoa
+  :milk: TWO_PERCENT
+  :name: hot cocoa
   :caffeine: "0.0"
   :fat_calories: "150.0"
   :protein: "11.0"
@@ -574,12 +574,12 @@
   :saturated_fat: "7.5"
   :sodium: "190.0"
   :total_fat: "15.5"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "300.0"
   :size: SMALL
   :fiber: "3.0"
-  :name: Hot Cocoa
+  :milk: SOY
+  :name: hot cocoa
   :caffeine: "0.0"
   :fat_calories: "140.0"
   :protein: "10.0"
@@ -589,12 +589,12 @@
   :saturated_fat: "7.0"
   :sodium: "220.0"
   :total_fat: "11.5"
-  :milk: SKIM
   :cholesterol: "50.0"
   :calories: "360.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Hot Cocoa
+  :milk: SKIM
+  :name: hot cocoa
   :caffeine: "0.0"
   :fat_calories: "105.0"
   :protein: "16.0"
@@ -604,12 +604,12 @@
   :saturated_fat: "12.0"
   :sodium: "180.0"
   :total_fat: "19.0"
-  :milk: TWO_PERCENT
   :cholesterol: "75.0"
   :calories: "420.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Hot Cocoa
+  :milk: TWO_PERCENT
+  :name: hot cocoa
   :caffeine: "0.0"
   :fat_calories: "170.0"
   :protein: "16.0"
@@ -619,12 +619,12 @@
   :saturated_fat: "8.0"
   :sodium: "250.0"
   :total_fat: "17.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "380.0"
   :size: MEDIUM
   :fiber: "4.0"
-  :name: Hot Cocoa
+  :milk: SOY
+  :name: hot cocoa
   :caffeine: "0.0"
   :fat_calories: "150.0"
   :protein: "14.0"
@@ -634,12 +634,12 @@
   :saturated_fat: "7.5"
   :sodium: "280.0"
   :total_fat: "12.0"
-  :milk: SKIM
   :cholesterol: "50.0"
   :calories: "440.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Hot Cocoa
+  :milk: SKIM
+  :name: hot cocoa
   :caffeine: "0.0"
   :fat_calories: "110.0"
   :protein: "20.0"
@@ -649,12 +649,12 @@
   :saturated_fat: "14.0"
   :sodium: "220.0"
   :total_fat: "21.0"
-  :milk: TWO_PERCENT
   :cholesterol: "80.0"
   :calories: "510.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Hot Cocoa
+  :milk: TWO_PERCENT
+  :name: hot cocoa
   :caffeine: "0.0"
   :fat_calories: "190.0"
   :protein: "20.0"
@@ -664,12 +664,12 @@
   :saturated_fat: "8.0"
   :sodium: "310.0"
   :total_fat: "18.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "470.0"
   :size: LARGE
   :fiber: "5.0"
-  :name: Hot Cocoa
+  :milk: SOY
+  :name: hot cocoa
   :caffeine: "0.0"
   :fat_calories: "170.0"
   :protein: "17.0"
@@ -679,12 +679,12 @@
   :saturated_fat: "10.0"
   :sodium: "180.0"
   :total_fat: "14.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "310.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: White Hot Cocoa
+  :milk: SKIM
+  :name: white hot cocoa
   :caffeine: "0.0"
   :fat_calories: "130.0"
   :protein: "10.0"
@@ -694,12 +694,12 @@
   :saturated_fat: "13.0"
   :sodium: "140.0"
   :total_fat: "20.0"
-  :milk: TWO_PERCENT
   :cholesterol: "65.0"
   :calories: "360.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: White Hot Cocoa
+  :milk: TWO_PERCENT
+  :name: white hot cocoa
   :caffeine: "0.0"
   :fat_calories: "180.0"
   :protein: "10.0"
@@ -709,12 +709,12 @@
   :saturated_fat: "10.0"
   :sodium: "190.0"
   :total_fat: "18.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "330.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: White Hot Cocoa
+  :milk: SOY
+  :name: white hot cocoa
   :caffeine: "0.0"
   :fat_calories: "160.0"
   :protein: "9.0"
@@ -724,12 +724,12 @@
   :saturated_fat: "11.5"
   :sodium: "230.0"
   :total_fat: "15.5"
-  :milk: SKIM
   :cholesterol: "50.0"
   :calories: "400.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: White Hot Cocoa
+  :milk: SKIM
+  :name: white hot cocoa
   :caffeine: "0.0"
   :fat_calories: "140.0"
   :protein: "14.0"
@@ -739,12 +739,12 @@
   :saturated_fat: "16.0"
   :sodium: "190.0"
   :total_fat: "23.0"
-  :milk: TWO_PERCENT
   :cholesterol: "75.0"
   :calories: "460.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: White Hot Cocoa
+  :milk: TWO_PERCENT
+  :name: white hot cocoa
   :caffeine: "0.0"
   :fat_calories: "210.0"
   :protein: "14.0"
@@ -754,12 +754,12 @@
   :saturated_fat: "11.5"
   :sodium: "260.0"
   :total_fat: "21.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "420.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: White Hot Cocoa
+  :milk: SOY
+  :name: white hot cocoa
   :caffeine: "0.0"
   :fat_calories: "190.0"
   :protein: "12.0"
@@ -769,12 +769,12 @@
   :saturated_fat: "13.0"
   :sodium: "290.0"
   :total_fat: "17.0"
-  :milk: SKIM
   :cholesterol: "50.0"
   :calories: "490.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: White Hot Cocoa
+  :milk: SKIM
+  :name: white hot cocoa
   :caffeine: "0.0"
   :fat_calories: "150.0"
   :protein: "18.0"
@@ -784,12 +784,12 @@
   :saturated_fat: "19.0"
   :sodium: "240.0"
   :total_fat: "26.0"
-  :milk: TWO_PERCENT
   :cholesterol: "80.0"
   :calories: "560.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: White Hot Cocoa
+  :milk: TWO_PERCENT
+  :name: white hot cocoa
   :caffeine: "0.0"
   :fat_calories: "240.0"
   :protein: "17.0"
@@ -799,12 +799,12 @@
   :saturated_fat: "13.0"
   :sodium: "320.0"
   :total_fat: "24.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "520.0"
   :size: LARGE
   :fiber: "2.0"
-  :name: White Hot Cocoa
+  :milk: SOY
+  :name: white hot cocoa
   :caffeine: "0.0"
   :fat_calories: "210.0"
   :protein: "15.0"
@@ -814,12 +814,12 @@
   :saturated_fat: "0.0"
   :sodium: "180.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "190.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Reindeer Drinks
+  :milk: SKIM
+  :name: reindeer drinks
   :caffeine: "0.0"
   :fat_calories: "5.0"
   :protein: "12.0"
@@ -829,12 +829,12 @@
   :saturated_fat: "4.5"
   :sodium: "140.0"
   :total_fat: "7.0"
-  :milk: TWO_PERCENT
   :cholesterol: "25.0"
   :calories: "240.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Reindeer Drinks
+  :milk: TWO_PERCENT
+  :name: reindeer drinks
   :caffeine: "0.0"
   :fat_calories: "60.0"
   :protein: "11.0"
@@ -844,12 +844,12 @@
   :saturated_fat: "0.5"
   :sodium: "200.0"
   :total_fat: "5.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "210.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Reindeer Drinks
+  :milk: SOY
+  :name: reindeer drinks
   :caffeine: "0.0"
   :fat_calories: "45.0"
   :protein: "10.0"
@@ -859,12 +859,12 @@
   :saturated_fat: "0.5"
   :sodium: "240.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "250.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Reindeer Drinks
+  :milk: SKIM
+  :name: reindeer drinks
   :caffeine: "0.0"
   :fat_calories: "5.0"
   :protein: "16.0"
@@ -874,12 +874,12 @@
   :saturated_fat: "6.0"
   :sodium: "190.0"
   :total_fat: "9.0"
-  :milk: TWO_PERCENT
   :cholesterol: "35.0"
   :calories: "310.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Reindeer Drinks
+  :milk: TWO_PERCENT
+  :name: reindeer drinks
   :caffeine: "0.0"
   :fat_calories: "80.0"
   :protein: "15.0"
@@ -889,12 +889,12 @@
   :saturated_fat: "1.0"
   :sodium: "260.0"
   :total_fat: "7.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "270.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Reindeer Drinks
+  :milk: SOY
+  :name: reindeer drinks
   :caffeine: "0.0"
   :fat_calories: "60.0"
   :protein: "13.0"
@@ -904,12 +904,12 @@
   :saturated_fat: "0.5"
   :sodium: "300.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "310.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Reindeer Drinks
+  :milk: SKIM
+  :name: reindeer drinks
   :caffeine: "0.0"
   :fat_calories: "10.0"
   :protein: "20.0"
@@ -919,12 +919,12 @@
   :saturated_fat: "7.0"
   :sodium: "240.0"
   :total_fat: "11.0"
-  :milk: TWO_PERCENT
   :cholesterol: "45.0"
   :calories: "390.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Reindeer Drinks
+  :milk: TWO_PERCENT
+  :name: reindeer drinks
   :caffeine: "0.0"
   :fat_calories: "100.0"
   :protein: "19.0"
@@ -934,12 +934,12 @@
   :saturated_fat: "1.0"
   :sodium: "330.0"
   :total_fat: "8.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "340.0"
   :size: LARGE
   :fiber: "2.0"
-  :name: Reindeer Drinks
+  :milk: SOY
+  :name: reindeer drinks
   :caffeine: "0.0"
   :fat_calories: "70.0"
   :protein: "16.0"
@@ -949,12 +949,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
   :size: JUNIOR
   :fiber: N/A
-  :name: Cold Press Iced Coffee
+  :milk: SKIM
+  :name: cold press iced coffee
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -964,12 +964,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: JUNIOR
   :fiber: N/A
-  :name: Cold Press Iced Coffee
+  :milk: TWO_PERCENT
+  :name: cold press iced coffee
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -979,12 +979,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: JUNIOR
   :fiber: N/A
-  :name: Cold Press Iced Coffee
+  :milk: SOY
+  :name: cold press iced coffee
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -994,12 +994,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Cold Press Iced Coffee
+  :milk: SKIM
+  :name: cold press iced coffee
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1009,12 +1009,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Cold Press Iced Coffee
+  :milk: TWO_PERCENT
+  :name: cold press iced coffee
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1024,72 +1024,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Cold Press Iced Coffee
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Cold Press Iced Coffee
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Cold Press Iced Coffee
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: cold press iced coffee
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Cold Press Iced Coffee
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Cold Press Iced Coffee
+  :name: cold press iced coffee
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1099,12 +1054,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Cold Press Iced Coffee
+  :name: cold press iced coffee
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1114,12 +1069,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
+  :name: cold press iced coffee
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: Cold Press Iced Coffee
+  :milk: SKIM
+  :name: cold press iced coffee
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: cold press iced coffee
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: cold press iced coffee
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1129,12 +1129,12 @@
   :saturated_fat: "0.0"
   :sodium: "100.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "70.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: Iced Latte
+  :milk: SKIM
+  :name: iced latte
   :caffeine: "90.0"
   :fat_calories: "5.0"
   :protein: "7.0"
@@ -1144,12 +1144,12 @@
   :saturated_fat: "2.5"
   :sodium: "80.0"
   :total_fat: "3.5"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "90.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: Iced Latte
+  :milk: TWO_PERCENT
+  :name: iced latte
   :caffeine: "90.0"
   :fat_calories: "35.0"
   :protein: "7.0"
@@ -1159,12 +1159,12 @@
   :saturated_fat: "0.0"
   :sodium: "110.0"
   :total_fat: "2.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "80.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: Iced Latte
+  :milk: SOY
+  :name: iced latte
   :caffeine: "90.0"
   :fat_calories: "25.0"
   :protein: "6.0"
@@ -1174,12 +1174,12 @@
   :saturated_fat: "0.0"
   :sodium: "140.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "90.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Iced Latte
+  :milk: SKIM
+  :name: iced latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "9.0"
@@ -1189,12 +1189,12 @@
   :saturated_fat: "3.0"
   :sodium: "110.0"
   :total_fat: "5.0"
-  :milk: TWO_PERCENT
   :cholesterol: "20.0"
   :calories: "120.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Iced Latte
+  :milk: TWO_PERCENT
+  :name: iced latte
   :caffeine: "180.0"
   :fat_calories: "45.0"
   :protein: "9.0"
@@ -1204,12 +1204,12 @@
   :saturated_fat: "0.5"
   :sodium: "150.0"
   :total_fat: "3.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "100.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Iced Latte
+  :milk: SOY
+  :name: iced latte
   :caffeine: "180.0"
   :fat_calories: "35.0"
   :protein: "8.0"
@@ -1219,12 +1219,12 @@
   :saturated_fat: "0.0"
   :sodium: "180.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "110.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Iced Latte
+  :milk: SKIM
+  :name: iced latte
   :caffeine: "270.0"
   :fat_calories: "5.0"
   :protein: "12.0"
@@ -1234,12 +1234,12 @@
   :saturated_fat: "4.0"
   :sodium: "140.0"
   :total_fat: "6.0"
-  :milk: TWO_PERCENT
   :cholesterol: "25.0"
   :calories: "150.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Iced Latte
+  :milk: TWO_PERCENT
+  :name: iced latte
   :caffeine: "270.0"
   :fat_calories: "60.0"
   :protein: "12.0"
@@ -1249,12 +1249,12 @@
   :saturated_fat: "0.5"
   :sodium: "190.0"
   :total_fat: "4.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "130.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: Iced Latte
+  :milk: SOY
+  :name: iced latte
   :caffeine: "270.0"
   :fat_calories: "40.0"
   :protein: "10.0"
@@ -1264,12 +1264,12 @@
   :saturated_fat: "0.5"
   :sodium: "210.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "130.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Iced Latte
+  :milk: SKIM
+  :name: iced latte
   :caffeine: "360.0"
   :fat_calories: "10.0"
   :protein: "15.0"
@@ -1279,12 +1279,12 @@
   :saturated_fat: "4.5"
   :sodium: "170.0"
   :total_fat: "7.0"
-  :milk: TWO_PERCENT
   :cholesterol: "30.0"
   :calories: "190.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Iced Latte
+  :milk: TWO_PERCENT
+  :name: iced latte
   :caffeine: "360.0"
   :fat_calories: "70.0"
   :protein: "14.0"
@@ -1294,12 +1294,12 @@
   :saturated_fat: "1.0"
   :sodium: "230.0"
   :total_fat: "6.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "150.0"
   :size: LARGE
   :fiber: "2.0"
-  :name: Iced Latte
+  :milk: SOY
+  :name: iced latte
   :caffeine: "360.0"
   :fat_calories: "50.0"
   :protein: "13.0"
@@ -1309,12 +1309,12 @@
   :saturated_fat: "0.0"
   :sodium: "60.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "120.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: Iced Mocha
+  :milk: SKIM
+  :name: iced mocha
   :caffeine: "90.0"
   :fat_calories: "0.0"
   :protein: "5.0"
@@ -1324,12 +1324,12 @@
   :saturated_fat: "1.5"
   :sodium: "50.0"
   :total_fat: "2.0"
-  :milk: TWO_PERCENT
   :cholesterol: "10.0"
   :calories: "130.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: Iced Mocha
+  :milk: TWO_PERCENT
+  :name: iced mocha
   :caffeine: "90.0"
   :fat_calories: "20.0"
   :protein: "5.0"
@@ -1339,12 +1339,12 @@
   :saturated_fat: "0.0"
   :sodium: "65.0"
   :total_fat: "1.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "120.0"
   :size: JUNIOR
   :fiber: "2.0"
-  :name: Iced Mocha
+  :milk: SOY
+  :name: iced mocha
   :caffeine: "90.0"
   :fat_calories: "15.0"
   :protein: "5.0"
@@ -1354,12 +1354,12 @@
   :saturated_fat: "0.0"
   :sodium: "65.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "150.0"
   :size: SMALL
   :fiber: "2.0"
-  :name: Iced Mocha
+  :milk: SKIM
+  :name: iced mocha
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "7.0"
@@ -1369,12 +1369,12 @@
   :saturated_fat: "1.5"
   :sodium: "55.0"
   :total_fat: "2.0"
-  :milk: TWO_PERCENT
   :cholesterol: "10.0"
   :calories: "170.0"
   :size: SMALL
   :fiber: "2.0"
-  :name: Iced Mocha
+  :milk: TWO_PERCENT
+  :name: iced mocha
   :caffeine: "180.0"
   :fat_calories: "20.0"
   :protein: "6.0"
@@ -1384,12 +1384,12 @@
   :saturated_fat: "0.0"
   :sodium: "70.0"
   :total_fat: "1.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "160.0"
   :size: SMALL
   :fiber: "2.0"
-  :name: Iced Mocha
+  :milk: SOY
+  :name: iced mocha
   :caffeine: "180.0"
   :fat_calories: "15.0"
   :protein: "6.0"
@@ -1399,12 +1399,12 @@
   :saturated_fat: "0.0"
   :sodium: "70.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "190.0"
   :size: MEDIUM
   :fiber: "3.0"
-  :name: Iced Mocha
+  :milk: SKIM
+  :name: iced mocha
   :caffeine: "270.0"
   :fat_calories: "5.0"
   :protein: "8.0"
@@ -1414,12 +1414,12 @@
   :saturated_fat: "1.5"
   :sodium: "60.0"
   :total_fat: "2.5"
-  :milk: TWO_PERCENT
   :cholesterol: "10.0"
   :calories: "210.0"
   :size: MEDIUM
   :fiber: "3.0"
-  :name: Iced Mocha
+  :milk: TWO_PERCENT
+  :name: iced mocha
   :caffeine: "270.0"
   :fat_calories: "20.0"
   :protein: "8.0"
@@ -1429,12 +1429,12 @@
   :saturated_fat: "0.0"
   :sodium: "75.0"
   :total_fat: "1.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "200.0"
   :size: MEDIUM
   :fiber: "3.0"
-  :name: Iced Mocha
+  :milk: SOY
+  :name: iced mocha
   :caffeine: "270.0"
   :fat_calories: "15.0"
   :protein: "7.0"
@@ -1444,12 +1444,12 @@
   :saturated_fat: "0.0"
   :sodium: "75.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "230.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Iced Mocha
+  :milk: SKIM
+  :name: iced mocha
   :caffeine: "360.0"
   :fat_calories: "5.0"
   :protein: "9.0"
@@ -1459,12 +1459,12 @@
   :saturated_fat: "1.5"
   :sodium: "65.0"
   :total_fat: "2.5"
-  :milk: TWO_PERCENT
   :cholesterol: "10.0"
   :calories: "250.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Iced Mocha
+  :milk: TWO_PERCENT
+  :name: iced mocha
   :caffeine: "360.0"
   :fat_calories: "20.0"
   :protein: "9.0"
@@ -1474,12 +1474,12 @@
   :saturated_fat: "0.0"
   :sodium: "85.0"
   :total_fat: "2.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "240.0"
   :size: LARGE
   :fiber: "4.0"
-  :name: Iced Mocha
+  :milk: SOY
+  :name: iced mocha
   :caffeine: "360.0"
   :fat_calories: "15.0"
   :protein: "8.0"
@@ -1489,12 +1489,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Iced Americano
+  :milk: SKIM
+  :name: iced americano
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1504,12 +1504,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Iced Americano
+  :milk: TWO_PERCENT
+  :name: iced americano
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1519,72 +1519,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Iced Americano
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Iced Americano
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Iced Americano
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: iced americano
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Iced Americano
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Iced Americano
+  :name: iced americano
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1594,12 +1549,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Iced Americano
+  :name: iced americano
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1609,12 +1564,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
+  :name: iced americano
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: Iced Americano
+  :milk: SKIM
+  :name: iced americano
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: iced americano
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: iced americano
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1624,12 +1624,12 @@
   :saturated_fat: "0.0"
   :sodium: "65.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "120.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: SKIM
+  :name: iced chai tea latte
   :caffeine: "15.0"
   :fat_calories: "0.0"
   :protein: "4.0"
@@ -1639,12 +1639,12 @@
   :saturated_fat: "1.5"
   :sodium: "55.0"
   :total_fat: "2.5"
-  :milk: TWO_PERCENT
   :cholesterol: "10.0"
   :calories: "140.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: iced chai tea latte
   :caffeine: "15.0"
   :fat_calories: "25.0"
   :protein: "4.0"
@@ -1654,12 +1654,12 @@
   :saturated_fat: "0.0"
   :sodium: "75.0"
   :total_fat: "2.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "120.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: Iced Chai Tea Latte
+  :milk: SOY
+  :name: iced chai tea latte
   :caffeine: "15.0"
   :fat_calories: "15.0"
   :protein: "4.0"
@@ -1669,12 +1669,12 @@
   :saturated_fat: "0.0"
   :sodium: "90.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "160.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: SKIM
+  :name: iced chai tea latte
   :caffeine: "20.0"
   :fat_calories: "5.0"
   :protein: "6.0"
@@ -1684,12 +1684,12 @@
   :saturated_fat: "2.0"
   :sodium: "70.0"
   :total_fat: "3.5"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "180.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: iced chai tea latte
   :caffeine: "20.0"
   :fat_calories: "30.0"
   :protein: "6.0"
@@ -1699,12 +1699,12 @@
   :saturated_fat: "0.0"
   :sodium: "100.0"
   :total_fat: "2.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "170.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Iced Chai Tea Latte
+  :milk: SOY
+  :name: iced chai tea latte
   :caffeine: "20.0"
   :fat_calories: "20.0"
   :protein: "5.0"
@@ -1714,12 +1714,12 @@
   :saturated_fat: "0.0"
   :sodium: "110.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "190.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: SKIM
+  :name: iced chai tea latte
   :caffeine: "25.0"
   :fat_calories: "5.0"
   :protein: "7.0"
@@ -1729,12 +1729,12 @@
   :saturated_fat: "2.5"
   :sodium: "90.0"
   :total_fat: "4.0"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "230.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: iced chai tea latte
   :caffeine: "25.0"
   :fat_calories: "40.0"
   :protein: "7.0"
@@ -1744,12 +1744,12 @@
   :saturated_fat: "0.0"
   :sodium: "125.0"
   :total_fat: "3.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "210.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: Iced Chai Tea Latte
+  :milk: SOY
+  :name: iced chai tea latte
   :caffeine: "25.0"
   :fat_calories: "30.0"
   :protein: "6.0"
@@ -1759,12 +1759,12 @@
   :saturated_fat: "0.0"
   :sodium: "135.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "230.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: SKIM
+  :name: iced chai tea latte
   :caffeine: "30.0"
   :fat_calories: "5.0"
   :protein: "9.0"
@@ -1774,12 +1774,12 @@
   :saturated_fat: "3.0"
   :sodium: "105.0"
   :total_fat: "5.0"
-  :milk: TWO_PERCENT
   :cholesterol: "20.0"
   :calories: "270.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: iced chai tea latte
   :caffeine: "30.0"
   :fat_calories: "45.0"
   :protein: "8.0"
@@ -1789,12 +1789,12 @@
   :saturated_fat: "0.5"
   :sodium: "150.0"
   :total_fat: "3.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "250.0"
   :size: LARGE
   :fiber: "1.0"
-  :name: Iced Chai Tea Latte
+  :milk: SOY
+  :name: iced chai tea latte
   :caffeine: "30.0"
   :fat_calories: "35.0"
   :protein: "7.0"
@@ -1804,12 +1804,12 @@
   :saturated_fat: "0.0"
   :sodium: "65.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "120.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: SKIM
+  :name: blended chai tea latte
   :caffeine: "15.0"
   :fat_calories: "0.0"
   :protein: "4.0"
@@ -1819,12 +1819,12 @@
   :saturated_fat: "1.5"
   :sodium: "55.0"
   :total_fat: "2.5"
-  :milk: TWO_PERCENT
   :cholesterol: "10.0"
   :calories: "140.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: blended chai tea latte
   :caffeine: "15.0"
   :fat_calories: "20.0"
   :protein: "4.0"
@@ -1834,12 +1834,12 @@
   :saturated_fat: "0.0"
   :sodium: "75.0"
   :total_fat: "2.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "120.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: Blended Chai Tea Latte
+  :milk: SOY
+  :name: blended chai tea latte
   :caffeine: "15.0"
   :fat_calories: "15.0"
   :protein: "4.0"
@@ -1849,12 +1849,12 @@
   :saturated_fat: "0.0"
   :sodium: "90.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "160.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: SKIM
+  :name: blended chai tea latte
   :caffeine: "20.0"
   :fat_calories: "5.0"
   :protein: "6.0"
@@ -1864,12 +1864,12 @@
   :saturated_fat: "2.0"
   :sodium: "70.0"
   :total_fat: "3.5"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "180.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: blended chai tea latte
   :caffeine: "20.0"
   :fat_calories: "30.0"
   :protein: "3.0"
@@ -1879,12 +1879,12 @@
   :saturated_fat: "0.0"
   :sodium: "100.0"
   :total_fat: "2.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "170.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Blended Chai Tea Latte
+  :milk: SOY
+  :name: blended chai tea latte
   :caffeine: "20.0"
   :fat_calories: "20.0"
   :protein: "5.0"
@@ -1894,12 +1894,12 @@
   :saturated_fat: "0.0"
   :sodium: "110.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "190.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: SKIM
+  :name: blended chai tea latte
   :caffeine: "25.0"
   :fat_calories: "5.0"
   :protein: "7.0"
@@ -1909,12 +1909,12 @@
   :saturated_fat: "2.5"
   :sodium: "90.0"
   :total_fat: "4.0"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "230.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: blended chai tea latte
   :caffeine: "25.0"
   :fat_calories: "40.0"
   :protein: "7.0"
@@ -1924,12 +1924,12 @@
   :saturated_fat: "0.0"
   :sodium: "125.0"
   :total_fat: "3.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "210.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: Blended Chai Tea Latte
+  :milk: SOY
+  :name: blended chai tea latte
   :caffeine: "25.0"
   :fat_calories: "30.0"
   :protein: "6.0"
@@ -1939,12 +1939,12 @@
   :saturated_fat: "0.0"
   :sodium: "135.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "230.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: SKIM
+  :name: blended chai tea latte
   :caffeine: "30.0"
   :fat_calories: "5.0"
   :protein: "9.0"
@@ -1954,12 +1954,12 @@
   :saturated_fat: "3.0"
   :sodium: "105.0"
   :total_fat: "5.0"
-  :milk: TWO_PERCENT
   :cholesterol: "20.0"
   :calories: "270.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: blended chai tea latte
   :caffeine: "30.0"
   :fat_calories: "45.0"
   :protein: "8.0"
@@ -1969,12 +1969,12 @@
   :saturated_fat: "0.5"
   :sodium: "150.0"
   :total_fat: "3.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "250.0"
   :size: LARGE
   :fiber: "1.0"
-  :name: Blended Chai Tea Latte
+  :milk: SOY
+  :name: blended chai tea latte
   :caffeine: "30.0"
   :fat_calories: "35.0"
   :protein: "7.0"
@@ -1984,12 +1984,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id001 "\r\n            Coffee,\r\n          "
+  :milk: SKIM
+  :name: coffee cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -1999,12 +1999,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id001
+  :milk: TWO_PERCENT
+  :name: coffee cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2014,72 +2014,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id001
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id001
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id001
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: coffee cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id001
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id001
+  :name: coffee cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2089,12 +2044,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id001
+  :name: coffee cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2104,12 +2059,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
+  :name: coffee cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id001
+  :milk: SKIM
+  :name: coffee cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: coffee cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: coffee cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2119,12 +2119,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SKIM
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: &id002 "\r\n            Vanilla,\r\n          "
+  :milk: SKIM
+  :name: vanilla cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2134,12 +2134,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: *id002
+  :milk: TWO_PERCENT
+  :name: vanilla cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2149,12 +2149,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SOY
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: *id002
+  :milk: SOY
+  :name: vanilla cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2164,12 +2164,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SKIM
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: MEDIUM
   :fiber: N/A
-  :name: *id002
+  :milk: SKIM
+  :name: vanilla cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2179,12 +2179,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: MEDIUM
   :fiber: N/A
-  :name: *id002
+  :milk: TWO_PERCENT
+  :name: vanilla cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2194,12 +2194,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SOY
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: MEDIUM
   :fiber: N/A
-  :name: *id002
+  :milk: SOY
+  :name: vanilla cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2209,12 +2209,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SKIM
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: LARGE
   :fiber: N/A
-  :name: *id002
+  :milk: SKIM
+  :name: vanilla cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2224,12 +2224,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: LARGE
   :fiber: N/A
-  :name: *id002
+  :milk: TWO_PERCENT
+  :name: vanilla cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2239,12 +2239,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SOY
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: LARGE
   :fiber: N/A
-  :name: *id002
+  :milk: SOY
+  :name: vanilla cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2254,12 +2254,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SKIM
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: &id003 "\r\n            Chocolate,\r\n          "
+  :milk: SKIM
+  :name: chocolate cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2269,12 +2269,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: *id003
+  :milk: TWO_PERCENT
+  :name: chocolate cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2284,12 +2284,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SOY
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: *id003
+  :milk: SOY
+  :name: chocolate cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2299,12 +2299,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SKIM
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: MEDIUM
   :fiber: N/A
-  :name: *id003
+  :milk: SKIM
+  :name: chocolate cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2314,12 +2314,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: MEDIUM
   :fiber: N/A
-  :name: *id003
+  :milk: TWO_PERCENT
+  :name: chocolate cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2329,12 +2329,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SOY
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: MEDIUM
   :fiber: N/A
-  :name: *id003
+  :milk: SOY
+  :name: chocolate cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2344,12 +2344,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SKIM
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: LARGE
   :fiber: N/A
-  :name: *id003
+  :milk: SKIM
+  :name: chocolate cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2359,12 +2359,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: LARGE
   :fiber: N/A
-  :name: *id003
+  :milk: TWO_PERCENT
+  :name: chocolate cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2374,12 +2374,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SOY
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: LARGE
   :fiber: N/A
-  :name: *id003
+  :milk: SOY
+  :name: chocolate cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2389,12 +2389,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SKIM
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: &id004 "\r\n            Caramel,\r\n          "
+  :milk: SKIM
+  :name: caramel cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2404,12 +2404,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: *id004
+  :milk: TWO_PERCENT
+  :name: caramel cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2419,12 +2419,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SOY
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: *id004
+  :milk: SOY
+  :name: caramel cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2434,12 +2434,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SKIM
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: MEDIUM
   :fiber: N/A
-  :name: *id004
+  :milk: SKIM
+  :name: caramel cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2449,12 +2449,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: MEDIUM
   :fiber: N/A
-  :name: *id004
+  :milk: TWO_PERCENT
+  :name: caramel cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2464,12 +2464,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SOY
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: MEDIUM
   :fiber: N/A
-  :name: *id004
+  :milk: SOY
+  :name: caramel cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2479,12 +2479,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SKIM
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: LARGE
   :fiber: N/A
-  :name: *id004
+  :milk: SKIM
+  :name: caramel cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2494,12 +2494,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: LARGE
   :fiber: N/A
-  :name: *id004
+  :milk: TWO_PERCENT
+  :name: caramel cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2509,12 +2509,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SOY
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: LARGE
   :fiber: N/A
-  :name: *id004
+  :milk: SOY
+  :name: caramel cooler
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -2524,12 +2524,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id005 "\r\n            Espresso\r\n          "
+  :milk: SKIM
+  :name: espresso cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2539,12 +2539,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id005
+  :milk: TWO_PERCENT
+  :name: espresso cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2554,57 +2554,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id005
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id005
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id005
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: espresso cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id005
+  :milk: SKIM
+  :name: espresso cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2614,27 +2584,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: *id005
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id005
+  :name: espresso cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2644,12 +2599,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id005
+  :name: espresso cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2659,12 +2614,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: espresso cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: espresso cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: espresso cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id006 "\r\n            Coffee,\r\n          "
+  :milk: SKIM
+  :name: northern lite coffee cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2674,12 +2674,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id006
+  :milk: TWO_PERCENT
+  :name: northern lite coffee cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2689,57 +2689,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id006
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id006
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id006
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: northern lite coffee cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id006
+  :milk: SKIM
+  :name: northern lite coffee cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2749,27 +2719,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: *id006
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id006
+  :name: northern lite coffee cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2779,12 +2734,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id006
+  :name: northern lite coffee cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2794,12 +2749,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: northern lite coffee cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: northern lite coffee cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: northern lite coffee cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id007 "\r\n            Vanilla,\r\n          "
+  :milk: SKIM
+  :name: northern lite vanilla cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2809,12 +2809,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id007
+  :milk: TWO_PERCENT
+  :name: northern lite vanilla cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2824,57 +2824,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id007
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id007
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id007
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: northern lite vanilla cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id007
+  :milk: SKIM
+  :name: northern lite vanilla cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2884,27 +2854,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: *id007
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id007
+  :name: northern lite vanilla cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2914,12 +2869,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id007
+  :name: northern lite vanilla cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2929,12 +2884,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: northern lite vanilla cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: northern lite vanilla cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: northern lite vanilla cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id008 "\r\n            Chocolate,\r\n          "
+  :milk: SKIM
+  :name: northern lite chocolate cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2944,12 +2944,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id008
+  :milk: TWO_PERCENT
+  :name: northern lite chocolate cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -2959,57 +2959,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id008
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id008
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id008
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: northern lite chocolate cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id008
+  :milk: SKIM
+  :name: northern lite chocolate cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3019,27 +2989,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: *id008
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id008
+  :name: northern lite chocolate cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3049,12 +3004,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id008
+  :name: northern lite chocolate cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3064,12 +3019,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: northern lite chocolate cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: northern lite chocolate cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: northern lite chocolate cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id009 "\r\n            Caramel,\r\n          "
+  :milk: SKIM
+  :name: northern lite caramel cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3079,12 +3079,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id009
+  :milk: TWO_PERCENT
+  :name: northern lite caramel cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3094,57 +3094,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id009
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id009
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id009
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: northern lite caramel cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id009
+  :milk: SKIM
+  :name: northern lite caramel cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3154,27 +3124,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: *id009
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id009
+  :name: northern lite caramel cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3184,12 +3139,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id009
+  :name: northern lite caramel cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3199,12 +3154,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: northern lite caramel cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: northern lite caramel cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: northern lite caramel cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id010 "\r\n            Espresso\r\n          "
+  :milk: SKIM
+  :name: northern lite espresso cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3214,12 +3214,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id010
+  :milk: TWO_PERCENT
+  :name: northern lite espresso cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3229,57 +3229,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id010
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id010
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id010
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: northern lite espresso cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id010
+  :milk: SKIM
+  :name: northern lite espresso cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3289,27 +3259,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: *id010
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id010
+  :name: northern lite espresso cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3319,12 +3274,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id010
+  :name: northern lite espresso cooler
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3334,12 +3289,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: northern lite espresso cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: northern lite espresso cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: northern lite espresso cooler
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id011 "\r\n            Strawberry Banana,\r\n          "
+  :milk: SKIM
+  :name: strawberry banana smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3349,12 +3349,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id011
+  :milk: TWO_PERCENT
+  :name: strawberry banana smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3364,57 +3364,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id011
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id011
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id011
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: strawberry banana smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id011
+  :milk: SKIM
+  :name: strawberry banana smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3424,27 +3394,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: *id011
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id011
+  :name: strawberry banana smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3454,12 +3409,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id011
+  :name: strawberry banana smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3469,12 +3424,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: strawberry banana smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: strawberry banana smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: strawberry banana smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id012 "\r\n            Wild Berry,\r\n          "
+  :milk: SKIM
+  :name: wild berry smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3484,12 +3484,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id012
+  :milk: TWO_PERCENT
+  :name: wild berry smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3499,57 +3499,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id012
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id012
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id012
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: wild berry smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id012
+  :milk: SKIM
+  :name: wild berry smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3559,27 +3529,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: *id012
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id012
+  :name: wild berry smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3589,12 +3544,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id012
+  :name: wild berry smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3604,12 +3559,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: wild berry smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: wild berry smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: wild berry smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id013 "\r\n            Pom-a-Mango,\r\n          "
+  :milk: SKIM
+  :name: pom-a-mango smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3619,12 +3619,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id013
+  :milk: TWO_PERCENT
+  :name: pom-a-mango smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3634,57 +3634,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id013
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id013
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id013
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: pom-a-mango smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id013
+  :milk: SKIM
+  :name: pom-a-mango smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3694,27 +3664,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: *id013
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id013
+  :name: pom-a-mango smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3724,12 +3679,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id013
+  :name: pom-a-mango smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3739,12 +3694,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: pom-a-mango smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: pom-a-mango smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: pom-a-mango smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: &id014 "\r\n            Passion Fruit Green Tea\r\n          "
+  :milk: SKIM
+  :name: passion fruit green tea smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3754,12 +3754,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id014
+  :milk: TWO_PERCENT
+  :name: passion fruit green tea smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3769,72 +3769,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id014
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id014
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: *id014
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: passion fruit green tea smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id014
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id014
+  :name: passion fruit green tea smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3844,12 +3799,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: *id014
+  :name: passion fruit green tea smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3859,12 +3814,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
+  :name: passion fruit green tea smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id014
+  :milk: SKIM
+  :name: passion fruit green tea smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: passion fruit green tea smoothie
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: passion fruit green tea smoothie
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -3874,12 +3874,12 @@
   :saturated_fat: "9.5"
   :sodium: "100.0"
   :total_fat: "13.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "320.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: &id015 "\r\n            Mint,\r\n          "
+  :milk: SKIM
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "125.0"
   :protein: "5.0"
@@ -3889,12 +3889,12 @@
   :saturated_fat: "11.5"
   :sodium: "80.0"
   :total_fat: "17.0"
-  :milk: TWO_PERCENT
   :cholesterol: "55.0"
   :calories: "340.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: *id015
+  :milk: TWO_PERCENT
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "150.0"
   :protein: "5.0"
@@ -3904,12 +3904,12 @@
   :saturated_fat: "9.5"
   :sodium: "110.0"
   :total_fat: "15.5"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "330.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: *id015
+  :milk: SOY
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "140.0"
   :protein: "5.0"
@@ -3919,12 +3919,12 @@
   :saturated_fat: "10.5"
   :sodium: "130.0"
   :total_fat: "14.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "390.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: *id015
+  :milk: SKIM
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "130.0"
   :protein: "7.0"
@@ -3934,12 +3934,12 @@
   :saturated_fat: "13.0"
   :sodium: "105.0"
   :total_fat: "18.0"
-  :milk: TWO_PERCENT
   :cholesterol: "55.0"
   :calories: "420.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: *id015
+  :milk: TWO_PERCENT
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "170.0"
   :protein: "7.0"
@@ -3949,12 +3949,12 @@
   :saturated_fat: "10.5"
   :sodium: "140.0"
   :total_fat: "17.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "410.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: *id015
+  :milk: SOY
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "160.0"
   :protein: "6.0"
@@ -3964,12 +3964,12 @@
   :saturated_fat: "11.5"
   :sodium: "160.0"
   :total_fat: "15.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "470.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: *id015
+  :milk: SKIM
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "140.0"
   :protein: "9.0"
@@ -3979,12 +3979,12 @@
   :saturated_fat: "14.0"
   :sodium: "130.0"
   :total_fat: "20.0"
-  :milk: TWO_PERCENT
   :cholesterol: "60.0"
   :calories: "510.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: *id015
+  :milk: TWO_PERCENT
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "180.0"
   :protein: "9.0"
@@ -3994,12 +3994,12 @@
   :saturated_fat: "11.5"
   :sodium: "170.0"
   :total_fat: "19.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "480.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: *id015
+  :milk: SOY
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "170.0"
   :protein: "8.0"
@@ -4009,12 +4009,12 @@
   :saturated_fat: "12.0"
   :sodium: "190.0"
   :total_fat: "16.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "540.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: *id015
+  :milk: SKIM
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "150.0"
   :protein: "11.0"
@@ -4024,12 +4024,12 @@
   :saturated_fat: "16.0"
   :sodium: "150.0"
   :total_fat: "22.0"
-  :milk: TWO_PERCENT
   :cholesterol: "65.0"
   :calories: "590.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: *id015
+  :milk: TWO_PERCENT
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "200.0"
   :protein: "11.0"
@@ -4039,12 +4039,12 @@
   :saturated_fat: "12.0"
   :sodium: "210.0"
   :total_fat: "20.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "560.0"
   :size: LARGE
   :fiber: "1.0"
-  :name: *id015
+  :milk: SOY
+  :name: mint snowdrift
   :caffeine: "0.0"
   :fat_calories: "180.0"
   :protein: "9.0"
@@ -4054,12 +4054,12 @@
   :saturated_fat: "12.0"
   :sodium: "210.0"
   :total_fat: "17.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "400.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: &id016 "\r\n            Cookies & Cream\r\n          "
+  :milk: SKIM
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "160.0"
   :protein: "6.0"
@@ -4069,12 +4069,12 @@
   :saturated_fat: "14.0"
   :sodium: "190.0"
   :total_fat: "20.0"
-  :milk: TWO_PERCENT
   :cholesterol: "55.0"
   :calories: "430.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: *id016
+  :milk: TWO_PERCENT
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "180.0"
   :protein: "6.0"
@@ -4084,12 +4084,12 @@
   :saturated_fat: "12.0"
   :sodium: "220.0"
   :total_fat: "19.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "410.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: *id016
+  :milk: SOY
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "180.0"
   :protein: "6.0"
@@ -4099,12 +4099,12 @@
   :saturated_fat: "14.0"
   :sodium: "280.0"
   :total_fat: "19.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "500.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: *id016
+  :milk: SKIM
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "180.0"
   :protein: "9.0"
@@ -4114,12 +4114,12 @@
   :saturated_fat: "16.0"
   :sodium: "260.0"
   :total_fat: "23.0"
-  :milk: TWO_PERCENT
   :cholesterol: "55.0"
   :calories: "540.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: *id016
+  :milk: TWO_PERCENT
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "210.0"
   :protein: "8.0"
@@ -4129,12 +4129,12 @@
   :saturated_fat: "14.0"
   :sodium: "290.0"
   :total_fat: "22.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "520.0"
   :size: SMALL
   :fiber: "2.0"
-  :name: *id016
+  :milk: SOY
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "200.0"
   :protein: "7.0"
@@ -4144,12 +4144,12 @@
   :saturated_fat: "16.0"
   :sodium: "350.0"
   :total_fat: "22.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "610.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: *id016
+  :milk: SKIM
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "200.0"
   :protein: "11.0"
@@ -4159,12 +4159,12 @@
   :saturated_fat: "19.0"
   :sodium: "320.0"
   :total_fat: "26.0"
-  :milk: TWO_PERCENT
   :cholesterol: "60.0"
   :calories: "640.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: *id016
+  :milk: TWO_PERCENT
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "240.0"
   :protein: "10.0"
@@ -4174,12 +4174,12 @@
   :saturated_fat: "16.0"
   :sodium: "360.0"
   :total_fat: "25.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "620.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: *id016
+  :milk: SOY
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "230.0"
   :protein: "9.0"
@@ -4189,12 +4189,12 @@
   :saturated_fat: "18.0"
   :sodium: "410.0"
   :total_fat: "24.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "710.0"
   :size: LARGE
   :fiber: "1.0"
-  :name: *id016
+  :milk: SKIM
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "210.0"
   :protein: "13.0"
@@ -4204,12 +4204,12 @@
   :saturated_fat: "21.0"
   :sodium: "380.0"
   :total_fat: "29.0"
-  :milk: TWO_PERCENT
   :cholesterol: "65.0"
   :calories: "750.0"
   :size: LARGE
   :fiber: "1.0"
-  :name: *id016
+  :milk: TWO_PERCENT
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "270.0"
   :protein: "12.0"
@@ -4219,12 +4219,12 @@
   :saturated_fat: "18.0"
   :sodium: "430.0"
   :total_fat: "28.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "730.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: *id016
+  :milk: SOY
+  :name: cookies & cream snowdrift
   :caffeine: "0.0"
   :fat_calories: "250.0"
   :protein: "11.0"
@@ -4234,12 +4234,12 @@
   :saturated_fat: "0.0"
   :sodium: "150.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "100.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Latte
+  :milk: SKIM
+  :name: latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "10.0"
@@ -4249,12 +4249,12 @@
   :saturated_fat: "3.5"
   :sodium: "125.0"
   :total_fat: "6.0"
-  :milk: TWO_PERCENT
   :cholesterol: "20.0"
   :calories: "140.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Latte
+  :milk: TWO_PERCENT
+  :name: latte
   :caffeine: "180.0"
   :fat_calories: "50.0"
   :protein: "10.0"
@@ -4264,12 +4264,12 @@
   :saturated_fat: "0.5"
   :sodium: "170.0"
   :total_fat: "4.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "110.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Latte
+  :milk: SOY
+  :name: latte
   :caffeine: "180.0"
   :fat_calories: "35.0"
   :protein: "9.0"
@@ -4279,12 +4279,12 @@
   :saturated_fat: "0.5"
   :sodium: "220.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "140.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Latte
+  :milk: SKIM
+  :name: latte
   :caffeine: "180.0"
   :fat_calories: "10.0"
   :protein: "15.0"
@@ -4294,12 +4294,12 @@
   :saturated_fat: "5.0"
   :sodium: "170.0"
   :total_fat: "8.0"
-  :milk: TWO_PERCENT
   :cholesterol: "30.0"
   :calories: "200.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Latte
+  :milk: TWO_PERCENT
+  :name: latte
   :caffeine: "180.0"
   :fat_calories: "70.0"
   :protein: "14.0"
@@ -4309,12 +4309,12 @@
   :saturated_fat: "1.0"
   :sodium: "240.0"
   :total_fat: "6.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "160.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Latte
+  :milk: SOY
+  :name: latte
   :caffeine: "180.0"
   :fat_calories: "50.0"
   :protein: "12.0"
@@ -4324,12 +4324,12 @@
   :saturated_fat: "0.5"
   :sodium: "260.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "170.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Latte
+  :milk: SKIM
+  :name: latte
   :caffeine: "270.0"
   :fat_calories: "10.0"
   :protein: "18.0"
@@ -4339,12 +4339,12 @@
   :saturated_fat: "6.0"
   :sodium: "210.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "40.0"
   :calories: "240.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Latte
+  :milk: TWO_PERCENT
+  :name: latte
   :caffeine: "270.0"
   :fat_calories: "90.0"
   :protein: "17.0"
@@ -4354,12 +4354,12 @@
   :saturated_fat: "1.0"
   :sodium: "290.0"
   :total_fat: "7.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "200.0"
   :size: LARGE
   :fiber: "2.0"
-  :name: Latte
+  :milk: SOY
+  :name: latte
   :caffeine: "270.0"
   :fat_calories: "60.0"
   :protein: "15.0"
@@ -4369,12 +4369,12 @@
   :saturated_fat: "7.0"
   :sodium: "130.0"
   :total_fat: "11.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "250.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Mocha
+  :milk: SKIM
+  :name: mocha
   :caffeine: "180.0"
   :fat_calories: "105.0"
   :protein: "10.0"
@@ -4384,12 +4384,12 @@
   :saturated_fat: "9.5"
   :sodium: "110.0"
   :total_fat: "15.5"
-  :milk: TWO_PERCENT
   :cholesterol: "55.0"
   :calories: "290.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Mocha
+  :milk: TWO_PERCENT
+  :name: mocha
   :caffeine: "180.0"
   :fat_calories: "140.0"
   :protein: "9.0"
@@ -4399,12 +4399,12 @@
   :saturated_fat: "7.0"
   :sodium: "145.0"
   :total_fat: "14.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "270.0"
   :size: SMALL
   :fiber: "2.0"
-  :name: Mocha
+  :milk: SOY
+  :name: mocha
   :caffeine: "180.0"
   :fat_calories: "130.0"
   :protein: "8.0"
@@ -4414,12 +4414,12 @@
   :saturated_fat: "7.0"
   :sodium: "190.0"
   :total_fat: "11.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "330.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Mocha
+  :milk: SKIM
+  :name: mocha
   :caffeine: "180.0"
   :fat_calories: "105.0"
   :protein: "14.0"
@@ -4429,12 +4429,12 @@
   :saturated_fat: "11.0"
   :sodium: "150.0"
   :total_fat: "17.0"
-  :milk: TWO_PERCENT
   :cholesterol: "65.0"
   :calories: "380.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Mocha
+  :milk: TWO_PERCENT
+  :name: mocha
   :caffeine: "180.0"
   :fat_calories: "160.0"
   :protein: "13.0"
@@ -4444,12 +4444,12 @@
   :saturated_fat: "7.5"
   :sodium: "200.0"
   :total_fat: "15.5"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "350.0"
   :size: MEDIUM
   :fiber: "3.0"
-  :name: Mocha
+  :milk: SOY
+  :name: mocha
   :caffeine: "180.0"
   :fat_calories: "145.0"
   :protein: "12.0"
@@ -4459,12 +4459,12 @@
   :saturated_fat: "7.5"
   :sodium: "230.0"
   :total_fat: "12.0"
-  :milk: SKIM
   :cholesterol: "50.0"
   :calories: "390.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Mocha
+  :milk: SKIM
+  :name: mocha
   :caffeine: "270.0"
   :fat_calories: "110.0"
   :protein: "17.0"
@@ -4474,12 +4474,12 @@
   :saturated_fat: "12.0"
   :sodium: "180.0"
   :total_fat: "19.0"
-  :milk: TWO_PERCENT
   :cholesterol: "70.0"
   :calories: "450.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Mocha
+  :milk: TWO_PERCENT
+  :name: mocha
   :caffeine: "270.0"
   :fat_calories: "170.0"
   :protein: "17.0"
@@ -4489,12 +4489,12 @@
   :saturated_fat: "8.0"
   :sodium: "240.0"
   :total_fat: "17.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "410.0"
   :size: LARGE
   :fiber: "4.0"
-  :name: Mocha
+  :milk: SOY
+  :name: mocha
   :caffeine: "270.0"
   :fat_calories: "150.0"
   :protein: "15.0"
@@ -4504,12 +4504,12 @@
   :saturated_fat: "10.0"
   :sodium: "140.0"
   :total_fat: "14.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "280.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: White Chocolate Mocha
+  :milk: SKIM
+  :name: white chocolate mocha
   :caffeine: "180.0"
   :fat_calories: "130.0"
   :protein: "8.0"
@@ -4519,12 +4519,12 @@
   :saturated_fat: "12.0"
   :sodium: "115.0"
   :total_fat: "18.0"
-  :milk: TWO_PERCENT
   :cholesterol: "55.0"
   :calories: "310.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: White Chocolate Mocha
+  :milk: TWO_PERCENT
+  :name: white chocolate mocha
   :caffeine: "180.0"
   :fat_calories: "160.0"
   :protein: "8.0"
@@ -4534,12 +4534,12 @@
   :saturated_fat: "10.0"
   :sodium: "150.0"
   :total_fat: "17.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "290.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: White Chocolate Mocha
+  :milk: SOY
+  :name: white chocolate mocha
   :caffeine: "180.0"
   :fat_calories: "150.0"
   :protein: "7.0"
@@ -4549,12 +4549,12 @@
   :saturated_fat: "11.5"
   :sodium: "200.0"
   :total_fat: "15.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "370.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: White Chocolate Mocha
+  :milk: SKIM
+  :name: white chocolate mocha
   :caffeine: "180.0"
   :fat_calories: "140.0"
   :protein: "12.0"
@@ -4564,12 +4564,12 @@
   :saturated_fat: "15.0"
   :sodium: "160.0"
   :total_fat: "21.0"
-  :milk: TWO_PERCENT
   :cholesterol: "65.0"
   :calories: "420.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: White Chocolate Mocha
+  :milk: TWO_PERCENT
+  :name: white chocolate mocha
   :caffeine: "180.0"
   :fat_calories: "190.0"
   :protein: "12.0"
@@ -4579,12 +4579,12 @@
   :saturated_fat: "11.5"
   :sodium: "210.0"
   :total_fat: "20.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "390.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: White Chocolate Mocha
+  :milk: SOY
+  :name: white chocolate mocha
   :caffeine: "180.0"
   :fat_calories: "180.0"
   :protein: "10.0"
@@ -4594,12 +4594,12 @@
   :saturated_fat: "13.0"
   :sodium: "240.0"
   :total_fat: "17.0"
-  :milk: SKIM
   :cholesterol: "50.0"
   :calories: "440.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: White Chocolate Mocha
+  :milk: SKIM
+  :name: white chocolate mocha
   :caffeine: "270.0"
   :fat_calories: "150.0"
   :protein: "15.0"
@@ -4609,12 +4609,12 @@
   :saturated_fat: "17.0"
   :sodium: "200.0"
   :total_fat: "24.0"
-  :milk: TWO_PERCENT
   :cholesterol: "70.0"
   :calories: "500.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: White Chocolate Mocha
+  :milk: TWO_PERCENT
+  :name: white chocolate mocha
   :caffeine: "270.0"
   :fat_calories: "220.0"
   :protein: "14.0"
@@ -4624,12 +4624,12 @@
   :saturated_fat: "13.0"
   :sodium: "260.0"
   :total_fat: "22.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "460.0"
   :size: LARGE
   :fiber: "2.0"
-  :name: White Chocolate Mocha
+  :milk: SOY
+  :name: white chocolate mocha
   :caffeine: "270.0"
   :fat_calories: "200.0"
   :protein: "12.0"
@@ -4639,12 +4639,12 @@
   :saturated_fat: "0.0"
   :sodium: "60.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "35.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Cappuccino
+  :milk: SKIM
+  :name: cappuccino
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "4.0"
@@ -4654,12 +4654,12 @@
   :saturated_fat: "1.0"
   :sodium: "50.0"
   :total_fat: "2.0"
-  :milk: TWO_PERCENT
   :cholesterol: "5.0"
   :calories: "45.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Cappuccino
+  :milk: TWO_PERCENT
+  :name: cappuccino
   :caffeine: "180.0"
   :fat_calories: "15.0"
   :protein: "4.0"
@@ -4669,12 +4669,12 @@
   :saturated_fat: "0.0"
   :sodium: "65.0"
   :total_fat: "1.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "40.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Cappuccino
+  :milk: SOY
+  :name: cappuccino
   :caffeine: "180.0"
   :fat_calories: "15.0"
   :protein: "4.0"
@@ -4684,12 +4684,12 @@
   :saturated_fat: "0.0"
   :sodium: "90.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "50.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Cappuccino
+  :milk: SKIM
+  :name: cappuccino
   :caffeine: "270.0"
   :fat_calories: "5.0"
   :protein: "6.0"
@@ -4699,12 +4699,12 @@
   :saturated_fat: "2.0"
   :sodium: "70.0"
   :total_fat: "3.0"
-  :milk: TWO_PERCENT
   :cholesterol: "10.0"
   :calories: "70.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Cappuccino
+  :milk: TWO_PERCENT
+  :name: cappuccino
   :caffeine: "270.0"
   :fat_calories: "25.0"
   :protein: "6.0"
@@ -4714,12 +4714,12 @@
   :saturated_fat: "0.0"
   :sodium: "95.0"
   :total_fat: "2.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "60.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: Cappuccino
+  :milk: SOY
+  :name: cappuccino
   :caffeine: "270.0"
   :fat_calories: "20.0"
   :protein: "5.0"
@@ -4729,12 +4729,12 @@
   :saturated_fat: "0.0"
   :sodium: "115.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "70.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Cappuccino
+  :milk: SKIM
+  :name: cappuccino
   :caffeine: "360.0"
   :fat_calories: "5.0"
   :protein: "8.0"
@@ -4744,12 +4744,12 @@
   :saturated_fat: "2.5"
   :sodium: "95.0"
   :total_fat: "4.0"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "90.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Cappuccino
+  :milk: TWO_PERCENT
+  :name: cappuccino
   :caffeine: "360.0"
   :fat_calories: "35.0"
   :protein: "8.0"
@@ -4759,12 +4759,12 @@
   :saturated_fat: "0.0"
   :sodium: "125.0"
   :total_fat: "3.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "80.0"
   :size: LARGE
   :fiber: "1.0"
-  :name: Cappuccino
+  :milk: SOY
+  :name: cappuccino
   :caffeine: "360.0"
   :fat_calories: "25.0"
   :protein: "7.0"
@@ -4774,12 +4774,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Americano
+  :milk: SKIM
+  :name: americano
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -4789,12 +4789,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Americano
+  :milk: TWO_PERCENT
+  :name: americano
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -4804,57 +4804,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Americano
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Americano
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Americano
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: americano
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Americano
+  :milk: SKIM
+  :name: americano
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -4864,27 +4834,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: Americano
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Americano
+  :name: americano
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -4894,12 +4849,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Americano
+  :name: americano
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -4909,12 +4864,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: americano
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: americano
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: americano
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Espresso
+  :milk: SKIM
+  :name: espresso
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -4924,12 +4924,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Espresso
+  :milk: TWO_PERCENT
+  :name: espresso
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -4939,72 +4939,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Espresso
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Espresso
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Espresso
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: espresso
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Espresso
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Espresso
+  :name: espresso
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5014,12 +4969,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Espresso
+  :name: espresso
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5029,12 +4984,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
+  :name: espresso
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: Espresso
+  :milk: SKIM
+  :name: espresso
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: espresso
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: espresso
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5044,12 +5044,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "10.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Macchiato
+  :milk: SKIM
+  :name: macchiato
   :caffeine: "180.0"
   :fat_calories: "0.0"
   :protein: "2.0"
@@ -5059,12 +5059,12 @@
   :saturated_fat: "0.0"
   :sodium: "25.0"
   :total_fat: "0.5"
-  :milk: TWO_PERCENT
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Macchiato
+  :milk: TWO_PERCENT
+  :name: macchiato
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "2.0"
@@ -5074,12 +5074,12 @@
   :saturated_fat: "0.0"
   :sodium: "30.0"
   :total_fat: "0.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Macchiato
+  :milk: SOY
+  :name: macchiato
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "2.0"
@@ -5089,12 +5089,12 @@
   :saturated_fat: "0.0"
   :sodium: "30.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Macchiato
+  :milk: SKIM
+  :name: macchiato
   :caffeine: "270.0"
   :fat_calories: "0.0"
   :protein: "3.0"
@@ -5104,12 +5104,12 @@
   :saturated_fat: "0.0"
   :sodium: "30.0"
   :total_fat: "1.0"
-  :milk: TWO_PERCENT
   :cholesterol: "0.0"
   :calories: "20.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Macchiato
+  :milk: TWO_PERCENT
+  :name: macchiato
   :caffeine: "270.0"
   :fat_calories: "5.0"
   :protein: "3.0"
@@ -5119,12 +5119,12 @@
   :saturated_fat: "0.0"
   :sodium: "35.0"
   :total_fat: "0.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Macchiato
+  :milk: SOY
+  :name: macchiato
   :caffeine: "270.0"
   :fat_calories: "5.0"
   :protein: "2.0"
@@ -5134,12 +5134,12 @@
   :saturated_fat: "0.0"
   :sodium: "35.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Macchiato
+  :milk: SKIM
+  :name: macchiato
   :caffeine: "360.0"
   :fat_calories: "5.0"
   :protein: "3.0"
@@ -5149,12 +5149,12 @@
   :saturated_fat: "0.5"
   :sodium: "35.0"
   :total_fat: "1.0"
-  :milk: TWO_PERCENT
   :cholesterol: "0.0"
   :calories: "20.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Macchiato
+  :milk: TWO_PERCENT
+  :name: macchiato
   :caffeine: "360.0"
   :fat_calories: "10.0"
   :protein: "3.0"
@@ -5164,12 +5164,12 @@
   :saturated_fat: "0.0"
   :sodium: "40.0"
   :total_fat: "0.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "15.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Macchiato
+  :milk: SOY
+  :name: macchiato
   :caffeine: "360.0"
   :fat_calories: "5.0"
   :protein: "3.0"
@@ -5179,12 +5179,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Breve
+  :milk: SKIM
+  :name: breve
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5194,12 +5194,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Breve
+  :milk: TWO_PERCENT
+  :name: breve
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5209,72 +5209,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Breve
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Breve
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Breve
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: breve
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Breve
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Breve
+  :name: breve
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5284,12 +5239,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Breve
+  :name: breve
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5299,12 +5254,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
+  :name: breve
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: Breve
+  :milk: SKIM
+  :name: breve
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: breve
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: breve
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5314,12 +5314,12 @@
   :saturated_fat: "0.0"
   :sodium: "150.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "90.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: &id017 "\r\n            Vanilla,\r\n          "
+  :milk: SKIM
+  :name: northern lite vanilla latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "10.0"
@@ -5329,12 +5329,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id017
+  :milk: TWO_PERCENT
+  :name: northern lite vanilla latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5344,12 +5344,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id017
+  :milk: SOY
+  :name: northern lite vanilla latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5359,12 +5359,12 @@
   :saturated_fat: "0.0"
   :sodium: "210.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "130.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: *id017
+  :milk: SKIM
+  :name: northern lite vanilla latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "14.0"
@@ -5374,12 +5374,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id017
+  :milk: TWO_PERCENT
+  :name: northern lite vanilla latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5389,12 +5389,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id017
+  :milk: SOY
+  :name: northern lite vanilla latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5404,12 +5404,12 @@
   :saturated_fat: "0.5"
   :sodium: "260.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "160.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: *id017
+  :milk: SKIM
+  :name: northern lite vanilla latte
   :caffeine: "270.0"
   :fat_calories: "10.0"
   :protein: "16.0"
@@ -5419,12 +5419,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id017
+  :milk: TWO_PERCENT
+  :name: northern lite vanilla latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5434,12 +5434,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id017
+  :milk: SOY
+  :name: northern lite vanilla latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5449,12 +5449,12 @@
   :saturated_fat: "0.0"
   :sodium: "150.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "90.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: &id018 "\r\n            Caramel,\r\n          "
+  :milk: SKIM
+  :name: northern lite caramel latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "10.0"
@@ -5464,12 +5464,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id018
+  :milk: TWO_PERCENT
+  :name: northern lite caramel latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5479,12 +5479,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id018
+  :milk: SOY
+  :name: northern lite caramel latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5494,12 +5494,12 @@
   :saturated_fat: "0.0"
   :sodium: "210.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "130.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: *id018
+  :milk: SKIM
+  :name: northern lite caramel latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "14.0"
@@ -5509,12 +5509,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id018
+  :milk: TWO_PERCENT
+  :name: northern lite caramel latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5524,12 +5524,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id018
+  :milk: SOY
+  :name: northern lite caramel latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5539,12 +5539,12 @@
   :saturated_fat: "0.5"
   :sodium: "260.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "160.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: *id018
+  :milk: SKIM
+  :name: northern lite caramel latte
   :caffeine: "270.0"
   :fat_calories: "10.0"
   :protein: "16.0"
@@ -5554,12 +5554,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id018
+  :milk: TWO_PERCENT
+  :name: northern lite caramel latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5569,12 +5569,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id018
+  :milk: SOY
+  :name: northern lite caramel latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5584,12 +5584,12 @@
   :saturated_fat: "0.0"
   :sodium: "150.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "90.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: &id019 "\r\n            Turtle,\r\n          "
+  :milk: SKIM
+  :name: northern lite turtle latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "10.0"
@@ -5599,12 +5599,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id019
+  :milk: TWO_PERCENT
+  :name: northern lite turtle latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5614,12 +5614,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id019
+  :milk: SOY
+  :name: northern lite turtle latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5629,12 +5629,12 @@
   :saturated_fat: "0.0"
   :sodium: "210.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "130.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: *id019
+  :milk: SKIM
+  :name: northern lite turtle latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "14.0"
@@ -5644,12 +5644,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id019
+  :milk: TWO_PERCENT
+  :name: northern lite turtle latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5659,12 +5659,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id019
+  :milk: SOY
+  :name: northern lite turtle latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5674,12 +5674,12 @@
   :saturated_fat: "0.5"
   :sodium: "260.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "160.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: *id019
+  :milk: SKIM
+  :name: northern lite turtle latte
   :caffeine: "270.0"
   :fat_calories: "10.0"
   :protein: "16.0"
@@ -5689,12 +5689,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id019
+  :milk: TWO_PERCENT
+  :name: northern lite turtle latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5704,12 +5704,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id019
+  :milk: SOY
+  :name: northern lite turtle latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5719,12 +5719,12 @@
   :saturated_fat: "0.0"
   :sodium: "150.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "90.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: &id020 "\r\n            Raspberry,\r\n          "
+  :milk: SKIM
+  :name: northern lite raspberry latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "10.0"
@@ -5734,12 +5734,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id020
+  :milk: TWO_PERCENT
+  :name: northern lite raspberry latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5749,12 +5749,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id020
+  :milk: SOY
+  :name: northern lite raspberry latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5764,12 +5764,12 @@
   :saturated_fat: "0.0"
   :sodium: "210.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "130.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: *id020
+  :milk: SKIM
+  :name: northern lite raspberry latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "14.0"
@@ -5779,12 +5779,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id020
+  :milk: TWO_PERCENT
+  :name: northern lite raspberry latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5794,12 +5794,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id020
+  :milk: SOY
+  :name: northern lite raspberry latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5809,12 +5809,12 @@
   :saturated_fat: "0.5"
   :sodium: "260.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "160.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: *id020
+  :milk: SKIM
+  :name: northern lite raspberry latte
   :caffeine: "270.0"
   :fat_calories: "10.0"
   :protein: "16.0"
@@ -5824,12 +5824,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id020
+  :milk: TWO_PERCENT
+  :name: northern lite raspberry latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5839,12 +5839,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id020
+  :milk: SOY
+  :name: northern lite raspberry latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5854,12 +5854,12 @@
   :saturated_fat: "0.0"
   :sodium: "150.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "90.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: &id021 "\r\n            Hazelnut\r\n          "
+  :milk: SKIM
+  :name: northern lite hazelnut latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "10.0"
@@ -5869,12 +5869,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id021
+  :milk: TWO_PERCENT
+  :name: northern lite hazelnut latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5884,12 +5884,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: *id021
+  :milk: SOY
+  :name: northern lite hazelnut latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5899,12 +5899,12 @@
   :saturated_fat: "0.0"
   :sodium: "210.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "130.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: *id021
+  :milk: SKIM
+  :name: northern lite hazelnut latte
   :caffeine: "180.0"
   :fat_calories: "5.0"
   :protein: "14.0"
@@ -5914,12 +5914,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id021
+  :milk: TWO_PERCENT
+  :name: northern lite hazelnut latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5929,12 +5929,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: *id021
+  :milk: SOY
+  :name: northern lite hazelnut latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5944,12 +5944,12 @@
   :saturated_fat: "0.5"
   :sodium: "260.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "160.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: *id021
+  :milk: SKIM
+  :name: northern lite hazelnut latte
   :caffeine: "270.0"
   :fat_calories: "10.0"
   :protein: "16.0"
@@ -5959,12 +5959,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id021
+  :milk: TWO_PERCENT
+  :name: northern lite hazelnut latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5974,12 +5974,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: *id021
+  :milk: SOY
+  :name: northern lite hazelnut latte
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -5989,12 +5989,12 @@
   :saturated_fat: "7.0"
   :sodium: "120.0"
   :total_fat: "11.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "320.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Turtle Mocha
+  :milk: SKIM
+  :name: turtle mocha
   :caffeine: "180.0"
   :fat_calories: "105.0"
   :protein: "9.0"
@@ -6004,12 +6004,12 @@
   :saturated_fat: "9.5"
   :sodium: "100.0"
   :total_fat: "15.0"
-  :milk: TWO_PERCENT
   :cholesterol: "55.0"
   :calories: "340.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Turtle Mocha
+  :milk: TWO_PERCENT
+  :name: turtle mocha
   :caffeine: "180.0"
   :fat_calories: "135.0"
   :protein: "9.0"
@@ -6019,12 +6019,12 @@
   :saturated_fat: "7.0"
   :sodium: "130.0"
   :total_fat: "14.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "330.0"
   :size: SMALL
   :fiber: "2.0"
-  :name: Turtle Mocha
+  :milk: SOY
+  :name: turtle mocha
   :caffeine: "180.0"
   :fat_calories: "125.0"
   :protein: "8.0"
@@ -6034,12 +6034,12 @@
   :saturated_fat: "7.0"
   :sodium: "180.0"
   :total_fat: "11.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "420.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Turtle Mocha
+  :milk: SKIM
+  :name: turtle mocha
   :caffeine: "180.0"
   :fat_calories: "105.0"
   :protein: "13.0"
@@ -6049,12 +6049,12 @@
   :saturated_fat: "11.0"
   :sodium: "145.0"
   :total_fat: "17.0"
-  :milk: TWO_PERCENT
   :cholesterol: "65.0"
   :calories: "460.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Turtle Mocha
+  :milk: TWO_PERCENT
+  :name: turtle mocha
   :caffeine: "180.0"
   :fat_calories: "160.0"
   :protein: "13.0"
@@ -6064,12 +6064,12 @@
   :saturated_fat: "7.5"
   :sodium: "200.0"
   :total_fat: "15.5"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "440.0"
   :size: MEDIUM
   :fiber: "3.0"
-  :name: Turtle Mocha
+  :milk: SOY
+  :name: turtle mocha
   :caffeine: "180.0"
   :fat_calories: "140.0"
   :protein: "12.0"
@@ -6079,12 +6079,12 @@
   :saturated_fat: "7.5"
   :sodium: "210.0"
   :total_fat: "12.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "500.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Turtle Mocha
+  :milk: SKIM
+  :name: turtle mocha
   :caffeine: "270.0"
   :fat_calories: "110.0"
   :protein: "16.0"
@@ -6094,12 +6094,12 @@
   :saturated_fat: "11.5"
   :sodium: "170.0"
   :total_fat: "18.0"
-  :milk: TWO_PERCENT
   :cholesterol: "70.0"
   :calories: "550.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Turtle Mocha
+  :milk: TWO_PERCENT
+  :name: turtle mocha
   :caffeine: "270.0"
   :fat_calories: "160.0"
   :protein: "16.0"
@@ -6109,12 +6109,12 @@
   :saturated_fat: "8.0"
   :sodium: "230.0"
   :total_fat: "16.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "520.0"
   :size: LARGE
   :fiber: "4.0"
-  :name: Turtle Mocha
+  :milk: SOY
+  :name: turtle mocha
   :caffeine: "270.0"
   :fat_calories: "145.0"
   :protein: "14.0"
@@ -6124,12 +6124,12 @@
   :saturated_fat: "7.0"
   :sodium: "120.0"
   :total_fat: "11.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "310.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Mint Condition
+  :milk: SKIM
+  :name: mint condition
   :caffeine: "180.0"
   :fat_calories: "105.0"
   :protein: "9.0"
@@ -6139,12 +6139,12 @@
   :saturated_fat: "9.5"
   :sodium: "100.0"
   :total_fat: "15.0"
-  :milk: TWO_PERCENT
   :cholesterol: "55.0"
   :calories: "340.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Mint Condition
+  :milk: TWO_PERCENT
+  :name: mint condition
   :caffeine: "180.0"
   :fat_calories: "135.0"
   :protein: "9.0"
@@ -6154,12 +6154,12 @@
   :saturated_fat: "7.0"
   :sodium: "130.0"
   :total_fat: "14.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "320.0"
   :size: SMALL
   :fiber: "2.0"
-  :name: Mint Condition
+  :milk: SOY
+  :name: mint condition
   :caffeine: "180.0"
   :fat_calories: "125.0"
   :protein: "8.0"
@@ -6169,12 +6169,12 @@
   :saturated_fat: "7.0"
   :sodium: "180.0"
   :total_fat: "11.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "420.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Mint Condition
+  :milk: SKIM
+  :name: mint condition
   :caffeine: "180.0"
   :fat_calories: "105.0"
   :protein: "13.0"
@@ -6184,12 +6184,12 @@
   :saturated_fat: "11.0"
   :sodium: "145.0"
   :total_fat: "17.0"
-  :milk: TWO_PERCENT
   :cholesterol: "65.0"
   :calories: "460.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Mint Condition
+  :milk: TWO_PERCENT
+  :name: mint condition
   :caffeine: "180.0"
   :fat_calories: "160.0"
   :protein: "13.0"
@@ -6199,12 +6199,12 @@
   :saturated_fat: "7.5"
   :sodium: "200.0"
   :total_fat: "15.5"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "430.0"
   :size: MEDIUM
   :fiber: "3.0"
-  :name: Mint Condition
+  :milk: SOY
+  :name: mint condition
   :caffeine: "180.0"
   :fat_calories: "140.0"
   :protein: "12.0"
@@ -6214,12 +6214,12 @@
   :saturated_fat: "7.5"
   :sodium: "210.0"
   :total_fat: "12.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "490.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Mint Condition
+  :milk: SKIM
+  :name: mint condition
   :caffeine: "270.0"
   :fat_calories: "110.0"
   :protein: "16.0"
@@ -6229,12 +6229,12 @@
   :saturated_fat: "11.5"
   :sodium: "170.0"
   :total_fat: "18.0"
-  :milk: TWO_PERCENT
   :cholesterol: "70.0"
   :calories: "550.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Mint Condition
+  :milk: TWO_PERCENT
+  :name: mint condition
   :caffeine: "270.0"
   :fat_calories: "160.0"
   :protein: "16.0"
@@ -6244,12 +6244,12 @@
   :saturated_fat: "8.0"
   :sodium: "230.0"
   :total_fat: "16.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "510.0"
   :size: LARGE
   :fiber: "4.0"
-  :name: Mint Condition
+  :milk: SOY
+  :name: mint condition
   :caffeine: "270.0"
   :fat_calories: "145.0"
   :protein: "14.0"
@@ -6259,12 +6259,12 @@
   :saturated_fat: "4.0"
   :sodium: "135.0"
   :total_fat: "5.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "270.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Lite White Berry
+  :milk: SKIM
+  :name: lite white berry
   :caffeine: "180.0"
   :fat_calories: "45.0"
   :protein: "9.0"
@@ -6274,12 +6274,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Lite White Berry
+  :milk: TWO_PERCENT
+  :name: lite white berry
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -6289,12 +6289,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Lite White Berry
+  :milk: SOY
+  :name: lite white berry
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -6304,12 +6304,12 @@
   :saturated_fat: "5.0"
   :sodium: "190.0"
   :total_fat: "6.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "380.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Lite White Berry
+  :milk: SKIM
+  :name: lite white berry
   :caffeine: "180.0"
   :fat_calories: "60.0"
   :protein: "12.0"
@@ -6319,12 +6319,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Lite White Berry
+  :milk: TWO_PERCENT
+  :name: lite white berry
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -6334,12 +6334,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Lite White Berry
+  :milk: SOY
+  :name: lite white berry
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -6349,12 +6349,12 @@
   :saturated_fat: "7.0"
   :sodium: "220.0"
   :total_fat: "8.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "470.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Lite White Berry
+  :milk: SKIM
+  :name: lite white berry
   :caffeine: "270.0"
   :fat_calories: "70.0"
   :protein: "14.0"
@@ -6364,12 +6364,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: Lite White Berry
+  :milk: TWO_PERCENT
+  :name: lite white berry
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -6379,12 +6379,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: Lite White Berry
+  :milk: SOY
+  :name: lite white berry
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -6394,12 +6394,12 @@
   :saturated_fat: "7.0"
   :sodium: "135.0"
   :total_fat: "11.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "250.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Caramel High Rise
+  :milk: SKIM
+  :name: caramel high rise
   :caffeine: "180.0"
   :fat_calories: "105.0"
   :protein: "9.0"
@@ -6409,12 +6409,12 @@
   :saturated_fat: "10.0"
   :sodium: "110.0"
   :total_fat: "15.5"
-  :milk: TWO_PERCENT
   :cholesterol: "60.0"
   :calories: "280.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Caramel High Rise
+  :milk: TWO_PERCENT
+  :name: caramel high rise
   :caffeine: "180.0"
   :fat_calories: "140.0"
   :protein: "8.0"
@@ -6424,12 +6424,12 @@
   :saturated_fat: "7.5"
   :sodium: "150.0"
   :total_fat: "14.5"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "260.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Caramel High Rise
+  :milk: SOY
+  :name: caramel high rise
   :caffeine: "180.0"
   :fat_calories: "130.0"
   :protein: "7.0"
@@ -6439,12 +6439,12 @@
   :saturated_fat: "7.0"
   :sodium: "200.0"
   :total_fat: "11.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "310.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Caramel High Rise
+  :milk: SKIM
+  :name: caramel high rise
   :caffeine: "180.0"
   :fat_calories: "105.0"
   :protein: "12.0"
@@ -6454,12 +6454,12 @@
   :saturated_fat: "11.5"
   :sodium: "160.0"
   :total_fat: "18.0"
-  :milk: TWO_PERCENT
   :cholesterol: "65.0"
   :calories: "360.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Caramel High Rise
+  :milk: TWO_PERCENT
+  :name: caramel high rise
   :caffeine: "180.0"
   :fat_calories: "160.0"
   :protein: "12.0"
@@ -6469,12 +6469,12 @@
   :saturated_fat: "7.5"
   :sodium: "210.0"
   :total_fat: "16.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "330.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: Caramel High Rise
+  :milk: SOY
+  :name: caramel high rise
   :caffeine: "180.0"
   :fat_calories: "145.0"
   :protein: "11.0"
@@ -6484,12 +6484,12 @@
   :saturated_fat: "7.5"
   :sodium: "240.0"
   :total_fat: "12.0"
-  :milk: SKIM
   :cholesterol: "50.0"
   :calories: "360.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Caramel High Rise
+  :milk: SKIM
+  :name: caramel high rise
   :caffeine: "270.0"
   :fat_calories: "110.0"
   :protein: "16.0"
@@ -6499,12 +6499,12 @@
   :saturated_fat: "12.0"
   :sodium: "200.0"
   :total_fat: "19.0"
-  :milk: TWO_PERCENT
   :cholesterol: "75.0"
   :calories: "430.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Caramel High Rise
+  :milk: TWO_PERCENT
+  :name: caramel high rise
   :caffeine: "270.0"
   :fat_calories: "170.0"
   :protein: "15.0"
@@ -6514,12 +6514,12 @@
   :saturated_fat: "8.0"
   :sodium: "260.0"
   :total_fat: "17.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "390.0"
   :size: LARGE
   :fiber: "2.0"
-  :name: Caramel High Rise
+  :milk: SOY
+  :name: caramel high rise
   :caffeine: "270.0"
   :fat_calories: "160.0"
   :protein: "13.0"
@@ -6529,12 +6529,12 @@
   :saturated_fat: "7.0"
   :sodium: "125.0"
   :total_fat: "11.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "300.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Campfire Mocha
+  :milk: SKIM
+  :name: campfire mocha
   :caffeine: "180.0"
   :fat_calories: "105.0"
   :protein: "9.0"
@@ -6544,12 +6544,12 @@
   :saturated_fat: "9.5"
   :sodium: "100.0"
   :total_fat: "15.0"
-  :milk: TWO_PERCENT
   :cholesterol: "55.0"
   :calories: "330.0"
   :size: SMALL
   :fiber: "4.0"
-  :name: Campfire Mocha
+  :milk: TWO_PERCENT
+  :name: campfire mocha
   :caffeine: "180.0"
   :fat_calories: "135.0"
   :protein: "9.0"
@@ -6559,12 +6559,12 @@
   :saturated_fat: "7.0"
   :sodium: "130.0"
   :total_fat: "14.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "320.0"
   :size: SMALL
   :fiber: "2.0"
-  :name: Campfire Mocha
+  :milk: SOY
+  :name: campfire mocha
   :caffeine: "180.0"
   :fat_calories: "125.0"
   :protein: "8.0"
@@ -6574,12 +6574,12 @@
   :saturated_fat: "7.0"
   :sodium: "180.0"
   :total_fat: "11.5"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "400.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Campfire Mocha
+  :milk: SKIM
+  :name: campfire mocha
   :caffeine: "180.0"
   :fat_calories: "105.0"
   :protein: "13.0"
@@ -6589,12 +6589,12 @@
   :saturated_fat: "11.0"
   :sodium: "150.0"
   :total_fat: "17.0"
-  :milk: TWO_PERCENT
   :cholesterol: "65.0"
   :calories: "450.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Campfire Mocha
+  :milk: TWO_PERCENT
+  :name: campfire mocha
   :caffeine: "180.0"
   :fat_calories: "160.0"
   :protein: "13.0"
@@ -6604,12 +6604,12 @@
   :saturated_fat: "7.5"
   :sodium: "200.0"
   :total_fat: "15.5"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "420.0"
   :size: MEDIUM
   :fiber: "3.0"
-  :name: Campfire Mocha
+  :milk: SOY
+  :name: campfire mocha
   :caffeine: "180.0"
   :fat_calories: "140.0"
   :protein: "12.0"
@@ -6619,12 +6619,12 @@
   :saturated_fat: "7.5"
   :sodium: "210.0"
   :total_fat: "12.0"
-  :milk: SKIM
   :cholesterol: "45.0"
   :calories: "480.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Campfire Mocha
+  :milk: SKIM
+  :name: campfire mocha
   :caffeine: "270.0"
   :fat_calories: "110.0"
   :protein: "16.0"
@@ -6634,12 +6634,12 @@
   :saturated_fat: "11.5"
   :sodium: "170.0"
   :total_fat: "18.0"
-  :milk: TWO_PERCENT
   :cholesterol: "70.0"
   :calories: "530.0"
   :size: LARGE
   :fiber: "3.0"
-  :name: Campfire Mocha
+  :milk: TWO_PERCENT
+  :name: campfire mocha
   :caffeine: "270.0"
   :fat_calories: "160.0"
   :protein: "16.0"
@@ -6649,12 +6649,12 @@
   :saturated_fat: "8.0"
   :sodium: "230.0"
   :total_fat: "16.0"
-  :milk: SOY
   :cholesterol: "40.0"
   :calories: "500.0"
   :size: LARGE
   :fiber: "4.0"
-  :name: Campfire Mocha
+  :milk: SOY
+  :name: campfire mocha
   :caffeine: "270.0"
   :fat_calories: "145.0"
   :protein: "14.0"
@@ -6664,12 +6664,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SKIM
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: Hot Apple Blast
+  :milk: SKIM
+  :name: hot apple blast
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -6679,12 +6679,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: Hot Apple Blast
+  :milk: TWO_PERCENT
+  :name: hot apple blast
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -6694,72 +6694,27 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
-  :milk: SOY
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: SMALL
   :fiber: N/A
-  :name: Hot Apple Blast
-  :caffeine: "0.0"
-  :fat_calories: "99.0"
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: "1.0"
-  :serving_size: "29.0"
-  :saturated_fat: "6.0"
-  :sodium: "9.0"
-  :total_fat: "10.0"
-  :milk: SKIM
-  :cholesterol: "39.0"
-  :calories: "99.0"
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Hot Apple Blast
-  :caffeine: "0.0"
-  :fat_calories: "99.0"
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: "1.0"
-  :serving_size: "29.0"
-  :saturated_fat: "6.0"
-  :sodium: "9.0"
-  :total_fat: "10.0"
-  :milk: TWO_PERCENT
-  :cholesterol: "39.0"
-  :calories: "99.0"
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Hot Apple Blast
-  :caffeine: "0.0"
-  :fat_calories: "99.0"
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: "1.0"
-  :serving_size: "29.0"
-  :saturated_fat: "6.0"
-  :sodium: "9.0"
-  :total_fat: "10.0"
   :milk: SOY
+  :name: hot apple blast
+  :caffeine: "0.0"
+  :fat_calories: "99.0"
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: "1.0"
+  :serving_size: "29.0"
+  :saturated_fat: "6.0"
+  :sodium: "9.0"
+  :total_fat: "10.0"
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: MEDIUM
   :fiber: N/A
-  :name: Hot Apple Blast
-  :caffeine: "0.0"
-  :fat_calories: "99.0"
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: "1.0"
-  :serving_size: "29.0"
-  :saturated_fat: "6.0"
-  :sodium: "9.0"
-  :total_fat: "10.0"
   :milk: SKIM
-  :cholesterol: "39.0"
-  :calories: "99.0"
-  :size: LARGE
-  :fiber: N/A
-  :name: Hot Apple Blast
+  :name: hot apple blast
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -6769,12 +6724,12 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
+  :cholesterol: "39.0"
+  :calories: "99.0"
+  :size: MEDIUM
+  :fiber: N/A
   :milk: TWO_PERCENT
-  :cholesterol: "39.0"
-  :calories: "99.0"
-  :size: LARGE
-  :fiber: N/A
-  :name: Hot Apple Blast
+  :name: hot apple blast
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -6784,12 +6739,57 @@
   :saturated_fat: "6.0"
   :sodium: "9.0"
   :total_fat: "10.0"
+  :cholesterol: "39.0"
+  :calories: "99.0"
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
+  :name: hot apple blast
+  :caffeine: "0.0"
+  :fat_calories: "99.0"
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: "1.0"
+  :serving_size: "29.0"
+  :saturated_fat: "6.0"
+  :sodium: "9.0"
+  :total_fat: "10.0"
   :cholesterol: "39.0"
   :calories: "99.0"
   :size: LARGE
   :fiber: N/A
-  :name: Hot Apple Blast
+  :milk: SKIM
+  :name: hot apple blast
+  :caffeine: "0.0"
+  :fat_calories: "99.0"
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: "1.0"
+  :serving_size: "29.0"
+  :saturated_fat: "6.0"
+  :sodium: "9.0"
+  :total_fat: "10.0"
+  :cholesterol: "39.0"
+  :calories: "99.0"
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: hot apple blast
+  :caffeine: "0.0"
+  :fat_calories: "99.0"
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: "1.0"
+  :serving_size: "29.0"
+  :saturated_fat: "6.0"
+  :sodium: "9.0"
+  :total_fat: "10.0"
+  :cholesterol: "39.0"
+  :calories: "99.0"
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: hot apple blast
   :caffeine: "0.0"
   :fat_calories: "99.0"
   :protein: N/A
@@ -6799,12 +6799,12 @@
   :saturated_fat: "0.0"
   :sodium: "160.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "180.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: SKIM
+  :name: chai tea latte
   :caffeine: "15.0"
   :fat_calories: "5.0"
   :protein: "11.0"
@@ -6814,12 +6814,12 @@
   :saturated_fat: "4.0"
   :sodium: "130.0"
   :total_fat: "6.0"
-  :milk: TWO_PERCENT
   :cholesterol: "25.0"
   :calories: "230.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: chai tea latte
   :caffeine: "15.0"
   :fat_calories: "60.0"
   :protein: "10.0"
@@ -6829,12 +6829,12 @@
   :saturated_fat: "0.5"
   :sodium: "180.0"
   :total_fat: "4.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "200.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Chai Tea Latte
+  :milk: SOY
+  :name: chai tea latte
   :caffeine: "15.0"
   :fat_calories: "40.0"
   :protein: "9.0"
@@ -6844,12 +6844,12 @@
   :saturated_fat: "0.0"
   :sodium: "220.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "240.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: SKIM
+  :name: chai tea latte
   :caffeine: "20.0"
   :fat_calories: "5.0"
   :protein: "14.0"
@@ -6859,12 +6859,12 @@
   :saturated_fat: "5.0"
   :sodium: "170.0"
   :total_fat: "8.0"
-  :milk: TWO_PERCENT
   :cholesterol: "35.0"
   :calories: "300.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: chai tea latte
   :caffeine: "20.0"
   :fat_calories: "70.0"
   :protein: "14.0"
@@ -6874,12 +6874,12 @@
   :saturated_fat: "1.0"
   :sodium: "240.0"
   :total_fat: "6.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "270.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Chai Tea Latte
+  :milk: SOY
+  :name: chai tea latte
   :caffeine: "20.0"
   :fat_calories: "50.0"
   :protein: "12.0"
@@ -6889,12 +6889,12 @@
   :saturated_fat: "0.5"
   :sodium: "270.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "300.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: SKIM
+  :name: chai tea latte
   :caffeine: "25.0"
   :fat_calories: "10.0"
   :protein: "18.0"
@@ -6904,12 +6904,12 @@
   :saturated_fat: "7.0"
   :sodium: "210.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "40.0"
   :calories: "380.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: chai tea latte
   :caffeine: "25.0"
   :fat_calories: "90.0"
   :protein: "17.0"
@@ -6919,12 +6919,12 @@
   :saturated_fat: "1.0"
   :sodium: "300.0"
   :total_fat: "7.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "330.0"
   :size: LARGE
   :fiber: "2.0"
-  :name: Chai Tea Latte
+  :milk: SOY
+  :name: chai tea latte
   :caffeine: "25.0"
   :fat_calories: "70.0"
   :protein: "15.0"
@@ -6934,12 +6934,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Black Tea
+  :milk: SKIM
+  :name: black tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -6949,12 +6949,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Black Tea
+  :milk: TWO_PERCENT
+  :name: black tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -6964,57 +6964,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Black Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Black Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Black Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: black tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Black Tea
+  :milk: SKIM
+  :name: black tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7024,27 +6994,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: Black Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Black Tea
+  :name: black tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7054,12 +7009,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Black Tea
+  :name: black tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7069,12 +7024,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: black tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: black tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: black tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Green Tea
+  :milk: SKIM
+  :name: green tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7084,12 +7084,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Green Tea
+  :milk: TWO_PERCENT
+  :name: green tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7099,57 +7099,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Green Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Green Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Green Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: green tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Green Tea
+  :milk: SKIM
+  :name: green tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7159,27 +7129,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: Green Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Green Tea
+  :name: green tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7189,12 +7144,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Green Tea
+  :name: green tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7204,12 +7159,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: green tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: green tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: green tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Herbal Tea
+  :milk: SKIM
+  :name: herbal tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7219,12 +7219,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Herbal Tea
+  :milk: TWO_PERCENT
+  :name: herbal tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7234,57 +7234,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Herbal Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Herbal Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Herbal Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: herbal tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Herbal Tea
+  :milk: SKIM
+  :name: herbal tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7294,27 +7264,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SKIM
   :cholesterol: N/A
   :calories: N/A
-  :size: LARGE
+  :size: MEDIUM
   :fiber: N/A
-  :name: Herbal Tea
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Herbal Tea
+  :name: herbal tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7324,12 +7279,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Herbal Tea
+  :name: herbal tea
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7339,12 +7294,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
   :milk: SKIM
+  :name: herbal tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: herbal tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: herbal tea
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Iced Tea (All Flavors)
+  :milk: SKIM
+  :name: iced tea (all flavors)
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7354,12 +7354,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: TWO_PERCENT
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Iced Tea (All Flavors)
+  :milk: TWO_PERCENT
+  :name: iced tea (all flavors)
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7369,72 +7369,27 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
-  :milk: SOY
   :cholesterol: N/A
   :calories: N/A
   :size: SMALL
   :fiber: N/A
-  :name: Iced Tea (All Flavors)
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Iced Tea (All Flavors)
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
-  :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: MEDIUM
-  :fiber: N/A
-  :name: Iced Tea (All Flavors)
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SOY
+  :name: iced tea (all flavors)
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: MEDIUM
   :fiber: N/A
-  :name: Iced Tea (All Flavors)
-  :caffeine: "0.0"
-  :fat_calories: N/A
-  :protein: N/A
-  :trans_fat: N/A
-- :total_carbohydrates: N/A
-  :serving_size: N/A
-  :saturated_fat: N/A
-  :sodium: N/A
-  :total_fat: N/A
   :milk: SKIM
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Iced Tea (All Flavors)
+  :name: iced tea (all flavors)
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7444,12 +7399,12 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: TWO_PERCENT
-  :cholesterol: N/A
-  :calories: N/A
-  :size: LARGE
-  :fiber: N/A
-  :name: Iced Tea (All Flavors)
+  :name: iced tea (all flavors)
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7459,12 +7414,57 @@
   :saturated_fat: N/A
   :sodium: N/A
   :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: MEDIUM
+  :fiber: N/A
   :milk: SOY
+  :name: iced tea (all flavors)
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
   :cholesterol: N/A
   :calories: N/A
   :size: LARGE
   :fiber: N/A
-  :name: Iced Tea (All Flavors)
+  :milk: SKIM
+  :name: iced tea (all flavors)
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: TWO_PERCENT
+  :name: iced tea (all flavors)
+  :caffeine: "0.0"
+  :fat_calories: N/A
+  :protein: N/A
+  :trans_fat: N/A
+- :total_carbohydrates: N/A
+  :serving_size: N/A
+  :saturated_fat: N/A
+  :sodium: N/A
+  :total_fat: N/A
+  :cholesterol: N/A
+  :calories: N/A
+  :size: LARGE
+  :fiber: N/A
+  :milk: SOY
+  :name: iced tea (all flavors)
   :caffeine: "0.0"
   :fat_calories: N/A
   :protein: N/A
@@ -7474,12 +7474,12 @@
   :saturated_fat: "0.0"
   :sodium: "160.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "180.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: SKIM
+  :name: chai tea latte
   :caffeine: "15.0"
   :fat_calories: "5.0"
   :protein: "11.0"
@@ -7489,12 +7489,12 @@
   :saturated_fat: "4.0"
   :sodium: "130.0"
   :total_fat: "6.0"
-  :milk: TWO_PERCENT
   :cholesterol: "25.0"
   :calories: "230.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: chai tea latte
   :caffeine: "15.0"
   :fat_calories: "60.0"
   :protein: "10.0"
@@ -7504,12 +7504,12 @@
   :saturated_fat: "0.5"
   :sodium: "180.0"
   :total_fat: "4.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "200.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Chai Tea Latte
+  :milk: SOY
+  :name: chai tea latte
   :caffeine: "15.0"
   :fat_calories: "40.0"
   :protein: "9.0"
@@ -7519,12 +7519,12 @@
   :saturated_fat: "0.0"
   :sodium: "220.0"
   :total_fat: "0.5"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "240.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: SKIM
+  :name: chai tea latte
   :caffeine: "20.0"
   :fat_calories: "5.0"
   :protein: "14.0"
@@ -7534,12 +7534,12 @@
   :saturated_fat: "5.0"
   :sodium: "170.0"
   :total_fat: "8.0"
-  :milk: TWO_PERCENT
   :cholesterol: "35.0"
   :calories: "300.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: chai tea latte
   :caffeine: "20.0"
   :fat_calories: "70.0"
   :protein: "14.0"
@@ -7549,12 +7549,12 @@
   :saturated_fat: "1.0"
   :sodium: "240.0"
   :total_fat: "6.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "270.0"
   :size: MEDIUM
   :fiber: "2.0"
-  :name: Chai Tea Latte
+  :milk: SOY
+  :name: chai tea latte
   :caffeine: "20.0"
   :fat_calories: "50.0"
   :protein: "12.0"
@@ -7564,12 +7564,12 @@
   :saturated_fat: "0.5"
   :sodium: "270.0"
   :total_fat: "1.0"
-  :milk: SKIM
   :cholesterol: "10.0"
   :calories: "300.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: SKIM
+  :name: chai tea latte
   :caffeine: "25.0"
   :fat_calories: "10.0"
   :protein: "18.0"
@@ -7579,12 +7579,12 @@
   :saturated_fat: "7.0"
   :sodium: "210.0"
   :total_fat: "10.0"
-  :milk: TWO_PERCENT
   :cholesterol: "40.0"
   :calories: "380.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: chai tea latte
   :caffeine: "25.0"
   :fat_calories: "90.0"
   :protein: "17.0"
@@ -7594,12 +7594,12 @@
   :saturated_fat: "1.0"
   :sodium: "300.0"
   :total_fat: "7.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "330.0"
   :size: LARGE
   :fiber: "2.0"
-  :name: Chai Tea Latte
+  :milk: SOY
+  :name: chai tea latte
   :caffeine: "25.0"
   :fat_calories: "70.0"
   :protein: "15.0"
@@ -7609,12 +7609,12 @@
   :saturated_fat: "0.0"
   :sodium: "65.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "120.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: SKIM
+  :name: iced chai tea latte
   :caffeine: "15.0"
   :fat_calories: "0.0"
   :protein: "4.0"
@@ -7624,12 +7624,12 @@
   :saturated_fat: "1.5"
   :sodium: "55.0"
   :total_fat: "2.5"
-  :milk: TWO_PERCENT
   :cholesterol: "10.0"
   :calories: "140.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: iced chai tea latte
   :caffeine: "15.0"
   :fat_calories: "25.0"
   :protein: "4.0"
@@ -7639,12 +7639,12 @@
   :saturated_fat: "0.0"
   :sodium: "75.0"
   :total_fat: "2.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "120.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: Iced Chai Tea Latte
+  :milk: SOY
+  :name: iced chai tea latte
   :caffeine: "15.0"
   :fat_calories: "15.0"
   :protein: "4.0"
@@ -7654,12 +7654,12 @@
   :saturated_fat: "0.0"
   :sodium: "90.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "160.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: SKIM
+  :name: iced chai tea latte
   :caffeine: "20.0"
   :fat_calories: "5.0"
   :protein: "6.0"
@@ -7669,12 +7669,12 @@
   :saturated_fat: "2.0"
   :sodium: "70.0"
   :total_fat: "3.5"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "180.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: iced chai tea latte
   :caffeine: "20.0"
   :fat_calories: "30.0"
   :protein: "6.0"
@@ -7684,12 +7684,12 @@
   :saturated_fat: "0.0"
   :sodium: "100.0"
   :total_fat: "2.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "170.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Iced Chai Tea Latte
+  :milk: SOY
+  :name: iced chai tea latte
   :caffeine: "20.0"
   :fat_calories: "20.0"
   :protein: "5.0"
@@ -7699,12 +7699,12 @@
   :saturated_fat: "0.0"
   :sodium: "110.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "190.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: SKIM
+  :name: iced chai tea latte
   :caffeine: "25.0"
   :fat_calories: "5.0"
   :protein: "7.0"
@@ -7714,12 +7714,12 @@
   :saturated_fat: "2.5"
   :sodium: "90.0"
   :total_fat: "4.0"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "230.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: iced chai tea latte
   :caffeine: "25.0"
   :fat_calories: "40.0"
   :protein: "7.0"
@@ -7729,12 +7729,12 @@
   :saturated_fat: "0.0"
   :sodium: "125.0"
   :total_fat: "3.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "210.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: Iced Chai Tea Latte
+  :milk: SOY
+  :name: iced chai tea latte
   :caffeine: "25.0"
   :fat_calories: "30.0"
   :protein: "6.0"
@@ -7744,12 +7744,12 @@
   :saturated_fat: "0.0"
   :sodium: "135.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "230.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: SKIM
+  :name: iced chai tea latte
   :caffeine: "30.0"
   :fat_calories: "5.0"
   :protein: "9.0"
@@ -7759,12 +7759,12 @@
   :saturated_fat: "3.0"
   :sodium: "105.0"
   :total_fat: "5.0"
-  :milk: TWO_PERCENT
   :cholesterol: "20.0"
   :calories: "270.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Iced Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: iced chai tea latte
   :caffeine: "30.0"
   :fat_calories: "45.0"
   :protein: "8.0"
@@ -7774,12 +7774,12 @@
   :saturated_fat: "0.5"
   :sodium: "150.0"
   :total_fat: "3.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "250.0"
   :size: LARGE
   :fiber: "1.0"
-  :name: Iced Chai Tea Latte
+  :milk: SOY
+  :name: iced chai tea latte
   :caffeine: "30.0"
   :fat_calories: "35.0"
   :protein: "7.0"
@@ -7789,12 +7789,12 @@
   :saturated_fat: "0.0"
   :sodium: "65.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "120.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: SKIM
+  :name: blended chai tea latte
   :caffeine: "15.0"
   :fat_calories: "0.0"
   :protein: "4.0"
@@ -7804,12 +7804,12 @@
   :saturated_fat: "1.5"
   :sodium: "55.0"
   :total_fat: "2.5"
-  :milk: TWO_PERCENT
   :cholesterol: "10.0"
   :calories: "140.0"
   :size: JUNIOR
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: blended chai tea latte
   :caffeine: "15.0"
   :fat_calories: "20.0"
   :protein: "4.0"
@@ -7819,12 +7819,12 @@
   :saturated_fat: "0.0"
   :sodium: "75.0"
   :total_fat: "2.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "120.0"
   :size: JUNIOR
   :fiber: "1.0"
-  :name: Blended Chai Tea Latte
+  :milk: SOY
+  :name: blended chai tea latte
   :caffeine: "15.0"
   :fat_calories: "15.0"
   :protein: "4.0"
@@ -7834,12 +7834,12 @@
   :saturated_fat: "0.0"
   :sodium: "90.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "160.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: SKIM
+  :name: blended chai tea latte
   :caffeine: "20.0"
   :fat_calories: "5.0"
   :protein: "6.0"
@@ -7849,12 +7849,12 @@
   :saturated_fat: "2.0"
   :sodium: "70.0"
   :total_fat: "3.5"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "180.0"
   :size: SMALL
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: blended chai tea latte
   :caffeine: "20.0"
   :fat_calories: "30.0"
   :protein: "3.0"
@@ -7864,12 +7864,12 @@
   :saturated_fat: "0.0"
   :sodium: "100.0"
   :total_fat: "2.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "170.0"
   :size: SMALL
   :fiber: "1.0"
-  :name: Blended Chai Tea Latte
+  :milk: SOY
+  :name: blended chai tea latte
   :caffeine: "20.0"
   :fat_calories: "20.0"
   :protein: "5.0"
@@ -7879,12 +7879,12 @@
   :saturated_fat: "0.0"
   :sodium: "110.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "190.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: SKIM
+  :name: blended chai tea latte
   :caffeine: "25.0"
   :fat_calories: "5.0"
   :protein: "7.0"
@@ -7894,12 +7894,12 @@
   :saturated_fat: "2.5"
   :sodium: "90.0"
   :total_fat: "4.0"
-  :milk: TWO_PERCENT
   :cholesterol: "15.0"
   :calories: "230.0"
   :size: MEDIUM
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: blended chai tea latte
   :caffeine: "25.0"
   :fat_calories: "40.0"
   :protein: "7.0"
@@ -7909,12 +7909,12 @@
   :saturated_fat: "0.0"
   :sodium: "125.0"
   :total_fat: "3.0"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "210.0"
   :size: MEDIUM
   :fiber: "1.0"
-  :name: Blended Chai Tea Latte
+  :milk: SOY
+  :name: blended chai tea latte
   :caffeine: "25.0"
   :fat_calories: "30.0"
   :protein: "6.0"
@@ -7924,12 +7924,12 @@
   :saturated_fat: "0.0"
   :sodium: "135.0"
   :total_fat: "0.0"
-  :milk: SKIM
   :cholesterol: "5.0"
   :calories: "230.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: SKIM
+  :name: blended chai tea latte
   :caffeine: "30.0"
   :fat_calories: "5.0"
   :protein: "9.0"
@@ -7939,12 +7939,12 @@
   :saturated_fat: "3.0"
   :sodium: "105.0"
   :total_fat: "5.0"
-  :milk: TWO_PERCENT
   :cholesterol: "20.0"
   :calories: "270.0"
   :size: LARGE
   :fiber: "0.0"
-  :name: Blended Chai Tea Latte
+  :milk: TWO_PERCENT
+  :name: blended chai tea latte
   :caffeine: "30.0"
   :fat_calories: "45.0"
   :protein: "8.0"
@@ -7954,12 +7954,12 @@
   :saturated_fat: "0.5"
   :sodium: "150.0"
   :total_fat: "3.5"
-  :milk: SOY
   :cholesterol: "0.0"
   :calories: "250.0"
   :size: LARGE
   :fiber: "1.0"
-  :name: Blended Chai Tea Latte
+  :milk: SOY
+  :name: blended chai tea latte
   :caffeine: "30.0"
   :fat_calories: "35.0"
   :protein: "7.0"
