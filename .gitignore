@@ -1,2 +1,3 @@
 build/**/*
 External/Proj4/**/*
+.DS_Store
