@@ -32,6 +32,9 @@
     searchBar.showsDarkScreen = YES;
     [searchBar sizeToFit];
     self.tableView.tableHeaderView = searchBar;
+    
+    self.navigationBarTintColor = HexToUIColor(0x372010);
+    self.title = @"Drinks";
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
