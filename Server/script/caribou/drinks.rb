@@ -27,7 +27,7 @@ CaribouToDB =
 
 
 # get all drink combinations
-def fetch_drink_page(name, url)
+def fetch_drink_page(name, url, size, milk)
   doc = Hpricot Curl::Easy.http_get(url).body_str
   key = nil
   data = {}
@@ -41,6 +41,8 @@ def fetch_drink_page(name, url)
     end
   end
   data[:name] = name
+  data[:size] = size
+  data[:milk] = milk
   data
 end
 
@@ -70,7 +72,7 @@ for drink_ref in drink_refs do
       link = "http://www.cariboucoffee.com#{drink_ref[:link]}&size=#{size}&milk=#{milk}"
       puts "fetch #{drink_ref[:name]} at #{link}"
       begin
-        products << fetch_drink_page(drink_ref[:name], link)
+        products << fetch_drink_page(drink_ref[:name], link, size, milk)
       rescue => e
         puts "#{e.message} #{e.backtrace.join("\n")}"
       end
