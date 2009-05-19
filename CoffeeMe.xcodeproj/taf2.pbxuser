@@ -228,6 +228,104 @@
 		vrLen = 1282;
 		vrLoc = 1810;
 	};
+	093444BF0FC2103900E19B64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */;
+		name = "CoffeeMeAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 586;
+		rType = 0;
+		vrLen = 1280;
+		vrLoc = 241;
+	};
+	093444C00FC2103900E19B64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */;
+		name = "CoffeeMeAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 586;
+		rType = 0;
+		vrLen = 1280;
+		vrLoc = 241;
+	};
+	093445210FC30A0C00E19B64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: duplicate case value";
+		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
+		rLen = 1;
+		rLoc = 38;
+		rType = 1;
+	};
+	093445220FC30A0C00E19B64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
+		name = "CMStore.m: 39";
+		rLen = 0;
+		rLoc = 934;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 598;
+	};
+	093445260FC30A3100E19B64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
+		name = "CMStore.m: 39";
+		rLen = 0;
+		rLoc = 934;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 863;
+	};
+	093445270FC30A3700E19B64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
+		name = "CMStore.m: 40";
+		rLen = 0;
+		rLoc = 966;
+		rType = 0;
+		vrLen = 919;
+		vrLoc = 598;
+	};
+	093445290FC31A4B00E19B64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
+		name = "CMStore.m: 40";
+		rLen = 0;
+		rLoc = 966;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 579;
+	};
+	0934452B0FC31A8A00E19B64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
+		name = "CMStore.m: 212";
+		rLen = 0;
+		rLoc = 6976;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 714;
+	};
+	0934452E0FC31B0D00E19B64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
+		name = "CMStore.m: 216";
+		rLen = 0;
+		rLoc = 7119;
+		rType = 0;
+		vrLen = 1254;
+		vrLoc = 924;
+	};
+	093445300FC31B7F00E19B64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
+		name = "CMStore.m: 216";
+		rLen = 0;
+		rLoc = 7119;
+		rType = 0;
+		vrLen = 1254;
+		vrLoc = 924;
+	};
 	094B10CA0FBDBCE00021CA58 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 398684BD0FB5AA5B006E151C /* CMModalView.m */;
@@ -536,9 +634,9 @@
 	};
 	1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 784}}";
-			sepNavSelRange = "{616, 0}";
-			sepNavVisRange = "{0, 1287}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1456}}";
+			sepNavSelRange = "{586, 0}";
+			sepNavVisRange = "{241, 1140}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* CoffeeMe */ = {
@@ -555,9 +653,9 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 397D74710FB23DF000ACE161 /* CoffeeMe */;
-		activeSDKPreference = iphonesimulator2.2.1;
+		activeSDKPreference = iphoneos2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CoffeeMe */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* CoffeeMe */,
@@ -639,8 +737,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 264374197;
-			PBXWorkspaceStateSaveDate = 264374197;
+			PBXPerProjectTemplateStateSaveDate = 264444954;
+			PBXWorkspaceStateSaveDate = 264444954;
 		};
 		perUserProjectItems = {
 			0906E7D90FB7B8530042DB2F = 0906E7D90FB7B8530042DB2F /* PBXTextBookmark */;
@@ -667,6 +765,16 @@
 			093444560FC1C92100E19B64 = 093444560FC1C92100E19B64 /* PBXTextBookmark */;
 			0934445A0FC1C93E00E19B64 = 0934445A0FC1C93E00E19B64 /* PBXTextBookmark */;
 			0934445F0FC1CA5600E19B64 = 0934445F0FC1CA5600E19B64 /* PBXTextBookmark */;
+			093444BF0FC2103900E19B64 = 093444BF0FC2103900E19B64 /* PBXTextBookmark */;
+			093444C00FC2103900E19B64 = 093444C00FC2103900E19B64 /* PBXTextBookmark */;
+			093445210FC30A0C00E19B64 = 093445210FC30A0C00E19B64 /* PBXTextBookmark */;
+			093445220FC30A0C00E19B64 = 093445220FC30A0C00E19B64 /* PBXTextBookmark */;
+			093445260FC30A3100E19B64 = 093445260FC30A3100E19B64 /* PBXTextBookmark */;
+			093445270FC30A3700E19B64 = 093445270FC30A3700E19B64 /* PBXTextBookmark */;
+			093445290FC31A4B00E19B64 = 093445290FC31A4B00E19B64 /* PBXTextBookmark */;
+			0934452B0FC31A8A00E19B64 = 0934452B0FC31A8A00E19B64 /* PBXTextBookmark */;
+			0934452E0FC31B0D00E19B64 = 0934452E0FC31B0D00E19B64 /* PBXTextBookmark */;
+			093445300FC31B7F00E19B64 = 093445300FC31B7F00E19B64 /* PBXTextBookmark */;
 			094B10CA0FBDBCE00021CA58 = 094B10CA0FBDBCE00021CA58 /* PBXTextBookmark */;
 			094B10CB0FBDBCE00021CA58 = 094B10CB0FBDBCE00021CA58 /* PBXTextBookmark */;
 			094B10F60FC0B6970021CA58 = 094B10F60FC0B6970021CA58 /* PBXTextBookmark */;
@@ -753,17 +861,17 @@
 	};
 	397D74A30FB24EF900ACE161 /* CMStore.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2084, 2736}}";
-			sepNavSelRange = "{6572, 0}";
-			sepNavVisRange = "{2438, 1501}";
+			sepNavIntBoundsRect = "{{0, 0}, {1272, 3456}}";
+			sepNavSelRange = "{7119, 0}";
+			sepNavVisRange = "{924, 1254}";
 			sepNavWindowFrame = "{{84, 99}, {1113, 711}}";
 		};
 	};
 	398681740FB35297006E151C /* CMStoresController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {915, 3120}}";
+			sepNavIntBoundsRect = "{{0, 0}, {978, 3248}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{3525, 1004}";
+			sepNavVisRange = "{140, 970}";
 		};
 	};
 	398681760FB352A6006E151C /* CMTriviaController.h */ = {
@@ -834,10 +942,17 @@
 	};
 	39868A840FBA2A0A006E151C /* CMLocation.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {803, 1264}}";
+			sepNavIntBoundsRect = "{{0, 0}, {775, 1328}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 619}";
+			sepNavVisRange = "{0, 589}";
 			sepNavWindowFrame = "{{15, 162}, {1113, 711}}";
+		};
+	};
+	39868B4B0FBB1A2C006E151C /* CMBaseController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {690, 2144}}";
+			sepNavSelRange = "{501, 0}";
+			sepNavVisRange = "{0, 785}";
 		};
 	};
 	8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {
