@@ -1,0 +1,103 @@
+<% form_for @store do |f| %>
+  <fieldset>
+    <%= f.label :street %>
+    <%= f.text_field :street %>
+    <%= f.label :city %>
+    <%= f.text_field :city %>
+    <%= f.label :state %>
+    <%= f.text_field :state %>
+    <%= f.label :zip %>
+    <%= f.text_field :zip %>
+    <br/>
+    <a id="recompute" href="#recompute">Compute Lat/Lng From Address</a>
+  </fieldset>
+  <fieldset>
+    <%= f.label :phone %>
+    <%= f.text_field :phone %>
+  </fieldset>
+  <fieldset id="latlng">
+    <%= f.label :latitude %>
+    <%= f.text_field :latitude, :readonly => true %>
+    <%= f.label :longitude %>
+    <%= f.text_field :longitude, :readonly => true %>
+    <div id="map_container">
+      <p>Drag the pin below to adjust the store position.</p>
+      <div id="map_canvas" style="width: 500px; height: 300px"></div>
+      <a id="reset" href="#reset">Reset position</a>
+    </div>
+  </fieldset>
+  <fieldset>
+    <%= f.label :store_type %>
+    <%= f.select :store_type, Store.store_types %>
+  </fieldset>
+  <fieldset>
+  <%= f.submit %>
+  </fieldset>
+<% end %>
+<% content_for :head do %>
+  <style>
+    #latlng { position:relative; }
+    #map_container {
+      position:absolute;
+      right:35px;
+      top:-300px;
+    }
+    #map_canvas { margin-bottom:10px; }
+  </style>
+<% end %>
+<% content_for :foot do %>
+  <script type="text/javascript" src="/javascripts/prototype.js"></script>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAAEPPfOf82D9FXQ-BvzuODNBTJQa0g3IQ9GZqIMmInSLzwtGDKaBT-Y1d9KKC8W1D7zJRKFrd6g7fuag" type="text/javascript"></script>
+  <script type="text/javascript">
+    document.observe("dom:loaded", function() { 
+      var map = new GMap2(document.getElementById("map_canvas"));
+      var point = new GLatLng(<%= @store.latitude %>, <%= @store.longitude %>);
+      var marker = new GMarker(point, {draggable:true});
+      marker.enableDragging();
+      // watch marker events for dragging
+      GEvent.addListener(marker, 'dragstart', function(latlng) {
+        $("store_longitude").value = latlng.lng();
+        $("store_latitude").value = latlng.lat();
+      });
+      GEvent.addListener(marker, 'drag', function(latlng) {
+        $("store_longitude").value = latlng.lng();
+        $("store_latitude").value = latlng.lat();
+      });
+      GEvent.addListener(marker, 'dragend', function(latlng) {
+        $("store_longitude").value = latlng.lng();
+        $("store_latitude").value = latlng.lat();
+      });
+
+      // initial setup
+      map.setCenter(point, 13);
+      map.setUIToDefault();
+      map.addOverlay(marker);
+
+      $("reset").observe("click", function(e) { 
+        marker.setLatLng(point);
+        e.stop();
+      });
+
+      $("recompute").observe("click", function(e) { 
+        var geocoder = new GClientGeocoder();
+        var address = $F("store_street") + " " + $F("store_city") + " " + $F("store_state") + ", " + $F("store_zip");
+        geocoder.getLatLng(address, function(pt) {
+          if( !pt ) {
+            alert(address +  " not found");
+          }
+          else {
+            map.setCenter(pt, 13);
+            marker.setLatLng(pt);
+            $("store_longitude").value = pt.lng();
+            $("store_latitude").value = pt.lat();
+          }
+        });
+
+        e.stop();
+      });
+
+      document.body.onunload = GUnload;
+
+    });
+  </script>
+<% end %>
