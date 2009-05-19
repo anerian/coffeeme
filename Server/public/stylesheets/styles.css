@@ -261,5 +261,9 @@ html>body .ie p code {*white-space:normal;}
   height:57px;
 }
 body {
-  background:transparent url(/images/iphone/Default.png);
+  background:#673614 url(/images/iphone/Default.png) repeat-x;
+}
+.list li a {
+  
+  
 }
