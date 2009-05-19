@@ -7,5 +7,6 @@ class Store < ActiveRecord::Base
     SAXBYS     = 4
     PEETS      = 5
     DUNNBROS   = 6
+    BEANERY    = 7
   end
 end
