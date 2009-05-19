@@ -1,946 +1,1537 @@
 --- 
 - :address: 1365 park street alameda, ca, 94501
   :lng: "-122.243340"
+  :zip: 94501-4533
+  :city: Alameda
   :phone: (510) 473-0136
+  :state: CA
   :name: alameda - alameda peet's
   :lat: "37.763853"
 - :address: 8152 e santa ana canyon rd,suite 175 anaheim, ca, 92808
   :lng: "-117.747684"
+  :zip: 92808-1112
+  :city: Anaheim
   :phone: (714) 363-5200
+  :state: CA
   :name: anaheim - anaheim hills peet's
   :lat: "33.867895"
 - :address: 1200 el camino real belmont, ca, 94002
   :lng: "-122.274440"
+  :zip: 94002-3906
+  :city: Belmont
   :phone: (650) 593-3053
+  :state: CA
   :name: belmont - belmont peet's
   :lat: "37.519127"
 - :address: 2255 shattuck avenue berkeley, ca, 94704
   :lng: "-122.267700"
+  :zip: 94704-1432
+  :city: Berkeley
   :phone: (510) 225-0451
+  :state: CA
   :name: berkeley - shattuck ave peet's
   :lat: "37.868333"
 - :address: 2124 vine street berkeley, ca, 94709
   :lng: "-122.268591"
+  :zip: 94709-1524
+  :city: Berkeley
   :phone: (510) 841-0564
+  :state: CA
   :name: berkeley - vine street peet's
   :lat: "37.880174"
 - :address: 2916 domingo avenue berkeley, ca, 94705
   :lng: "-122.244074"
+  :zip: 94705-2454
+  :city: Berkeley
   :phone: (510) 843-1434
+  :state: CA
   :name: berkeley - domingo ave peet's
   :lat: "37.858798"
 - :address: 1825 solano avenue berkeley, ca, 94707
   :lng: "-122.279320"
+  :zip: 94707-2306
+  :city: Berkeley
   :phone: (510) 526-9607
+  :state: CA
   :name: berkeley - solano ave peet's
   :lat: "37.891415"
 - :address: 1776 4th street berkeley, ca, 94710
   :lng: "-122.301052"
+  :zip: 94710-1711
+  :city: Berkeley
   :phone: (510) 525-3207
+  :state: CA
   :name: berkeley - 4th street peet's
   :lat: "37.870736"
 - :address: 2501 telegraph ave. berkeley, ca, 94704
   :lng: "-122.258364"
+  :zip: 94704-2917
+  :city: Berkeley
   :phone: (510) 225-7700
+  :state: CA
   :name: berkeley - telegraph peet's
   :lat: "37.865040"
 - :address: 258 south beverly drive beverly hills, ca, 90212
   :lng: "-118.398984"
+  :zip: 90212-3805
+  :city: Beverly Hills
   :phone: (310) 248-3664
+  :state: CA
   :name: beverly hills - beverly hills peet's
   :lat: "34.063416"
 - :address: 5411 lone tree way,suite l-130 brentwood, ca, 94513
   :lng: "-121.750278"
+  :zip: 94513-5325
+  :city: Brentwood
   :phone: (925) 513-4102
+  :state: CA
   :name: brentwood - lone tree peet's
   :lat: "37.961497"
 - :address: 1309 burlingame avenue burlingame, ca, 94010
   :lng: "-122.347156"
+  :zip: 94010-4108
+  :city: Burlingame
   :phone: (650) 548-0494
+  :state: CA
   :name: burlingame - burlingame peet's
   :lat: "37.578307"
 - :address: 819 bay avenue, suite a capitola, ca, 95010
   :lng: "-121.955476"
+  :zip: 95010-2106
+  :city: Capitola
   :phone: (831) 316-5040
+  :state: CA
   :name: capitola - capitola peet's
   :lat: "36.980928"
 - :address: 2641 gateway rd. suite 103 carlsbad, ca, 92009
   :lng: "-117.249547"
+  :zip: 92009-1726
+  :city: Carlsbad
   :phone: (760) 448-1835
+  :state: CA
   :name: carlsbad - carlsbad peet's
   :lat: "33.127908"
 - :address: 20439 redwood rd castro valley, ca, 94546
   :lng: "-122.074111"
+  :zip: 94546-4315
+  :city: Castro Valley
   :phone: (510) 537-0181
+  :state: CA
   :name: castro valley - castro valley peet's
   :lat: "37.697043"
 - :address: 145 main street chico, ca, 95928
   :lng: "-121.840688"
+  :zip: 95928-5433
+  :city: Chico
   :phone: (530) 894-6716
+  :state: CA
   :name: chico - chico peet's
   :lat: "39.730824"
 - :address: 13855 city center dr.,suite 3015 chino hills, ca, 91709
   :lng: "-117.762261"
+  :zip: "91709"
+  :city: Chino Hills
   :phone: (909) 664-2235
+  :state: CA
   :name: chino hills - chino hills peet's
   :lat: "33.994144"
 - :address: 5458 ygnacio valley rd,suite 10 concord, ca, 94521
   :lng: "-121.958682"
+  :zip: 94521-3836
+  :city: Concord
   :phone: (925) 673-5225
+  :state: CA
   :name: concord - clayton valley peet's
   :lat: "37.950898"
 - :address: 2072 salvio st concord, ca, 94520
   :lng: "-122.035023"
+  :zip: 94520-2435
+  :city: Concord
   :phone: (925) 405-3650
+  :state: CA
   :name: concord - dt concord peet's
   :lat: "37.977137"
 - :address: 77 casa buena dr corte madera, ca, 94925
   :lng: "-122.517187"
+  :zip: 94925-1708
+  :city: Corte Madera
   :phone: (415) 306-9340
+  :state: CA
   :name: corte madera - corte madera peet's
   :lat: "37.924755"
 - :address: 424 e. 17th street costa mesa, ca, 92627
   :lng: "-117.911094"
+  :zip: 92627-3213
+  :city: Costa Mesa
   :phone: (949) 335-0670
+  :state: CA
   :name: costa mesa - costa mesa peet's
   :lat: "33.630268"
 - :address: 22350 homestead rd cupertino, ca, 95014
   :lng: "-122.065507"
+  :zip: 95014-0116
+  :city: Cupertino
   :phone: (408) 636-1850
+  :state: CA
   :name: cupertino - homestead peet's
   :lat: "37.337311"
 - :address: 20807 stevens creek blvd.,suite 200 cupertino, ca, 95014
   :lng: "-122.037669"
+  :zip: 95014-2107
+  :city: Cupertino
   :phone: (408) 213-1870
+  :state: CA
   :name: cupertino - cupertino peet's
   :lat: "37.323129"
 - :address: 435 railroad avenue danville, ca, 94526
   :lng: "-121.997590"
+  :zip: 94526-3821
+  :city: Danville
   :phone: (925) 314-0990
+  :state: CA
   :name: danville - danville peet's
   :lat: "37.819135"
 - :address: 1411 w. covell blvd,#114 b davis, ca, 95616
   :lng: "-121.765817"
+  :zip: 95616-5932
+  :city: Davis
   :phone: (530) 750-5085
+  :state: CA
   :name: davis - davis peet's
   :lat: "38.561078"
 - :address: 231 e street davis, ca, 95616
   :lng: "-121.741352"
+  :zip: 95616-4523
+  :city: Davis
   :phone: (530) 747-2064
+  :state: CA
   :name: davis - dt davis peet's
   :lat: "38.543670"
 - :address: 4620 tassajara road,suite c dublin, ca, 94568
   :lng: "-121.872317"
+  :zip: 94568-4505
+  :city: Dublin
   :phone: (925) 404-0095
+  :state: CA
   :name: dublin - dublin peet's
   :lat: "37.706464"
 - :address: 9895 san pablo ave el cerrito, ca, 94530
   :lng: "-122.301908"
+  :zip: 94530-3922
+  :city: El Cerrito
   :phone: (510) 225-2080
+  :state: CA
   :name: el cerrito - el cerrito peet's
   :lat: "37.898875"
 - :address: 1004 white rock rd. suite 100 el dorado hills, ca, 95762
   :lng: "-121.067854"
+  :zip: 95762-5608
+  :city: El Dorado Hills
   :phone: (916) 934-0423
+  :state: CA
   :name: el dorado hills - el dorado hills peet's
   :lat: "38.646690"
 - :address: 8234 laguna blvd, suite 100 elk grove, ca, 95758
   :lng: "-121.403073"
+  :zip: 95758-7956
+  :city: Elk Grove
   :phone: (916) 683-7191
+  :state: CA
   :name: elk grove - elk grove peet's
   :lat: "38.421910"
 - :address: 5959 shellmound street,suite 85 emeryville, ca, 94608
   :lng: "-122.293450"
+  :zip: 94608-1904
+  :city: Emeryville
   :phone: (510) 844-0850
+  :state: CA
   :name: emeryville - emeryville peet's
   :lat: "37.840991"
 - :address: 8909 madison ave suite 400 fair oaks, ca, 95628
   :lng: "-121.225105"
+  :zip: 95628-4009
+  :city: Fair Oaks
   :phone: (916) 844-3050
+  :state: CA
   :name: fair oaks - fair oaks peet's
   :lat: "38.664141"
 - :address: 1380 holiday lane, suite a fairfield, ca, 94534
   :lng: "-122.065005"
+  :zip: 94534-3449
+  :city: Fairfield
   :phone: (707) 399-8606
+  :state: CA
   :name: fairfield - fairfield peet's
   :lat: "38.257397"
 - :address: 1290 e. bidwell st.,suite 110 folsom, ca, 95630
   :lng: "-121.151871"
+  :zip: 95630-3525
+  :city: Folsom
   :phone: (916) 817-4527
+  :state: CA
   :name: folsom - folsom peet's
   :lat: "38.669133"
 - :address: 2780 mowry avenue fremont, ca, 94538
   :lng: "-121.983614"
+  :zip: 94538-1609
+  :city: Fremont
   :phone: (510) 857-9000
+  :state: CA
   :name: fremont - fremont peet's
   :lat: "37.554146"
 - :address: 5550 douglas blvd. suite d-110 granite bay, ca, 95746
   :lng: "-121.196232"
+  :zip: 95746-6218
+  :city: Granite Bay
   :phone: (916) 783-3113
+  :state: CA
   :name: granite bay - granite bay peet's
   :lat: "38.743926"
 - :address: 276 bon air center greenbrae, ca, 94904
   :lng: "-122.523783"
+  :zip: 94904-2416
+  :city: Greenbrae
   :phone: (415) 461-2695
+  :state: CA
   :name: greenbrae - greenbrae peet's
   :lat: "37.945717"
 - :address: 142 san mateo rd half moon bay, ca, 94019
   :lng: "-122.430801"
+  :zip: 94019-1706
+  :city: Half Moon Bay
   :phone: (650) 726-1261
+  :state: CA
   :name: half moon bay - half moon bay peet's
   :lat: "37.467953"
 - :address: 878 b street hayward, ca, 94541
   :lng: "-122.084345"
+  :zip: 94541-5108
+  :city: Hayward
   :phone: (510) 300-3380
+  :state: CA
   :name: hayward - hayward peet's
   :lat: "37.672069"
 - :address: 3927 portola parkway irvine, ca, 92620
   :lng: "-117.761103"
+  :zip: 92602-0833
+  :city: Irvine
   :phone: (714) 689-9028
+  :state: CA
   :name: irvine - orchard hills peet's
   :lat: "33.733274"
 - :address: 3972 barranca parkway,suite f-2 irvine, ca, 92606
   :lng: "-117.810375"
+  :zip: 92606-8238
+  :city: Irvine
   :phone: (949) 333-6884
+  :state: CA
   :name: irvine - irvine peet's
   :lat: "33.685267"
 - :address: 4213 campus dr. suite p-166a irvine, ca, 92612
   :lng: "-117.839724"
+  :zip: 92612-2752
+  :city: Irvine
   :phone: (949) 419-1458
+  :state: CA
   :name: irvine - uc irvine peet's
   :lat: "33.649435"
 - :address: "8843 villa la jolla drive,suite #c202 la jolla, ca, 92037"
   :lng: "-117.233311"
+  :zip: 92037-1949
+  :city: La Jolla
   :phone: (858) 678-0806
+  :state: CA
   :name: la jolla - la jolla peet's
   :lat: "32.868095"
 - :address: 3518 mount diablo blvd,#e lafayette, ca, 94549
   :lng: "-122.117445"
+  :zip: 94549-3814
+  :city: Lafayette
   :phone: (925) 299-0735
+  :state: CA
   :name: lafayette - lafayette peet's
   :lat: "37.892313"
 - :address: 32371 golden lantern,bldg 6, ste h laguna niguel, ca, 92677
   :lng: "-117.696758"
+  :zip: 92677-5334
+  :city: Laguna Niguel
   :phone: (949) 325-0540
+  :state: CA
   :name: laguna niguel - laguna niguel peet's
   :lat: "33.492568"
 - :address: 23700 el toro road suite b lake forest, ca, 92630
   :lng: "-117.703328"
+  :zip: 92630-4711
+  :city: Lake Forest
   :phone: (949) 420-3500
+  :state: CA
   :name: lake forest - lake forest peet's
   :lat: "33.617963"
 - :address: 152 south livermore ave livermore, ca, 94550
   :lng: "-121.767833"
+  :zip: 94550-4650
+  :city: Livermore
   :phone: (925) 579-5011
+  :state: CA
   :name: livermore - livermore peet's
   :lat: "37.681863"
 - :address: 5246 e second street long beach, ca, 90803
   :lng: "-118.134139"
+  :zip: 90803-5329
+  :city: Long Beach
   :phone: (562) 433-7306
+  :state: CA
   :name: long beach - belmont shore peet's
   :lat: "33.759786"
 - :address: 367 state street los altos, ca, 94022
   :lng: "-122.117912"
+  :zip: 94022-2816
+  :city: Los Altos
   :phone: (650) 941-6722
+  :state: CA
   :name: los altos - los altos peet's
   :lat: "37.378727"
 - :address: 4598 el camino real los altos, ca, 94022
   :lng: "-122.113607"
+  :zip: "94022"
+  :city: Los Altos
   :phone: (650) 469-0035
+  :state: CA
   :name: los altos - el camino peet's
   :lat: "37.401090"
 - :address: 11750 san vicente blvd los angeles, ca, 90049
   :lng: "-118.467268"
+  :zip: 90049-5010
+  :city: Los Angeles
   :phone: (310) 979-7892
+  :state: CA
   :name: los angeles - brentwood peet's
   :lat: "34.053068"
 - :address: 1154 westwood blvd. los angeles, ca, 90024
   :lng: "-118.444611"
+  :zip: 90024-3412
+  :city: Los Angeles
   :phone: (310) 954-8191
+  :state: CA
   :name: los angeles - westwood villag peet's
   :lat: "34.059902"
 - :address: 124 n. larchmont blvd los angeles, ca, 90004
   :lng: "-118.323475"
+  :zip: 90004-3705
+  :city: Los Angeles
   :phone: (323) 978-1003
+  :state: CA
   :name: los angeles - larchmont peet's
   :lat: "34.073656"
 - :address: 1854 westwood blvd. los angeles, ca, 90025
   :lng: "-118.435930"
+  :zip: 90025-4612
+  :city: Los Angeles
   :phone: (310) 954-8558
+  :state: CA
   :name: los angeles - 1854 westwood peet's
   :lat: "34.049002"
 - :address: 798-1 blossom hill road los gatos, ca, 95032
   :lng: "-121.961389"
+  :zip: 95032-3503
+  :city: Los Gatos
   :phone: (408) 358-6311
+  :state: CA
   :name: los gatos - los gatos peet's
   :lat: "37.235259"
 - :address: 328 manhattan beach blvd manhattan beach, ca, 90266
   :lng: "-118.409158"
+  :zip: 90266-5317
+  :city: Manhattan Beach
   :phone: (310) 379-1896
+  :state: CA
   :name: manhattan beach - manhattan beach peet's
   :lat: "33.885146"
 - :address: 4706 lincoln blvd marina del rey, ca, 90292
   :lng: "-118.438530"
+  :zip: 90292-6902
+  :city: Marina Del Rey
   :phone: (310) 823-1335
+  :state: CA
   :name: marina del rey - marina del rey peet's
   :lat: "33.980322"
 - :address: 899 santa cruz avenue menlo park, ca, 94025
   :lng: "-122.186263"
+  :zip: 94025-4629
+  :city: Menlo Park
   :phone: (650) 325-8989
+  :state: CA
   :name: menlo park - menlo park peet's
   :lat: "37.449452"
 - :address: 88 throckmorton avenue mill valley, ca, 94941
   :lng: "-122.548224"
+  :zip: 94941-1918
+  :city: Mill Valley
   :phone: (415) 381-8227
+  :state: CA
   :name: mill valley - mill valley peet's
   :lat: "37.906493"
 - :address: 401 broadway millbrae, ca, 94030
   :lng: "-122.392861"
+  :zip: 94030-1905
+  :city: Millbrae
   :phone: (650) 648-0231
+  :state: CA
   :name: millbrae - millbrae peet's
   :lat: "37.601558"
 - :address: 543 e. calaveras blvd. milpitas, ca, 95035
   :lng: "-121.895853"
+  :zip: 95035-7704
+  :city: Milpitas
   :phone: (408) 416-0700
+  :state: CA
   :name: milpitas - milpitas peet's
   :lat: "37.433182"
 - :address: 560 munras suite 10 monterey, ca, 93940
   :lng: "-121.894358"
+  :zip: 93940-3014
+  :city: Monterey
   :phone: (831) 641-9029
+  :state: CA
   :name: monterey - monterey peet's
   :lat: "36.596983"
 - :address: 755 cochrane rd. suite 100 morgan hill, ca, 95037
   :lng: "-121.656070"
+  :zip: 95037-2874
+  :city: Morgan Hill
   :phone: (408) 776-1364
+  :state: CA
   :name: morgan hill - morgan hill peet's
   :lat: "37.150943"
 - :address: 1032 castro st mountain view, ca, 94040
   :lng: "-122.084466"
+  :zip: 94040-2504
+  :city: Mountain View
   :phone: (650) 605-0003
+  :state: CA
   :name: mountain view - mountain view peet's
   :lat: "37.385135"
 - :address: 3678 bel aire plaza napa, ca, 94558
   :lng: "-122.306440"
+  :zip: 94558-2831
+  :city: Napa
   :phone: (707) 254-7690
+  :state: CA
   :name: napa - napa peet's
   :lat: "38.322521"
 - :address: 894 avocado avenue newport beach, ca, 92660
   :lng: "-117.875033"
+  :zip: 92660-7945
+  :city: Newport Beach
   :phone: (949) 640-6377
+  :state: CA
   :name: newport beach - corona del mar peet's
   :lat: "33.606274"
 - :address: 1701 grant avenue novato, ca, 94945
   :lng: "-122.578658"
+  :zip: 94945-2229
+  :city: Novato
   :phone: (415) 897-4920
+  :state: CA
   :name: novato - novato peet's
   :lat: "38.109050"
 - :address: 5800 nave dr. suite m novato, ca, 94949
   :lng: "-122.533827"
+  :zip: 94949-6232
+  :city: Novato
   :phone: (415) 475-4121
+  :state: CA
   :name: novato - hamilton peet's
   :lat: "38.063078"
 - :address: 3401 fruitvale ave oakland, ca, 94602
   :lng: "-122.216665"
+  :zip: 94602-2317
+  :city: Oakland
   :phone: (510) 842-0203
+  :state: CA
   :name: oakland - dimond district peet's
   :lat: "37.799394"
 - :address: 1111 broadway oakland, ca, 94607
   :lng: "-122.272528"
+  :zip: 94607-4021
+  :city: Oakland
   :phone: (510) 844-0061
+  :state: CA
   :name: oakland - 1111 broadway peet's
   :lat: "37.802422"
 - :address: 4050 piedmont avenue oakland, ca, 94611
   :lng: "-122.252823"
+  :zip: 94611-5221
+  :city: Oakland
   :phone: (510) 655-3228
+  :state: CA
   :name: oakland - piedmont ave peet's
   :lat: "37.826019"
 - :address: "5095 telegraph ave. suite #1 oakland, ca, 94609"
   :lng: "-122.262499"
+  :zip: 94609-2040
+  :city: Oakland
   :phone: (510) 899-6230
+  :state: CA
   :name: oakland - temescal peet's
   :lat: "37.837143"
 - :address: 3258 lakeshore avenue oakland, ca, 94610
   :lng: "-122.244831"
+  :zip: 94610-2720
+  :city: Oakland
   :phone: (510) 832-6761
+  :state: CA
   :name: oakland - lake shore ave peet's
   :lat: "37.810344"
 - :address: 2066 antioch court oakland, ca, 94611
   :lng: "-122.208923"
+  :zip: 94611-2914
+  :city: Oakland
   :phone: (510) 339-6075
+  :state: CA
   :name: oakland - montclair peet's
   :lat: "37.826206"
 - :address: 63 moraga way orinda, ca, 94563
   :lng: "-122.180723"
+  :zip: 94563-3022
+  :city: Orinda
   :phone: (925) 258-9328
+  :state: CA
   :name: orinda - orinda peet's
   :lat: "37.878353"
 - :address: 3904 middlefield rd palo alto, ca, 94303
   :lng: "-122.109853"
+  :zip: 94303-4733
+  :city: Palo Alto
   :phone: (650) 433-0500
+  :state: CA
   :name: palo alto - charleston peet's
   :lat: "37.419458"
 - :address: 436 university ave palo alto, ca, 94301
   :lng: "-122.159920"
+  :zip: 94301-1812
+  :city: Palo Alto
   :phone: (650) 319-0367
+  :state: CA
   :name: palo alto - dt palo alto peet's
   :lat: "37.447384"
 - :address: 153 homer avenue palo alto, ca, 94301
   :lng: "-122.159650"
+  :zip: 94301-2431
+  :city: Palo Alto
   :phone: (650) 325-2091
+  :state: CA
   :name: palo alto - palo alto peet's
   :lat: "37.441827"
 - :address: 77 town & country palo alto, ca, 94301
   :lng: "-122.161011"
+  :zip: "94301"
+  :city: Palo Alto
   :phone: (650) 328-4771
+  :state: CA
   :name: palo alto - town & country peet's
   :lat: "37.438385"
 - :address: 3571-a east foothill blvd pasadena, ca, 91107
   :lng: "-118.076008"
+  :zip: 91107-3119
+  :city: Pasadena
   :phone: (626) 351-6822
+  :state: CA
   :name: pasadena - hastings ranch peet's
   :lat: "34.150309"
 - :address: 605 south lake avenue pasadena, ca, 91106
   :lng: "-118.132369"
+  :zip: 91106-3915
+  :city: Pasadena
   :phone: (626) 795-7413
+  :state: CA
   :name: pasadena - pasadena peet's
   :lat: "34.135767"
 - :address: 351 s. mcdowell blvd petaluma, ca, 94954
   :lng: "-122.621929"
+  :zip: 94954-3507
+  :city: Petaluma
   :phone: (707) 773-3347
+  :state: CA
   :name: petaluma - washington sq peet's
   :lat: "38.247179"
 - :address: 5 petaluma boulevard south,suite a petaluma, ca, 94952
   :lng: "-122.638965"
+  :zip: 94952-3030
+  :city: Petaluma
   :phone: (707) 782-0401
+  :state: CA
   :name: petaluma - petaluma peet's
   :lat: "38.233412"
 - :address: 2712 pinole valley rd pinole, ca, 94564
   :lng: "-122.285920"
+  :zip: 94564-1425
+  :city: Pinole
   :phone: (510) 669-9815
+  :state: CA
   :name: pinole - pinole peet's
   :lat: "37.994941"
 - :address: 65 crescent drive,suite a pleasant hill, ca, 94523
   :lng: "-122.062004"
+  :zip: 94523-5501
+  :city: Pleasant Hill
   :phone: (925) 969-1604
+  :state: CA
   :name: pleasant hill - pleasant hill peet's
   :lat: "37.946144"
 - :address: 5765 valley ave suite 100 pleasanton, ca, 94566
   :lng: "-121.895903"
+  :zip: 94566-5250
+  :city: Pleasanton
   :phone: (925) 401-0018
+  :state: CA
   :name: pleasanton - pleasanton peet's
   :lat: "37.676847"
 - :address: 1418 s. pacific coast hwy redondo beach, ca, 90277
   :lng: "-118.385250"
+  :zip: 90277-5001
+  :city: Redondo Beach
   :phone: (310) 792-3800
+  :state: CA
   :name: redondo beach - redondo beach peet's
   :lat: "33.822273"
 - :address: 2600 broadway redwood city, ca, 94063
   :lng: "-122.233308"
+  :zip: 94063-1533
+  :city: Redwood City
   :phone: (650) 362-1000
+  :state: CA
   :name: redwood city - redwood city peet's
   :lat: "37.486375"
 - :address: 1198 roseville parkway,suite 175 roseville, ca, 95678
   :lng: "-121.269974"
+  :zip: 95678-1967
+  :city: Roseville
   :phone: (916) 677-4946
+  :state: CA
   :name: roseville - the fountains peet's
   :lat: "38.770118"
 - :address: 731 pleasant grove blvd,suite 185 roseville, ca, 95678
   :lng: "-121.279761"
+  :zip: 95678-6153
+  :city: Roseville
   :phone: (916) 771-4391
+  :state: CA
   :name: roseville - rocklin peet's
   :lat: "38.791266"
 - :address: 1010 pleasant grove blvd,suite 130 roseville, ca, 95678
   :lng: "-121.287656"
+  :zip: 95678-6117
+  :city: Roseville
   :phone: (916) 788-1885
+  :state: CA
   :name: roseville - roseville peet's
   :lat: "38.779709"
 - :address: 102 grand ave s. san francisco, ca, 94080
   :lng: "-122.407924"
+  :zip: 94080-3705
+  :city: South San Francisco
   :phone: (650) 636-8600
+  :state: CA
   :name: s. san francisco - s san francisco peet's
   :lat: "37.654718"
 - :address: 1441 howe ave, suite 200 sacramento, ca, 95825
   :lng: "-121.415555"
+  :zip: 95825-3211
+  :city: Sacramento
   :phone: (916) 929-3450
+  :state: CA
   :name: sacramento - howe & hallmark peet's
   :lat: "38.591997"
 - :address: 3711 j street suite a sacramento, ca, 95816
   :lng: "-121.456782"
+  :zip: 95816-5518
+  :city: Sacramento
   :phone: (916) 266-7670
+  :state: CA
   :name: sacramento - 37th & j peet's
   :lat: "38.570593"
 - :address: 1050 20th st. suite 190 sacramento, ca, 95811
   :lng: "-121.480297"
+  :zip: 95811-3146
+  :city: Sacramento
   :phone: (916) 266-7660
+  :state: CA
   :name: sacramento - 20th & j peet's
   :lat: "38.576172"
 - :address: 1800 - 19th street sacramento, ca, 95814
   :lng: "-121.485208"
+  :zip: 95811-6713
+  :city: Sacramento
   :phone: (916) 266-2400
+  :state: CA
   :name: sacramento - r street peet's
   :lat: "38.568163"
 - :address: 2580 fair oaks blvd,suite 2 sacramento, ca, 95825
   :lng: "-121.402132"
+  :zip: 95825-7604
+  :city: Sacramento
   :phone: (916) 485-7887
+  :state: CA
   :name: sacramento - lyon village peet's
   :lat: "38.574132"
 - :address: 3100 folsom suite 100 sacramento, ca, 95816
   :lng: "-121.466655"
+  :zip: 95816-5219
+  :city: Sacramento
   :phone: (916) 379-8740
+  :state: CA
   :name: sacramento - alhambra peet's
   :lat: "38.569406"
 - :address: 896 sir francis drake blvd. san anselmo, ca, 94960
   :lng: "-122.565416"
+  :zip: 94960-1914
+  :city: San Anselmo
   :phone: (415) 306-0310
+  :state: CA
   :name: san anselmo - san anselmo peet's
   :lat: "37.980319"
 - :address: 955 catalina blvd suite 103 san diego, ca, 92106
   :lng: "-117.245449"
+  :zip: 92106-2838
+  :city: San Diego
   :phone: (619) 858-0157
+  :state: CA
   :name: san diego - point loma peet's
   :lat: "32.722176"
 - :address: 350 university avenue,suite d san diego, ca, 92103
   :lng: "-117.162183"
+  :zip: 92103-3009
+  :city: San Diego
   :phone: (619) 296-5995
+  :state: CA
   :name: san diego - hillcrest peet's
   :lat: "32.748405"
 - :address: 7845 highland village pl,ste c105 san diego, ca, 92129
   :lng: "-117.153933"
+  :zip: 92129-5180
+  :city: San Diego
   :phone: (858) 434-0001
+  :state: CA
   :name: san diego - torrey highland peet's
   :lat: "32.962040"
 - :address: 1 ferry building,shop 43 san francisco, ca, 94111
   :lng: "-122.415095"
+  :zip: "94133"
+  :city: San Francisco
   :phone: (415) 593-3831
+  :state: CA
   :name: san francisco - ferry bldg peet's
   :lat: "37.808959"
 - :address: 2197 fillmore street san francisco, ca, 94115
   :lng: "-122.434102"
+  :zip: 94115-2223
+  :city: San Francisco
   :phone: (415) 563-9930
+  :state: CA
   :name: san francisco - fillmore peet's
   :lat: "37.789710"
 - :address: 2300 16th street,suite 240 san francisco, ca, 94103
   :lng: "-122.409326"
+  :zip: 94103-4803
+  :city: San Francisco
   :phone: (415) 565-6713
+  :state: CA
   :name: san francisco - potrero peet's
   :lat: "37.765793"
 - :address: 217 montgomery street san francisco, ca, 94104
   :lng: "-122.402491"
+  :zip: 94104-2901
+  :city: San Francisco
   :phone: (415) 421-8420
+  :state: CA
   :name: san francisco - russ bldg peet's
   :lat: "37.791101"
 - :address: 595 mission street san francisco, ca, 94105
   :lng: "-122.399577"
+  :zip: 94105-2933
+  :city: San Francisco
   :phone: (415) 495-4323
+  :state: CA
   :name: san francisco - mission st peet's
   :lat: "37.788030"
 - :address: 1400 van ness ave san francisco, ca, 94109
   :lng: "-122.421873"
+  :zip: 94109-4608
+  :city: San Francisco
   :phone: (415) 230-7822
+  :state: CA
   :name: san francisco - van ness & bush peet's
   :lat: "37.788560"
 - :address: 2156 chestnut street san francisco, ca, 94123
   :lng: "-122.438791"
+  :zip: 94123-2709
+  :city: San Francisco
   :phone: (415) 931-8302
+  :state: CA
   :name: san francisco - chestnut st peet's
   :lat: "37.800622"
 - :address: 3419 california street san francisco, ca, 94118
   :lng: "-122.450516"
+  :zip: 94118-1836
+  :city: San Francisco
   :phone: (415) 221-8506
+  :state: CA
   :name: san francisco - laurel village peet's
   :lat: "37.786642"
 - :address: 54 west portal avenue san francisco, ca, 94127
   :lng: "-122.466529"
+  :zip: 94127-1304
+  :city: San Francisco
   :phone: (415) 731-0375
+  :state: CA
   :name: san francisco - west portal peet's
   :lat: "37.740337"
 - :address: 2257 market street san francisco, ca, 94114
   :lng: "-122.431872"
+  :zip: 94114-1612
+  :city: San Francisco
   :phone: (415) 626-6416
+  :state: CA
   :name: san francisco - market street peet's
   :lat: "37.765005"
 - :address: 22 battery street san francisco, ca, 94111
   :lng: "-122.399465"
+  :zip: 94111-5502
+  :city: San Francisco
   :phone: (415) 981-4550
+  :state: CA
   :name: san francisco - bbm peet's
   :lat: "37.791564"
 - :address: 2139 c polk street san francisco, ca, 94109
   :lng: "-122.422009"
+  :zip: 94109-2506
+  :city: San Francisco
   :phone: (415) 474-1871
+  :state: CA
   :name: san francisco - polk street peet's
   :lat: "37.796309"
 - :address: two embarcadero center,suite r2113 san francisco, ca, 94111
   :lng: "-122.398784"
+  :zip: 94111-3800
+  :city: San Francisco
   :phone: (415) 869-1744
+  :state: CA
   :name: san francisco - embarcadero peet's
   :lat: "37.794888"
 - :address: 405 howard san francisco, ca, 94105
   :lng: "-122.395161"
+  :zip: 94105-2617
+  :city: San Francisco
   :phone: (415) 593-8920
+  :state: CA
   :name: san francisco - 1st & howard peet's
   :lat: "37.789103"
 - :address: 310 broderick st. san francisco, ca, 94117
   :lng: "-122.438951"
+  :zip: 94117-2275
+  :city: San Francisco
   :phone: (415) 593-8830
+  :state: CA
   :name: san francisco - fell & broderic peet's
   :lat: "37.773108"
 - :address: 692 mission st san francisco, ca, 94105
   :lng: "-122.401961"
+  :zip: 94105-4014
+  :city: San Francisco
   :phone: (415) 593-8945
+  :state: CA
   :name: san francisco - 3rd & mission peet's
   :lat: "37.786485"
 - :address: 601 van ness san francisco, ca, 94102
   :lng: "-122.420508"
+  :zip: 94102-3242
+  :city: San Francisco
   :phone: (415) 593-2661
+  :state: CA
   :name: san francisco - opera plaza peet's
   :lat: "37.781070"
 - :address: 555 9th st. suite b5 san francisco, ca, 94103
   :lng: "-122.407576"
+  :zip: 94103-4429
+  :city: San Francisco
   :phone: (415) 593-0430
+  :state: CA
   :name: san francisco - 9th & bryant peet's
   :lat: "37.770720"
 - :address: 370 fourth st san francisco, ca, 94107
   :lng: "-122.400137"
+  :zip: 94107-1219
+  :city: San Francisco
   :phone: (415) 230-3091
+  :state: CA
   :name: san francisco - 4th & harrison peet's
   :lat: "37.781105"
 - :address: 450 sansome suite 1 san francisco, ca, 94111
   :lng: "-122.401267"
+  :zip: 94111-3304
+  :city: San Francisco
   :phone: (415) 321-5280
+  :state: CA
   :name: san francisco - 450 sansome peet's
   :lat: "37.794479"
 - :address: 5201 geary blvd. san francisco, ca, 94118
   :lng: "-122.475208"
+  :zip: 94118-2817
+  :city: San Francisco
   :phone: (415) 592-2200
+  :state: CA
   :name: san francisco - 16th & geary peet's
   :lat: "37.780402"
 - :address: 1 california san francisco, ca, 94111
   :lng: "-122.396399"
+  :zip: 94111-5433
+  :city: San Francisco
   :phone: (415) 593-8960
+  :state: CA
   :name: san francisco - one california peet's
   :lat: "37.793642"
 - :address: 595 market st suite 143 san franscisco, ca, 94105
   :lng: "-122.401066"
+  :zip: 94105-2808
+  :city: San Francisco
   :phone: (415) 655-2640
+  :state: CA
   :name: san franscisco - 595 market peet's
   :lat: "37.789323"
 - :address: 2035 camden avenue san jose, ca, 95124
   :lng: "-121.932924"
+  :zip: 95124-2024
+  :city: San Jose
   :phone: (408) 371-9088
+  :state: CA
   :name: san jose - camden park peet's
   :lat: "37.261912"
 - :address: "377 santana row,suite # 1130 san jose, ca, 95128"
   :lng: "-121.948145"
+  :zip: 95128-2037
+  :city: San Jose
   :phone: (408) 213-1071
+  :state: CA
   :name: san jose - santana row peet's
   :lat: "37.319932"
 - :address: 1140 lincoln avenue,suite c san jose, ca, 95125
   :lng: "-121.900404"
+  :zip: 95125-3001
+  :city: San Jose
   :phone: (408) 975-9281
+  :state: CA
   :name: san jose - willow glen peet's
   :lat: "37.307793"
 - :address: 1330 el paseo de saratoga san jose, ca, 95130
   :lng: "-121.991517"
+  :zip: 95130-1632
+  :city: San Jose
   :phone: (408) 871-0907
+  :state: CA
   :name: san jose - el paseo peet's
   :lat: "37.290149"
 - :address: 66 w. santa clara street san jose, ca, 95113
   :lng: "-121.891386"
+  :zip: 95113-1806
+  :city: San Jose
   :phone: (408) 213-4770
+  :state: CA
   :name: san jose - dt san jose peet's
   :lat: "37.335714"
 - :address: 1295 the alameda san jose, ca, 95126
   :lng: "-121.912805"
+  :zip: 95126-2649
+  :city: San Jose
   :phone: (408) 213-7285
+  :state: CA
   :name: san jose - rose garden peet's
   :lat: "37.332091"
 - :address: 1075 court st. suite 110 san luis obispo, ca, 93401
   :lng: "-120.661434"
+  :zip: 93401-3203
+  :city: San Luis Obispo
   :phone: (805) 597-9478
+  :state: CA
   :name: san luis obispo - san luis obispo peet's
   :lat: "35.281091"
 - :address: 255 e. 3rd avenue san mateo, ca, 94401
   :lng: "-122.322547"
+  :zip: 94401-4014
+  :city: San Mateo
   :phone: (650) 403-1591
+  :state: CA
   :name: san mateo - san mateo peet's
   :lat: "37.565486"
 - :address: 1020 park place san mateo, ca, 94403
   :lng: "-122.291757"
+  :zip: 94403-1572
+  :city: San Mateo
   :phone: (650) 403-0110
+  :state: CA
   :name: san mateo - bay meadows peet's
   :lat: "37.544482"
 - :address: 402 third street san rafael, ca, 94901
   :lng: "-122.517811"
+  :zip: 94901-3557
+  :city: San Rafael
   :phone: (415) 306-0261
+  :state: CA
   :name: san rafael - san rafael peet's
   :lat: "37.970933"
 - :address: 3121 crow canyon place,,suite c san ramon, ca, 94583
   :lng: "-121.971033"
+  :zip: 94583-1325
+  :city: San Ramon
   :phone: (925) 901-1005
+  :state: CA
   :name: san ramon - crow canyon peet's
   :lat: "37.778012"
 - :address: 11000 bollinger canyon rd,suite a san ramon, ca, 94582
   :lng: "-121.924345"
+  :zip: 94582-4959
+  :city: San Ramon
   :phone: (925) 964-9195
+  :state: CA
   :name: san ramon - bollinger canyo peet's
   :lat: "37.773970"
 - :address: 166 sunset drive san ramon, ca, 94583
   :lng: "-121.961134"
+  :zip: 94583-2340
+  :city: San Ramon
   :phone: (925) 866-6628
+  :state: CA
   :name: san ramon - san ramon peet's
   :lat: "37.762871"
 - :address: 3905 state st. r2 santa barbara, ca, 93105
   :lng: "-119.751419"
+  :zip: 93105-3113
+  :city: Santa Barbara
   :phone: (805) 687-9952
+  :state: CA
   :name: santa barbara - santa barbara peet's
   :lat: "34.440292"
 - :address: 1131 state st. santa barbara, ca, 93101
   :lng: "-119.703658"
+  :zip: 93101-2712
+  :city: Santa Barbara
   :phone: (805) 722-1912
+  :state: CA
   :name: santa barbara - dt santa barbar peet's
   :lat: "34.422701"
 - :address: 3932 rivermark plaza santa clara, ca, 95054
   :lng: "-121.946003"
+  :zip: 95054-4155
+  :city: Santa Clara
   :phone: (408) 213-0810
+  :state: CA
   :name: santa clara - santa clara peet's
   :lat: "37.394578"
 - :address: 27047 mcbean parkway santa clarita, ca, 91355
   :lng: "-118.562955"
+  :zip: 91355-5145
+  :city: Santa Clarita
   :phone: (661) 259-8345
+  :state: CA
   :name: santa clarita - santa clarita peet's
   :lat: "34.420716"
 - :address: 1409 pacific avenue santa cruz, ca, 95060
   :lng: "-122.026490"
+  :zip: 95060-3910
+  :city: Santa Cruz
   :phone: (831) 457-8170
+  :state: CA
   :name: santa cruz - santa cruz peet's
   :lat: "36.975032"
 - :address: 2439 main st. santa monica, ca, 90405
   :lng: "-118.484985"
+  :zip: 90405-3542
+  :city: Santa Monica
   :phone: (310) 399-8117
+  :state: CA
   :name: santa monica - edgemar peet's
   :lat: "34.003566"
 - :address: 1401 montana avenue santa monica, ca, 90403
   :lng: "-118.495168"
+  :zip: 90403-1711
+  :city: Santa Monica
   :phone: (310) 394-8555
+  :state: CA
   :name: santa monica - montana ave peet's
   :lat: "34.032340"
 - :address: 650 fourth street, suite 100 santa rosa, ca, 95404
   :lng: "-122.713077"
+  :zip: 95404-4406
+  :city: Santa Rosa
   :phone: (707) 545-5757
+  :state: CA
   :name: santa rosa - santa rosa peet's
   :lat: "38.440721"
 - :address: 2500 mendocino ave santa rosa, ca, 95403
   :lng: "-122.719419"
+  :zip: 95403-2803
+  :city: Santa Rosa
   :phone: (707) 568-3464
+  :state: CA
   :name: santa rosa - n. santa rosa peet's
   :lat: "38.465462"
 - :address: 12148 saratoga-sunnyvale rd saratoga, ca, 95070
   :lng: "-122.032158"
+  :zip: 95070-3046
+  :city: Saratoga
   :phone: (408) 213-0433
+  :state: CA
   :name: saratoga - saratoga peet's
   :lat: "37.292221"
 - :address: 214 mt. hermon rd. suite e scotts valley, ca, 95066
   :lng: "-122.026466"
+  :zip: 95066-4009
+  :city: Scotts Valley
   :phone: (831) 430-9293
+  :state: CA
   :name: scotts valley - scotts valley peet's
   :lat: "37.045028"
 - :address: 12203 seal beach blvd seal beach, ca, 90740
   :lng: "-118.072209"
+  :zip: 90740-2634
+  :city: Seal Beach
   :phone: (562) 546-0007
+  :state: CA
   :name: seal beach - seal beach peet's
   :lat: "33.785538"
 - :address: 5765 pacific ave. suite c-125 stockton, ca, 95207
   :lng: "-121.317238"
+  :zip: 95207-5148
+  :city: Stockton
   :phone: (209) 474-7297
+  :state: CA
   :name: stockton - stockton peet's
   :lat: "38.002069"
 - :address: 12215 ventura blvd,#101 studio city, ca, 91604
   :lng: "-118.398820"
+  :zip: 91604-2519
+  :city: Studio City
   :phone: (818) 487-1970
+  :state: CA
   :name: studio city - studio city peet's
   :lat: "34.143385"
 - :address: 144 w. el camino real sunnyvale, ca, 94087
   :lng: "-122.032962"
+  :zip: 94087-2604
+  :city: Sunnyvale
   :phone: (408) 636-0545
+  :state: CA
   :name: sunnyvale - sunnyvale peet's
   :lat: "37.367847"
 - :address: 18973 ventura blvd. tarzana, ca, 91356
   :lng: "-118.546911"
+  :zip: 91356-3229
+  :city: Tarzana
   :phone: (818) 401-0263
+  :state: CA
   :name: tarzana - tarzana peet's
   :lat: "34.172622"
 - :address: 595 moorpark road, suite b thousand oaks, ca, 91360
   :lng: "-118.875218"
+  :zip: 91360-3707
+  :city: Thousand Oaks
   :phone: (805) 497-8366
+  :state: CA
   :name: thousand oaks - thousand oaks peet's
   :lat: "34.186301"
 - :address: 2649 pacific coast hwy torrance, ca, 90505
   :lng: "-118.332122"
+  :zip: 90505-7037
+  :city: Torrance
   :phone: (310) 626-8008
+  :state: CA
   :name: torrance - torrance peet's
   :lat: "33.791460"
 - :address: 2489 park ave tustin, ca, 92782
   :lng: "-117.827619"
+  :zip: 92782-2705
+  :city: Tustin
   :phone: (714) 689-9048
+  :state: CA
   :name: tustin - the district peet's
   :lat: "33.697402"
 - :address: 12932 newport ave tustin, ca, 92780
   :lng: "-117.810103"
+  :zip: 92780-3533
+  :city: Tustin
   :phone: (714) 689-2125
+  :state: CA
   :name: tustin - tustin crossing peet's
   :lat: "33.749991"
 - :address: 1671 e. monte vista rd.,suite 101 vacaville, ca, 95687
   :lng: "-121.960317"
+  :zip: 95688-3106
+  :city: Vacaville
   :phone: (707) 447-7177
+  :state: CA
   :name: vacaville - nut tree peet's
   :lat: "38.369581"
 - :address: 1171 s. victoria ave,suite e ventura, ca, 93003
   :lng: "-119.212406"
+  :zip: 93003-6533
+  :city: Ventura
   :phone: (805) 654-9923
+  :state: CA
   :name: ventura - ventura peet's
   :lat: "34.264489"
 - :address: 1835 ygnacio valley road walnut creek, ca, 94598
   :lng: "-122.038331"
+  :zip: 94598-3214
+  :city: Walnut Creek
   :phone: (925) 946-9046
+  :state: CA
   :name: walnut creek - ygnacio plaza peet's
   :lat: "37.918346"
 - :address: 1343 locust street walnut creek, ca, 94596
   :lng: "-122.061824"
+  :zip: 94596-4511
+  :city: Walnut Creek
   :phone: (925) 933-9580
+  :state: CA
   :name: walnut creek - locust st peet's
   :lat: "37.898018"
 - :address: 8833 w. sunset blvd suite 100 west hollywood, ca, 90069
   :lng: "-118.384082"
+  :zip: 90069-2104
+  :city: West Hollywood
   :phone: (310) 492-0490
+  :state: CA
   :name: west hollywood - sunset peet's
   :lat: "34.090822"
 - :address: 1695 29th st. suite 1260 boulder, co, 80301
   :lng: "-105.256363"
+  :zip: 80301-1242
+  :city: Boulder
   :phone: (303) 544-1234
+  :state: CO
   :name: boulder - boulder peet's
   :lat: "40.016841"
 - :address: 2500 e. second avenue denver, co, 80206
   :lng: "-104.956933"
+  :zip: 80206-4730
+  :city: Denver
   :phone: (303) 991-2870
+  :state: CO
   :name: denver - cherry creek peet's
   :lat: "39.719299"
 - :address: 1600 glenarm place suite 130 denver, co, 80202
   :lng: "-104.990191"
+  :zip: 80202-4302
+  :city: Denver
   :phone: (303) 991-8775
+  :state: CO
   :name: denver - glenarm peet's
   :lat: "39.743880"
 - :address: 1000 w. north avenue chicago, il, 60622
   :lng: "-87.653223"
+  :zip: 60642-2508
+  :city: Chicago
   :phone: (312) 475-9782
+  :state: IL
   :name: chicago - sheffield peet's
   :lat: "41.910910"
 - :address: 1622 chicago avenue evanston, il, 60201
   :lng: "-87.679619"
+  :zip: 60201-4505
+  :city: Evanston
   :phone: (847) 864-8413
+  :state: IL
   :name: evanston - evanston peet's
   :lat: "42.046680"
 - :address: 176 federal street boston, ma, 02110
   :lng: "-71.056077"
+  :zip: 02110-2209
+  :city: Boston
   :phone: (617) 439-3177
+  :state: MA
   :name: boston - federal street peet's
   :lat: "42.353570"
 - :address: 285 harvard street brookline, ma, 02446
   :lng: "-71.121810"
+  :zip: 02446-2908
+  :city: Brookline
   :phone: (617) 734-4725
+  :state: MA
   :name: brookline - brookline peet's
   :lat: "42.342732"
 - :address: 100 mount auburn street cambridge, ma, 02138
   :lng: "-71.120481"
+  :zip: 02138-5051
+  :city: Cambridge
   :phone: (617) 492-1844
+  :state: MA
   :name: cambridge - harvard square peet's
   :lat: "42.372640"
 - :address: 1749 massachusetts avenue lexington, ma, 02420
   :lng: "-71.227267"
+  :zip: 02420-5306
+  :city: Lexington
   :phone: (781) 357-2090
+  :state: MA
   :name: lexington - lexington peet's
   :lat: "42.447540"
 - :address: 776 beacon street newton centre, ma, 02459
   :lng: "-71.192454"
+  :zip: 02459-1963
+  :city: Newton Centre
   :phone: (617) 244-1577
+  :state: MA
   :name: newton centre - newton centre peet's
   :lat: "42.330340"
 - :address: 9 central street wellesley, ma, 02482
   :lng: "-71.294444"
+  :zip: 02482-5801
+  :city: Wellesley
   :phone: (781) 235-0018
+  :state: MA
   :name: wellesley - wellesley peet's
   :lat: "42.296492"
 - :address: 15918 se happy valley town cnt happy valley, or, 97086
   :lng: "-122.520899"
+  :zip: 97086-7020
+  :city: Happy Valley
   :phone: (503) 855-2994
+  :state: OR
   :name: happy valley - happy valley peet's
   :lat: "45.445490"
 - :address: 19250 nw cornell rd hillsboro, or, 97124
   :lng: "-122.875234"
+  :zip: 97124-9231
+  :city: Hillsboro
   :phone: (503) 608-6750
+  :state: OR
   :name: hillsboro - hillsboro peet's
   :lat: "45.534141"
 - :address: "345 first street,suite #111 lake oswego, or, 97034"
   :lng: "-122.664197"
+  :zip: 97034-3101
+  :city: Lake Oswego
   :phone: (971) 236-9140
+  :state: OR
   :name: lake oswego - lake oswego peet's
   :lat: "45.418635"
 - :address: 3646 se hawthorne blvd. portland, or, 97214
   :lng: "-122.626258"
+  :zip: 97214-5144
+  :city: Portland
   :phone: (971) 244-9920
+  :state: OR
   :name: portland - hawthorne peet's
   :lat: "45.511858"
 - :address: 1441 n.e. broadway portland, or, 97232
   :lng: "-122.651064"
+  :zip: 97232-1404
+  :city: Portland
   :phone: (503) 493-0192
+  :state: OR
   :name: portland - n.e. broadway peet's
   :lat: "45.535169"
 - :address: 508 sw broadway portland, or, 97205
   :lng: "-122.678880"
+  :zip: 97205-3424
+  :city: Portland
   :phone: (503) 973-5540
+  :state: OR
   :name: portland - dt portland peet's
   :lat: "45.520508"
 - :address: 1114 nw couch street portland, or, 97209
   :lng: "-122.682360"
+  :zip: 97209-4114
+  :city: Portland
   :phone: (971) 244-0452
+  :state: OR
   :name: portland - brewery blocks peet's
   :lat: "45.523555"
 - :address: 17887 redmond way suite 130 redmond, wa, 98052
   :lng: "-122.101758"
+  :zip: 98052-4909
+  :city: Redmond
   :phone: (425) 968-6125
+  :state: WA
   :name: redmond - redmond way peet's
   :lat: "47.667253"
 - :address: 6850 e. green lake way north seattle, wa, 98115
   :lng: "-122.327057"
+  :zip: 98115-5417
+  :city: Seattle
   :phone: (206) 267-1440
+  :state: WA
   :name: seattle - green lake peet's
   :lat: "47.678334"
 - :address: 2201 queen anne ave. n seattle, wa, 98109
   :lng: "-122.357084"
+  :zip: 98109-2313
+  :city: Seattle
   :phone: (206) 826-9001
+  :state: WA
   :name: seattle - queen anne peet's
   :lat: "47.638502"
 - :address: 1833 broadway seattle, wa, 98122
   :lng: "-122.321050"
+  :zip: 98122-2415
+  :city: Seattle
   :phone: (206) 438-8300
+  :state: WA
   :name: seattle - capitol hill peet's
   :lat: "47.617990"
 - :address: 1827 15th ave. w. suite a-2 seattle, wa, 98119
   :lng: "-122.376395"
+  :zip: 98119-2718
+  :city: Seattle
   :phone: opening soon!
+  :state: WA
   :name: seattle - interbay peet's
   :lat: "47.635195"
 - :address: 3401 fremont avenue n seattle, wa, 98103
   :lng: "-122.349869"
+  :zip: 98103-8811
+  :city: Seattle
   :phone: (206) 267-4688
+  :state: WA
   :name: seattle - seattle peet's
   :lat: "47.649643"
 - :address: 16501 se mill plain blvd,suite 100 vancouver, wa, 98684
   :lng: "-122.502795"
+  :zip: 98684-9607
+  :city: Vancouver
   :phone: (360) 944-6585
+  :state: WA
   :name: vancouver - vancouver peet's
   :lat: "45.615409"
 - :address: 13307 ne hwy 99,suite 115 vancouver, wa, 98686
   :lng: "-122.652314"
+  :zip: 98686-2731
+  :city: Vancouver
   :phone: (360) 576-9052
+  :state: WA
   :name: vancouver - salmon creek peet's
   :lat: "45.717515"
+- :address: 7821 edinger avenue,building b3, suite 138 huntington beach, ca, 92647
+  :phone: (714) 230-8001
+  :name: huntington beach - huntington beac peet's
+  :zip: 92647
+  :city: Huntington Beach
+  :state: CA
+  :lat: "33.730285"
+  :lng: "-117.992751"
+- :address: 801 avenida talega,shop 2a, 101 san clemente, ca, 92673
+  :phone: (949) 325-0487
+  :name: san clemente - san clemente peet's
+  :zip: 92673
+  :city: San Clemente
+  :state: CA
+  :lat: "33.730693"
+  :lng: "-117.992756"
+- :address: building g,7471 sw bridgeport road tigard, or, 97224
+  :phone: (503) 684-2726
+  :name: tigard - bridgeport vill peet's
+  :zip: 97224
+  :city: Tigard
+  :state: OR
+  :lat: "33.46329"
+  :lng: "-117.597891"

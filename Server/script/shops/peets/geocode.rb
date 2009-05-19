@@ -27,7 +27,8 @@ for store in stores do
     sleep 1.5
     result = geocoder.geocode address
     if result.success? or (result = result.first and result.precision == 'address' or result.precision == 'street' )
-      geos << store.merge(:lat => result.latitude, :lng => result.longitude)
+      geos << store.merge(:lat => result.latitude, :lng => result.longitude,
+                          :city => result.city, :state => result.state, :zip => result.zip)
     else
       errors << store.merge(:details => result)
     end

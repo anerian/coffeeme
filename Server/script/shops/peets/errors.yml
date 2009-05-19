@@ -1,5 +1,7 @@
 --- 
 - :address: 7821 edinger avenue,building b3, suite 138 huntington beach, ca, 92647
+  :phone: (714) 230-8001
+  :name: huntington beach - huntington beac peet's
   :details: !ruby/struct:Geocoder::Result 
     latitude: "33.723601"
     longitude: "-118.006517"
@@ -10,9 +12,9 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
-  :phone: (714) 230-8001
-  :name: huntington beach - huntington beac peet's
 - :address: 801 avenida talega,shop 2a, 101 san clemente, ca, 92673
+  :phone: (949) 325-0487
+  :name: san clemente - san clemente peet's
   :details: !ruby/struct:Geocoder::Result 
     latitude: "33.461361"
     longitude: "-117.615876"
@@ -23,9 +25,9 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
-  :phone: (949) 325-0487
-  :name: san clemente - san clemente peet's
 - :address: building g,7471 sw bridgeport road tigard, or, 97224
+  :phone: (503) 684-2726
+  :name: tigard - bridgeport vill peet's
   :details: !ruby/struct:Geocoder::Result 
     latitude: "45.408121"
     longitude: "-122.793200"
@@ -36,5 +38,3 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
-  :phone: (503) 684-2726
-  :name: tigard - bridgeport vill peet's

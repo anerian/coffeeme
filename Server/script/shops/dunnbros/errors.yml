@@ -1,9 +1,5 @@
 --- 
-- :address: 6500 Labeaux Ave. N.E.  G 010 Albertville MN 55301
-  :line: |
-    Albertville  6500 Labeaux Ave. N.E./ G 010 Albertville MN 55301 763-497-1409 
-
-  :details: !ruby/struct:Geocoder::Result 
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "45.243165"
     longitude: "-93.661062"
     address: 
@@ -13,13 +9,13 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: 6500 Labeaux Ave. N.E.  G 010 Albertville MN 55301
+  :line: |
+    Albertville  6500 Labeaux Ave. N.E./ G 010 Albertville MN 55301 763-497-1409 
+
   :phone: 763-497-1409
   :name: Albertville
-- :address: Suite 101 Alexandria MN 56308
-  :line: |
-    Alexandria 405 50th Ave W., Suite 101 Alexandria MN 56308 320-759-2287 
-
-  :details: !ruby/struct:Geocoder::Result 
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "45.887526"
     longitude: "-95.384435"
     address: 
@@ -29,13 +25,19 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: Suite 101 Alexandria MN 56308
+  :line: |
+    Alexandria 405 50th Ave W., Suite 101 Alexandria MN 56308 320-759-2287 
+
   :phone: 320-759-2287
   :name: Alexandria
-- :address: Suite 102 Hutchinson MN 55350
+- :address: 3841 St. Francis Blvd. Anoka MN 55303
   :line: |
-    Hutchinson 114 Main Street Northeast, Suite 102 Hutchinson MN 55350 320-234-7012 
+    Anoka 3841 St. Francis Blvd. Anoka MN 55303 763-323-6655 
 
-  :details: !ruby/struct:Geocoder::Result 
+  :phone: 763-323-6655
+  :name: Anoka
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "44.895538"
     longitude: "-94.385708"
     address: 
@@ -45,13 +47,19 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: Suite 102 Hutchinson MN 55350
+  :line: |
+    Hutchinson 114 Main Street Northeast, Suite 102 Hutchinson MN 55350 320-234-7012 
+
   :phone: 320-234-7012
   :name: Hutchinson
-- :address: 6 Quebec 607 Marquette Ave. Suite 220 Minneapolis MN 55402
+- :address: 1301 Second Ave S Minneapolis MN 55403
   :line: |
-    Mpls Skyway: 6 Quebec 607 Marquette Ave. Suite 220 Minneapolis MN 55402 612-333-0256 
+    Minneapolis Convention Center 1301 Second Ave S Minneapolis MN 55403 612-335-6000 
 
-  :details: !ruby/struct:Geocoder::Result 
+  :phone: 612-335-6000
+  :name: Minneapolis Convention Center
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "44.975919"
     longitude: "-93.270296"
     address: 
@@ -61,13 +69,13 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: 6 Quebec 607 Marquette Ave. Suite 220 Minneapolis MN 55402
+  :line: |
+    Mpls Skyway: 6 Quebec 607 Marquette Ave. Suite 220 Minneapolis MN 55402 612-333-0256 
+
   :phone: 612-333-0256
   :name: "Mpls Skyway:"
-- :address: Suite 215 Minneapolis MN 55402
-  :line: |
-    Mpls- Skyway: La Salle Plaza 800 LaSalle Ave, Suite 215 Minneapolis MN 55402 612-436-0090 
-
-  :details: !ruby/struct:Geocoder::Result 
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "44.976034"
     longitude: "-93.270196"
     address: 
@@ -77,13 +85,19 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: Suite 215 Minneapolis MN 55402
+  :line: |
+    Mpls- Skyway: La Salle Plaza 800 LaSalle Ave, Suite 215 Minneapolis MN 55402 612-436-0090 
+
   :phone: 612-436-0090
   :name: "Mpls- Skyway: La Salle Plaza"
-- :address: Suite 104 Monticello MN 55362
+- :address: 56 E. River Road Minneapolis MN 55455
   :line: |
-    Monticello 1220 State Highway 25 South, Suite 104 Monticello MN 55362 763-295-4460 
+    U of MN- Educational Sciences 56 E. River Road Minneapolis MN 55455 612-625-8833 
 
-  :details: !ruby/struct:Geocoder::Result 
+  :phone: 612-625-8833
+  :name: U of MN- Educational Sciences
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "45.297521"
     longitude: "-93.799942"
     address: 
@@ -93,13 +107,13 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: Suite 104 Monticello MN 55362
+  :line: |
+    Monticello 1220 State Highway 25 South, Suite 104 Monticello MN 55362 763-295-4460 
+
   :phone: 763-295-4460
   :name: Monticello
-- :address: 280 & University 2650 University Ave St. Paul MN 55114
-  :line: |
-    St. Paul- Hwy 280 & University 2650 University Ave St. Paul MN 55114 651-645-3343 
-
-  :details: !ruby/struct:Geocoder::Result 
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "44.965759"
     longitude: "-93.193771"
     address: 
@@ -109,13 +123,13 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: 280 & University 2650 University Ave St. Paul MN 55114
+  :line: |
+    St. Paul- Hwy 280 & University 2650 University Ave St. Paul MN 55114 651-645-3343 
+
   :phone: 651-645-3343
   :name: St. Paul- Hwy
-- :address: 955 E. County Rd. E Vadnais Heights MN 55127
-  :line: |
-    Vadnais Heights 955 E. County Rd. E Vadnais Heights MN 55127 651-766-7738 
-
-  :details: !ruby/struct:Geocoder::Result 
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "45.076797"
     longitude: "-93.083348"
     address: 
@@ -125,13 +139,19 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: 955 E. County Rd. E Vadnais Heights MN 55127
+  :line: |
+    Vadnais Heights 955 E. County Rd. E Vadnais Heights MN 55127 651-766-7738 
+
   :phone: 651-766-7738
   :name: Vadnais Heights
-- :address: "Suite #104 Woodbury MN 55129"
+- :address: 2751 E County Rd. E White Bear Lake MN 55110
   :line: |
-    Woodbury East 10060 City Walk Drive, Suite #104 Woodbury MN 55129 651-731-6231 
+    White Bear Lake 2751 E County Rd. E White Bear Lake MN 55110 651-653-1405 
 
-  :details: !ruby/struct:Geocoder::Result 
+  :phone: 651-653-1405
+  :name: White Bear Lake
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "44.911527"
     longitude: "-92.898352"
     address: 
@@ -141,13 +161,19 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: "Suite #104 Woodbury MN 55129"
+  :line: |
+    Woodbury East 10060 City Walk Drive, Suite #104 Woodbury MN 55129 651-731-6231 
+
   :phone: 651-731-6231
   :name: Woodbury East
-- :address: "#190 Houston TX 77077"
+- :address: 535 E. 111th St Kansas City MO 64131
   :line: |
-    Houston 13410 Briar Forest, #190 Houston TX 77077 281-497-0224 
+    Kansas City (Red Bridge) 535 E. 111th St Kansas City MO 64131 816-941-8585 
 
-  :details: !ruby/struct:Geocoder::Result 
+  :phone: 816-941-8585
+  :name: Kansas City (Red Bridge)
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "29.751414"
     longitude: "-95.611786"
     address: 
@@ -157,13 +183,13 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: "#190 Houston TX 77077"
+  :line: |
+    Houston 13410 Briar Forest, #190 Houston TX 77077 281-497-0224 
+
   :phone: 281-497-0224
   :name: Houston
-- :address: Suite 100 Katy TX 77494
-  :line: |
-    Katy 6825 S. Fry Road, Suite 100 Katy TX 77494 281-693-2228 
-
-  :details: !ruby/struct:Geocoder::Result 
+- :details: !ruby/struct:Geocoder::Result 
     latitude: "29.741470"
     longitude: "-95.793889"
     address: 
@@ -173,5 +199,9 @@
     country: US
     precision: city
     warning: The exact location could not be found. Here is the center of the ZIP code.
+  :address: Suite 100 Katy TX 77494
+  :line: |
+    Katy 6825 S. Fry Road, Suite 100 Katy TX 77494 281-693-2228 
+
   :phone: 281-693-2228
   :name: Katy

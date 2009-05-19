@@ -33,12 +33,15 @@ File.read(input).each_line do|line|
   puts phone.inspect
 
   begin
+  sleep 1.5
   result = geocoder.geocode address
 
   if result.success? or (result = result.first and result.precision == 'address' or result.precision == 'street' )
     puts "lat: #{result.latitude}"
     puts "lng: #{result.longitude}"
-    stores << {:name => name, :address => address, :phone => phone, :lat => result.latitude, :lng => result.longitude}
+    stores << {:name => name, :address => address, :phone => phone,
+               :city => result.city, :state => result.state, :zip => result.zip,
+               :lat => result.latitude, :lng => result.longitude}
   else
     nogeo << {:name => name, :address => address, :phone => phone, :line => line, :details => result }
     count += 1

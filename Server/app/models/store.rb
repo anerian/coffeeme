@@ -5,5 +5,7 @@ class Store < ActiveRecord::Base
     CARIBOU    = 2
     TIMHORTONS = 3
     SAXBYS     = 4
+    PEETS      = 5
+    DUNNBROS   = 6
   end
 end
