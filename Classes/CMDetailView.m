@@ -17,7 +17,7 @@
     
     UILabel *storeType_ = CMLabelMake(CGRectMake(80,10,220,24), 18, YES);
     storeType_.textColor = CMTextColor;
-    storeType_.text = [CMStore storeNameForCode:store.type];
+    storeType_.text = CMShopType(store.type);
     
     UILabel *address_ = CMLabelMake(CGRectMake(80,34,220,40), 16, NO);
     address_.numberOfLines = 2;

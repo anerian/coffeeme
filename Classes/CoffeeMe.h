@@ -12,7 +12,8 @@
 #define CMTextColor HexToUIColor(0x351f0f)
 
 typedef enum {
-	CMStoreTypeStarbucks = 0,
+  CMStoreTypeAll = -1,
+	CMStoreTypeStarbucks,
 	CMStoreTypeDunkin,
 	CMStoreTypeCaribou,
 	CMStoreTypeTimHorton,
@@ -66,4 +67,5 @@ typedef struct _CMNutrition {
 
 NSString* CMSizeType(NSUInteger type);
 NSString* CMMilkType(NSUInteger type);
+NSString* CMShopType(CMStoreType type);
 UILabel* CMLabelMake(CGRect rect, CGFloat fontSize, BOOL bold);

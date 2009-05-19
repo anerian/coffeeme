@@ -13,13 +13,18 @@
 #import "CMLocation.h"
 
 
-@interface CMStoresController : CMBaseController<UITableViewDelegate, UITableViewDataSource> {
+@interface CMStoresController : CMBaseController<UITableViewDelegate, UITableViewDataSource, TTTabDelegate> {
     UITableView *tableView_;
     NSArray *stores_;
     CMModalView *modal_;
     
     BOOL isLoading_;
     BOOL isDirty_;
+    
+    UIBarButtonItem *spinner_;
+    UIBarButtonItem *refresh_;
+    
+    CMStoreType storeFilter_;
 }
 
 @property(nonatomic, retain) UITableView *tableView;

@@ -16,9 +16,8 @@
     NSString *state_;
     NSString *zip_;
     NSString *phone_;
+    NSString *address_;
     CMStoreType type_;
-    
-    UIView *cell_;
     
     double latitude_;
     double longitude_;
@@ -29,36 +28,24 @@
     CLLocationCoordinate2D userCoordinate_;
 }
 
-@property (nonatomic, retain) NSString *street;
-@property (nonatomic, retain) NSString *city;
-@property (nonatomic, retain) NSString *state;
-@property (nonatomic, retain) NSString *zip;
+@property (nonatomic, retain) NSString *address;
 @property (nonatomic, retain) NSString *phone;
-@property (nonatomic, retain) UIView *cell;
 
 @property (nonatomic, assign) CMStoreType type;
+
 @property (nonatomic, assign) double latitude;
 @property (nonatomic, assign) double longitude;
 @property (nonatomic, assign) double userLatitude;
 @property (nonatomic, assign) double userLongitude;
 @property (nonatomic, assign) double distance;
 
-- (id)initWithFMResultSet:(FMResultSet *)resultSet;
-
-+ (NSArray *)nearby:(CLLocationCoordinate2D)coordinate;
-
-// helpers
-+ (NSString *)storeNameForCode:(NSUInteger)code;
-+ (CGPoint)coordinate2CGPoint:(CLLocationCoordinate2D)coordinate;
++ (NSArray *)nearby:(CLLocationCoordinate2D)coordinate withType:(CMStoreType)type;
 
 - (NSString *)address;
-- (NSString *)address2;
 - (NSString *)formattedDistance;
+
 - (CLLocation *)location;
 - (NSString *)gmapUrl;
 - (NSString *)bearing;
-- (NSString *)formattedDistance;
-- (CGPoint)point;
-
 
 @end

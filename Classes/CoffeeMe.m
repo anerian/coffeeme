@@ -49,10 +49,13 @@ NSString* CMMilkType(NSUInteger type) {
   return milk;
 }
 
-UILabel* CMLabelMake(CGRect rect, CGFloat fontSize, BOOL bold) {
-    UILabel *label = [[[UILabel alloc] initWithFrame:rect] autorelease];
-    label.font = bold ? [UIFont boldSystemFontOfSize:fontSize] : [UIFont systemFontOfSize:fontSize];
-    label.backgroundColor = [UIColor clearColor];
-    return label;
+NSString* CMShopType(CMStoreType type) {
+  return [[CMAppConfig objectForKey:@"shops"] objectAtIndex:type];
 }
-	
+
+UILabel* CMLabelMake(CGRect rect, CGFloat fontSize, BOOL bold) {
+  UILabel *label = [[[UILabel alloc] initWithFrame:rect] autorelease];
+  label.font = bold ? [UIFont boldSystemFontOfSize:fontSize] : [UIFont systemFontOfSize:fontSize];
+  label.backgroundColor = [UIColor clearColor];
+  return label;
+}
