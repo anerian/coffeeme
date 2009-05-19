@@ -3,6 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <%= stylesheet_link_tag 'styles', :media => 'screen' %>
+  <%= yield :head %>
 </head>
 <body>
   <!--[if IE]><div class="ie"><![endif]-->
@@ -10,13 +11,14 @@
       <div class="container">
         <h2 id="logo">coffee me</h2>
         <ul id="main-menu" class="menu">
-          <li><%= link_to "Stores", stores_path %></li>
-          <li><%= link_to "Drinks", drinks_path %></li>
-          <li><%= link_to "Trivia", trivias_path %></li>
+          <li class="<%= 'selected ' if controller_name == 'stores' %>stores"><%= link_to "Stores", stores_path %></li>
+          <li class="<%= 'selected ' if controller_name == 'drinks' %>drinks"><%= link_to "Drinks", drinks_path %></li>
+          <li class="<%= 'selected ' if controller_name == 'trivias' %>trivias"><%= link_to "Trivia", trivias_path %></li>
         </ul>
         <div class="clear"></div>
         <%= yield %>
       </div>
+      <%= yield :foot %>
     <!--[if lt IE 7.]></div><![endif]-->
   <!--[if IE]></div><![endif]-->
 </body>

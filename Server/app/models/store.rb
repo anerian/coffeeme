@@ -10,6 +10,11 @@ class Store < ActiveRecord::Base
     BEANERY    = 7
   end
 
+  def self.store_types
+    c = -1;
+    Store::StoreType.constants.sort_by{|s| eval("Store::StoreType::#{s}") }.map{|s| c+=1; [s.humanize, c] }
+  end
+
   def titled_type
     case store_type
     when StoreType::STARBUCKS then 'Starkbucks'
