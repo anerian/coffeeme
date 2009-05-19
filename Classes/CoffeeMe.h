@@ -17,6 +17,8 @@ typedef enum {
 	CMStoreTypeCaribou,
 	CMStoreTypeTimHorton,
 	CMStoreTypeSaxbys,
+	CMStoreTypePeets,
+	CMStoreTypeDunnBros,
 	CMStoreTypeCount
 } CMStoreType;
 

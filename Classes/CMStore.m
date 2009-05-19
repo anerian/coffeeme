@@ -27,13 +27,19 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
 		case 2:
             store = @"Caribou Coffee";
             break;
-    	case 3:
+    case 3:
             store = @"Tim Horton's";
             break;
-    	case 4:
+    case 4:
             store = @"Saxbys";
             break;
-    	default:
+    case 5:
+            store = @"Peets";
+            break;
+    case 5:
+            store = @"Dunn Bros";
+            break;
+    default:
             store = @"Coffee Shop";
             break;
 	}    
