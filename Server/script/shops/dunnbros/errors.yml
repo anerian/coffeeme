@@ -1,0 +1,177 @@
+--- 
+- :address: 6500 Labeaux Ave. N.E.  G 010 Albertville MN 55301
+  :line: |
+    Albertville  6500 Labeaux Ave. N.E./ G 010 Albertville MN 55301 763-497-1409 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "45.243165"
+    longitude: "-93.661062"
+    address: 
+    city: Albertville
+    state: MN
+    zip: "55301"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 763-497-1409
+  :name: Albertville
+- :address: Suite 101 Alexandria MN 56308
+  :line: |
+    Alexandria 405 50th Ave W., Suite 101 Alexandria MN 56308 320-759-2287 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "45.887526"
+    longitude: "-95.384435"
+    address: 
+    city: Alexandria
+    state: MN
+    zip: "56308"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 320-759-2287
+  :name: Alexandria
+- :address: Suite 102 Hutchinson MN 55350
+  :line: |
+    Hutchinson 114 Main Street Northeast, Suite 102 Hutchinson MN 55350 320-234-7012 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "44.895538"
+    longitude: "-94.385708"
+    address: 
+    city: Hutchinson
+    state: MN
+    zip: "55350"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 320-234-7012
+  :name: Hutchinson
+- :address: 6 Quebec 607 Marquette Ave. Suite 220 Minneapolis MN 55402
+  :line: |
+    Mpls Skyway: 6 Quebec 607 Marquette Ave. Suite 220 Minneapolis MN 55402 612-333-0256 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "44.975919"
+    longitude: "-93.270296"
+    address: 
+    city: Minneapolis
+    state: MN
+    zip: "55402"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 612-333-0256
+  :name: "Mpls Skyway:"
+- :address: Suite 215 Minneapolis MN 55402
+  :line: |
+    Mpls- Skyway: La Salle Plaza 800 LaSalle Ave, Suite 215 Minneapolis MN 55402 612-436-0090 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "44.976034"
+    longitude: "-93.270196"
+    address: 
+    city: Minneapolis
+    state: MN
+    zip: "55402"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 612-436-0090
+  :name: "Mpls- Skyway: La Salle Plaza"
+- :address: Suite 104 Monticello MN 55362
+  :line: |
+    Monticello 1220 State Highway 25 South, Suite 104 Monticello MN 55362 763-295-4460 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "45.297521"
+    longitude: "-93.799942"
+    address: 
+    city: Monticello
+    state: MN
+    zip: "55362"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 763-295-4460
+  :name: Monticello
+- :address: 280 & University 2650 University Ave St. Paul MN 55114
+  :line: |
+    St. Paul- Hwy 280 & University 2650 University Ave St. Paul MN 55114 651-645-3343 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "44.965759"
+    longitude: "-93.193771"
+    address: 
+    city: St. Paul
+    state: MN
+    zip: "55114"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 651-645-3343
+  :name: St. Paul- Hwy
+- :address: 955 E. County Rd. E Vadnais Heights MN 55127
+  :line: |
+    Vadnais Heights 955 E. County Rd. E Vadnais Heights MN 55127 651-766-7738 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "45.076797"
+    longitude: "-93.083348"
+    address: 
+    city: Vadnais Heights
+    state: MN
+    zip: "55127"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 651-766-7738
+  :name: Vadnais Heights
+- :address: "Suite #104 Woodbury MN 55129"
+  :line: |
+    Woodbury East 10060 City Walk Drive, Suite #104 Woodbury MN 55129 651-731-6231 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "44.911527"
+    longitude: "-92.898352"
+    address: 
+    city: St Paul
+    state: MN
+    zip: "55129"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 651-731-6231
+  :name: Woodbury East
+- :address: "#190 Houston TX 77077"
+  :line: |
+    Houston 13410 Briar Forest, #190 Houston TX 77077 281-497-0224 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "29.751414"
+    longitude: "-95.611786"
+    address: 
+    city: Houston
+    state: TX
+    zip: "77077"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 281-497-0224
+  :name: Houston
+- :address: Suite 100 Katy TX 77494
+  :line: |
+    Katy 6825 S. Fry Road, Suite 100 Katy TX 77494 281-693-2228 
+
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "29.741470"
+    longitude: "-95.793889"
+    address: 
+    city: Park Row
+    state: TX
+    zip: "77494"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+  :phone: 281-693-2228
+  :name: Katy
