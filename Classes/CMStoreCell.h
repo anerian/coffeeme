@@ -7,10 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CMStore.h"
 
 
-@interface CMStoreCell : NSObject {
-
+@interface CMStoreCell : UITableViewCell {
+  UIImageView *icon_;
+  UILabel *name_;
+  UILabel *address_;
+  UILabel *distance_;
 }
+
+- (void)update:(CMStore *)store;
 
 @end

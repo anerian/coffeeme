@@ -13,7 +13,7 @@
 #import "CMStoreTypesController.h"
 #import "CMTriviaController.h"
 #import "CMInfoController.h"
-#import "CMButtonStyleSheet.h"
+#import "CMStyleSheet.h"
 
 
 
@@ -34,7 +34,7 @@
 }
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-  [TTStyleSheet setGlobalStyleSheet:[[[CMButtonStyleSheet alloc] init] autorelease]];
+  [TTStyleSheet setGlobalStyleSheet:[[[CMStyleSheet alloc] init] autorelease]];
   [CMStore establishConnection];
 	
 	// setup tab bar controllers

@@ -239,6 +239,7 @@
 		398B49740FBEF6BF0075DB78 /* steam_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steam_2.png; sourceTree = "<group>"; };
 		39B972F40FC2C37500BBFCE9 /* tabCoffeeme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabCoffeeme.png; sourceTree = "<group>"; };
 		39B972FB0FC2F97700BBFCE9 /* tabTrivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabTrivia.png; sourceTree = "<group>"; };
+		39B973EA0FC32E4400BBFCE9 /* CMStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStyleSheet.h; sourceTree = "<group>"; };
 		39D597450FC1A1A300735F60 /* coffeeme.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffeeme.sqlite3; sourceTree = "<group>"; };
 		39D597540FC1A43300735F60 /* About.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -444,6 +445,7 @@
 				398B48AD0FBDED570075DB78 /* CMNutritionView.m */,
 				39474C1E0FC0437B00B1D410 /* CMNutritionCell.h */,
 				39474C1F0FC0437B00B1D410 /* CMNutritionCell.m */,
+				39B973EA0FC32E4400BBFCE9 /* CMStyleSheet.h */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -703,7 +705,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Fisher";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -712,7 +714,7 @@
 				OTHER_CFLAGS = "-DDEBUG";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B30F158E-D362-4F3A-97F6-BF056B3F3905";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4425948B-329B-4E1D-B609-331ABCA779D3";
 				SDKROOT = iphoneos2.2.1;
 			};
 			name = Debug;
@@ -721,14 +723,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Fisher";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "Three20/src/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B30F158E-D362-4F3A-97F6-BF056B3F3905";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4425948B-329B-4E1D-B609-331ABCA779D3";
 				SDKROOT = iphoneos2.2.1;
 			};
 			name = Release;

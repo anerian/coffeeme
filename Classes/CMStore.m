@@ -11,127 +11,49 @@
 
 @implementation CMStore
 
-@synthesize pk = pk_, street = street_, city = city_, state = state_, zip = zip_, phone = phone_, 
-type = type_, latitude = latitude_, longitude = longitude_, cell = cell_, distance = distance_,
-userLatitude = userLatitude_, userLongitude = userLongitude_;
-
-+ (NSString *)storeNameForCode:(NSUInteger)code {
-  NSString *store;
-  switch(code) {
-    case 0:
-            store = @"Starbucks";
-            break;
-		case 1:
-            store = @"Dunkin Donuts";
-            break;
-		case 2:
-            store = @"Caribou Coffee";
-            break;
-    case 3:
-            store = @"Tim Horton's";
-            break;
-    case 4:
-            store = @"Saxbys";
-            break;
-    case 5:
-            store = @"Peets";
-            break;
-    case 6:
-            store = @"Dunn Bros";
-            break;
-    case 7:
-            store = @"Coffee Beanery";
-            break;
-    default:
-            store = @"Coffee Shop";
-            break;
-	}    
-    return store;
-}
-
-- (UILabel *)labelForFrame:(CGRect)frame withText:(NSString *)text withFontSize:(double)fontSize {
-    UILabel *label = [[[UILabel alloc] initWithFrame:frame] autorelease];
-    label.text = text;
-	label.font = [UIFont boldSystemFontOfSize:fontSize];
-    label.backgroundColor = [UIColor clearColor];
-    label.shadowOffset = CGSizeMake(0,1);
-    label.shadowColor = [UIColor whiteColor];
-    label.textColor = [UIColor blackColor];
-    return label;
-}
-
-- (UIView *)viewForCell {
-    UIView *cell = [[[UIView alloc] initWithFrame:CGRectMake(0,0,320,100)] autorelease];
-    cell.backgroundColor = [UIColor clearColor];
-    
-    UIImageView *imageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"cup-%d.png", self.type]]] autorelease];
-    imageView.frame = CGRectMake(10, 10, 49, 62);
-    
-    UILabel *lblStore = [self labelForFrame:CGRectMake(70, 10, 250, 20) withText:[[self class] storeNameForCode:[self type]] withFontSize:16];
-    lblStore.textColor = HexToUIColor(0x56523c);
-    UILabel *lblStreet = [self labelForFrame:CGRectMake(70, 30, 250, 40) withText:[self address] withFontSize:14];
-    lblStreet.font = [UIFont systemFontOfSize:14];
-    lblStreet.numberOfLines = 2;
-    UILabel *lblDistance = [self labelForFrame:CGRectMake(70, 70, 230, 20) withText:[NSString stringWithFormat:@"%@ %@", [self formattedDistance], [self bearing]] withFontSize:12];
-    
-    [cell addSubview:lblStore];
-    [cell addSubview:lblDistance];
-    [cell addSubview:lblStreet];
-    [cell addSubview:imageView];
-    
-    cell.tag = 99;
-    return cell;
-}
+@synthesize pk = pk_, address = address_, phone = phone_, type = type_, latitude = latitude_, longitude = longitude_, 
+distance = distance_, userLatitude = userLatitude_, userLongitude = userLongitude_;
 
 - (id)initWithFMResultSet:(FMResultSet *)resultSet {
-    if (self = [super init]) {
-        self.pk        = [resultSet intForColumn:@"id"];
-        self.street    = [[[resultSet stringForColumn:@"street"] copy] autorelease];
-        self.city      = [[[resultSet stringForColumn:@"city"] copy] autorelease];
-        self.state     = [[[resultSet stringForColumn:@"state"] copy] autorelease];
-        self.zip       = [[[resultSet stringForColumn:@"zip"] copy] autorelease];
-        self.phone     = [[[resultSet stringForColumn:@"phone"] copy] autorelease];
-        self.type      = [resultSet intForColumn:@"store_type"];
-        self.latitude  = [resultSet doubleForColumn:@"latitude"];
-        self.longitude = [resultSet doubleForColumn:@"longitude"];
-        self.userLatitude = [resultSet doubleForColumn:@"user_latitude"];
-        self.userLongitude = [resultSet doubleForColumn:@"user_longitude"];
-        self.distance  = [resultSet doubleForColumn:@"dist"];
-        self.cell      = [self viewForCell];
+  if (self = [super init]) {
+    self.pk            = [resultSet intForColumn:@"id"];
+    
+    NSString *street   = [resultSet stringForColumn:@"street"];
+    NSString *city     = [resultSet stringForColumn:@"city"];
+    NSString *zip      = [resultSet stringForColumn:@"zip"];
+    NSString *state    = [resultSet stringForColumn:@"state"];
+    
+    self.address       = [NSString stringWithFormat:@"%@\n%@, %@. %@", street, city, state, zip];
+    self.phone         = [[[resultSet stringForColumn:@"phone"] copy] autorelease];
+    self.type          = [resultSet intForColumn:@"store_type"];
+    self.latitude      = [resultSet doubleForColumn:@"latitude"];
+    self.longitude     = [resultSet doubleForColumn:@"longitude"];
+    self.userLatitude  = [resultSet doubleForColumn:@"user_latitude"];
+    self.userLongitude = [resultSet doubleForColumn:@"user_longitude"];
+    self.distance      = [resultSet doubleForColumn:@"dist"];
 	}
 	
 	return self;
 }
 
-+ (NSArray *)nearby:(CLLocationCoordinate2D)coordinate {
++ (NSArray *)nearby:(CLLocationCoordinate2D)coordinate withType:(CMStoreType)type {
     #ifdef TARGET_IPHONE_SIMULATOR
     coordinate.latitude = 38.906786;
     coordinate.longitude = -77.041787;
     #endif
     
-    NSString *query = [NSString stringWithFormat:@"select stores.*, %f as user_latitude, %f as user_longitude, distance(latitude, longitude, %f, %f) as dist from stores where dist < 10 order by dist limit 20", coordinate.latitude, coordinate.longitude, coordinate.latitude, coordinate.longitude];
-
+    NSString *query;
+    if (type == CMStoreTypeAll) {
+      query = [NSString stringWithFormat:@"select stores.*, %f as user_latitude, %f as user_longitude, distance(latitude, longitude, %f, %f) as dist from stores where dist < 10 order by dist limit 20", coordinate.latitude, coordinate.longitude, coordinate.latitude, coordinate.longitude];
+    } else {
+      query = [NSString stringWithFormat:@"select stores.*, %f as user_latitude, %f as user_longitude, distance(latitude, longitude, %f, %f) as dist from stores where store_type = %d and dist < 10 order by dist limit 20", coordinate.latitude, coordinate.longitude, coordinate.latitude, coordinate.longitude, type];
+    }
+    
     return [self query:query];
 }
 
 + (NSString *)tableName {
     return @"stores";
-}
-
-+ (CGPoint)coordinate2CGPoint:(CLLocationCoordinate2D)coordinate {
-    double offset = 268435456;
-    double radius = offset / M_PI;
-    int targetX = round(offset * radius * coordinate.longitude * M_PI / 180) - 128;
-    int targetY = round(offset - radius * log((1 + sin(coordinate.latitude * M_PI / 180)) / (1 - sin(coordinate.latitude * M_PI / 180))) / 2) - 128;
-    
-    int deltaX = targetX >> (21 - 14);
-    int deltaY = targetY >> (21 - 14);
-    
-    return CGPointMake(deltaX, deltaY);
-}
-
-- (CGPoint)point {
-    return [[self class] coordinate2CGPoint:(CLLocationCoordinate2D){latitude_, longitude_}];
 }
 
 - (NSString *)description {
@@ -140,14 +62,6 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
 
 - (CLLocation *)location {
     return [[[CLLocation alloc] initWithLatitude:self.latitude longitude:self.longitude] autorelease];
-}
-
-- (NSString *)address {
-    return [NSString stringWithFormat:@"%@\n%@, %@. %@", street_, city_, state_, zip_];
-}
-
-- (NSString *)address2 {
-    return [NSString stringWithFormat:@"%@, %@. %@", city_, state_, zip_];
 }
 
 - (NSString *)bearing {
@@ -204,7 +118,6 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     [state_ release];
     [zip_ release];
     [phone_ release];
-    [cell_ release];
     [super dealloc];
 }
 
