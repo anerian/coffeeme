@@ -23,6 +23,10 @@ static CMAppConfig *instance;
     return instance;
 }
 
++ (id)objectForKey:(NSString *)key {
+  return [[self instance].plist objectForKey:key];
+}
+
 + (id)alloc {
     @synchronized(self) {
         NSAssert(instance == nil, @"Attempted to allocate a second instance of a singleton CMAppConfig.");

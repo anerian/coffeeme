@@ -16,5 +16,6 @@
 @property (nonatomic, readonly) NSDictionary *plist;
 
 + (CMAppConfig *)instance;
++ (id)objectForKey:(NSString *)key;
 
 @end
