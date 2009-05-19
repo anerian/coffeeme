@@ -105,8 +105,12 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
 
 + (NSArray *)nearby:(CLLocationCoordinate2D)coordinate {
     #ifdef TARGET_IPHONE_SIMULATOR
-    coordinate.latitude = 38.906786;
-    coordinate.longitude = -77.041787;
+    // Alameda, CA 94501
+    coordinate.latitude = 37.763853;
+    coordinate.longitude = -122.243340;
+    // Dupont - Washington, DC 20036
+    //coordinate.latitude = 38.906786;
+    //coordinate.longitude = -77.041787;
     #endif
     
     NSString *query = [NSString stringWithFormat:@"select stores.*, %f as user_latitude, %f as user_longitude, distance(latitude, longitude, %f, %f) as dist from stores where dist < 10 order by dist limit 20", coordinate.latitude, coordinate.longitude, coordinate.latitude, coordinate.longitude];
