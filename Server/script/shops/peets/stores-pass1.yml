@@ -1,0 +1,577 @@
+--- 
+- :address: 1365 park street alameda, ca, 94501
+  :phone: (510) 473-0136
+  :name: alameda - alameda peet's
+- :address: 8152 e santa ana canyon rd,suite 175 anaheim, ca, 92808
+  :phone: (714) 363-5200
+  :name: anaheim - anaheim hills peet's
+- :address: 1200 el camino real belmont, ca, 94002
+  :phone: (650) 593-3053
+  :name: belmont - belmont peet's
+- :address: 2255 shattuck avenue berkeley, ca, 94704
+  :phone: (510) 225-0451
+  :name: berkeley - shattuck ave peet's
+- :address: 2124 vine street berkeley, ca, 94709
+  :phone: (510) 841-0564
+  :name: berkeley - vine street peet's
+- :address: 2916 domingo avenue berkeley, ca, 94705
+  :phone: (510) 843-1434
+  :name: berkeley - domingo ave peet's
+- :address: 1825 solano avenue berkeley, ca, 94707
+  :phone: (510) 526-9607
+  :name: berkeley - solano ave peet's
+- :address: 1776 4th street berkeley, ca, 94710
+  :phone: (510) 525-3207
+  :name: berkeley - 4th street peet's
+- :address: 2501 telegraph ave. berkeley, ca, 94704
+  :phone: (510) 225-7700
+  :name: berkeley - telegraph peet's
+- :address: 258 south beverly drive beverly hills, ca, 90212
+  :phone: (310) 248-3664
+  :name: beverly hills - beverly hills peet's
+- :address: 5411 lone tree way,suite l-130 brentwood, ca, 94513
+  :phone: (925) 513-4102
+  :name: brentwood - lone tree peet's
+- :address: 1309 burlingame avenue burlingame, ca, 94010
+  :phone: (650) 548-0494
+  :name: burlingame - burlingame peet's
+- :address: 819 bay avenue, suite a capitola, ca, 95010
+  :phone: (831) 316-5040
+  :name: capitola - capitola peet's
+- :address: 2641 gateway rd. suite 103 carlsbad, ca, 92009
+  :phone: (760) 448-1835
+  :name: carlsbad - carlsbad peet's
+- :address: 20439 redwood rd castro valley, ca, 94546
+  :phone: (510) 537-0181
+  :name: castro valley - castro valley peet's
+- :address: 145 main street chico, ca, 95928
+  :phone: (530) 894-6716
+  :name: chico - chico peet's
+- :address: 13855 city center dr.,suite 3015 chino hills, ca, 91709
+  :phone: (909) 664-2235
+  :name: chino hills - chino hills peet's
+- :address: 5458 ygnacio valley rd,suite 10 concord, ca, 94521
+  :phone: (925) 673-5225
+  :name: concord - clayton valley peet's
+- :address: 2072 salvio st concord, ca, 94520
+  :phone: (925) 405-3650
+  :name: concord - dt concord peet's
+- :address: 77 casa buena dr corte madera, ca, 94925
+  :phone: (415) 306-9340
+  :name: corte madera - corte madera peet's
+- :address: 424 e. 17th street costa mesa, ca, 92627
+  :phone: (949) 335-0670
+  :name: costa mesa - costa mesa peet's
+- :address: 22350 homestead rd cupertino, ca, 95014
+  :phone: (408) 636-1850
+  :name: cupertino - homestead peet's
+- :address: 20807 stevens creek blvd.,suite 200 cupertino, ca, 95014
+  :phone: (408) 213-1870
+  :name: cupertino - cupertino peet's
+- :address: 435 railroad avenue danville, ca, 94526
+  :phone: (925) 314-0990
+  :name: danville - danville peet's
+- :address: 1411 w. covell blvd,#114 b davis, ca, 95616
+  :phone: (530) 750-5085
+  :name: davis - davis peet's
+- :address: 231 e street davis, ca, 95616
+  :phone: (530) 747-2064
+  :name: davis - dt davis peet's
+- :address: 4620 tassajara road,suite c dublin, ca, 94568
+  :phone: (925) 404-0095
+  :name: dublin - dublin peet's
+- :address: 9895 san pablo ave el cerrito, ca, 94530
+  :phone: (510) 225-2080
+  :name: el cerrito - el cerrito peet's
+- :address: 1004 white rock rd. suite 100 el dorado hills, ca, 95762
+  :phone: (916) 934-0423
+  :name: el dorado hills - el dorado hills peet's
+- :address: 8234 laguna blvd, suite 100 elk grove, ca, 95758
+  :phone: (916) 683-7191
+  :name: elk grove - elk grove peet's
+- :address: 5959 shellmound street,suite 85 emeryville, ca, 94608
+  :phone: (510) 844-0850
+  :name: emeryville - emeryville peet's
+- :address: 8909 madison ave suite 400 fair oaks, ca, 95628
+  :phone: (916) 844-3050
+  :name: fair oaks - fair oaks peet's
+- :address: 1380 holiday lane, suite a fairfield, ca, 94534
+  :phone: (707) 399-8606
+  :name: fairfield - fairfield peet's
+- :address: 1290 e. bidwell st.,suite 110 folsom, ca, 95630
+  :phone: (916) 817-4527
+  :name: folsom - folsom peet's
+- :address: 2780 mowry avenue fremont, ca, 94538
+  :phone: (510) 857-9000
+  :name: fremont - fremont peet's
+- :address: 5550 douglas blvd. suite d-110 granite bay, ca, 95746
+  :phone: (916) 783-3113
+  :name: granite bay - granite bay peet's
+- :address: 276 bon air center greenbrae, ca, 94904
+  :phone: (415) 461-2695
+  :name: greenbrae - greenbrae peet's
+- :address: 142 san mateo rd half moon bay, ca, 94019
+  :phone: (650) 726-1261
+  :name: half moon bay - half moon bay peet's
+- :address: 878 b street hayward, ca, 94541
+  :phone: (510) 300-3380
+  :name: hayward - hayward peet's
+- :address: 7821 edinger avenue,building b3, suite 138 huntington beach, ca, 92647
+  :phone: (714) 230-8001
+  :name: huntington beach - huntington beac peet's
+- :address: 3927 portola parkway irvine, ca, 92620
+  :phone: (714) 689-9028
+  :name: irvine - orchard hills peet's
+- :address: 3972 barranca parkway,suite f-2 irvine, ca, 92606
+  :phone: (949) 333-6884
+  :name: irvine - irvine peet's
+- :address: 4213 campus dr. suite p-166a irvine, ca, 92612
+  :phone: (949) 419-1458
+  :name: irvine - uc irvine peet's
+- :address: "8843 villa la jolla drive,suite #c202 la jolla, ca, 92037"
+  :phone: (858) 678-0806
+  :name: la jolla - la jolla peet's
+- :address: 3518 mount diablo blvd,#e lafayette, ca, 94549
+  :phone: (925) 299-0735
+  :name: lafayette - lafayette peet's
+- :address: 32371 golden lantern,bldg 6, ste h laguna niguel, ca, 92677
+  :phone: (949) 325-0540
+  :name: laguna niguel - laguna niguel peet's
+- :address: 23700 el toro road suite b lake forest, ca, 92630
+  :phone: (949) 420-3500
+  :name: lake forest - lake forest peet's
+- :address: 152 south livermore ave livermore, ca, 94550
+  :phone: (925) 579-5011
+  :name: livermore - livermore peet's
+- :address: 5246 e second street long beach, ca, 90803
+  :phone: (562) 433-7306
+  :name: long beach - belmont shore peet's
+- :address: 367 state street los altos, ca, 94022
+  :phone: (650) 941-6722
+  :name: los altos - los altos peet's
+- :address: 4598 el camino real los altos, ca, 94022
+  :phone: (650) 469-0035
+  :name: los altos - el camino peet's
+- :address: 11750 san vicente blvd los angeles, ca, 90049
+  :phone: (310) 979-7892
+  :name: los angeles - brentwood peet's
+- :address: 1154 westwood blvd. los angeles, ca, 90024
+  :phone: (310) 954-8191
+  :name: los angeles - westwood villag peet's
+- :address: 124 n. larchmont blvd los angeles, ca, 90004
+  :phone: (323) 978-1003
+  :name: los angeles - larchmont peet's
+- :address: 1854 westwood blvd. los angeles, ca, 90025
+  :phone: (310) 954-8558
+  :name: los angeles - 1854 westwood peet's
+- :address: 798-1 blossom hill road los gatos, ca, 95032
+  :phone: (408) 358-6311
+  :name: los gatos - los gatos peet's
+- :address: 328 manhattan beach blvd manhattan beach, ca, 90266
+  :phone: (310) 379-1896
+  :name: manhattan beach - manhattan beach peet's
+- :address: 4706 lincoln blvd marina del rey, ca, 90292
+  :phone: (310) 823-1335
+  :name: marina del rey - marina del rey peet's
+- :address: 899 santa cruz avenue menlo park, ca, 94025
+  :phone: (650) 325-8989
+  :name: menlo park - menlo park peet's
+- :address: 88 throckmorton avenue mill valley, ca, 94941
+  :phone: (415) 381-8227
+  :name: mill valley - mill valley peet's
+- :address: 401 broadway millbrae, ca, 94030
+  :phone: (650) 648-0231
+  :name: millbrae - millbrae peet's
+- :address: 543 e. calaveras blvd. milpitas, ca, 95035
+  :phone: (408) 416-0700
+  :name: milpitas - milpitas peet's
+- :address: 560 munras suite 10 monterey, ca, 93940
+  :phone: (831) 641-9029
+  :name: monterey - monterey peet's
+- :address: 755 cochrane rd. suite 100 morgan hill, ca, 95037
+  :phone: (408) 776-1364
+  :name: morgan hill - morgan hill peet's
+- :address: 1032 castro st mountain view, ca, 94040
+  :phone: (650) 605-0003
+  :name: mountain view - mountain view peet's
+- :address: 3678 bel aire plaza napa, ca, 94558
+  :phone: (707) 254-7690
+  :name: napa - napa peet's
+- :address: 894 avocado avenue newport beach, ca, 92660
+  :phone: (949) 640-6377
+  :name: newport beach - corona del mar peet's
+- :address: 1701 grant avenue novato, ca, 94945
+  :phone: (415) 897-4920
+  :name: novato - novato peet's
+- :address: 5800 nave dr. suite m novato, ca, 94949
+  :phone: (415) 475-4121
+  :name: novato - hamilton peet's
+- :address: 3401 fruitvale ave oakland, ca, 94602
+  :phone: (510) 842-0203
+  :name: oakland - dimond district peet's
+- :address: 1111 broadway oakland, ca, 94607
+  :phone: (510) 844-0061
+  :name: oakland - 1111 broadway peet's
+- :address: 4050 piedmont avenue oakland, ca, 94611
+  :phone: (510) 655-3228
+  :name: oakland - piedmont ave peet's
+- :address: "5095 telegraph ave. suite #1 oakland, ca, 94609"
+  :phone: (510) 899-6230
+  :name: oakland - temescal peet's
+- :address: 3258 lakeshore avenue oakland, ca, 94610
+  :phone: (510) 832-6761
+  :name: oakland - lake shore ave peet's
+- :address: 2066 antioch court oakland, ca, 94611
+  :phone: (510) 339-6075
+  :name: oakland - montclair peet's
+- :address: 63 moraga way orinda, ca, 94563
+  :phone: (925) 258-9328
+  :name: orinda - orinda peet's
+- :address: 3904 middlefield rd palo alto, ca, 94303
+  :phone: (650) 433-0500
+  :name: palo alto - charleston peet's
+- :address: 436 university ave palo alto, ca, 94301
+  :phone: (650) 319-0367
+  :name: palo alto - dt palo alto peet's
+- :address: 153 homer avenue palo alto, ca, 94301
+  :phone: (650) 325-2091
+  :name: palo alto - palo alto peet's
+- :address: 77 town & country palo alto, ca, 94301
+  :phone: (650) 328-4771
+  :name: palo alto - town & country peet's
+- :address: 3571-a east foothill blvd pasadena, ca, 91107
+  :phone: (626) 351-6822
+  :name: pasadena - hastings ranch peet's
+- :address: 605 south lake avenue pasadena, ca, 91106
+  :phone: (626) 795-7413
+  :name: pasadena - pasadena peet's
+- :address: 351 s. mcdowell blvd petaluma, ca, 94954
+  :phone: (707) 773-3347
+  :name: petaluma - washington sq peet's
+- :address: 5 petaluma boulevard south,suite a petaluma, ca, 94952
+  :phone: (707) 782-0401
+  :name: petaluma - petaluma peet's
+- :address: 2712 pinole valley rd pinole, ca, 94564
+  :phone: (510) 669-9815
+  :name: pinole - pinole peet's
+- :address: 65 crescent drive,suite a pleasant hill, ca, 94523
+  :phone: (925) 969-1604
+  :name: pleasant hill - pleasant hill peet's
+- :address: 5765 valley ave suite 100 pleasanton, ca, 94566
+  :phone: (925) 401-0018
+  :name: pleasanton - pleasanton peet's
+- :address: 1418 s. pacific coast hwy redondo beach, ca, 90277
+  :phone: (310) 792-3800
+  :name: redondo beach - redondo beach peet's
+- :address: 2600 broadway redwood city, ca, 94063
+  :phone: (650) 362-1000
+  :name: redwood city - redwood city peet's
+- :address: 1198 roseville parkway,suite 175 roseville, ca, 95678
+  :phone: (916) 677-4946
+  :name: roseville - the fountains peet's
+- :address: 731 pleasant grove blvd,suite 185 roseville, ca, 95678
+  :phone: (916) 771-4391
+  :name: roseville - rocklin peet's
+- :address: 1010 pleasant grove blvd,suite 130 roseville, ca, 95678
+  :phone: (916) 788-1885
+  :name: roseville - roseville peet's
+- :address: 102 grand ave s. san francisco, ca, 94080
+  :phone: (650) 636-8600
+  :name: s. san francisco - s san francisco peet's
+- :address: 1441 howe ave, suite 200 sacramento, ca, 95825
+  :phone: (916) 929-3450
+  :name: sacramento - howe & hallmark peet's
+- :address: 3711 j street suite a sacramento, ca, 95816
+  :phone: (916) 266-7670
+  :name: sacramento - 37th & j peet's
+- :address: 1050 20th st. suite 190 sacramento, ca, 95811
+  :phone: (916) 266-7660
+  :name: sacramento - 20th & j peet's
+- :address: 1800 - 19th street sacramento, ca, 95814
+  :phone: (916) 266-2400
+  :name: sacramento - r street peet's
+- :address: 2580 fair oaks blvd,suite 2 sacramento, ca, 95825
+  :phone: (916) 485-7887
+  :name: sacramento - lyon village peet's
+- :address: 3100 folsom suite 100 sacramento, ca, 95816
+  :phone: (916) 379-8740
+  :name: sacramento - alhambra peet's
+- :address: 896 sir francis drake blvd. san anselmo, ca, 94960
+  :phone: (415) 306-0310
+  :name: san anselmo - san anselmo peet's
+- :address: 801 avenida talega,shop 2a, 101 san clemente, ca, 92673
+  :phone: (949) 325-0487
+  :name: san clemente - san clemente peet's
+- :address: 955 catalina blvd suite 103 san diego, ca, 92106
+  :phone: (619) 858-0157
+  :name: san diego - point loma peet's
+- :address: 350 university avenue,suite d san diego, ca, 92103
+  :phone: (619) 296-5995
+  :name: san diego - hillcrest peet's
+- :address: 7845 highland village pl,ste c105 san diego, ca, 92129
+  :phone: (858) 434-0001
+  :name: san diego - torrey highland peet's
+- :address: 1 ferry building,shop 43 san francisco, ca, 94111
+  :phone: (415) 593-3831
+  :name: san francisco - ferry bldg peet's
+- :address: 2197 fillmore street san francisco, ca, 94115
+  :phone: (415) 563-9930
+  :name: san francisco - fillmore peet's
+- :address: 2300 16th street,suite 240 san francisco, ca, 94103
+  :phone: (415) 565-6713
+  :name: san francisco - potrero peet's
+- :address: 217 montgomery street san francisco, ca, 94104
+  :phone: (415) 421-8420
+  :name: san francisco - russ bldg peet's
+- :address: 595 mission street san francisco, ca, 94105
+  :phone: (415) 495-4323
+  :name: san francisco - mission st peet's
+- :address: 1400 van ness ave san francisco, ca, 94109
+  :phone: (415) 230-7822
+  :name: san francisco - van ness & bush peet's
+- :address: 2156 chestnut street san francisco, ca, 94123
+  :phone: (415) 931-8302
+  :name: san francisco - chestnut st peet's
+- :address: 3419 california street san francisco, ca, 94118
+  :phone: (415) 221-8506
+  :name: san francisco - laurel village peet's
+- :address: 54 west portal avenue san francisco, ca, 94127
+  :phone: (415) 731-0375
+  :name: san francisco - west portal peet's
+- :address: 2257 market street san francisco, ca, 94114
+  :phone: (415) 626-6416
+  :name: san francisco - market street peet's
+- :address: 22 battery street san francisco, ca, 94111
+  :phone: (415) 981-4550
+  :name: san francisco - bbm peet's
+- :address: 2139 c polk street san francisco, ca, 94109
+  :phone: (415) 474-1871
+  :name: san francisco - polk street peet's
+- :address: two embarcadero center,suite r2113 san francisco, ca, 94111
+  :phone: (415) 869-1744
+  :name: san francisco - embarcadero peet's
+- :address: 405 howard san francisco, ca, 94105
+  :phone: (415) 593-8920
+  :name: san francisco - 1st & howard peet's
+- :address: 310 broderick st. san francisco, ca, 94117
+  :phone: (415) 593-8830
+  :name: san francisco - fell & broderic peet's
+- :address: 692 mission st san francisco, ca, 94105
+  :phone: (415) 593-8945
+  :name: san francisco - 3rd & mission peet's
+- :address: 601 van ness san francisco, ca, 94102
+  :phone: (415) 593-2661
+  :name: san francisco - opera plaza peet's
+- :address: 555 9th st. suite b5 san francisco, ca, 94103
+  :phone: (415) 593-0430
+  :name: san francisco - 9th & bryant peet's
+- :address: 370 fourth st san francisco, ca, 94107
+  :phone: (415) 230-3091
+  :name: san francisco - 4th & harrison peet's
+- :address: 450 sansome suite 1 san francisco, ca, 94111
+  :phone: (415) 321-5280
+  :name: san francisco - 450 sansome peet's
+- :address: 5201 geary blvd. san francisco, ca, 94118
+  :phone: (415) 592-2200
+  :name: san francisco - 16th & geary peet's
+- :address: 1 california san francisco, ca, 94111
+  :phone: (415) 593-8960
+  :name: san francisco - one california peet's
+- :address: 595 market st suite 143 san franscisco, ca, 94105
+  :phone: (415) 655-2640
+  :name: san franscisco - 595 market peet's
+- :address: 2035 camden avenue san jose, ca, 95124
+  :phone: (408) 371-9088
+  :name: san jose - camden park peet's
+- :address: "377 santana row,suite # 1130 san jose, ca, 95128"
+  :phone: (408) 213-1071
+  :name: san jose - santana row peet's
+- :address: 1140 lincoln avenue,suite c san jose, ca, 95125
+  :phone: (408) 975-9281
+  :name: san jose - willow glen peet's
+- :address: 1330 el paseo de saratoga san jose, ca, 95130
+  :phone: (408) 871-0907
+  :name: san jose - el paseo peet's
+- :address: 66 w. santa clara street san jose, ca, 95113
+  :phone: (408) 213-4770
+  :name: san jose - dt san jose peet's
+- :address: 1295 the alameda san jose, ca, 95126
+  :phone: (408) 213-7285
+  :name: san jose - rose garden peet's
+- :address: 1075 court st. suite 110 san luis obispo, ca, 93401
+  :phone: (805) 597-9478
+  :name: san luis obispo - san luis obispo peet's
+- :address: 255 e. 3rd avenue san mateo, ca, 94401
+  :phone: (650) 403-1591
+  :name: san mateo - san mateo peet's
+- :address: 1020 park place san mateo, ca, 94403
+  :phone: (650) 403-0110
+  :name: san mateo - bay meadows peet's
+- :address: 402 third street san rafael, ca, 94901
+  :phone: (415) 306-0261
+  :name: san rafael - san rafael peet's
+- :address: 3121 crow canyon place,,suite c san ramon, ca, 94583
+  :phone: (925) 901-1005
+  :name: san ramon - crow canyon peet's
+- :address: 11000 bollinger canyon rd,suite a san ramon, ca, 94582
+  :phone: (925) 964-9195
+  :name: san ramon - bollinger canyo peet's
+- :address: 166 sunset drive san ramon, ca, 94583
+  :phone: (925) 866-6628
+  :name: san ramon - san ramon peet's
+- :address: 3905 state st. r2 santa barbara, ca, 93105
+  :phone: (805) 687-9952
+  :name: santa barbara - santa barbara peet's
+- :address: 1131 state st. santa barbara, ca, 93101
+  :phone: (805) 722-1912
+  :name: santa barbara - dt santa barbar peet's
+- :address: 3932 rivermark plaza santa clara, ca, 95054
+  :phone: (408) 213-0810
+  :name: santa clara - santa clara peet's
+- :address: 27047 mcbean parkway santa clarita, ca, 91355
+  :phone: (661) 259-8345
+  :name: santa clarita - santa clarita peet's
+- :address: 1409 pacific avenue santa cruz, ca, 95060
+  :phone: (831) 457-8170
+  :name: santa cruz - santa cruz peet's
+- :address: 2439 main st. santa monica, ca, 90405
+  :phone: (310) 399-8117
+  :name: santa monica - edgemar peet's
+- :address: 1401 montana avenue santa monica, ca, 90403
+  :phone: (310) 394-8555
+  :name: santa monica - montana ave peet's
+- :address: 650 fourth street, suite 100 santa rosa, ca, 95404
+  :phone: (707) 545-5757
+  :name: santa rosa - santa rosa peet's
+- :address: 2500 mendocino ave santa rosa, ca, 95403
+  :phone: (707) 568-3464
+  :name: santa rosa - n. santa rosa peet's
+- :address: 12148 saratoga-sunnyvale rd saratoga, ca, 95070
+  :phone: (408) 213-0433
+  :name: saratoga - saratoga peet's
+- :address: 214 mt. hermon rd. suite e scotts valley, ca, 95066
+  :phone: (831) 430-9293
+  :name: scotts valley - scotts valley peet's
+- :address: 12203 seal beach blvd seal beach, ca, 90740
+  :phone: (562) 546-0007
+  :name: seal beach - seal beach peet's
+- :address: 5765 pacific ave. suite c-125 stockton, ca, 95207
+  :phone: (209) 474-7297
+  :name: stockton - stockton peet's
+- :address: 12215 ventura blvd,#101 studio city, ca, 91604
+  :phone: (818) 487-1970
+  :name: studio city - studio city peet's
+- :address: 144 w. el camino real sunnyvale, ca, 94087
+  :phone: (408) 636-0545
+  :name: sunnyvale - sunnyvale peet's
+- :address: 18973 ventura blvd. tarzana, ca, 91356
+  :phone: (818) 401-0263
+  :name: tarzana - tarzana peet's
+- :address: 595 moorpark road, suite b thousand oaks, ca, 91360
+  :phone: (805) 497-8366
+  :name: thousand oaks - thousand oaks peet's
+- :address: 2649 pacific coast hwy torrance, ca, 90505
+  :phone: (310) 626-8008
+  :name: torrance - torrance peet's
+- :address: 2489 park ave tustin, ca, 92782
+  :phone: (714) 689-9048
+  :name: tustin - the district peet's
+- :address: 12932 newport ave tustin, ca, 92780
+  :phone: (714) 689-2125
+  :name: tustin - tustin crossing peet's
+- :address: 1671 e. monte vista rd.,suite 101 vacaville, ca, 95687
+  :phone: (707) 447-7177
+  :name: vacaville - nut tree peet's
+- :address: 1171 s. victoria ave,suite e ventura, ca, 93003
+  :phone: (805) 654-9923
+  :name: ventura - ventura peet's
+- :address: 1835 ygnacio valley road walnut creek, ca, 94598
+  :phone: (925) 946-9046
+  :name: walnut creek - ygnacio plaza peet's
+- :address: 1343 locust street walnut creek, ca, 94596
+  :phone: (925) 933-9580
+  :name: walnut creek - locust st peet's
+- :address: 8833 w. sunset blvd suite 100 west hollywood, ca, 90069
+  :phone: (310) 492-0490
+  :name: west hollywood - sunset peet's
+- :address: 1695 29th st. suite 1260 boulder, co, 80301
+  :phone: (303) 544-1234
+  :name: boulder - boulder peet's
+- :address: 2500 e. second avenue denver, co, 80206
+  :phone: (303) 991-2870
+  :name: denver - cherry creek peet's
+- :address: 1600 glenarm place suite 130 denver, co, 80202
+  :phone: (303) 991-8775
+  :name: denver - glenarm peet's
+- :address: 1000 w. north avenue chicago, il, 60622
+  :phone: (312) 475-9782
+  :name: chicago - sheffield peet's
+- :address: 1622 chicago avenue evanston, il, 60201
+  :phone: (847) 864-8413
+  :name: evanston - evanston peet's
+- :address: 176 federal street boston, ma, 02110
+  :phone: (617) 439-3177
+  :name: boston - federal street peet's
+- :address: 285 harvard street brookline, ma, 02446
+  :phone: (617) 734-4725
+  :name: brookline - brookline peet's
+- :address: 100 mount auburn street cambridge, ma, 02138
+  :phone: (617) 492-1844
+  :name: cambridge - harvard square peet's
+- :address: 1749 massachusetts avenue lexington, ma, 02420
+  :phone: (781) 357-2090
+  :name: lexington - lexington peet's
+- :address: 776 beacon street newton centre, ma, 02459
+  :phone: (617) 244-1577
+  :name: newton centre - newton centre peet's
+- :address: 9 central street wellesley, ma, 02482
+  :phone: (781) 235-0018
+  :name: wellesley - wellesley peet's
+- :address: 15918 se happy valley town cnt happy valley, or, 97086
+  :phone: (503) 855-2994
+  :name: happy valley - happy valley peet's
+- :address: 19250 nw cornell rd hillsboro, or, 97124
+  :phone: (503) 608-6750
+  :name: hillsboro - hillsboro peet's
+- :address: "345 first street,suite #111 lake oswego, or, 97034"
+  :phone: (971) 236-9140
+  :name: lake oswego - lake oswego peet's
+- :address: 3646 se hawthorne blvd. portland, or, 97214
+  :phone: (971) 244-9920
+  :name: portland - hawthorne peet's
+- :address: 1441 n.e. broadway portland, or, 97232
+  :phone: (503) 493-0192
+  :name: portland - n.e. broadway peet's
+- :address: 508 sw broadway portland, or, 97205
+  :phone: (503) 973-5540
+  :name: portland - dt portland peet's
+- :address: 1114 nw couch street portland, or, 97209
+  :phone: (971) 244-0452
+  :name: portland - brewery blocks peet's
+- :address: building g,7471 sw bridgeport road tigard, or, 97224
+  :phone: (503) 684-2726
+  :name: tigard - bridgeport vill peet's
+- :address: 17887 redmond way suite 130 redmond, wa, 98052
+  :phone: (425) 968-6125
+  :name: redmond - redmond way peet's
+- :address: 6850 e. green lake way north seattle, wa, 98115
+  :phone: (206) 267-1440
+  :name: seattle - green lake peet's
+- :address: 2201 queen anne ave. n seattle, wa, 98109
+  :phone: (206) 826-9001
+  :name: seattle - queen anne peet's
+- :address: 1833 broadway seattle, wa, 98122
+  :phone: (206) 438-8300
+  :name: seattle - capitol hill peet's
+- :address: 1827 15th ave. w. suite a-2 seattle, wa, 98119
+  :phone: opening soon!
+  :name: seattle - interbay peet's
+- :address: 3401 fremont avenue n seattle, wa, 98103
+  :phone: (206) 267-4688
+  :name: seattle - seattle peet's
+- :address: 16501 se mill plain blvd,suite 100 vancouver, wa, 98684
+  :phone: (360) 944-6585
+  :name: vancouver - vancouver peet's
+- :address: 13307 ne hwy 99,suite 115 vancouver, wa, 98686
+  :phone: (360) 576-9052
+  :name: vancouver - salmon creek peet's

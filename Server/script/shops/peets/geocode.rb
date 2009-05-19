@@ -1,33 +1,41 @@
 appid="QFoY1w7V34GUcrwOTlvIp46xJGhysm8wNr1kObebYVm4ny.Ef67oFgENwv8cvIKxz5fK"
+require 'yaml'
 require 'rubygems'
 require 'geocoder'
-require 'curb'
-require 'hpricot'
 require 'activesupport'
 
 def cleanstr(str)
   ActiveSupport::Multibyte::Chars.new(str).mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,' ').downcase.to_s.gsub(/\r|\n/,' ').gsub(/\s/, ' ').squeeze(' ')
 end
 
-url = "http://www.peets.com/stores/store_list.asp"
-c = Curl::Easy.new(url) do|conf|
-  conf.headers["User-Agent"] = "Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en; rv:1.8.1.21) Gecko/20090327 Camino/1.6.7 (like Firefox/2.0.0.21pre)"
-  conf.follow_location = true
+if not File.exist?("stores-pass1.yml")
+  STDERR.puts "run fetch.rb first"
+  exit(1)
 end
-c.perform
-doc = Hpricot c.body_str
-(doc.at("table[@width='578']")/"td[@width='33%']").each do|td|
-  parts = td.inner_text.strip.split("\r\n").map{|p| p.strip }.select{|p| p != '' }
+
+stores = YAML.load_file("stores-pass1.yml")
+
+geos = []
+
+geocoder = Geocoder::Yahoo.new appid
+
+errors = []
+for store in stores do
+  address = store[:address]
   begin
-  puts parts.size
-  name = cleanstr(parts[0])
-  address = cleanstr(parts[1])
-  phone = cleanstr(parts[2])
-  times = cleanstr(parts[3..parts.size].join(' '))
-  puts "name: #{name}, address: #{address}, phone: #{phone}, times: #{times}"
-  rescue => e
+    puts "lookup: #{address}"
+    sleep 1.5
+    result = geocoder.geocode address
+    if result.success? or (result = result.first and result.precision == 'address' or result.precision == 'street' )
+      geos << store.merge(:lat => result.latitude, :lng => result.longitude)
+    else
+      errors << store.merge(:details => result)
+    end
+  rescue Geocoder::GeocodingError => e
     puts e.message
-    puts parts.inspect
-    break
+    errors << store.merge(:details => e)
   end
 end
+puts "Errors: #{errors.size}"
+File.open("stores.yml","w"){|f| f << geos.to_yaml }
+File.open("errors.yml","w"){|f| f << errors.to_yaml }
