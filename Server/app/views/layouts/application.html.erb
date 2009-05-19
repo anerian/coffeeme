@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <%= stylesheet_link_tag 'styles', :media => 'screen' %>
+</head>
+<body>
+  <!--[if IE]><div class="ie"><![endif]-->
+    <!--[if lt IE 7.]><div class="ie6"><![endif]-->
+      <div class="container">
+        <h2 id="logo">coffee me</h2>
+        <ul id="main-menu" class="menu">
+          <li><%= link_to "Stores", stores_path %></li>
+          <li><%= link_to "Drinks", drinks_path %></li>
+          <li><%= link_to "Trivia", trivias_path %></li>
+        </ul>
+        <div class="clear"></div>
+        <%= yield %>
+      </div>
+    <!--[if lt IE 7.]></div><![endif]-->
+  <!--[if IE]></div><![endif]-->
+</body>
+</html>

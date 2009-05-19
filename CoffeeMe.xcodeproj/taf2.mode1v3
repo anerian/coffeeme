@@ -267,7 +267,9 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>398681720FB3523D006E151C</string>
 								<string>397D74A50FB250F400ACE161</string>
+								<string>397D749C0FB24ED000ACE161</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>39868C080FBB6090006E151C</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -275,8 +277,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
-									<integer>18</integer>
+									<integer>14</integer>
+									<integer>4</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -316,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CMInfoController.m</string>
+								<string>CMStore.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,7 +327,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CMInfoController.m</string>
+										<string>CMStore.m</string>
 										<key>history</key>
 										<array>
 											<string>09B7189F0FB7BE5000A142D6</string>
@@ -338,9 +341,7 @@
 											<string>09B7199D0FB872F200A142D6</string>
 											<string>094B10CA0FBDBCE00021CA58</string>
 											<string>094B10F60FC0B6970021CA58</string>
-											<string>094B10F70FC0B6970021CA58</string>
-											<string>094B10F80FC0B6970021CA58</string>
-											<string>093444360FC1C81C00E19B64</string>
+											<string>093445210FC30A0C00E19B64</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -425,9 +426,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>093444A90FC207BA00E19B64</string>
+				<string>0934453C0FC31C2300E19B64</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>093444AA0FC207BA00E19B64</string>
+				<string>0934453D0FC31C2300E19B64</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -644,7 +645,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>0906E79A0FB5D3AF0042DB2F</string>
-				<string>093444AB0FC207BA00E19B64</string>
+				<string>0934453E0FC31C2300E19B64</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -764,13 +765,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>093444AC0FC207BA00E19B64</string>
+				<string>0934453F0FC31C2300E19B64</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>093444AD0FC207BA00E19B64</string>
-				<string>093444AE0FC207BA00E19B64</string>
-				<string>093444AF0FC207BA00E19B64</string>
-				<string>093444B00FC207BA00E19B64</string>
-				<string>093444B10FC207BA00E19B64</string>
+				<string>093445400FC31C2300E19B64</string>
+				<string>093445410FC31C2300E19B64</string>
+				<string>093445420FC31C2300E19B64</string>
+				<string>093445430FC31C2300E19B64</string>
+				<string>093445440FC31C2300E19B64</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -907,18 +908,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1453, 857}}</string>
+								<string>{{0, 0}, {1453, 748}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1558 623 1453 898 1440 354 1920 1200 </string>
+								<string>-3 89 1453 789 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>857pt</string>
+							<string>748pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>857pt</string>
+					<string>748pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -932,13 +933,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>093444B20FC207BA00E19B64</string>
+				<string>093445450FC31C2300E19B64</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>1558 623 1453 898 1440 354 1920 1200 </string>
+			<string>-3 89 1453 789 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

@@ -37,9 +37,13 @@ distance = distance_, userLatitude = userLatitude_, userLongitude = userLongitud
 }
 
 + (NSArray *)nearby:(CLLocationCoordinate2D)coordinate withType:(CMStoreType)type {
-    #ifdef TARGET_IPHONE_SIMULATOR
-    coordinate.latitude = 38.906786;
-    coordinate.longitude = -77.041787;
+    #if defined(TARGET_IPHONE_SIMULATOR) && defined(DEBUG)
+    // Alameda, CA 94501
+    coordinate.latitude = 37.763853;
+    coordinate.longitude = -122.243340;
+    // Dupont - Washington, DC 20036
+    //coordinate.latitude = 38.906786;
+    //coordinate.longitude = -77.041787;
     #endif
     
     NSString *query;

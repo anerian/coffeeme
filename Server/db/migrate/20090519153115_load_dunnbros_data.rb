@@ -1,8 +1,9 @@
 class LoadDunnbrosData < ActiveRecord::Migration
   def self.up
     stores = YAML.load_file("#{RAILS_ROOT}/db/data/dunnbros.yml")
+    Store.delete_all :store_type => Store::StoreType::DUNNBROS
     for store in stores do
-      street = "#{store[:address]} => #{store[:address].sub(/#{store[:city]},.*$/i,'')}"
+      street = store[:address].sub(/#{store[:city]},.*$/i,'')
       Store.create :street     => street,
                    :city       => store[:city], 
                    :state      => store[:state],

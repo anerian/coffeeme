@@ -1,0 +1,8 @@
+<h1>Stores</h1>
+<ul class="list">
+  <% for store in @stores do %>
+  <li class="clear"><img style="float:left" src="/images/iphone/cup-<%= store.store_type %>.png"/><%= link_to store.title, edit_store_path(store) %></li>
+  <% end %>
+</ul>
+<div class="clear"></div>
+<%= will_paginate @stores %>
