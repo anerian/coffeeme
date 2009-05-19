@@ -36,7 +36,7 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     case 5:
             store = @"Peets";
             break;
-    case 5:
+    case 6:
             store = @"Dunn Bros";
             break;
     default:
