@@ -1,0 +1,633 @@
+--- 
+- :address: 1618 West 23rd St Lawrence KS 66046
+  :city: Lawrence
+  :zip: 66046-2742
+  :state: KS
+  :lat: "38.942875"
+  :phone: 785.865.4211
+  :name: Lawrence
+  :lng: "-95.254417"
+- :address: 8975 Metcalf Ave Overland Park KS 66212
+  :city: Overland Park
+  :zip: 66212-1402
+  :state: KS
+  :lat: "38.966268"
+  :phone: 913-381-3030
+  :name: Overland Park
+  :lng: "-94.667346"
+- :address: 2218 Bunker Lake Blvd. NW Andover MN 55304
+  :city: Andover
+  :zip: 55304-3900
+  :state: MN
+  :lat: "45.219359"
+  :phone: 763-755-4436
+  :name: Andover (Inside Festival Foods)
+  :lng: "-93.322820"
+- :address: 501 Paul Bunyan Drive S Bemidji MN 56601
+  :city: Bemidji
+  :zip: 56601-3230
+  :state: MN
+  :lat: "47.465380"
+  :phone: 2118-444-5252
+  :name: Bemidji
+  :lng: "-94.874543"
+- :address: 94 14th St . N.E. Buffalo MN 55313
+  :city: Buffalo
+  :zip: 55313-1996
+  :state: MN
+  :lat: "45.185697"
+  :phone: 763-682-6390
+  :name: Buffalo
+  :lng: "-93.874288"
+- :address: 100 East 2nd St. Suite 100 Chaska MN 55318
+  :city: Chaska
+  :zip: 55318-1906
+  :state: MN
+  :lat: "44.785261"
+  :phone: 952-361-3011
+  :name: Chaska
+  :lng: "-93.600154"
+- :address: 401 Northdale Blvd NW Coon Rapids MN 55448
+  :city: Coon Rapids
+  :zip: 55448-3365
+  :state: MN
+  :lat: "45.176520"
+  :phone: 763-754-0506
+  :name: Coon Rapids
+  :lng: "-93.276562"
+- :address: 2401 London Road Duluth MN 55812
+  :city: Duluth
+  :zip: 55812-2222
+  :state: MN
+  :lat: "46.807113"
+  :phone: 218-724-8838
+  :name: Duluth
+  :lng: "-92.064631"
+- :address: 8107 Eden Prairie Road Eden Prairie MN 55347
+  :city: Eden Prairie
+  :zip: 55347-1158
+  :state: MN
+  :lat: "44.856254"
+  :phone: 952-934-0145
+  :name: Eden Prairie West
+  :lng: "-93.485034"
+- :address: 561 Prairie Center Drive Eden Prairie MN 55344
+  :city: Eden Prairie
+  :zip: 55344-5379
+  :state: MN
+  :lat: "44.850732"
+  :phone: 952-942-8331
+  :name: Eden Prairie East
+  :lng: "-93.428189"
+- :address: 6559 York Ave S Edina MN 55423
+  :city: Edina
+  :zip: 55435-2356
+  :state: MN
+  :lat: "44.884350"
+  :phone: 612-869-2207
+  :name: Edina
+  :lng: "-93.319249"
+- :address: 1012 Diffley Rd Eagan MN 55123
+  :city: Eagan
+  :zip: 55123-1503
+  :state: MN
+  :lat: "44.804401"
+  :phone: 651-209-3378
+  :name: Eagan
+  :lng: "-93.140243"
+- :address: 19344 Hwy 169 Northwest Elk River MN 55330
+  :city: Elk River
+  :zip: 55330-4645
+  :state: MN
+  :lat: "45.322449"
+  :phone: 763-274-0260
+  :name: Elk River
+  :lng: "-93.562186"
+- :address: 11 Water Street Excelsior MN 55331
+  :city: Excelsior
+  :zip: 55331-1822
+  :state: MN
+  :lat: "44.904069"
+  :phone: 952-401-8004
+  :name: Excelsior
+  :lng: "-93.565221"
+- :address: 20700 Chippendale Ave W Farmington MN 55024
+  :city: Farmington
+  :zip: 55024-8044
+  :state: MN
+  :lat: "44.649024"
+  :phone: 651-344-9974
+  :name: Farmington
+  :lng: "-93.136481"
+- :address: 7610 University Ave. Ste 1 Fridley MN 55432
+  :city: Fridley
+  :zip: 55432-2655
+  :state: MN
+  :lat: "45.107334"
+  :phone: 763-571-2210
+  :name: Fridley
+  :lng: "-93.264783"
+- :address: 675 Winnetka Ave. N. Golden Valley MN 55427
+  :city: Golden Valley
+  :zip: 55427-4528
+  :state: MN
+  :lat: "44.986415"
+  :phone: 763-732-0161
+  :name: Golden Valley
+  :lng: "-93.380604"
+- :address: Ste 140 Hastings MN 55033
+  :city: Hastings
+  :zip: "55033"
+  :state: MN
+  :lat: "44.732620"
+  :phone: 651-438-9297
+  :name: Hastings
+  :lng: "-92.895216"
+- :address: 14775 Victor Hugo Blvd Hugo MN 55038
+  :city: Hugo
+  :zip: 55038-4561
+  :state: MN
+  :lat: "45.163277"
+  :phone: 651-294-3990
+  :name: Hugo
+  :lng: "-93.017225"
+- :address: 9092 Buchanon Trail Inver Grove Heights MN 55076
+  :city: Inver Grove Heights
+  :zip: 55076-3532
+  :state: MN
+  :lat: "44.818702"
+  :phone: 651-457-2135
+  :name: Inver Grove Heights
+  :lng: "-93.043071"
+- :address: 9390 Lexington Ave Lexington MN 55014 763
+  :city: Circle Pines
+  :zip: "55014"
+  :state: MN
+  :lat: "45.142200"
+  :phone: 783-2122
+  :name: Lexington
+  :lng: "-93.163849"
+- :address: 1854 Madison Ave Mankato MN 56001
+  :city: Mankato
+  :zip: 56001-5448
+  :state: MN
+  :lat: "44.166988"
+  :phone: 507-345-3866
+  :name: Mankato- South
+  :lng: "-93.953103"
+- :address: 1745 Commerce Drive Mankato MN 56003
+  :city: Mankato
+  :zip: 56003-1802
+  :state: MN
+  :lat: "44.178717"
+  :phone: 507-345-1334
+  :name: Mankato- North
+  :lng: "-94.036046"
+- :address: 7899 Main Street Maple Grove MN 55369
+  :city: Maple Grove
+  :zip: 55369-7082
+  :state: MN
+  :lat: "45.098053"
+  :phone: 763-424-3866
+  :name: Maple Grove
+  :lng: "-93.441861"
+- :address: 13300 Bass Lake Road North Maple Grove MN 55311
+  :city: Maple Grove
+  :zip: 55311-4540
+  :state: MN
+  :lat: "45.067806"
+  :phone: 763-383-8800
+  :name: Maple Grove- S.
+  :lng: "-93.448946"
+- :address: 300 Nicollet Mall Minneapolis MN 55402
+  :city: Minneapolis
+  :zip: 55401-1925
+  :state: MN
+  :lat: "44.980714"
+  :phone: 612-333-7053
+  :name: Mpls - Central Library
+  :lng: "-93.269177"
+- :address: 821 W. Lake St. Minneapolis MN 55408
+  :city: Minneapolis
+  :zip: 55408-2847
+  :state: MN
+  :lat: "44.948228"
+  :phone: 612-824-6200
+  :name: Mpls- Bryant & Lake
+  :lng: "-93.289704"
+- :address: 4648 E Lake Street Minneapolis MN 55406
+  :city: Minneapolis
+  :zip: 55406-2306
+  :state: MN
+  :lat: "44.948456"
+  :phone: 612-724-8647
+  :name: Mpls- East Lake Street
+  :lng: "-93.206220"
+- :address: 811 11th Avenue So. Minneapolis MN 55404
+  :city: Minneapolis
+  :zip: 55404-1308
+  :state: MN
+  :lat: "44.969419"
+  :phone: 612-339-2549
+  :name: Mpls- Elliot Park
+  :lng: "-93.258003"
+- :address: 201 3rd Avenue So. Minneapolis MN 55401
+  :city: Minneapolis
+  :zip: 55401-2524
+  :state: MN
+  :lat: "44.980963"
+  :phone: 612-692-8530
+  :name: Mpls- Freight House
+  :lng: "-93.263229"
+- :address: 1506 West Lake Street Minneapolis MN 55408
+  :city: Minneapolis
+  :zip: 55408-2544
+  :state: MN
+  :lat: "44.948483"
+  :phone: 612-827-5094
+  :name: Mpls- Lake Street
+  :lng: "-93.301014"
+- :address: 2814 West 43rd Street Minneapolis MN 55410
+  :city: Minneapolis
+  :zip: 55410-1536
+  :state: MN
+  :lat: "44.924760"
+  :phone: 612-925-5669
+  :name: Mpls- Linden Hills
+  :lng: "-93.314920"
+- :address: 329 West 15th Street Minneapolis MN 55403
+  :city: Minneapolis
+  :zip: 55403-2236
+  :state: MN
+  :lat: "44.967809"
+  :phone: 612-872-4410
+  :name: Mpls- Loring Park
+  :lng: "-93.283645"
+- :address: 1915 Lyndale Ave. South Minneapolis MN 55403
+  :city: Minneapolis
+  :zip: 55403-3104
+  :state: MN
+  :lat: "44.963766"
+  :phone: 612-767-4767
+  :name: Mpls- Lyndale Ave
+  :lng: "-93.287801"
+- :address: 228 Washington Ave N. Minneapolis MN 55401
+  :city: Minneapolis
+  :zip: 55401-1606
+  :state: MN
+  :lat: "44.984054"
+  :phone: 612-333-1711
+  :name: Mpls- North Loop
+  :lng: "-93.271668"
+- :address: "121 S. 8th St. #270 Minneapolis MN 55402"
+  :city: Minneapolis
+  :zip: 55402-2810
+  :state: MN
+  :lat: "44.975059"
+  :phone: 612-332-8307
+  :name: "Mpls Skyway: TCF Tower"
+  :lng: "-93.271420"
+- :address: 530 University Avenue Minneapolis MN 55414
+  :city: Minneapolis
+  :zip: 55414-1716
+  :state: MN
+  :lat: "44.984181"
+  :phone: 612-331-5195
+  :name: Mpls- University Ave S.E.
+  :lng: "-93.248660"
+- :address: 5008 Xerxes Avenue So. Minneapolis MN 55409
+  :city: Minneapolis
+  :zip: 55410-2226
+  :state: MN
+  :lat: "44.912095"
+  :phone: 612-926-8523
+  :name: Mpls- Xerxes
+  :lng: "-93.319052"
+- :address: 3348 Hennepin Ave. So. Minneapolis MN 55408
+  :city: Minneapolis
+  :zip: 55408-3449
+  :state: MN
+  :lat: "44.942129"
+  :phone: 612-822-3292
+  :name: Mpls.- Hennepin Ave.
+  :lng: "-93.298559"
+- :address: 309 19th Ave South Minneapolis MN 55455
+  :city: Minneapolis
+  :zip: 55455-0438
+  :state: MN
+  :lat: "44.970939"
+  :phone: 612-625-6428
+  :name: U of MN - Wilson Library
+  :lng: "-93.245445"
+- :address: 12601 Ridgedale Drive Minnetonka MN 55305
+  :city: Minnetonka
+  :zip: 55305-1914
+  :state: MN
+  :lat: "44.965499"
+  :phone: 952-593-9043
+  :name: Ridgedale Library
+  :lng: "-93.440138"
+- :address: 12934 Minnetonka Blvd. Minnetonka MN 55305
+  :city: Minnetonka
+  :zip: 55305-3708
+  :state: MN
+  :lat: "44.941711"
+  :phone: 952-935-5471
+  :name: Minnetonka Mills
+  :lng: "-93.443790"
+- :address: 6970 33rd St N. Oakdale MN 55128
+  :city: Oakdale
+  :zip: 55128-3619
+  :state: MN
+  :lat: "44.996534"
+  :phone: 651-399-4566
+  :name: Oakdale
+  :lng: "-92.964750"
+- :address: "1015 W. Frontage Rd #100 Owatonna MN 55060"
+  :city: Owatonna
+  :zip: 55060-5505
+  :state: MN
+  :lat: "44.096223"
+  :phone: 507-466-8025
+  :name: Owatonna
+  :lng: "-93.255861"
+- :address: "55447"
+  :city: Minneapolis
+  :zip: "55447"
+  :state: MN
+  :lat: "45.002353"
+  :phone: 763-383-0030
+  :name: Plymouth 3195A Vicksburg Lane Plymouth MN
+  :lng: "-93.490126"
+- :address: 120 Elton Hills Drive N.W. Rochester MN 55901
+  :city: Rochester
+  :zip: 55901-3527
+  :state: MN
+  :lat: "44.042469"
+  :phone: 507-285-4991
+  :name: Rochester - North
+  :lng: "-92.464259"
+- :address: 1340 Salem Rd. S.W. Rochester MN 55902
+  :city: Rochester
+  :zip: 55902-4206
+  :state: MN
+  :lat: "44.005209"
+  :phone: 507-424-3086
+  :name: Rochester - South
+  :lng: "-92.485526"
+- :address: 13590 Northdale Blvd. Suite 101 Rogers MN 55374
+  :city: Rogers
+  :zip: 55374-2132
+  :state: MN
+  :lat: "45.201114"
+  :phone: 763-416-3866
+  :name: Rogers
+  :lng: "-93.553918"
+- :address: 15023 Crestone Avenue Rosemount MN 55068
+  :city: Rosemount
+  :zip: 55068-4586
+  :state: MN
+  :lat: "44.731011"
+  :phone: 651-322-8454
+  :name: Rosemount
+  :lng: "-93.144204"
+- :address: 2180 North Hamline Ave. Roseville MN 55113
+  :city: Roseville
+  :zip: 55113-4204
+  :state: MN
+  :lat: "45.006884"
+  :phone: 651-697-0031
+  :name: Roseville - Ramsey Cty. Library
+  :lng: "-93.156474"
+- :address: 2471 Fairview Ave N Roseville MN 55113
+  :city: Roseville
+  :zip: 55113-2606
+  :state: MN
+  :lat: "45.015536"
+  :phone: 651-633-2727
+  :name: Roseville - Fairview Ave.
+  :lng: "-93.177224"
+- :address: 5801 Egan Drive Savage MN 55378
+  :city: Savage
+  :zip: 55378-4918
+  :state: MN
+  :lat: "44.746421"
+  :phone: 952-226-2026
+  :name: Savage
+  :lng: "-93.352677"
+- :address: 4611 Excelsior Blvd. St. Louis Park MN 55416
+  :city: St Louis Park
+  :zip: 55416-4937
+  :state: MN
+  :lat: "44.933702"
+  :phone: 952-920-0062
+  :name: St. Louis Park
+  :lng: "-93.338146"
+- :address: 242 7th Street West St. Paul MN 55102
+  :city: St Paul
+  :zip: 55102-2523
+  :state: MN
+  :lat: "44.942928"
+  :phone: 651-222-3445
+  :name: St. Paul- West 7th/Xcel
+  :lng: "-93.104546"
+- :address: "55111"
+  :city: St Paul
+  :zip: "55111"
+  :state: MN
+  :lat: "44.886232"
+  :phone: 612-727-1213
+  :name: Air port - Humphrey Terminal Hubert Humphrey Terminal St. Paul MN
+  :lng: "-93.200786"
+- :address: 3412 Concourse C St.Paul MN 55111
+  :city: Fort Snelling
+  :zip: 55111-3046
+  :state: MN
+  :lat: "44.884189"
+  :phone: 612-727-3388
+  :name: Airport - Main Terminal
+  :lng: "-93.210106"
+- :address: 1569 Grand Ave St. Paul MN 55105
+  :city: St Paul
+  :zip: 55105-2229
+  :state: MN
+  :lat: "44.940155"
+  :phone: 651-699-2636
+  :name: St Paul - Grand Avenue
+  :lng: "-93.166631"
+- :address: 2264 Como Avenue St.Paul MN 55102
+  :city: St Paul
+  :zip: 55108-1722
+  :state: MN
+  :lat: "44.981505"
+  :phone: 651-644-5033
+  :name: St. Paul - Como
+  :lng: "-93.194923"
+- :address: 367 Wabasha Street St.Paul MN 55102
+  :city: St Paul
+  :zip: 55102-1305
+  :state: MN
+  :lat: "44.945752"
+  :phone: 651-767-0567
+  :name: St. Paul - Wabasha
+  :lng: "-93.094734"
+- :address: "1798 Market Dr. Ste. #2 Stillwater MN 55082"
+  :city: Stillwater
+  :zip: 55082-7573
+  :state: MN
+  :lat: "45.040039"
+  :phone: 651-275-1888
+  :name: Stillwater
+  :lng: "-92.841119"
+- :address: 2800 South 1st St Willmar MN 56201
+  :city: Willmar
+  :zip: 56201-4267
+  :state: MN
+  :lat: "45.095961"
+  :phone: 320-235-8495
+  :name: Willmar
+  :lng: "-95.042871"
+- :address: Ste 100 Zimmerman MN 55398
+  :city: Zimmerman
+  :zip: "55398"
+  :state: MN
+  :lat: "45.437935"
+  :phone: 763-856-9229
+  :name: Zimmerman
+  :lng: "-93.522399"
+- :address: 3218 West Edgewood Jefferson City MO 65109
+  :city: Jefferson City
+  :zip: 65109-6866
+  :state: MO
+  :lat: "38.569055"
+  :phone: 573-893-5303
+  :name: Jefferson City
+  :lng: "-92.240115"
+- :address: 1412 Forum Boulevard Columbia MO 65203
+  :city: Columbia
+  :zip: 65203-1963
+  :state: MO
+  :lat: "38.936141"
+  :phone: 573-446-4122
+  :name: Columbia
+  :lng: "-92.360534"
+- :address: 17202 Audrey st Omaha NE 68136
+  :city: Omaha
+  :zip: "68136"
+  :state: NE
+  :lat: "41.190120"
+  :phone: 402-933-7444
+  :name: Omaha - LaMar's Donuts
+  :lng: "-96.172499"
+- :address: 1895 45th St. S Fargo ND 58103
+  :city: Fargo
+  :zip: 58103-0800
+  :state: ND
+  :lat: "46.851194"
+  :phone: 701-364-3866
+  :name: Fargo
+  :lng: "-96.862274"
+- :address: 719 Omaha Street Rapid City SD 57701
+  :city: Rapid City
+  :zip: 57701-2761
+  :state: SD
+  :lat: "44.083481"
+  :phone: 605-721-0600
+  :name: Rapid City
+  :lng: "-103.228740"
+- :address: 5320 E. Arrowhead Parkway Sioux Falls SD 57110
+  :city: Sioux Falls
+  :zip: 57110-2750
+  :state: SD
+  :lat: "43.544106"
+  :phone: 605-271-8038
+  :name: Sioux Falls
+  :lng: "-96.661019"
+- :address: 401 Church Street Nashville TN 37219
+  :city: Nashville
+  :zip: 37219-2310
+  :state: TN
+  :lat: "36.163596"
+  :phone: 615-252-2567
+  :name: Nashville
+  :lng: "-86.779033"
+- :address: 3725 Beltline Road Addison TX 75001
+  :city: Addison
+  :zip: 75001-4302
+  :state: TX
+  :lat: "32.953373"
+  :phone: 972-406-9711
+  :name: Addison
+  :lng: "-96.854455"
+- :address: 4895 LBJ Freeway Dallas TX 75244
+  :city: Dallas
+  :zip: 75244-6002
+  :state: TX
+  :lat: "32.926866"
+  :phone: 972-991-3866
+  :name: Dallas
+  :lng: "-96.823086"
+- :address: "77494"
+  :city: Park Row
+  :zip: "77494"
+  :state: TX
+  :lat: "29.741470"
+  :phone: "2816932228"
+  :name: Katy 6825SFryRoadSuite100 Katy TX
+  :lng: "-95.793889"
+- :address: "5040 North Tarrant Parkway #136 Keller TX 76248"
+  :city: Keller
+  :zip: 76248-1388
+  :state: TX
+  :lat: "32.893464"
+  :phone: 817-750-3866
+  :name: North Fort Worth
+  :lng: "-97.275017"
+- :address: 9305 Spring Cypress Rd Spring TX 77379
+  :city: Spring
+  :zip: 77379-3024
+  :state: TX
+  :lat: "30.026459"
+  :phone: 832-717-7370
+  :name: Spring
+  :lng: "-95.563760"
+- :address: 2521 Hanley Rd Hudson WI 54016
+  :city: Hudson
+  :zip: 54016-8704
+  :state: WI
+  :lat: "44.954486"
+  :phone: 715-531-0160
+  :name: Hudson
+  :lng: "-92.720301"
+- :address: Suite 122 Kenosha WI 53142
+  :city: Kenosha
+  :zip: "53142"
+  :state: WI
+  :lat: "42.569450"
+  :phone: 262-997-4538
+  :name: Kenosha
+  :lng: "-87.954787"
+- :address: 2345 W. Ryan Rd. Oak Creek WI 53154
+  :city: Oak Creek
+  :zip: 53154-4322
+  :state: WI
+  :lat: "42.872406"
+  :phone: 414-761-9328
+  :name: Oak Creek
+  :lng: "-87.946552"
+- :address: 1463 Capitol Drive Pewaukee WI 53072
+  :city: Pewaukee
+  :zip: 53072-2579
+  :state: WI
+  :lat: "43.083774"
+  :phone: 262-264-0529
+  :name: Pewaukee
+  :lng: "-88.226856"
+- :address: 245 S. Main St. Racine WI 53403
+  :city: Racine
+  :zip: 53403-1027
+  :state: WI
+  :lat: "42.731278"
+  :phone: 262-634-0148
+  :name: Racine
+  :lng: "-87.783474"

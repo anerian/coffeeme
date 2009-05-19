@@ -1,0 +1,221 @@
+--- 
+- :address: 28557 Woodward Ave. Berkley, MI 48072
+  :phone: 248-336-9930
+  :street: 28557 Woodward Ave.
+  :name: Berkley Cafe
+- :address: 4433 Old U.S. 23 Brighton, MI 48114
+  :phone: 810-227-2233
+  :street: 4433 Old U.S. 23
+  :name: Brighton Pointe Cafe
+- :address: 300 Renaissance Center Detroit, MI 48243
+  :phone: 313-568-1040
+  :street: 300 Renaissance Center
+  :name: Detroit - Renaissance Center
+- :address: 2588 World Gateway Place McNamara Terminal Concourse C
+  :phone: Detroit, MI 48242
+  :street: 2588 World Gateway Place
+  :name: Detroit Metro Airport
+- :address: 2588 World Gateway Place McNamara Terminal Detroit Metro
+  :phone: Detroit, MI 48242
+  :street: 2588 World Gateway Place
+  :name: Detroit Metro McNamara Terminal
+- :address: Detroit Metro Airport North Terminal
+  :phone: 601 Rogell Drive
+  :street: Detroit Metro Airport
+  :name: Detroit Metro North Terminal
+- :address: Detroit Metro Airport North Terminal
+  :phone: 601 Rogell Drive
+  :street: Detroit Metro Airport
+  :name: Detroit Metro North Terminal 4-3B
+- :address: Detroit Metro Airport North Terminal
+  :phone: 601 Rogell Drive
+  :street: Detroit Metro Airport
+  :name: Detroit Metro North Terminal 6-1
+- :address: Edward H McNamara Terminal Detroit, MI 48242
+  :phone: 734-941-9330
+  :street: Edward H McNamara Terminal
+  :name: Detroit Metropolitan Airport
+- :address: 121 Helle Boulevard Dundee, MI 48131
+  :phone: 734-823-5030
+  :street: 121 Helle Boulevard
+  :name: Dundee Cafe
+- :address: 3283 S. Linden Road Flint, MI 48507
+  :phone: 810-732-4980
+  :street: 3283 S. Linden Road
+  :name: Flint - Genesse Valley Mall
+- :address: Eastland Mall 18000 Vernier Rd.
+  :phone: Harper Woods, MI 48225
+  :street: Eastland Mall
+  :name: Harper Woods - Eastland Mall
+- :address: 37620 W. 6 Mile Road Livonia, MI 48152
+  :phone: 734-462-4271
+  :street: 37620 W. 6 Mile Road
+  :name: Livonia - Laurel Park Place
+- :address: 37620 W. 6 Mile Road Livonia, MI 48152
+  :phone: 313-462-4271
+  :street: 37620 W. 6 Mile Road
+  :name: Livonia - Laurel Park Place Cart
+- :address: 54312 W. Main Street Mattawan, MI 49071
+  :phone: 269-668-2020
+  :street: 54312 W. Main Street
+  :name: Mattawan
+- :address: 1498 Sheldon Road Plymouth, MI 48170
+  :phone: 734-416-8310
+  :street: 1498 Sheldon Road
+  :name: Plymouth Cafe
+- :address: 4851 Fashion Square Mall Saginaw, MI 48604
+  :phone: 989-799-4333
+  :street: 4851 Fashion Square Mall
+  :name: Saginaw - Fashion Square Mall
+- :address: 514 Huron St. South Haven, MI 49090
+  :phone: 269-639-1155
+  :street: 514 Huron St.
+  :name: South Haven - Village Market Food Center
+- :address: 14600 Lakeside Circle Suite 1360
+  :phone: Sterling Heights, MI 48313
+  :street: 14600 Lakeside Circle
+  :name: Sterling Heights - Lakeside Mall
+- :address: 490 W. 14 Mile Road Troy, MI 48083
+  :phone: 248-588-6440
+  :street: 490 W. 14 Mile Road
+  :name: Troy - Oakland Mall
+- :address: 26029 Hoover Road Warren, MI 48089
+  :phone: 586-757-6111
+  :street: 26029 Hoover Road
+  :name: Warren - Hoover Eleven Shopping Center Cafe
+- :address: 35000 W. Warren Road Westland, MI 48185
+  :phone: 734-422-8890
+  :street: 35000 W. Warren Road
+  :name: Westland Shopping Center
+- :address: 49348 Pontiac Trail Wixom, MI 48393
+  :phone: 248-668-9170
+  :street: 49348 Pontiac Trail
+  :name: Wixom Cafe
+- :address: Located in Walmart 1315 Hwy 25 North
+  :phone: Buffalo, MN 55313
+  :street: Located in Walmart
+  :name: Buffalo
+- :address: Located in Walmart 2101 Second Avenue SE
+  :phone: Cambridge, MN 55008
+  :street: Located in Walmart
+  :name: Cambridge
+- :address: 8251 Flying Cloud Drive Suite 2184
+  :phone: Eden Prairie, MN 55344
+  :street: 8251 Flying Cloud Drive
+  :name: Eden Prairie Mall Located in Walmart
+- :address: Located in Walmart 295 Tyler Road South
+  :phone: Red Wing, MN 55066
+  :street: Located in Walmart
+  :name: Red Wing
+- :address: Located in Walmart 8101 Old Carriage Court
+  :phone: Shakopee, MN 55379
+  :street: Located in Walmart
+  :name: Shakopee
+- :address: 2950 New Pinery Road Portage, WI 53901
+  :phone: 608-742-1975
+  :street: 2950 New Pinery Road
+  :name: Portage Located in Walmart
+- :address: Located in Walmart 38020 U.S. Highway 18
+  :phone: Prairie Du Chien, WI 53821
+  :street: Located in Walmart
+  :name: Prairie Du Chien
+- :address: Located in Walmart 1600 West Wisconsin St.
+  :phone: Sparta, WI 54656
+  :street: Located in Walmart
+  :name: Sparta
+- :address: 3333 W. Touhy Ave. Suite G 6
+  :phone: Lincolnwood, IL 60645
+  :street: 3333 W. Touhy Ave.
+  :name: Lincolnwood Town Center
+- :address: 425 W U.S.Route 30 Dyer, IN 46311
+  :phone: 219-865-2240
+  :street: 425 W U.S.Route 30
+  :name: Dyer - The Galleria Cafe
+- :address: 8233 Wickor Ave. St. John, IN 46373
+  :phone: "219-558-2222 "
+  :street: 8233 Wickor Ave.
+  :name: St. John - Wickor Ave.
+- :address: 4475 Midway Mall Elyria, OH 44035
+  :phone: 440-324-5727
+  :street: 4475 Midway Mall
+  :name: Elyria - Midway Mall
+- :address: 4314 Milan Road Suite 535
+  :phone: Sandusky Mall, OH 44870
+  :street: 4314 Milan Road
+  :name: Sandusky Mall
+- :address: 100 W. State Street Media, PA 19063
+  :phone: 610-566-2857
+  :street: 100 W. State Street
+  :name: Media - Franklin Mint
+- :address: 627 Beaver Valley Mall Monaca, PA 15061
+  :phone: 724-774-0555
+  :street: 627 Beaver Valley Mall
+  :name: Monaca - Beaver Valley Mall
+- :address: 1665 State Hill Road Suite F 2
+  :phone: Wyomissing, PA 19610
+  :street: 1665 State Hill Road
+  :name: Wyomissing - Berkshire Mall
+- :address: 328 Colonie Center Albany, NY 12205
+  :phone: 518-454-9670
+  :street: 328 Colonie Center
+  :name: Albany - Colonie Center
+- :address: K04 Blvd Mall Niagara Falls Blvd
+  :phone: Amherst, NY 14226
+  :street: K04 Blvd Mall
+  :name: Amherst - Boulevard Mall
+- :address: 4200 Genesee Street Cheektowaga, NY 14225
+  :phone: "716-633-0382 "
+  :street: 4200 Genesee Street
+  :name: "Buffalo Niagara Int\xE2\x80\x99l Airport"
+- :address: Central Terminal Bldg. Third Floor West
+  :phone: Flushing, NY 11371
+  :street: Central Terminal Bldg.
+  :name: Flushing - LaGuardia Airport
+- :address: Roosevelt Field Mall SP 2055 630 Old Country Rd.
+  :phone: Garden City, NY 11530
+  :street: Roosevelt Field Mall SP 2055
+  :name: Garden City - Roosevelt Field Mall
+- :address: 1094 Morton Boulevard Kingston, NY 12401
+  :phone: "845-336-8146 "
+  :street: 1094 Morton Boulevard
+  :name: Kingston - TCBY
+- :address: 525 East Street Rensselaer, NY 12144
+  :phone: "518-463-8770 "
+  :street: 525 East Street
+  :name: Rensselaer - Rail Station
+- :address: Routes 35 & 36 Eatontown, NJ 07724
+  :phone: 732-542-6188
+  :street: Routes 35 & 36
+  :name: Eatontown - Monmouth Mall
+- :address: 510 North Ave. Garwood, NJ 07027
+  :phone: 908-232-3830
+  :street: 510 North Ave.
+  :name: Garwood - The Mews at Garwood
+- :address: 701 Route 440 Jersey City, NJ 07304
+  :phone: 201-432-5151
+  :street: 701 Route 440
+  :name: Jersey City - Hudson Mall
+- :address: R8 Quakerbridge Mall Lawrenceville, NJ 08648
+  :phone: 609-275-4416
+  :street: R8 Quakerbridge Mall
+  :name: Lawrenceville - Quakerbridge Mall
+- :address: 1150 Paramus Park Paramus, NJ 07652
+  :phone: 201-261-7172
+  :street: 1150 Paramus Park
+  :name: Paramus Park
+- :address: Route 80 & Mt. Hope Ave. Rockaway, NJ 07886
+  :phone: 973-442-1502
+  :street: Route 80 & Mt. Hope Ave.
+  :name: Rockaway Townsquare
+- :address: 156 E. Main Street Tuckerton, NJ 08087
+  :phone: 609-812-0700
+  :street: 156 E. Main Street
+  :name: Tuckerton - Main Street
+- :address: 3849 South Delsea Drive 100 Cumberland Mall
+  :phone: Vineland, NJ 08360
+  :street: 3849 South Delsea Drive
+  :name: Vineland - Cumberland Mall
+- :address: 245 Woodbridge Center Woodbridge, NJ 07095
+  :phone: 732-283-9797
+  :street: 245 Woodbridge Center
+  :name: Woodbridge Center Mall

@@ -1,0 +1,325 @@
+--- 
+- :address: 28557 Woodward Ave. Berkley, MI 48072
+  :lng: "-83.168227"
+  :zip: 48072-0913
+  :city: Berkley
+  :phone: 248-336-9930
+  :state: MI
+  :street: 28557 Woodward Ave.
+  :name: Berkley Cafe
+  :lat: "42.498844"
+- :address: 4433 Old U.S. 23 Brighton, MI 48114
+  :lng: "-83.753384"
+  :zip: "48114"
+  :city: Brighton
+  :phone: 810-227-2233
+  :state: MI
+  :street: 4433 Old U.S. 23
+  :name: Brighton Pointe Cafe
+  :lat: "42.538585"
+- :address: 300 Renaissance Center Detroit, MI 48243
+  :lng: "-83.040329"
+  :zip: 48243-1401
+  :city: Detroit
+  :phone: 313-568-1040
+  :state: MI
+  :street: 300 Renaissance Center
+  :name: Detroit - Renaissance Center
+  :lat: "42.330017"
+- :address: 121 Helle Boulevard Dundee, MI 48131
+  :lng: "-83.678065"
+  :zip: 48131-9573
+  :city: Dundee
+  :phone: 734-823-5030
+  :state: MI
+  :street: 121 Helle Boulevard
+  :name: Dundee Cafe
+  :lat: "41.958915"
+- :address: 3283 S. Linden Road Flint, MI 48507
+  :lng: "-83.771823"
+  :zip: 48507-3005
+  :city: Flint
+  :phone: 810-732-4980
+  :state: MI
+  :street: 3283 S. Linden Road
+  :name: Flint - Genesse Valley Mall
+  :lat: "42.978948"
+- :address: Eastland Mall 18000 Vernier Rd.
+  :lng: "-95.820633"
+  :zip: "74134"
+  :city: Tulsa
+  :phone: Harper Woods, MI 48225
+  :state: OK
+  :street: Eastland Mall
+  :name: Harper Woods - Eastland Mall
+  :lat: "36.133381"
+- :address: 37620 W. 6 Mile Road Livonia, MI 48152
+  :lng: "-83.416294"
+  :zip: 48152-3924
+  :city: Livonia
+  :phone: 734-462-4271
+  :state: MI
+  :street: 37620 W. 6 Mile Road
+  :name: Livonia - Laurel Park Place
+  :lat: "42.411059"
+- :address: 37620 W. 6 Mile Road Livonia, MI 48152
+  :lng: "-83.416294"
+  :zip: 48152-3924
+  :city: Livonia
+  :phone: 313-462-4271
+  :state: MI
+  :street: 37620 W. 6 Mile Road
+  :name: Livonia - Laurel Park Place Cart
+  :lat: "42.411059"
+- :address: 54312 W. Main Street Mattawan, MI 49071
+  :lng: "-85.785557"
+  :zip: 49071-9324
+  :city: Mattawan
+  :phone: 269-668-2020
+  :state: MI
+  :street: 54312 W. Main Street
+  :name: Mattawan
+  :lat: "42.221637"
+- :address: 1498 Sheldon Road Plymouth, MI 48170
+  :lng: "-83.479348"
+  :zip: 48170-2140
+  :city: Plymouth
+  :phone: 734-416-8310
+  :state: MI
+  :street: 1498 Sheldon Road
+  :name: Plymouth Cafe
+  :lat: "42.358560"
+- :address: 4851 Fashion Square Mall Saginaw, MI 48604
+  :lng: "-83.970845"
+  :zip: 48604-2700
+  :city: Saginaw
+  :phone: 989-799-4333
+  :state: MI
+  :street: 4851 Fashion Square Mall
+  :name: Saginaw - Fashion Square Mall
+  :lat: "43.477723"
+- :address: 514 Huron St. South Haven, MI 49090
+  :lng: "-86.273904"
+  :zip: 49090-1436
+  :city: South Haven
+  :phone: 269-639-1155
+  :state: MI
+  :street: 514 Huron St.
+  :name: South Haven - Village Market Food Center
+  :lat: "42.401774"
+- :address: 14600 Lakeside Circle Suite 1360
+  :lng: "151.079971"
+  :zip: 
+  :city: SYDNEY  NSW  2122
+  :phone: Sterling Heights, MI 48313
+  :state: Australia
+  :street: 14600 Lakeside Circle
+  :name: Sterling Heights - Lakeside Mall
+  :lat: "-33.790840"
+- :address: 490 W. 14 Mile Road Troy, MI 48083
+  :lng: "-83.110497"
+  :zip: 48083-4219
+  :city: Troy
+  :phone: 248-588-6440
+  :state: MI
+  :street: 490 W. 14 Mile Road
+  :name: Troy - Oakland Mall
+  :lat: "42.534387"
+- :address: 26029 Hoover Road Warren, MI 48089
+  :lng: "-83.006514"
+  :zip: 48089-1148
+  :city: Warren
+  :phone: 586-757-6111
+  :state: MI
+  :street: 26029 Hoover Road
+  :name: Warren - Hoover Eleven Shopping Center Cafe
+  :lat: "42.485411"
+- :address: 35000 W. Warren Road Westland, MI 48185
+  :lng: "-83.385058"
+  :zip: 48185-2011
+  :city: Westland
+  :phone: 734-422-8890
+  :state: MI
+  :street: 35000 W. Warren Road
+  :name: Westland Shopping Center
+  :lat: "42.338995"
+- :address: 49348 Pontiac Trail Wixom, MI 48393
+  :lng: "-83.537127"
+  :zip: 48393-2082
+  :city: Wixom
+  :phone: 248-668-9170
+  :state: MI
+  :street: 49348 Pontiac Trail
+  :name: Wixom Cafe
+  :lat: "42.524439"
+- :address: 2950 New Pinery Road Portage, WI 53901
+  :lng: "-89.469807"
+  :zip: 53901-9225
+  :city: Portage
+  :phone: 608-742-1975
+  :state: WI
+  :street: 2950 New Pinery Road
+  :name: Portage Located in Walmart
+  :lat: "43.571189"
+- :address: 3333 W. Touhy Ave. Suite G 6
+  :lng: "-96.947189"
+  :zip: "68626"
+  :city: Brainard
+  :phone: Lincolnwood, IL 60645
+  :state: NE
+  :street: 3333 W. Touhy Ave.
+  :name: Lincolnwood Town Center
+  :lat: "41.140419"
+- :address: 425 W U.S.Route 30 Dyer, IN 46311
+  :lng: "-87.516732"
+  :zip: "46311"
+  :city: Dyer
+  :phone: 219-865-2240
+  :state: IN
+  :street: 425 W U.S.Route 30
+  :name: Dyer - The Galleria Cafe
+  :lat: "41.493859"
+- :address: 8233 Wickor Ave. St. John, IN 46373
+  :lng: "-87.470264"
+  :zip: 46373-8878
+  :city: St John
+  :phone: "219-558-2222 "
+  :state: IN
+  :street: 8233 Wickor Ave.
+  :name: St. John - Wickor Ave.
+  :lat: "41.469034"
+- :address: 4475 Midway Mall Elyria, OH 44035
+  :lng: "-82.112496"
+  :zip: 44035-2474
+  :city: Elyria
+  :phone: 440-324-5727
+  :state: OH
+  :street: 4475 Midway Mall
+  :name: Elyria - Midway Mall
+  :lat: "41.398000"
+- :address: 100 W. State Street Media, PA 19063
+  :lng: "-75.391122"
+  :zip: 19063-3204
+  :city: Media
+  :phone: 610-566-2857
+  :state: PA
+  :street: 100 W. State Street
+  :name: Media - Franklin Mint
+  :lat: "39.918080"
+- :address: 627 Beaver Valley Mall Monaca, PA 15061
+  :lng: "-80.311881"
+  :zip: "15061"
+  :city: Monaca
+  :phone: 724-774-0555
+  :state: PA
+  :street: 627 Beaver Valley Mall
+  :name: Monaca - Beaver Valley Mall
+  :lat: "40.674643"
+- :address: 328 Colonie Center Albany, NY 12205
+  :lng: "-73.812708"
+  :zip: 12205-2708
+  :city: Albany
+  :phone: 518-454-9670
+  :state: NY
+  :street: 328 Colonie Center
+  :name: Albany - Colonie Center
+  :lat: "42.710446"
+- :address: 4200 Genesee Street Cheektowaga, NY 14225
+  :lng: "-78.727449"
+  :zip: 14225-1933
+  :city: Cheektowaga
+  :phone: "716-633-0382 "
+  :state: NY
+  :street: 4200 Genesee Street
+  :name: "Buffalo Niagara Int\xE2\x80\x99l Airport"
+  :lat: "42.932513"
+- :address: 1094 Morton Boulevard Kingston, NY 12401
+  :lng: "-73.992834"
+  :zip: 12401-1504
+  :city: Kingston
+  :phone: "845-336-8146 "
+  :state: NY
+  :street: 1094 Morton Boulevard
+  :name: Kingston - TCBY
+  :lat: "41.961227"
+- :address: 525 East Street Rensselaer, NY 12144
+  :lng: "-73.740173"
+  :zip: 12144-2310
+  :city: Rensselaer
+  :phone: "518-463-8770 "
+  :state: NY
+  :street: 525 East Street
+  :name: Rensselaer - Rail Station
+  :lat: "42.641384"
+- :address: Routes 35 & 36 Eatontown, NJ 07724
+  :lng: "-74.050743"
+  :zip: "07724"
+  :city: Eatontown
+  :phone: 732-542-6188
+  :state: NJ
+  :street: Routes 35 & 36
+  :name: Eatontown - Monmouth Mall
+  :lat: "40.286023"
+- :address: 510 North Ave. Garwood, NJ 07027
+  :lng: "-74.329673"
+  :zip: 07027-1017
+  :city: Garwood
+  :phone: 908-232-3830
+  :state: NJ
+  :street: 510 North Ave.
+  :name: Garwood - The Mews at Garwood
+  :lat: "40.652814"
+- :address: 701 Route 440 Jersey City, NJ 07304
+  :lng: "-74.092865"
+  :zip: "07304"
+  :city: Jersey City
+  :phone: 201-432-5151
+  :state: NJ
+  :street: 701 Route 440
+  :name: Jersey City - Hudson Mall
+  :lat: "40.721119"
+- :address: R8 Quakerbridge Mall Lawrenceville, NJ 08648
+  :lng: "-74.671338"
+  :zip: 08648-4702
+  :city: Lawrence Twp
+  :phone: 609-275-4416
+  :state: NJ
+  :street: R8 Quakerbridge Mall
+  :name: Lawrenceville - Quakerbridge Mall
+  :lat: "40.279730"
+- :address: 1150 Paramus Park Paramus, NJ 07652
+  :lng: "-74.088719"
+  :zip: 07652-1701
+  :city: Paramus
+  :phone: 201-261-7172
+  :state: NJ
+  :street: 1150 Paramus Park
+  :name: Paramus Park
+  :lat: "40.980420"
+- :address: Route 80 & Mt. Hope Ave. Rockaway, NJ 07886
+  :lng: "-74.507968"
+  :zip: 07866
+  :city: Rockaway
+  :phone: 973-442-1502
+  :state: NJ
+  :street: Route 80 & Mt. Hope Ave.
+  :name: Rockaway Townsquare
+  :lat: "40.910575"
+- :address: 156 E. Main Street Tuckerton, NJ 08087
+  :lng: "-74.337659"
+  :zip: 08087-2618
+  :city: Tuckerton
+  :phone: 609-812-0700
+  :state: NJ
+  :street: 156 E. Main Street
+  :name: Tuckerton - Main Street
+  :lat: "39.603624"
+- :address: 245 Woodbridge Center Woodbridge, NJ 07095
+  :lng: "-74.267022"
+  :zip: 07095-1321
+  :city: Woodbridge
+  :phone: 732-283-9797
+  :state: NJ
+  :street: 245 Woodbridge Center
+  :name: Woodbridge Center Mall
+  :lat: "40.553808"
