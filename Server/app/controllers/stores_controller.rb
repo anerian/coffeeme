@@ -16,6 +16,11 @@ class StoresController < ApplicationController
 
   def create
     @store = Store.new(params[:store])
+    if @store.save
+      redirect_to edit_store_path(@store)
+    else
+      render :new
+    end
   end
 
   def edit
@@ -24,6 +29,11 @@ class StoresController < ApplicationController
 
   def update
     @store = Store.find_by_id(params[:id])
+    if @store.update_attributes(params[:store])
+      redirect_to edit_store_path(@store)
+    else
+      render :new
+    end
   end
 
   def delete
