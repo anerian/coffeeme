@@ -233,6 +233,7 @@
   storeFilter_ = (selectedIndex - 1);
   isDirty_ = YES;
   [NSThread detachNewThreadSelector:@selector(getStores:) toTarget:self withObject:[NSNumber numberWithInt:storeFilter_]];
+  [self showAlert];
   
   // NSArray *stores = [CMStore nearby:[CMLocation instance].currentLocation.coordinate withType:storeFilter_];
   // [stores retain];
