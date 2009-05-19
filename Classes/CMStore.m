@@ -104,7 +104,7 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
 }
 
 + (NSArray *)nearby:(CLLocationCoordinate2D)coordinate {
-    #ifdef TARGET_IPHONE_SIMULATOR
+    #if defined(TARGET_IPHONE_SIMULATOR) && defined(DEBUG)
     // Alameda, CA 94501
     coordinate.latitude = 37.763853;
     coordinate.longitude = -122.243340;
