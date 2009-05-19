@@ -1,0 +1,251 @@
+--- 
+- :address: 2588 World Gateway Place McNamara Terminal Concourse C
+  :phone: Detroit, MI 48242
+  :street: 2588 World Gateway Place
+  :name: Detroit Metro Airport
+  :details: !ruby/exception:Geocoder::GeocodingError 
+    message: unable to parse location
+- :address: 2588 World Gateway Place McNamara Terminal Detroit Metro
+  :phone: Detroit, MI 48242
+  :street: 2588 World Gateway Place
+  :name: Detroit Metro McNamara Terminal
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "42.331661"
+    longitude: "-83.047920"
+    address: 
+    city: Detroit
+    state: MI
+    zip: 
+    country: US
+    precision: zip
+    warning: The street could not be found. Here is the center of the city.
+- :address: Detroit Metro Airport North Terminal
+  :phone: 601 Rogell Drive
+  :street: Detroit Metro Airport
+  :name: Detroit Metro North Terminal
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "40.754790"
+    longitude: "-112.012299"
+    address: 
+    city: Salt Lake City
+    state: UT
+    zip: 
+    country: US
+    precision: zip
+    warning: The exact location could not be found. Here is a nearby neighorhood.
+- :address: Detroit Metro Airport North Terminal
+  :phone: 601 Rogell Drive
+  :street: Detroit Metro Airport
+  :name: Detroit Metro North Terminal 4-3B
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "40.754790"
+    longitude: "-112.012299"
+    address: 
+    city: Salt Lake City
+    state: UT
+    zip: 
+    country: US
+    precision: zip
+    warning: The exact location could not be found. Here is a nearby neighorhood.
+- :address: Detroit Metro Airport North Terminal
+  :phone: 601 Rogell Drive
+  :street: Detroit Metro Airport
+  :name: Detroit Metro North Terminal 6-1
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "40.754790"
+    longitude: "-112.012299"
+    address: 
+    city: Salt Lake City
+    state: UT
+    zip: 
+    country: US
+    precision: zip
+    warning: The exact location could not be found. Here is a nearby neighorhood.
+- :address: Edward H McNamara Terminal Detroit, MI 48242
+  :phone: 734-941-9330
+  :street: Edward H McNamara Terminal
+  :name: Detroit Metropolitan Airport
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "42.221100"
+    longitude: "-83.347919"
+    address: 
+    city: Romulus
+    state: MI
+    zip: "48242"
+    country: US
+    precision: city
+    warning: The exact location could not be found. Here is the center of the ZIP code.
+- :address: Located in Walmart 1315 Hwy 25 North
+  :phone: Buffalo, MN 55313
+  :street: Located in Walmart
+  :name: Buffalo
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "37.452418"
+    longitude: "-76.416837"
+    address: 
+    city: North
+    state: VA
+    zip: 
+    country: US
+    precision: zip
+    warning: The street could not be found. Here is the center of the city.
+- :address: Located in Walmart 2101 Second Avenue SE
+  :phone: Cambridge, MN 55008
+  :street: Located in Walmart
+  :name: Cambridge
+  :details: !ruby/exception:Geocoder::GeocodingError 
+    message: unable to parse location
+- :address: 8251 Flying Cloud Drive Suite 2184
+  :phone: Eden Prairie, MN 55344
+  :street: 8251 Flying Cloud Drive
+  :name: Eden Prairie Mall Located in Walmart
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "48.613022"
+    longitude: "16.755630"
+    address: 
+    city: 2184 Hauskirchen
+    state: Austria
+    zip: 
+    country: AT
+    precision: city
+    warning: 
+- :address: Located in Walmart 295 Tyler Road South
+  :phone: Red Wing, MN 55066
+  :street: Located in Walmart
+  :name: Red Wing
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "36.726741"
+    longitude: "-78.129911"
+    address: 
+    city: South Hill
+    state: VA
+    zip: 
+    country: US
+    precision: zip
+    warning: The street could not be found. Here is the center of the city.
+- :address: Located in Walmart 8101 Old Carriage Court
+  :phone: Shakopee, MN 55379
+  :street: Located in Walmart
+  :name: Shakopee
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "40.829690"
+    longitude: "-86.074234"
+    address: 
+    city: Peru
+    state: IN
+    zip: 
+    country: US
+    precision: zip
+    warning: The exact location could not be found. Here is a nearby neighorhood.
+- :address: Located in Walmart 38020 U.S. Highway 18
+  :phone: Prairie Du Chien, WI 53821
+  :street: Located in Walmart
+  :name: Prairie Du Chien
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "52.264141"
+    longitude: "10.526380"
+    address: 
+    city: 38020 Braunschweig
+    state: Germany
+    zip: 
+    country: DE
+    precision: city
+    warning: 
+- :address: Located in Walmart 1600 West Wisconsin St.
+  :phone: Sparta, WI 54656
+  :street: Located in Walmart
+  :name: Sparta
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "44.727242"
+    longitude: "-90.101562"
+    address: 
+    city: 
+    state: WI
+    zip: 
+    country: US
+    precision: state
+    warning: The city could not be found. Here is the state/province.
+- :address: 4314 Milan Road Suite 535
+  :phone: Sandusky Mall, OH 44870
+  :street: 4314 Milan Road
+  :name: Sandusky Mall
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "45.468941"
+    longitude: "9.181030"
+    address: 
+    city: Milan MI
+    state: Italy
+    zip: 
+    country: IT
+    precision: zip
+    warning: The street could not be found. Here is the center of the city.
+- :address: 1665 State Hill Road Suite F 2
+  :phone: Wyomissing, PA 19610
+  :street: 1665 State Hill Road
+  :name: Wyomissing - Berkshire Mall
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "46.562649"
+    longitude: "7.126960"
+    address: 
+    city: 1665 Bas-Intyamon
+    state: Switzerland
+    zip: 
+    country: CH
+    precision: zip
+    warning: 
+- :address: K04 Blvd Mall Niagara Falls Blvd
+  :phone: Amherst, NY 14226
+  :street: K04 Blvd Mall
+  :name: Amherst - Boulevard Mall
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "43.095490"
+    longitude: "-79.055847"
+    address: 
+    city: Niagara Falls
+    state: NY
+    zip: 
+    country: US
+    precision: zip
+    warning: The street could not be found. Here is the center of the city.
+- :address: Central Terminal Bldg. Third Floor West
+  :phone: Flushing, NY 11371
+  :street: Central Terminal Bldg.
+  :name: Flushing - LaGuardia Airport
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "40.754799"
+    longitude: "-112.009918"
+    address: 
+    city: Salt Lake City
+    state: UT
+    zip: "84104"
+    country: US
+    precision: zip
+    warning: The exact location could not be found. Here is a nearby neighorhood.
+- :address: Roosevelt Field Mall SP 2055 630 Old Country Rd.
+  :phone: Garden City, NY 11530
+  :street: Roosevelt Field Mall SP 2055
+  :name: Garden City - Roosevelt Field Mall
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "-22.514900"
+    longitude: "-48.635078"
+    address: 
+    city: Sao Paulo
+    state: Brazil
+    zip: 
+    country: BR
+    precision: state
+    warning: The city could not be found. Here is the state/province.
+- :address: 3849 South Delsea Drive 100 Cumberland Mall
+  :phone: Vineland, NJ 08360
+  :street: 3849 South Delsea Drive
+  :name: Vineland - Cumberland Mall
+  :details: !ruby/struct:Geocoder::Result 
+    latitude: "37.327474"
+    longitude: "-82.883914"
+    address: 
+    city: Mallie
+    state: KY
+    zip: 
+    country: US
+    precision: zip
+    warning: The street could not be found. Here is the center of the city.
