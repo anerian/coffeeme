@@ -39,6 +39,9 @@ userLatitude = userLatitude_, userLongitude = userLongitude_;
     case 6:
             store = @"Dunn Bros";
             break;
+    case 7:
+            store = @"Coffee Beanery";
+            break;
     default:
             store = @"Coffee Shop";
             break;
