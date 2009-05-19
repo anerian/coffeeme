@@ -23,6 +23,7 @@
 
 - (UINavigationController *)createNavItem:(UIViewController *)viewController withName:(NSString *)name {
     viewController.title = name;
+    DLog(@"tab name: %@\n", name);
     viewController.tabBarItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"tab%@.png", name]];
     
     UINavigationController *navigationController = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];

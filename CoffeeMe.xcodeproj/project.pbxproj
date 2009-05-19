@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093444BB0FC20FF600E19B64 /* tabNutrition.png in Resources */ = {isa = PBXBuildFile; fileRef = 093444B90FC20FF600E19B64 /* tabNutrition.png */; };
+		093444BC0FC20FF600E19B64 /* tabTrivia.png in Resources */ = {isa = PBXBuildFile; fileRef = 093444BA0FC20FF600E19B64 /* tabTrivia.png */; };
 		1D3623260D0F684500981E51 /* CoffeeMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -116,6 +118,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		093444B90FC20FF600E19B64 /* tabNutrition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabNutrition.png; sourceTree = "<group>"; };
+		093444BA0FC20FF600E19B64 /* tabTrivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabTrivia.png; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* CoffeeMeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeMeAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeMeAppDelegate.m; sourceTree = "<group>"; };
@@ -450,6 +454,8 @@
 			isa = PBXGroup;
 			children = (
 				3930A1AD0FC20FC100BB3848 /* Steam */,
+				093444B90FC20FF600E19B64 /* tabNutrition.png */,
+				093444BA0FC20FF600E19B64 /* tabTrivia.png */,
 				392ABD690FC2010700603120 /* anerian-logo.png */,
 				392ABD6A0FC2010700603120 /* cup-3.png */,
 				392ABD6B0FC2010700603120 /* cup-4.png */,
@@ -605,6 +611,8 @@
 				3930A1C80FC20FD700BB3848 /* coffeeme_steam-5.png in Resources */,
 				3930A1C90FC20FD700BB3848 /* coffeeme_steam-7.png in Resources */,
 				3930A1CA0FC20FD700BB3848 /* coffeeme_steam-13.png in Resources */,
+				093444BB0FC20FF600E19B64 /* tabNutrition.png in Resources */,
+				093444BC0FC20FF600E19B64 /* tabTrivia.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,7 +707,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Fisher";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -708,7 +716,7 @@
 				OTHER_CFLAGS = "-DDEBUG";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4425948B-329B-4E1D-B609-331ABCA779D3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B30F158E-D362-4F3A-97F6-BF056B3F3905";
 				SDKROOT = iphoneos2.2.1;
 			};
 			name = Debug;
@@ -717,14 +725,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Fisher";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "Three20/src/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4425948B-329B-4E1D-B609-331ABCA779D3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B30F158E-D362-4F3A-97F6-BF056B3F3905";
 				SDKROOT = iphoneos2.2.1;
 			};
 			name = Release;
