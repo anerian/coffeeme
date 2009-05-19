@@ -16,6 +16,20 @@
 		392ABD6C0FC2010700603120 /* anerian-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 392ABD690FC2010700603120 /* anerian-logo.png */; };
 		392ABD6D0FC2010700603120 /* cup-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 392ABD6A0FC2010700603120 /* cup-3.png */; };
 		392ABD6E0FC2010700603120 /* cup-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 392ABD6B0FC2010700603120 /* cup-4.png */; };
+		3930A1BD0FC20FD700BB3848 /* coffeeme_steam-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1AF0FC20FD700BB3848 /* coffeeme_steam-6.png */; };
+		3930A1BE0FC20FD700BB3848 /* coffeeme_steam-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1B00FC20FD700BB3848 /* coffeeme_steam-10.png */; };
+		3930A1BF0FC20FD700BB3848 /* coffeeme_steam-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1B10FC20FD700BB3848 /* coffeeme_steam-9.png */; };
+		3930A1C00FC20FD700BB3848 /* coffeeme_steam-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1B20FC20FD700BB3848 /* coffeeme_steam-3.png */; };
+		3930A1C10FC20FD700BB3848 /* coffeeme_steam-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1B30FC20FD700BB3848 /* coffeeme_steam-11.png */; };
+		3930A1C20FC20FD700BB3848 /* coffeeme_steam-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1B40FC20FD700BB3848 /* coffeeme_steam-8.png */; };
+		3930A1C30FC20FD700BB3848 /* coffeeme_steam-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1B50FC20FD700BB3848 /* coffeeme_steam-1.png */; };
+		3930A1C40FC20FD700BB3848 /* coffeeme_steam-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1B60FC20FD700BB3848 /* coffeeme_steam-2.png */; };
+		3930A1C50FC20FD700BB3848 /* coffeeme_steam-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1B70FC20FD700BB3848 /* coffeeme_steam-4.png */; };
+		3930A1C60FC20FD700BB3848 /* coffeeme_steam-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1B80FC20FD700BB3848 /* coffeeme_steam-12.png */; };
+		3930A1C70FC20FD700BB3848 /* coffeeme_steam-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1B90FC20FD700BB3848 /* coffeeme_steam-14.png */; };
+		3930A1C80FC20FD700BB3848 /* coffeeme_steam-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1BA0FC20FD700BB3848 /* coffeeme_steam-5.png */; };
+		3930A1C90FC20FD700BB3848 /* coffeeme_steam-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1BB0FC20FD700BB3848 /* coffeeme_steam-7.png */; };
+		3930A1CA0FC20FD700BB3848 /* coffeeme_steam-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 3930A1BC0FC20FD700BB3848 /* coffeeme_steam-13.png */; };
 		39474C200FC0437B00B1D410 /* CMNutritionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39474C1F0FC0437B00B1D410 /* CMNutritionCell.m */; };
 		39474C540FC0C0D800B1D410 /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39474C530FC0C0D800B1D410 /* AppConfig.plist */; };
 		39474C570FC0C34400B1D410 /* CMAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 39474C560FC0C34400B1D410 /* CMAppConfig.m */; };
@@ -114,6 +128,20 @@
 		392ABD690FC2010700603120 /* anerian-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anerian-logo.png"; sourceTree = "<group>"; };
 		392ABD6A0FC2010700603120 /* cup-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-3.png"; sourceTree = "<group>"; };
 		392ABD6B0FC2010700603120 /* cup-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-4.png"; sourceTree = "<group>"; };
+		3930A1AF0FC20FD700BB3848 /* coffeeme_steam-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-6.png"; sourceTree = "<group>"; };
+		3930A1B00FC20FD700BB3848 /* coffeeme_steam-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-10.png"; sourceTree = "<group>"; };
+		3930A1B10FC20FD700BB3848 /* coffeeme_steam-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-9.png"; sourceTree = "<group>"; };
+		3930A1B20FC20FD700BB3848 /* coffeeme_steam-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-3.png"; sourceTree = "<group>"; };
+		3930A1B30FC20FD700BB3848 /* coffeeme_steam-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-11.png"; sourceTree = "<group>"; };
+		3930A1B40FC20FD700BB3848 /* coffeeme_steam-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-8.png"; sourceTree = "<group>"; };
+		3930A1B50FC20FD700BB3848 /* coffeeme_steam-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-1.png"; sourceTree = "<group>"; };
+		3930A1B60FC20FD700BB3848 /* coffeeme_steam-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-2.png"; sourceTree = "<group>"; };
+		3930A1B70FC20FD700BB3848 /* coffeeme_steam-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-4.png"; sourceTree = "<group>"; };
+		3930A1B80FC20FD700BB3848 /* coffeeme_steam-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-12.png"; sourceTree = "<group>"; };
+		3930A1B90FC20FD700BB3848 /* coffeeme_steam-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-14.png"; sourceTree = "<group>"; };
+		3930A1BA0FC20FD700BB3848 /* coffeeme_steam-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-5.png"; sourceTree = "<group>"; };
+		3930A1BB0FC20FD700BB3848 /* coffeeme_steam-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-7.png"; sourceTree = "<group>"; };
+		3930A1BC0FC20FD700BB3848 /* coffeeme_steam-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffeeme_steam-13.png"; sourceTree = "<group>"; };
 		39474C1E0FC0437B00B1D410 /* CMNutritionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNutritionCell.h; sourceTree = "<group>"; };
 		39474C1F0FC0437B00B1D410 /* CMNutritionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNutritionCell.m; sourceTree = "<group>"; };
 		39474C530FC0C0D800B1D410 /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
@@ -311,6 +339,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3930A1AD0FC20FC100BB3848 /* Steam */ = {
+			isa = PBXGroup;
+			children = (
+				3930A1B50FC20FD700BB3848 /* coffeeme_steam-1.png */,
+				3930A1B60FC20FD700BB3848 /* coffeeme_steam-2.png */,
+				3930A1B20FC20FD700BB3848 /* coffeeme_steam-3.png */,
+				3930A1B70FC20FD700BB3848 /* coffeeme_steam-4.png */,
+				3930A1BA0FC20FD700BB3848 /* coffeeme_steam-5.png */,
+				3930A1AF0FC20FD700BB3848 /* coffeeme_steam-6.png */,
+				3930A1BB0FC20FD700BB3848 /* coffeeme_steam-7.png */,
+				3930A1B40FC20FD700BB3848 /* coffeeme_steam-8.png */,
+				3930A1B10FC20FD700BB3848 /* coffeeme_steam-9.png */,
+				3930A1B00FC20FD700BB3848 /* coffeeme_steam-10.png */,
+				3930A1B30FC20FD700BB3848 /* coffeeme_steam-11.png */,
+				3930A1B80FC20FD700BB3848 /* coffeeme_steam-12.png */,
+				3930A1BC0FC20FD700BB3848 /* coffeeme_steam-13.png */,
+				3930A1B90FC20FD700BB3848 /* coffeeme_steam-14.png */,
+			);
+			name = Steam;
+			sourceTree = "<group>";
+		};
 		397D749C0FB24ED000ACE161 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,6 +449,7 @@
 		39868C080FBB6090006E151C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3930A1AD0FC20FC100BB3848 /* Steam */,
 				392ABD690FC2010700603120 /* anerian-logo.png */,
 				392ABD6A0FC2010700603120 /* cup-3.png */,
 				392ABD6B0FC2010700603120 /* cup-4.png */,
@@ -541,6 +591,20 @@
 				392ABD6C0FC2010700603120 /* anerian-logo.png in Resources */,
 				392ABD6D0FC2010700603120 /* cup-3.png in Resources */,
 				392ABD6E0FC2010700603120 /* cup-4.png in Resources */,
+				3930A1BD0FC20FD700BB3848 /* coffeeme_steam-6.png in Resources */,
+				3930A1BE0FC20FD700BB3848 /* coffeeme_steam-10.png in Resources */,
+				3930A1BF0FC20FD700BB3848 /* coffeeme_steam-9.png in Resources */,
+				3930A1C00FC20FD700BB3848 /* coffeeme_steam-3.png in Resources */,
+				3930A1C10FC20FD700BB3848 /* coffeeme_steam-11.png in Resources */,
+				3930A1C20FC20FD700BB3848 /* coffeeme_steam-8.png in Resources */,
+				3930A1C30FC20FD700BB3848 /* coffeeme_steam-1.png in Resources */,
+				3930A1C40FC20FD700BB3848 /* coffeeme_steam-2.png in Resources */,
+				3930A1C50FC20FD700BB3848 /* coffeeme_steam-4.png in Resources */,
+				3930A1C60FC20FD700BB3848 /* coffeeme_steam-12.png in Resources */,
+				3930A1C70FC20FD700BB3848 /* coffeeme_steam-14.png in Resources */,
+				3930A1C80FC20FD700BB3848 /* coffeeme_steam-5.png in Resources */,
+				3930A1C90FC20FD700BB3848 /* coffeeme_steam-7.png in Resources */,
+				3930A1CA0FC20FD700BB3848 /* coffeeme_steam-13.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,15 +30,21 @@
         
         [self addSubview:background_];
         // [self addSubview:cup_];
-        UIImageView *steam_ = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,217,288)] autorelease];
-        NSMutableArray *steamImages = [NSMutableArray arrayWithCapacity:5];
-        for (int i = 1; i <= 5; i++) {
-            [steamImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"steam_%d.png", i]]];
+        UIImageView *steam_ = [[[UIImageView alloc] initWithFrame:CGRectMake(40,0,240,290)] autorelease];
+        // UIImageView *mug_ = [[[UIImageView alloc] initWithFrame:CGRectMake(0,280,320,182)] autorelease];
+        // mug_.image = [UIImage imageNamed:@"mug.png"];
+        NSMutableArray *steamImages = [NSMutableArray arrayWithCapacity:28];
+        for (int i = 1; i <= 14; i++) {
+            [steamImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"coffeeme_steam-%d.png", i]]];
+        }
+        for (int i = 14; i >= 1; i--) {
+            [steamImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"coffeeme_steam-%d.png", i]]];
         }
         steam_.animationImages = steamImages;
         steam_.animationDuration = 2;
         [steam_ startAnimating];
         [self addSubview:steam_];
+        // [self addSubview:mug_];
     }
     return self;
 }
