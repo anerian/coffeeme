@@ -23,7 +23,6 @@
         
         background_ = [[[UIView alloc] initWithFrame:self.frame] autorelease];
         background_.backgroundColor = [UIColor blackColor];
-        background_.alpha = 0.8;
         
         cup_ = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cup.png"]] retain];
         cup_.center = self.center;
@@ -41,7 +40,7 @@
             [steamImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"coffeeme_steam-%d.png", i]]];
         }
         steam_.animationImages = steamImages;
-        steam_.animationDuration = 2;
+        steam_.animationDuration = 3;
         [steam_ startAnimating];
         [self addSubview:steam_];
         // [self addSubview:mug_];
@@ -55,13 +54,9 @@
     if (shouldShow) {
         [window_ addSubview:self];
         [window_ bringSubviewToFront:self];
-        cup_.alpha = 0;
-        background_.alpha = 0;
-        
         // [UIView beginAnimations:nil context:nil];
         // [UIView setAnimationDuration:1];
         cup_.alpha = 1;
-        background_.alpha = 0.8;
 
         [self startAnimation];
     } else {

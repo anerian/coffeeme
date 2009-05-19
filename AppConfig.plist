@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>shops</key>
+  <array>
+		<string>Starbucks</string>
+    <string>Dunkin' Donuts</string>
+    <string>Caribou Coffee</string>
+    <string>Tim Horton's</string>
+    <string>Saxbys</string>
+	</array>
 	<key>drink</key>
 	<array/>
 	<key>milks</key>

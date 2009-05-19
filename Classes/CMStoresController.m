@@ -56,9 +56,31 @@
 
 - (void)loadView {
     [super loadView];
-    UITableView *tableView = [[[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain] autorelease];
-    self.view = tableView;
-    self.tableView = tableView;
+    self.tableView = [[[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain] autorelease];
+    self.tableView.frame = CGRectMake(0,40,320,self.view.frame.size.height-40);
+
+    [self.view addSubview:self.tableView];
+
+    
+    NSArray *shops = [CMAppConfig objectForKey:@"shops"];
+    NSMutableArray *items = [NSMutableArray arrayWithCapacity:0];
+    [items addObject:[[[TTTabItem alloc] initWithTitle:@"All"] autorelease]];
+    for (NSString *shop in shops) {
+      [items addObject:[[[TTTabItem alloc] initWithTitle:shop] autorelease]];
+    }
+    DLog(@"shops: %@", shops);
+    
+    UIColor* border = [RGBCOLOR(211, 198, 189) multiplyHue:0 saturation:0 value:0.4];
+
+
+
+    TTTabStrip *tabBar_ = [[TTTabStrip alloc] initWithFrame:CGRectMake(0, 0, 320, 41)];
+    tabBar_.tabItems = items;
+    tabBar_.style = 
+      [TTReflectiveFillStyle styleWithColor:RGBCOLOR(230, 224, 213) next:
+      [TTFourBorderStyle styleWithTop:nil right:nil bottom:border left:nil width:1 next:nil]];
+      
+    [self.view addSubview:tabBar_];
 }
 
 - (void)viewDidLoad {
