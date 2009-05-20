@@ -10,6 +10,6 @@ set :deploy_to, "/var/www/apps/#{application}"
 # your SCM below:
 set :scm, :git
 
-role :app, "rails1"
-role :web, "rails1"
-role :db,  "rails1", :primary => true
+role :app, "rack1"
+role :web, "rack1"
+role :db,  "rack1", :primary => true
