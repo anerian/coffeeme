@@ -1,2 +1,12 @@
-<h1>Drinks#index</h1>
-<p>Find me in app/views/drinks/index.html.erb</p>
+<div id="list-page">
+  <ul id="drinks" class="list">
+    <% for drink in @drinks do %>
+    <li id="drink-<%= drink.id %>"><%= link_to drink.name, edit_drink_path(drink,:page => @page) %></li>
+    <% end %>
+  </ul>
+  <div class="clear"></div>
+  <%= will_paginate @drinks %>
+</div>
+<% content_for :foot do %>
+  <%= javascript_include_tag :defaults %>
+<% end %>

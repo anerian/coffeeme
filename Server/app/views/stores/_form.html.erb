@@ -1,5 +1,6 @@
 <% form_for @store do |f| %>
   <fieldset>
+    <input type="hidden" name="page" value="<%= @page %>"/>
     <%= f.label :street %>
     <%= f.text_field :street %>
     <%= f.label :city %>

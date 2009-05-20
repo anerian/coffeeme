@@ -25,14 +25,16 @@ class StoresController < ApplicationController
 
   def edit
     @store = Store.find_by_id(params[:id])
+    @page = params[:page]
   end
 
   def update
     @store = Store.find_by_id(params[:id])
+    @page = params[:page]
     if @store.update_attributes(params[:store])
-      redirect_to edit_store_path(@store)
+      redirect_to stores_path(:page => params[:page], :updated_item => params[:id])
     else
-      render :new
+      render :edit
     end
   end
 
@@ -42,6 +44,7 @@ class StoresController < ApplicationController
 
   def destroy
     @store = Store.find_by_id(params[:id])
+    # TODO
   end
 
 end

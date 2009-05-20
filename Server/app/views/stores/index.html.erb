@@ -1,7 +1,12 @@
-<ul id="stores" class="list">
-  <% for store in @stores do %>
-  <li class="clear"><img style="float:left" src="/images/iphone/cup-<%= store.store_type %>.png"/><%= link_to store.title, edit_store_path(store) %></li>
-  <% end %>
-</ul>
-<div class="clear"></div>
+<div id="list-page">
+  <ul id="stores" class="list">
+    <% for store in @stores do %>
+    <li id="store-<%= store.id %>" class="clear"><img style="float:left" src="/images/iphone/cup-<%= store.store_type %>.png"/><%= link_to store.title, edit_store_path(store, :page => @page) %></li>
+    <% end %>
+  </ul>
+  <div class="clear"></div>
+</div>
 <%= will_paginate @stores %>
+<% content_for :foot do %>
+  <%= javascript_include_tag :defaults %>
+<% end %>

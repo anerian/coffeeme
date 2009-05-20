@@ -17,7 +17,7 @@ class Store < ActiveRecord::Base
 
   def titled_type
     case store_type
-    when StoreType::STARBUCKS then 'Starkbucks'
+    when StoreType::STARBUCKS then 'Starbucks'
     when StoreType::DUNKIN then 'Dunkin Donuts'
     when StoreType::CARIBOU then 'Caribou'
     when StoreType::TIMHORTONS then 'Tim Hortons'

@@ -1,0 +1,10 @@
+<% form_for @trivia do |f| %>
+  <fieldset>
+    <input type="hidden" name="page" value="<%= @page %>"/>
+    <%= f.label :fact %>
+    <%= f.text_area :fact %>
+  </fieldset>
+  <fieldset>
+    <%= f.submit %>
+  </fieldset>
+<% end %>
