@@ -1,7 +1,14 @@
 <div id="list-page">
+  <% if flash[:updated_item] %><script type="text/javascript">AlertItem = <%= flash[:updated_item] %>;</script><% end %>
+  <ul id="store-filter" class="menu">
+    <% for store_type in Store.store_types do %>
+    <li><a href="?store_type=<%= store_type.last %>"><%= store_type.first %></a></li>
+    <% end %>
+    <li class="filter"><strong>Filter:</strong> <input id="filter" type="text" name="filter" value=""/></li>
+  </ul>
   <ul id="stores" class="list">
     <% for store in @stores do %>
-    <li id="store-<%= store.id %>" class="clear"><img style="float:left" src="/images/iphone/cup-<%= store.store_type %>.png"/><%= link_to store.title, edit_store_path(store, :page => @page) %></li>
+    <li id="store-<%= store.id %>" class="clear"><img style="float:left" src="/images/iphone/cup-<%= store.store_type %>.png"/><%= link_to store.title, edit_store_path(store) %></li>
     <% end %>
   </ul>
   <div class="clear"></div>

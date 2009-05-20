@@ -3,6 +3,7 @@ class TriviasController < ApplicationController
     @page = params[:page]
     @page = 1 if @page.blank?
     options = {:page => @page}
+    session[:trivia_index] = options
     @trivias = Trivia.paginate(:all, options)
   end
 
@@ -25,14 +26,18 @@ class TriviasController < ApplicationController
 
   def edit
     @trivia = Trivia.find_by_id(params[:id])
-    @page = params[:page]
   end
 
   def update
     @trivia = Trivia.find_by_id(params[:id])
-    @page = params[:page]
     if @trivia.update_attributes(params[:trivia])
-      redirect_to trivias_path(:page => @page, :updated_item => params[:id])
+      flash[:updated_item] = params[:id]
+      options = session[:trivia_index]
+      if options and options.key?(:page)
+        redirect_to trivias_path(:page => options[:page])
+      else
+        redirect_to trivias_path
+      end
     else
       render :edit
     end

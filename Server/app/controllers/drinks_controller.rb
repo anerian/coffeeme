@@ -3,6 +3,7 @@ class DrinksController < ApplicationController
     @page = params[:page]
     @page = 1 if @page.blank?
     options = {:page => @page}
+    session[:drink_index] = options
     @drinks = Drink.paginate(:all, options)
   end
 
@@ -32,7 +33,13 @@ class DrinksController < ApplicationController
     @drink = Drink.find_by_id(params[:id])
     @page = params[:page]
     if @drink.update_attributes(params[:drink])
-      redirect_to drinks_path(:page => params[:page], :updated_item => params[:id])
+      flash[:updated_item] = params[:id]
+      options = session[:drink_index]
+      if options and options.key?(:page)
+        redirect_to drinks_path(:page => options[:page])
+      else
+        redirect_to drinks_path
+      end
     else
       render :edit
     end

@@ -247,6 +247,9 @@ html>body .ie p code {*white-space:normal;}
 .menu li {
   float:left;
   list-style:none;
+  margin-left:5px;
+  margin-bottom:10px;
+  margin-top:0px;
 }
 .menu {
   clear:both;
@@ -271,12 +274,25 @@ body {
 #stores li a {
   line-height:62px;
 }
+#store-filter {
+  height:40px;
+  margin-left:0px;
+  margin-right:0px;
+}
+#store-filter .filter,
+#store-filter a {
+  text-decoration:none;
+  line-height:40px;
+}
+#store-filter .filter {
+  float:right;
+  margin-left:0px;
+}
 #main-menu {
   background:#672F21;
   height:50px;
   display:block;
   margin:0;
-  margin-bottom:20px;
 }
 #main-menu li {
   height:30px;
