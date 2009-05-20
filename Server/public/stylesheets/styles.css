@@ -247,6 +247,9 @@ html>body .ie p code {*white-space:normal;}
 .menu li {
   float:left;
   list-style:none;
+  margin-left:5px;
+  margin-bottom:10px;
+  margin-top:0px;
 }
 .menu {
   clear:both;
@@ -259,11 +262,63 @@ html>body .ie p code {*white-space:normal;}
   background:transparent url(/images/iphone/app_icon.png) no-repeat;
   width:200px;
   height:57px;
+  line-height:53px;
 }
 body {
   background:#673614 url(/images/iphone/Default.png) repeat-x;
 }
-.list li a {
-  
-  
+#stores li {
+  list-style:none;
+  margin-bottom:10px;
+}
+#stores li a {
+  line-height:62px;
+}
+#store-filter {
+  height:40px;
+  margin-left:0px;
+  margin-right:0px;
+}
+#store-filter .filter,
+#store-filter a {
+  text-decoration:none;
+  line-height:40px;
+}
+#store-filter .filter {
+  float:right;
+  margin-left:0px;
+}
+#main-menu {
+  background:#672F21;
+  height:50px;
+  display:block;
+  margin:0;
+}
+#main-menu li {
+  height:30px;
+  display:block;
+}
+#main-menu li a {
+  text-indent:30px;
+  line-height:30px;
+  display:block;
+  color:#fff;
+  font-size:24px;
+  text-decoration:none;
+}
+#main-menu li a:hover {
+  text-decoration:underline;
+  color:#aaa;
+}
+#main-menu li.selected a {
+  color:#aaa;
+}
+#main-menu li.stores {
+  background:transparent url(/images/iphone/tabCoffeeme.png) no-repeat;
+}
+#main-menu li.drinks {
+  background:transparent url(/images/iphone/tabNutrition.png) no-repeat;
+}
+#main-menu li.trivias {
+  background:transparent url(/images/iphone/tabTrivia.png) no-repeat;
 }

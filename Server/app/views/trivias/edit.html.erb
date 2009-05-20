@@ -1,2 +1,2 @@
-<h1>Trivias#edit</h1>
-<p>Find me in app/views/trivias/edit.html.erb</p>
+<h1><%= truncate @trivia.fact %></h1>
+<%= render :partial => 'form' %>

@@ -10,9 +10,14 @@ class Store < ActiveRecord::Base
     BEANERY    = 7
   end
 
+  def self.store_types
+    c = -1;
+    Store::StoreType.constants.sort_by{|s| eval("Store::StoreType::#{s}") }.map{|s| c+=1; [s.humanize, c] }
+  end
+
   def titled_type
     case store_type
-    when StoreType::STARBUCKS then 'Starkbucks'
+    when StoreType::STARBUCKS then 'Starbucks'
     when StoreType::DUNKIN then 'Dunkin Donuts'
     when StoreType::CARIBOU then 'Caribou'
     when StoreType::TIMHORTONS then 'Tim Hortons'

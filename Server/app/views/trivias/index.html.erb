@@ -1,2 +1,12 @@
-<h1>Trivias#index</h1>
-<p>Find me in app/views/trivias/index.html.erb</p>
+<div id="list-page">
+  <% if flash[:updated_item] %><script type="text/javascript">AlertItem = <%= flash[:updated_item] %>;</script><% end %>
+  <ul id="trivias" class="list">
+    <% for trivia in @trivias do %>
+    <li id="trivia-<%= trivia.id %>"><%= link_to truncate(trivia.fact), edit_trivia_path(trivia, :page => @page) %></li>
+    <% end %>
+  </ul>
+</div>
+<%= will_paginate @trivias %>
+<% content_for :foot do %>
+  <%= javascript_include_tag :defaults %>
+<% end %>

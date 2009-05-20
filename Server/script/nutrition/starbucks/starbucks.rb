@@ -2,7 +2,12 @@ require 'rubygems'
 require 'hpricot'
 require 'curb'
 require 'yaml'
-#require 'json'
+require 'activesupport'
+
+def cleanstr(str)
+  str = str.gsub(/[^\x00-\x7F]/n,'')
+  ActiveSupport::Multibyte::Chars.new(str).mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,' ').downcase.to_s.gsub(/\r|\n/,' ').gsub(/\s/, ' ').squeeze(' ')
+end
 
 start_category = "CEFE1DE0-7395-4FE6-ACF3-61EBB884A380"
 
@@ -59,12 +64,16 @@ def locate_paginate(doc)
     end
   end
   page_numbers.uniq!
-  puts page_numbers.inspect
   page_numbers
 end
 
-def fetch_nutrition_table_for(category, subcategory, milk, size)
-  c = Curl::Easy.new("http://www.starbucks.com/retail/nutrition_comparison_popup.asp?category={#{category}}&subcategory=#{subcategory}&milk=#{milk}&size=#{size}")
+def fetch_nutrition_table_for(params)
+  query = params.map{|k,v| "#{k}=#{v}" unless v.blank? }.join('&')
+  # build the url
+  url = "http://www.starbucks.com/retail/nutrition_comparison_popup.asp?#{query}"
+  puts "request: #{url.inspect}"
+  page = 1
+  c = Curl::Easy.new(url)
 
   c.perform
 
@@ -72,92 +81,124 @@ def fetch_nutrition_table_for(category, subcategory, milk, size)
   other_pages = locate_paginate(doc)
   products = []
 
+  visited_pages = {}
+
   begin
 
+    visited_pages[page] = true
     item = []
     count = 0
     # ha starbucks and their icky tables... oh copytext how nice
-    (doc/'span.copytext').each do|copy|
+    (doc.at("table").at("table[@width=528]")/'span.copytext').each do|copy|
       if count == 13
         # map each item component to a name
         product = {}
-        product[:name] = item[0]
-        product[:serving_size] = item[1]
-        product[:calories] = item[2]
-        product[:fat_calories] = item[3]
-        product[:total_fat] = item[4]
-        product[:saturated_fat] = item[5]
-        product[:trans_fat] = item[6]
-        product[:cholesterol] = item[7]
-        product[:sodium] = item[8]
-        product[:total_carbohydrates] = item[9]
-        product[:fiber] = item[10]
-        product[:sugars] = item[11]
-        product[:protein] = item[12]
+        name = cleanstr item[0]
+        puts "\t'#{name}' with #{item[1..12].inspect}"
+        product[:name] = name
+        product[:serving_size] = cleanstr item[1] if item[1]
+        product[:calories] = cleanstr item[2] if item[2]
+        product[:fat_calories] = cleanstr item[3] if item[3]
+        product[:total_fat] = cleanstr item[4] if item[4]
+        product[:saturated_fat] = cleanstr item[5] if item[5]
+        product[:trans_fat] = cleanstr item[6] if item[6]
+        product[:cholesterol] = cleanstr item[7] if item[7]
+        product[:sodium] = cleanstr item[8] if item[8]
+        product[:total_carbohydrates] = cleanstr item[9] if item[9]
+        product[:fiber] = cleanstr item[10] if item[10]
+        product[:sugars] = cleanstr item[11] if item[11]
+        product[:protein] = cleanstr item[12] if item[12]
         products << product
         item = []
         count = 0
       end
-      if count != 0
+      #if count != 0
         text = copy.inner_text
+        if text.nil?
+          raise "#{url} => #{item.inspect}, #{copy.inspect}"
+        end
         item << text
-        puts "#{count}: #{text}"
-      end
+        #puts "#{count}: #{text}"
+      #end
       count += 1
+    end
+
+    if other_pages.empty?
+      puts "#{visited_pages.inspect}"
+      break
     end
 
     # request the next page
     page = other_pages.pop
-    STDERR.puts "fetch #{page}"
-    c = Curl::Easy.new("http://www.starbucks.com/retail/nutrition_comparison_popup.asp?category={#{category}}&page=#{page}&subcategory=#{subcategory}&milk=#{milk}&size=#{size}")
+    query = params.merge(:page => page).map{|k,v| "#{k}=#{v}" unless v.blank? }.join('&')
+    # build the url
+    url = "http://www.starbucks.com/retail/nutrition_comparison_popup.asp?#{query}"
+    STDERR.puts "fetch #{page} at #{url}"
+    c = Curl::Easy.new(url)
     c.perform
     doc = Hpricot c.body_str
+    
+    pages = locate_paginate(doc)
+    # see if we have new pages add them to other_pages
+    for p in pages do
+      next if visited_pages[p] or other_pages.include?(p)
+      other_pages << p
+    end
 
-  end until other_pages.empty?
-  {:size => size, :milk => milk, :products => products}
+    puts "Pages: #{other_pages.inspect}"
+
+  end while true
+  { :size => (params[:size] || '552984f2-9dab-4b36-a38a-88600019ad0f'), # default is Grande
+    :milk => (params[:milk] || 'a5868afb-2847-4596-998a-8c9d34c7ebaf'), # default is 2%
+    :products => products}
 end
 
 result = fetch_all_combinations start_category
 File.open("starbucks-key.yml","w") {|f|
   f << result.to_yaml
 }
+# invert the key table
+keys = {}
+count = 0
+result[:milks].each do|i|
+  name = (i[:name]).gsub(/[^\x00-\x7F]/n,'')
+  keys[i[:value]] = {:name => cleanstr(name), :enum => count}
+  count += 1
+end
+count = 0
+result[:sizes].each do|i|
+  name = (i[:name]).gsub(/[^\x00-\x7F]/n,'')
+  keys[i[:value]] = {:name => cleanstr(name), :enum => count}
+  count += 1
+end
+
 STDERR.puts "generated starbucks grouping key"
 # loop over all combinations of milk and size
 products = []
-# start here
-group = fetch_nutrition_table_for(result[:category], result[:subcategory],
-                                  "552984f2-9dab-4b36-a38a-88600019ad0f",
-                                  "a5868afb-2847-4596-998a-8c9d34c7ebaf")
 
-products << group
-STDERR.puts "products: #{group[:products].size}"
+# test
+#group = fetch_nutrition_table_for({})
+#products << group
+#STDERR.puts "products: #{group[:products].size}"
+
+total = 0
 result[:sizes].each do|size|
   result[:milks].each do|milk|
-    STDERR.puts "request #{result[:category]}:#{result[:subcategory]} => milk:#{milk[:name]} size:#{size[:name]}"
-    group = fetch_nutrition_table_for( result[:category], result[:subcategory], milk[:value], size[:value] )
+    STDERR.puts "milk:#{keys[milk[:value]][:name]} size:#{keys[size[:value]][:name]}"
+    params = {
+      :category => result[:category],
+      :subcategory => result[:subcategory],
+      :milk => milk[:value],
+      :size => size[:value]
+    }
+    group = fetch_nutrition_table_for( params )
     products << group
-    STDERR.puts "products: #{group[:products].size}"
+    total += group[:products].size
+    STDERR.puts "products: #{total}"
   end
 end
 
 # test 1
-puts products.inspect
-for product in products do
-  puts product[:name]
-  puts "\tserving size: #{product[:serving_size]}"
-  puts "\tcalories: #{product[:calories]}"
-  puts "\tfat calories: #{product[:fat_calories]}"
-  puts "\ttotal fat: #{product[:total_fat]}"
-  puts "\tsaturated fat: #{product[:saturated_fat]}"
-  puts "\ttrans fat: #{product[:trans_fat]}"
-  puts "\tcholesterol: #{product[:cholesterol]}"
-  puts "\tsodium: #{product[:sodium]}"
-  puts "\ttotal carbohydrates: #{product[:total_carbohydrates]}"
-  puts "\tfiber: #{product[:fiber]}"
-  puts "\tsugars: #{product[:sugars]}"
-  puts "\tprotein: #{product[:protein]}"
-  puts "-----"
-end
 puts "Total product data: #{products.size}"
 File.open("starbucks.yml", "w") {|f| f << products.to_yaml }
 #File.open("starbucks.js", "w") {|f| f << products.to_json }

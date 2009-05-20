@@ -1,0 +1,9 @@
+<% form_for @trivia do |f| %>
+  <fieldset>
+    <%= f.label :fact %>
+    <%= f.text_area :fact %>
+  </fieldset>
+  <fieldset>
+    <%= f.submit %>
+  </fieldset>
+<% end %>

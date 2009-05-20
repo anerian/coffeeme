@@ -1,0 +1,47 @@
+<% form_for @drink do |f| %>
+  <fieldset>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :serving_size %>
+    <%= f.text_field :serving_size %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :calories %>
+    <%= f.text_field :calories %>
+    <%= f.label :fat_calories %>
+    <%= f.text_field :fat_calories %>
+    <%= f.label :total_fat %>
+    <%= f.text_field :total_fat %>
+    <%= f.label :saturated_fat %>
+    <%= f.text_field :saturated_fat %>
+    <%= f.label :trans_fat %>
+    <%= f.text_field :trans_fat %>
+    <%= f.label :cholesterol %>
+    <%= f.text_field :cholesterol %>
+    <%= f.label :sodium %>
+    <%= f.text_field :sodium %>
+    <%= f.label :total_carbohydrates %>
+    <%= f.text_field :total_carbohydrates %>
+    <%= f.label :fiber %>
+    <%= f.text_field :fiber %>
+    <%= f.label :sugars %>
+    <%= f.text_field :sugars %>
+    <%= f.label :protein %>
+    <%= f.text_field :protein %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :size %>
+    <%= f.text_field :size %>
+    <%= f.label :milk %>
+    <%= f.text_field :milk %>
+  </fieldset>
+  <fieldset>
+    <%= f.label :store_type %>
+    <%= f.text_field :store_type %>
+  </fieldset>
+  <fieldset>
+    <%= f.submit %>
+  </fieldset>
+<% end %>

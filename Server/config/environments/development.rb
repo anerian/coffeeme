@@ -1,4 +1,5 @@
 # Settings specified here will take precedence over those in config/environment.rb
+MAP_API_KEY="ABQIAAAAEPPfOf82D9FXQ-BvzuODNBTJQa0g3IQ9GZqIMmInSLzwtGDKaBT-Y1d9KKC8W1D7zJRKFrd6g7fuag"
 
 # In the development environment your application's code is reloaded on
 # every request.  This slows down response time but is perfect for development
