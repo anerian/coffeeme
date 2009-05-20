@@ -1,5 +1,4 @@
 --- 
-:subcategory: ""
 :milks: 
 - :value: c446800f-0d30-4b24-89fb-26695827d534
   :name: Nonfat
@@ -25,3 +24,4 @@
 - :value: 0b9e8ced-2321-41a0-9f6a-ddcb20170824
   :name: Short
 :category: cefe1de0-7395-4fe6-acf3-61ebb884a380
+:subcategory: ""

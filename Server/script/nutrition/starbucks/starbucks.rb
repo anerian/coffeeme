@@ -1,13 +1,25 @@
+$KCODE = 'u'
 require 'rubygems'
 require 'hpricot'
 require 'curb'
 require 'yaml'
+require 'jcode'
+require 'iconv'
 require 'activesupport'
 
 def cleanstr(str)
-  str = str.gsub(/[^\x00-\x7F]/n,'')
+  #puts "clean: #{str.inspect}"
+  #str = str.gsub(/[^\x00-\x7F]/n,'')
+  str = Iconv.iconv("UTF-8//IGNORE", "ISO-8859-1", (str + "\x20") ).first[0..-2]
+  #str = Iconv.iconv('US-ASCII//IGNORE//TRANSLIT', 'UTF-8', (str + ' ') ).first[0..-2].gsub(/(?!-.*)\b[[:punct:]]+\b/, '')
   ActiveSupport::Multibyte::Chars.new(str).mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,' ').downcase.to_s.gsub(/\r|\n/,' ').gsub(/\s/, ' ').squeeze(' ')
 end
+
+# char test
+#t = "Cinnamon Dolce Crème - whip"
+#puts cleanstr(t)
+
+#exit
 
 start_category = "CEFE1DE0-7395-4FE6-ACF3-61EBB884A380"
 
