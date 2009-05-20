@@ -25,7 +25,7 @@ class RefreshStarbucksData < ActiveRecord::Migration
     drink_groups.each do|dg|
       dg[:products].each do|p|
         Drink.create (
-          :name => p[:name],
+          :name => p[:name].titleize,
           :serving_size => p[:serving_size],
           :calories => p[:calories],
           :fat_calories => p[:fat_calories],
