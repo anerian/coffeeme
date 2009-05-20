@@ -6,6 +6,7 @@ class StoresController < ApplicationController
     conditions = {}
     if not params[:store_type].blank?
       conditions.merge!(:store_type => params[:store_type])
+      options.merge!(:store_type => params[:store_type])
     end
     if not params[:filter].blank?
       options.merge!(:filter => params[:filter])
@@ -14,6 +15,7 @@ class StoresController < ApplicationController
     session[:store_index] = options.clone
     logger.debug("store_index with: #{options.inspect}")
     filter = options.delete(:filter)
+    store_type = options.delete(:store_type)
     if filter
       values = []
       conditions = options.delete(:conditions).map{|k,v| values << v; "#{k}=?" }.join(' ')
@@ -55,9 +57,9 @@ class StoresController < ApplicationController
     if @store.update_attributes(params[:store])
       flash[:updated_item] = params[:id]
       options = session[:store_index]
-      if options and (options.key?(:page) or options.key?(:filter))
+      if options and (options.key?(:page) or options.key?(:filter) or options.key?(:store_type))
         logger.debug("redirect with options: #{options.inspect}")
-        redirect_to stores_path(:page => options[:page], :filter => options[:filter])
+        redirect_to stores_path(:page => options[:page], :filter => options[:filter], :store_type => options[:store_type])
       else
         redirect_to stores_path
       end
