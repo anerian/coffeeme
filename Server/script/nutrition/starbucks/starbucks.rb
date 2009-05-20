@@ -64,7 +64,6 @@ def locate_paginate(doc)
     end
   end
   page_numbers.uniq!
-  puts page_numbers.inspect
   page_numbers
 end
 
@@ -73,6 +72,7 @@ def fetch_nutrition_table_for(params)
   # build the url
   url = "http://www.starbucks.com/retail/nutrition_comparison_popup.asp?#{query}"
   puts "request: #{url.inspect}"
+  page = 1
   c = Curl::Easy.new(url)
 
   c.perform
@@ -81,8 +81,11 @@ def fetch_nutrition_table_for(params)
   other_pages = locate_paginate(doc)
   products = []
 
+  visited_pages = {}
+
   begin
 
+    visited_pages[page] = true
     item = []
     count = 0
     # ha starbucks and their icky tables... oh copytext how nice
@@ -91,7 +94,7 @@ def fetch_nutrition_table_for(params)
         # map each item component to a name
         product = {}
         name = cleanstr item[0]
-        puts "Add '#{name}' with #{item[1..12].inspect}"
+        puts "\t'#{name}' with #{item[1..12].inspect}"
         product[:name] = name
         product[:serving_size] = cleanstr item[1] if item[1]
         product[:calories] = cleanstr item[2] if item[2]
@@ -120,6 +123,11 @@ def fetch_nutrition_table_for(params)
       count += 1
     end
 
+    if other_pages.empty?
+      puts "#{visited_pages.inspect}"
+      break
+    end
+
     # request the next page
     page = other_pages.pop
     query = params.merge(:page => page).map{|k,v| "#{k}=#{v}" unless v.blank? }.join('&')
@@ -129,8 +137,17 @@ def fetch_nutrition_table_for(params)
     c = Curl::Easy.new(url)
     c.perform
     doc = Hpricot c.body_str
+    
+    pages = locate_paginate(doc)
+    # see if we have new pages add them to other_pages
+    for p in pages do
+      next if visited_pages[p] or other_pages.include?(p)
+      other_pages << p
+    end
 
-  end until other_pages.empty?
+    puts "Pages: #{other_pages.inspect}"
+
+  end while true
   { :size => (params[:size] || '552984f2-9dab-4b36-a38a-88600019ad0f'), # default is Grande
     :milk => (params[:milk] || 'a5868afb-2847-4596-998a-8c9d34c7ebaf'), # default is 2%
     :products => products}
