@@ -10,7 +10,7 @@
 #import "CMModel.h"
 
 @interface CMTrivia : CMModel<CMModel> {
-    NSString *fact_;
+  NSString *fact_;
 }
 
 @property (nonatomic, retain) NSString *fact;

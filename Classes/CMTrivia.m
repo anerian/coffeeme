@@ -13,20 +13,24 @@
 @synthesize pk = pk_, fact = fact_;
 
 - (id)initWithFMResultSet:(FMResultSet *)resultSet {
-    if (self = [super init]) {
-        self.pk   = [resultSet intForColumn:@"id"];
-        self.fact = [resultSet stringForColumn:@"fact"];
-    }
-    return self;
+  if (self = [super init]) {
+    self.pk   = [resultSet intForColumn:@"id"];
+    self.fact = [[[resultSet stringForColumn:@"fact"] copy] autorelease];
+  }
+  return self;
 }
 
 + (NSString *)tableName {
-    return @"trivias";
+  return @"trivias";
 }
 
 + (CMTrivia *)randomTrivia {
-  return [self query:[NSString stringWithFormat:@"select id,fact from %@ where id >= (abs(random()) %% (select max(id) from %@)) limit 1",
-                        [self tableName], [self tableName] ]];
+  return [self query:[NSString stringWithFormat:@"select id,fact from %@ where id >= (abs(random()) %% (select max(id) from %@)) limit 1", [self tableName], [self tableName] ]];
+}
+
+- (void)dealloc {
+  [fact_ release];
+  [super dealloc];
 }
 
 @end
