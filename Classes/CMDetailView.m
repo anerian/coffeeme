@@ -13,22 +13,23 @@
 - (id)initWithFrame:(CGRect)frame withStore:(CMStore *)store {
   if (self = [super initWithFrame:frame]) {
     store_ = [store retain];
-    self.backgroundColor = HexToUIColor(0xfbf6ec);
+    self.backgroundColor = HexToUIColor(0xeddabe);
+    // self.backgroundColor = [UIColor groupTableViewBackgroundColor];
     
     UILabel *storeType_ = CMLabelMake(CGRectMake(80,10,220,24), 18, YES);
-    storeType_.textColor = CMTextColor;
+    storeType_.textColor = [UIColor darkTextColor];
     storeType_.text = CMShopType(store.type);
     
     UILabel *address_ = CMLabelMake(CGRectMake(80,34,220,40), 16, NO);
     address_.numberOfLines = 2;
     address_.text = [store address];
     
-    TTButton *call_ = [TTButton buttonWithStyle:@"blueToolbarButton:" title:@"Call"];
-    call_.frame = CGRectMake(20,100,135,43);
+    TTButton *call_ = [TTButton buttonWithStyle:@"embossedButton:" title:@"Call"];
+    call_.frame = CGRectMake(20,100,135,50);
     [call_ addTarget:self action:@selector(call) forControlEvents:UIControlEventTouchUpInside];
 
-    TTButton *mapIt_ = [TTButton buttonWithStyle:@"blueToolbarButton:" title:@"Get directions"];
-    mapIt_.frame = CGRectMake(165,100,135,43);
+    TTButton *mapIt_ = [TTButton buttonWithStyle:@"embossedButton:" title:@"Get directions"];
+    mapIt_.frame = CGRectMake(165,100,135,50);
     [mapIt_ addTarget:self action:@selector(mapIt) forControlEvents:UIControlEventTouchUpInside];
     
     [self addSubview:storeType_];

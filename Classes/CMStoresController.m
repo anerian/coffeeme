@@ -8,10 +8,8 @@
 
 #import "NSNotificationAdditions.h"
 #import "CMStoresController.h"
-#import "CMSettingsController.h"
 #import "CMStore.h"
 #import "CMStoreCell.h"
-// #import "RMMapView.h"
 
 @implementation CMStoresController
 
@@ -22,6 +20,7 @@
     isLoading_   = NO;
     isDirty_     = YES;
     storeFilter_ = -1;
+    statusView_  = nil;
     self.supportsAccelerometer = YES;
   }
   return self;
@@ -60,8 +59,12 @@
   [super loadView];
 
   self.tableView = [[[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain] autorelease];
-  self.tableView.frame = CGRectMake(0,40,320,self.view.frame.size.height-40);
-  self.view.backgroundColor = HexToUIColor(0xb4b4b4);
+  self.tableView.frame = CGRectMake(0,40,320,self.view.bounds.size.height-60);
+  self.view.backgroundColor = HexToUIColor(0x865836);
+  
+  UIImageView *shadow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"shadow-bottom.png"]];
+  shadow.frame = CGRectMake(0,self.tableView.frame.origin.y,320,29);
+  [self.view addSubview:shadow];
 
   [self.view addSubview:self.tableView];
 
@@ -69,7 +72,7 @@
   NSArray *shops = [CMAppConfig objectForKey:@"shops"];
   NSMutableArray *items = [NSMutableArray arrayWithCapacity:0];
   
-  [items addObject:[[[TTTabItem alloc] initWithTitle:@"All"] autorelease]];
+  [items addObject:[[[TTTabItem alloc] initWithTitle:@"All Shops"] autorelease]];
   
   TTTabItem *tabItem_;
   for (NSString *shop in shops) {
@@ -81,9 +84,6 @@
   TTTabStrip *tabBar_ = [[TTTabStrip alloc] initWithFrame:CGRectMake(0, 0, 320, 41)];
   tabBar_.delegate = self;
   tabBar_.tabItems = items;
-  tabBar_.style = 
-    [TTReflectiveFillStyle styleWithColor:RGBCOLOR(222, 222, 222) next:
-    [TTFourBorderStyle styleWithTop:nil right:nil bottom:self.view.backgroundColor left:nil width:1 next:nil]];
   
   [self.view addSubview:tabBar_];
 }
@@ -91,18 +91,18 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   
-  UIImageView *top = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
-  top.image = [UIImage imageNamed:@"bg-shadow-top.png"];
-  UIImageView *btm = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,20)] autorelease];
-  btm.image = [UIImage imageNamed:@"bg-shadow-bottom.png"];
+  UIImageView *top = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,29)] autorelease];
+  top.image = [UIImage imageNamed:@"shadow-top.png"];
+  UIImageView *btm = [[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,29)] autorelease];
+  btm.image = [UIImage imageNamed:@"shadow-bottom.png"];
 
   self.tableView.delegate = self;
   self.tableView.dataSource = self;
-  self.tableView.contentInset = UIEdgeInsetsMake(-20, 0, 0, 0);
+  self.tableView.contentInset = UIEdgeInsetsMake(-29, 0, 0, 0);
   self.tableView.tableHeaderView = top;
   self.tableView.tableFooterView = btm;
   self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-  self.tableView.rowHeight = 100;
+  self.tableView.rowHeight = 80;
   self.tableView.backgroundColor = [UIColor clearColor];
   
   refresh_ = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refresh)] retain];
@@ -113,8 +113,6 @@
   spinner_ = [[[UIBarButtonItem alloc] initWithCustomView:indicator_] retain];
   
   self.navigationItem.rightBarButtonItem = refresh_;
-
-  modal_ = [[[CMModalView alloc] initWithWindow:[self appWindow]] retain];
 }
 
 - (void)dealloc {
@@ -128,13 +126,6 @@
   isLoading_ = YES;
   [self showAlert];
   [[CMLocation instance] start];
-}
-
-- (void)settings {
-  CMSettingsController *settingsController = [[[CMSettingsController alloc] init] autorelease];
-  UINavigationController *modal = [[[UINavigationController alloc] initWithRootViewController:settingsController] autorelease];
-  modal.navigationBar.tintColor = HexToUIColor(0x3d2210);
-  [self.navigationController presentModalViewController:modal animated:YES];
 }
 
 - (void)getStores:(NSNumber *)filter {
@@ -164,8 +155,13 @@
     
   [self hideAlert];
   isLoading_ = NO;
-    
+
   [self.tableView reloadData];
+  
+  if ([stores_ count] == 0) {
+    NSLog(@"stores are empty");
+    [self invalidateViewState:TTViewEmpty];
+  }
 }
 
 - (void)locationUpdated:(NSNotification*)notify {    
@@ -216,13 +212,14 @@
 
 - (void)hideAlert {
   self.navigationItem.rightBarButtonItem = refresh_;
-  // [modal_ show:NO];
+  self.tableView.hidden = NO;
+  [self invalidateViewState:TTViewDataLoaded];
 }
 
 - (void)showAlert {
-  [self invalidateViewState:TTViewRefreshing];
+  [self invalidateViewState:TTViewLoading];
   self.navigationItem.rightBarButtonItem = spinner_;
-  // [modal_ show:YES];
+  self.tableView.hidden = YES;
 }
 
 - (void)userDidShake {
@@ -234,13 +231,34 @@
   isDirty_ = YES;
   [NSThread detachNewThreadSelector:@selector(getStores:) toTarget:self withObject:[NSNumber numberWithInt:storeFilter_]];
   [self showAlert];
+}
+
+- (void)updateLoadingView {
+  if (self.viewState & TTViewLoading) {
+    CGRect frame = CGRectMake(0, 0, self.view.width, self.view.height);
+    TTActivityLabel* label = [[[TTActivityLabel alloc] initWithFrame:frame style:TTActivityLabelStyleBlackBezel] autorelease];
+    label.backgroundColor = [UIColor clearColor];
+    label.text = @"Loading...";
+    label.centeredToScreen = YES;
+    [self.view addSubview:label];
+    
+    [statusView_ release];
+    statusView_ = [label retain];
+    
+    return;
+  } 
   
-  // NSArray *stores = [CMStore nearby:[CMLocation instance].currentLocation.coordinate withType:storeFilter_];
-  // [stores retain];
-  // [stores_ release];
-  // stores_ = stores;
-  //   
-  // [self.tableView reloadData];  
+  [statusView_ removeFromSuperview];
+  [statusView_ release];
+  statusView_ = nil;
+}
+
+- (void)updateDataView {
+  NSLog(@"updateDataView");
+}
+
+- (NSString*)titleForActivity {
+  return @"some title";
 }
 
 @end

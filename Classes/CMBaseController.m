@@ -35,7 +35,8 @@ static const float kEraseAccelerationThreshold = 3.0;
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  self.navigationBarTintColor = HexToUIColor(0x372010);
+  self.navigationBarTintColor = HexToUIColor(0x2c1e10);
+  self.statusBarStyle = UIStatusBarStyleBlackOpaque;
 }
 
 - (void)viewWillAppear:(BOOL)animated {

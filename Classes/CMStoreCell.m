@@ -23,14 +23,16 @@
     
     icon_ = [[[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 49, 62)] retain];
     
-    name_ = [[self labelForFrame:CGRectMake(70, 10, 250, 20) withText:@"" withFontSize:16] retain];
-    name_.textColor = HexToUIColor(0x56523c);
+    name_ = [[self labelForFrame:CGRectMake(70, 10, 250, 20) withText:@"" withFontSize:14] retain];
+    name_.textColor = HexToUIColor(0x25190c);
     
     address_ = [[self labelForFrame:CGRectMake(70, 30, 250, 40) withText:@"" withFontSize:14] retain];
     address_.font = [UIFont systemFontOfSize:14];
     address_.numberOfLines = 2;
     
-    distance_ = [[self labelForFrame:CGRectMake(70, 70, 230, 20) withText:@"" withFontSize:12] retain];
+    distance_ = [[self labelForFrame:CGRectMake(70, 10, 230, 20) withText:@"" withFontSize:12] retain];
+    distance_.textAlignment = UITextAlignmentRight;
+    distance_.font = [UIFont systemFontOfSize:12];
     
     [self.contentView addSubview:icon_];
     [self.contentView addSubview:name_];
