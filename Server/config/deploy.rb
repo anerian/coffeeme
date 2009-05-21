@@ -12,6 +12,7 @@ set :tmpdir_local, File.join(File.dirname(__FILE__),'..','tmp')
 # your SCM below:
 set :scm, :git
 set :use_pty, true
+set :use_sudo, false
 default_run_options[:pty] = true
 
 role :app, "rack1"

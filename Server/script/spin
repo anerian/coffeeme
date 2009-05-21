@@ -13,7 +13,7 @@ class Runner
     @options[:chdir] = "#{@app_root}/current/Server"
     @options[:daemonize] = nil
     @num_mongrels = 3
-    @port_prefix = 100
+    @port_prefix = 200
   end
   
   def start(single=nil)
