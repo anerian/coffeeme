@@ -16,8 +16,15 @@ class ApplicationController < ActionController::Base
 private
   def authenticate
     realm = "Coffee ME"
-    authenticate_or_request_with_http_digest(realm) do |name|
-      Users[name]
+    if !session[:authenticated]
+      success = authenticate_or_request_with_http_digest(realm) do |name|
+        Users[name]
+      end
+      if success
+        session[:authenticated] = true
+      else
+        request_http_digest_authentication("Admin", "Authentication failed")
+      end
     end
   end 
 end
