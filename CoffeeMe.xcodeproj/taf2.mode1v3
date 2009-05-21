@@ -266,10 +266,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>080E96DDFE201D6D7F000001</string>
-								<string>398681720FB3523D006E151C</string>
-								<string>397D74A50FB250F400ACE161</string>
-								<string>397D749C0FB24ED000ACE161</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>39868C080FBB6090006E151C</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -277,9 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
-									<integer>4</integer>
-									<integer>3</integer>
+									<integer>7</integer>
+									<integer>5</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -303,7 +298,7 @@
 							<real>330</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>37 157 1103 721 0 0 1440 878 </string>
+						<string>37 154 1103 721 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -382,7 +377,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {751, 566}}</string>
 								<key>RubberWindowFrame</key>
-								<string>37 157 1103 721 0 0 1440 878 </string>
+								<string>37 154 1103 721 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -402,7 +397,7 @@
 								<key>Frame</key>
 								<string>{{0, 571}, {751, 109}}</string>
 								<key>RubberWindowFrame</key>
-								<string>37 157 1103 721 0 0 1440 878 </string>
+								<string>37 154 1103 721 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -426,9 +421,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>0934453C0FC31C2300E19B64</string>
+				<string>0997722A0FC48C140051D2A1</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>0934453D0FC31C2300E19B64</string>
+				<string>0997722B0FC48C140051D2A1</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -568,7 +563,7 @@
 		<string>/Users/taf2/work/iphone/coffeeme/CoffeeMe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>37 157 1103 721 0 0 1440 878 </string>
+	<string>37 154 1103 721 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -645,7 +640,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>0906E79A0FB5D3AF0042DB2F</string>
-				<string>0934453E0FC31C2300E19B64</string>
+				<string>0997722C0FC48C140051D2A1</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -765,13 +760,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>0934453F0FC31C2300E19B64</string>
+				<string>0997722D0FC48C140051D2A1</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>093445400FC31C2300E19B64</string>
-				<string>093445410FC31C2300E19B64</string>
-				<string>093445420FC31C2300E19B64</string>
-				<string>093445430FC31C2300E19B64</string>
-				<string>093445440FC31C2300E19B64</string>
+				<string>0997722E0FC48C140051D2A1</string>
+				<string>0997722F0FC48C140051D2A1</string>
+				<string>099772300FC48C140051D2A1</string>
+				<string>099772310FC48C140051D2A1</string>
+				<string>099772320FC48C140051D2A1</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -933,7 +928,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>093445450FC31C2300E19B64</string>
+				<string>099772330FC48C140051D2A1</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

@@ -20,6 +20,7 @@
 - (void)loadView {
     self.view = triviaView_;
     self.supportsAccelerometer = YES;
+    self.navigationBarTintColor = HexToUIColor(0x372010);
 }
 
 - (void)viewWillAppear:(BOOL)animated {

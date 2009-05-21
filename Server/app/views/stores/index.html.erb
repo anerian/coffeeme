@@ -4,7 +4,7 @@
     <% for store_type in Store.store_types do %>
     <li><a href="?store_type=<%= store_type.last %>"><%= store_type.first %></a></li>
     <% end %>
-    <li class="filter"><strong>Filter:</strong> <input id="filter" type="text" name="filter" value=""/></li>
+    <li class="filter"><strong>Filter:</strong><form style="display:inline" method="get" action=""><input id="filter" type="text" name="filter" value="<%= params[:filter] %>"/><input type="submit" value="Go"/></form></li>
   </ul>
   <ul id="stores" class="list">
     <% for store in @stores do %>

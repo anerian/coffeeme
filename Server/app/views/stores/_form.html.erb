@@ -24,6 +24,8 @@
       <p>Drag the pin below to adjust the store position.</p>
       <div id="map_canvas" style="width: 500px; height: 300px"></div>
       <a id="reset" href="#reset">Reset position</a>
+      <a id="streets" href="#streets">Toggle Street View</a>
+      <div id="map_streets" style="width: 500px; height: 300px"></div>
     </div>
   </fieldset>
   <fieldset>
@@ -40,20 +42,29 @@
     #map_container {
       position:absolute;
       right:35px;
-      top:-300px;
+      top:-340px;
+      padding:10px;
+      margin:10px;
+      background:white;
     }
     #map_canvas { margin-bottom:10px; }
   </style>
 <% end %>
 <% content_for :foot do %>
   <script type="text/javascript" src="/javascripts/prototype.js"></script>
-  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAAEPPfOf82D9FXQ-BvzuODNBTJQa0g3IQ9GZqIMmInSLzwtGDKaBT-Y1d9KKC8W1D7zJRKFrd6g7fuag" type="text/javascript"></script>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=<%= MAP_API_KEY %>" type="text/javascript"></script>
   <script type="text/javascript">
     document.observe("dom:loaded", function() { 
       var map = new GMap2(document.getElementById("map_canvas"));
       var point = new GLatLng(<%= @store.latitude %>, <%= @store.longitude %>);
       var marker = new GMarker(point, {draggable:true});
-      marker.enableDragging();
+      var street = new GStreetviewOverlay();
+      var streetsOn = false;
+      var streetsNeedInit = true;
+      var streetView = new GStreetviewPanorama(document.getElementById("map_streets"));
+      var streetClient = new GStreetviewClient();
+      var streetPov = {yaw:370.64659986187695,pitch:0};
+
       // watch marker events for dragging
       GEvent.addListener(marker, 'dragstart', function(latlng) {
         $("store_longitude").value = latlng.lng();
@@ -66,15 +77,65 @@
       GEvent.addListener(marker, 'dragend', function(latlng) {
         $("store_longitude").value = latlng.lng();
         $("store_latitude").value = latlng.lat();
+        streetView.setLocationAndPOV(latlng, streetPov);
+        streetClient.getNearestPanorama(latlng, showStreetView);
+      });
+      GEvent.addListener(streetView,"yawchanged", function(yaw) {
+        streetPov.yaw = yaw;
+      });
+      GEvent.addListener(streetView,"pitchchanged", function(pitch) {
+        streetPov.pitch = pitch;
       });
 
+      //GEvent.addListener(map, "click", updateStreetView);
+
+      function updateStreetView(overlay, latlng) {
+        streetClient.getNearestPanorama(latlng, showStreetView);
+      }
+
+      function showStreetView(data) {
+        if( data.code != 200 ) { return; } // ignore   
+        console.log("got location: " + data.location.latlng.lng() );
+        streetView.setLocationAndPOV(data.location.latlng);
+      }
+
       // initial setup
+      map.enableGoogleBar();
       map.setCenter(point, 13);
       map.setUIToDefault();
       map.addOverlay(marker);
 
+      marker.enableDragging();
+
+      // set an initial street view
+      streetView.hide();
+      //streetView.setLocationAndPOV(point, );
+      //streetClient.getNearestPanorama(point, showStreetView);
+
+      $('streets').observe('click', function(e) {
+        if( streetsOn ) {
+          map.removeOverlay(street);
+          streetView.hide();
+          streetsOn = false;
+        }
+        else {
+          map.addOverlay(street);
+          streetView.show();
+          if( streetsNeedInit ) {
+            streetView.setLocationAndPOV(point, streetPov);
+            streetClient.getNearestPanorama(point, showStreetView);
+            streetsNeedInit = false;
+          }
+          streetsOn = true;
+        }
+        e.stop();
+      });
+
       $("reset").observe("click", function(e) { 
+        map.setCenter(point, map.getZoom());
         marker.setLatLng(point);
+        streetView.setLocationAndPOV(point, streetPov);
+        streetClient.getNearestPanorama(point, showStreetView);
         e.stop();
       });
 
@@ -86,8 +147,10 @@
             alert(address +  " not found");
           }
           else {
-            map.setCenter(pt, 13);
+            map.setCenter(pt, map.getZoom());
             marker.setLatLng(pt);
+            streetView.setLocationAndPOV(pt, streetPov);
+            streetClient.getNearestPanorama(pt, showStreetView);
             $("store_longitude").value = pt.lng();
             $("store_latitude").value = pt.lat();
           }

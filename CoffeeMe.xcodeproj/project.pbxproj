@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0997723B0FC48CBC0051D2A1 /* cup-.png in Resources */ = {isa = PBXBuildFile; fileRef = 099772370FC48CBC0051D2A1 /* cup-.png */; };
+		0997723C0FC48CBC0051D2A1 /* cup-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 099772380FC48CBC0051D2A1 /* cup-5.png */; };
+		0997723D0FC48CBC0051D2A1 /* cup-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 099772390FC48CBC0051D2A1 /* cup-6.png */; };
+		0997723E0FC48CBC0051D2A1 /* cup-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0997723A0FC48CBC0051D2A1 /* cup-7.png */; };
 		1D3623260D0F684500981E51 /* CoffeeMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -121,6 +125,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099772370FC48CBC0051D2A1 /* cup-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-.png"; sourceTree = "<group>"; };
+		099772380FC48CBC0051D2A1 /* cup-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-5.png"; sourceTree = "<group>"; };
+		099772390FC48CBC0051D2A1 /* cup-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-6.png"; sourceTree = "<group>"; };
+		0997723A0FC48CBC0051D2A1 /* cup-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-7.png"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* CoffeeMeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeMeAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* CoffeeMeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeMeAppDelegate.m; sourceTree = "<group>"; };
@@ -465,6 +473,10 @@
 				3915B98C0FC4C9F1001BC45C /* shadow-top.png */,
 				3915B9840FC4A059001BC45C /* shadow-bottom.png */,
 				3915B8D50FC45C61001BC45C /* bg.jpg */,
+				099772370FC48CBC0051D2A1 /* cup-.png */,
+				099772380FC48CBC0051D2A1 /* cup-5.png */,
+				099772390FC48CBC0051D2A1 /* cup-6.png */,
+				0997723A0FC48CBC0051D2A1 /* cup-7.png */,
 				39B972FB0FC2F97700BBFCE9 /* tabTrivia.png */,
 				39B972F40FC2C37500BBFCE9 /* tabCoffeeme.png */,
 				3930A28D0FC2525C00BB3848 /* tabNutrition.png */,
@@ -626,6 +638,10 @@
 				3915B8D60FC45C61001BC45C /* bg.jpg in Resources */,
 				3915B9850FC4A059001BC45C /* shadow-bottom.png in Resources */,
 				3915B98D0FC4C9F1001BC45C /* shadow-top.png in Resources */,
+				0997723B0FC48CBC0051D2A1 /* cup-.png in Resources */,
+				0997723C0FC48CBC0051D2A1 /* cup-5.png in Resources */,
+				0997723D0FC48CBC0051D2A1 /* cup-6.png in Resources */,
+				0997723E0FC48CBC0051D2A1 /* cup-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,7 +737,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Fisher";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -730,7 +746,7 @@
 				OTHER_CFLAGS = "-DDEBUG";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4425948B-329B-4E1D-B609-331ABCA779D3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F0656F3F-680F-4F68-9919-C67FB0ED6A3D";
 				SDKROOT = iphoneos2.2.1;
 			};
 			name = Debug;
@@ -739,14 +755,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Fisher";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "Three20/src/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4425948B-329B-4E1D-B609-331ABCA779D3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F0656F3F-680F-4F68-9919-C67FB0ED6A3D";
 				SDKROOT = iphoneos2.2.1;
 			};
 			name = Release;
