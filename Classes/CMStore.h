@@ -11,21 +11,18 @@
 
 
 @interface CMStore : CMModel<CMModel> {
-    NSString *street_;
-    NSString *city_;
-    NSString *state_;
-    NSString *zip_;
-    NSString *phone_;
-    NSString *address_;
-    CMStoreType type_;
+  NSString *address_;
+  NSString *phone_;
     
-    double latitude_;
-    double longitude_;
-    double userLatitude_;
-    double userLongitude_;
-    double distance_;
+  CMStoreType type_;
     
-    CLLocationCoordinate2D userCoordinate_;
+  double latitude_;
+  double longitude_;
+  double userLatitude_;
+  double userLongitude_;
+  double distance_;
+
+  CLLocationCoordinate2D userCoordinate_;
 }
 
 @property (nonatomic, retain) NSString *address;
