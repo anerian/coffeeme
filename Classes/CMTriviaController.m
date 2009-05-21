@@ -11,46 +11,46 @@
 @implementation CMTriviaController
 
 - (id)init {
-    if (self = [super init]) {
-        triviaView_ = [[[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame] retain];
-    }
-    return self;
+  if (self = [super init]) {
+    triviaView_ = [[[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame] retain];
+  }
+  return self;
 }
 
 - (void)loadView {
-    self.view = triviaView_;
-    self.supportsAccelerometer = YES;
-    self.navigationBarTintColor = HexToUIColor(0x372010);
+  [super loadView];
+  self.view = triviaView_;
+  self.supportsAccelerometer = YES;
+  self.navigationBarTintColor = HexToUIColor(0x372010);
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    [self refresh];    
+  [super viewWillAppear:animated];
+  [self refresh];    
 }
 - (void)viewDidLoad {
-    self.navigationItem.rightBarButtonItem = 
-        [[[UIBarButtonItem alloc] initWithTitle:@"More" 
-                                          style:UIBarButtonItemStyleBordered
-                                         target:self 
-                                         action:@selector(refresh)] autorelease];
+  self.navigationItem.rightBarButtonItem = 
+    [[[UIBarButtonItem alloc] initWithTitle:@"More" 
+                                      style:UIBarButtonItemStyleBordered
+                                     target:self 
+                                     action:@selector(refresh)] autorelease];
 }
 
 - (void)userDidShake {
-
-    [self refresh];
+  [self refresh];
 }
 
 - (void)userDidRotate:(float)angle {
-    [triviaView_ rotate:angle-90];
+  [triviaView_ rotate:angle-90];
 }
 
 - (void)refresh {
-    [((CMTriviaView*)self.view) updateTrivia];
+  [((CMTriviaView*)self.view) updateTrivia];
 }
 
 - (void)dealloc {
-    [triviaView_ release];
-    [super dealloc];
+  [triviaView_ release];
+  [super dealloc];
 }
 
 @end

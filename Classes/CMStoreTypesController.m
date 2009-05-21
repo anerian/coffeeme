@@ -13,16 +13,6 @@
 
 @implementation CMStoreTypesController
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
 - (void)loadView {
   [super loadView];
   
@@ -31,6 +21,9 @@
 	self.tableView.autoresizingMask = 
     UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
   [self.view addSubview:self.tableView];
+  
+  self.navigationBarTintColor = HexToUIColor(0x2c1e10);
+  self.statusBarStyle = UIStatusBarStyleBlackOpaque;
 }
 
 - (void)viewDidLoad {

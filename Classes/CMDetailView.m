@@ -14,11 +14,14 @@
   if (self = [super initWithFrame:frame]) {
     store_ = [store retain];
     self.backgroundColor = HexToUIColor(0xeddabe);
-    // self.backgroundColor = [UIColor groupTableViewBackgroundColor];
     
-    UILabel *storeType_ = CMLabelMake(CGRectMake(80,10,220,24), 18, YES);
-    storeType_.textColor = [UIColor darkTextColor];
+    TTLabel *storeType_ = [[[TTLabel alloc] initWithFrame:CGRectMake(80,10,220,24)] autorelease];
+    storeType_.style = TTSTYLE(titleLabel);
     storeType_.text = CMShopType(store.type);
+    
+    // UILabel *storeType_ = CMLabelMake(CGRectMake(80,10,220,24), 18, YES);
+    // storeType_.textColor = HexToUIColor(0x45290f);
+    // storeType_.text = CMShopType(store.type);
     
     UILabel *address_ = CMLabelMake(CGRectMake(80,34,220,40), 16, NO);
     address_.numberOfLines = 2;
