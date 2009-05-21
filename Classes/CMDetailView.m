@@ -39,12 +39,16 @@
     map_.backgroundColor = [UIColor clearColor];
     map_.url = [store gmapUrl];
     
+    UIImageView *mapMask_ = [[[UIImageView alloc] initWithFrame:map_.frame] autorelease];
+    mapMask_.image = [[UIImage imageNamed:@"bg-map-mask.png"] stretchableImageWithLeftCapWidth:40 topCapHeight:40];
+    
     [self addSubview:icon_];
     [self addSubview:storeType_];
     [self addSubview:address_];
     [self addSubview:call_];
     [self addSubview:mapIt_];
     [self addSubview:map_];
+    [self addSubview:mapMask_];
   }
   return self;
 }

@@ -26,10 +26,10 @@
   if (state == UIControlStateNormal) {
   return 
     [TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:8] next:
-    [TTShadowStyle styleWithColor:HexToUIColor(0xc99865) blur:0 offset:CGSizeMake(0, -1) next:
-    [TTShadowStyle styleWithColor:HexToUIColor(0xcfffff) blur:1 offset:CGSizeMake(0, -1) next:
-    [TTShadowStyle styleWithColor:HexToUIColor(0xcfffff) blur:1 offset:CGSizeMake(0, 1) next:
-    [TTShadowStyle styleWithColor:HexToUIColor(0xa87f54) blur:0 offset:CGSizeMake(0, 1) next:
+    [TTShadowStyle styleWithColor:HexToUIColor(0xaa8156) blur:0 offset:CGSizeMake(0, -1) next:
+    [TTShadowStyle styleWithColor:HexToUIColor(0xffffff) blur:1 offset:CGSizeMake(0, -1) next:
+    [TTShadowStyle styleWithColor:HexToUIColor(0xffffff) blur:1 offset:CGSizeMake(0, 1) next:
+    [TTShadowStyle styleWithColor:HexToUIColor(0xaa8156) blur:0 offset:CGSizeMake(0, 1) next:
     [TTLinearGradientFillStyle styleWithColor1:HexToUIColor(0xeddabe) color2:HexToUIColor(0xc99865) next:
     [TTBoxStyle styleWithPadding:UIEdgeInsetsMake(10, 12, 9, 12) next:
     [TTTextStyle styleWithFont:[UIFont boldSystemFontOfSize:12]  color:HexToUIColor(0x45290f)
@@ -39,15 +39,15 @@
   } else if (state == UIControlStateHighlighted) {
     return 
       [TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:8] next:
-      [TTInsetStyle styleWithInset:UIEdgeInsetsMake(0, 0, 1, 0) next:
-      [TTShadowStyle styleWithColor:RGBACOLOR(255,255,255,0.9) blur:1 offset:CGSizeMake(0, 1) next:
-      [TTLinearGradientFillStyle styleWithColor1:RGBCOLOR(225, 225, 225)
-                                 color2:RGBCOLOR(196, 201, 221) next:
-      [TTSolidBorderStyle styleWithColor:RGBCOLOR(161, 167, 178) width:1 next:
+      [TTShadowStyle styleWithColor:HexToUIColor(0xaa8156) blur:0 offset:CGSizeMake(0, -1) next:
+      [TTShadowStyle styleWithColor:HexToUIColor(0xffffff) blur:1 offset:CGSizeMake(0, -1) next:
+      [TTShadowStyle styleWithColor:HexToUIColor(0xffffff) blur:1 offset:CGSizeMake(0, 1) next:
+      [TTShadowStyle styleWithColor:HexToUIColor(0xaa8156) blur:0 offset:CGSizeMake(0, 1) next:
+      [TTLinearGradientFillStyle styleWithColor1:HexToUIColor(0xc99865) color2:HexToUIColor(0xeddabe) next:
       [TTBoxStyle styleWithPadding:UIEdgeInsetsMake(10, 12, 9, 12) next:
-      [TTTextStyle styleWithFont:nil color:[UIColor whiteColor]
-                   shadowColor:[UIColor colorWithWhite:255 alpha:0.4]
-                   shadowOffset:CGSizeMake(0, -1) next:nil]]]]]]];
+      [TTTextStyle styleWithFont:[UIFont boldSystemFontOfSize:12]  color:HexToUIColor(0x45290f)
+                   minimumFontSize:8 shadowColor:[UIColor colorWithWhite:1 alpha:0.8]
+                   shadowOffset:CGSizeMake(0, 1) next:nil]]]]]]]];
   } else {
     return nil;
   }
