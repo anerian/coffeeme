@@ -47,7 +47,7 @@
 <% end %>
 <% content_for :foot do %>
   <script type="text/javascript" src="/javascripts/prototype.js"></script>
-  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAAEPPfOf82D9FXQ-BvzuODNBTJQa0g3IQ9GZqIMmInSLzwtGDKaBT-Y1d9KKC8W1D7zJRKFrd6g7fuag" type="text/javascript"></script>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=<%= MAP_API_KEY %>" type="text/javascript"></script>
   <script type="text/javascript">
     document.observe("dom:loaded", function() { 
       var map = new GMap2(document.getElementById("map_canvas"));
