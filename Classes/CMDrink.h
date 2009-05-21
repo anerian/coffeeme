@@ -10,11 +10,11 @@
 #import "CMModel.h"
 
 @interface CMDrink : CMModel<CMModel> {
-    NSString *name_;
-    NSUInteger milk_;
-    NSUInteger size_;
-    CMStoreType type_;
-    CMNutrition nutrition_;
+  NSString *name_;
+  NSUInteger milk_;
+  NSUInteger size_;
+  CMStoreType type_;
+  CMNutrition nutrition_;
 }
 
 @property(nonatomic, retain) NSString *name;

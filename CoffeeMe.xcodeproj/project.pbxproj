@@ -227,7 +227,6 @@
 		39868D720FBC67D0006E151C /* CMDrinksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDrinksController.m; sourceTree = "<group>"; };
 		39868D940FBC782C006E151C /* CMDrinksDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDrinksDataSource.h; sourceTree = "<group>"; };
 		39868D950FBC782C006E151C /* CMDrinksDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDrinksDataSource.m; sourceTree = "<group>"; };
-		39868DF80FBCA221006E151C /* CMButtonStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMButtonStyleSheet.h; sourceTree = "<group>"; };
 		39868E170FBCB380006E151C /* bg-detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-detail.png"; sourceTree = "<group>"; };
 		39868E9F0FBCC7D4006E151C /* bg-detail-content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-detail-content.png"; sourceTree = "<group>"; };
 		39868F1A0FBCDCE2006E151C /* CMPotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPotController.h; sourceTree = "<group>"; };
@@ -454,7 +453,6 @@
 				398686490FB89381006E151C /* CMDetailView.m */,
 				398689A50FB9D000006E151C /* CMMapView.h */,
 				398689A60FB9D000006E151C /* CMMapView.m */,
-				39868DF80FBCA221006E151C /* CMButtonStyleSheet.h */,
 				39868F260FBCDFB1006E151C /* CMCoffeePotView.h */,
 				39868F270FBCDFB1006E151C /* CMCoffeePotView.m */,
 				398B48AC0FBDED570075DB78 /* CMNutritionView.h */,

@@ -34,7 +34,7 @@
 }
 
 - (void)rotate:(float)angle {
-   coffee_.transform = CGAffineTransformMakeRotation(DEG2RAD(angle));
+  coffee_.transform = CGAffineTransformMakeRotation(DEG2RAD(angle));
 }
 
 - (void)updateTrivia {
@@ -56,6 +56,9 @@
 }
 
 - (void)dealloc {
+  [cup_ release];
+  [coffee_ release];
+  [fact_ release];
   [super dealloc];
 }
 

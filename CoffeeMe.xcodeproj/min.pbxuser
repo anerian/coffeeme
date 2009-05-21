@@ -342,9 +342,9 @@
 	};
 	3915B91A0FC47AAA001BC45C /* CMStyleSheet.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 358}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 169}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1984}}";
+			sepNavSelRange = "{6382, 0}";
+			sepNavVisRange = "{4508, 1219}";
 		};
 	};
 	3915B96E0FC49D41001BC45C /* PBXBookmark */ = {
@@ -1156,6 +1156,13 @@
 		vrLen = 632;
 		vrLoc = 0;
 	};
+	398686C10FB8C96B006E151C /* CMTriviaView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 358}}";
+			sepNavSelRange = "{340, 0}";
+			sepNavVisRange = "{0, 340}";
+		};
+	};
 	398686C20FB8C96B006E151C /* CMTriviaView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 976}}";
@@ -1825,10 +1832,16 @@
 		vrLoc = 0;
 	};
 	39868DF80FBCA221006E151C /* CMButtonStyleSheet.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = CMButtonStyleSheet.h;
+		path = /Users/min/workspace/anerian/github/coffeeme/Classes/CMButtonStyleSheet.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1440}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1600}}";
 			sepNavSelRange = "{309, 0}";
-			sepNavVisRange = "{0, 1356}";
+			sepNavVisRange = "{0, 583}";
 		};
 	};
 	39868EBA0FBCCE6B006E151C /* PBXTextBookmark */ = {
