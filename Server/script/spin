@@ -1,0 +1,97 @@
+#!/usr/bin/env ruby
+#DIRROOT=`dirname $0`
+#$DIRROOT/process/spawner -p 9200 -i 3
+
+class Runner
+  def initialize
+    @app_root = "/var/www/apps/coffeeme"
+    @options = {}
+    @options[:user] = "deployer"
+    @options[:group] = "deployer"
+    @options[:environment] = "production"
+    @options[:address] = "127.0.0.1"
+    @options[:chdir] = "#{@app_root}/current/Server"
+    @options[:daemonize] = nil
+    @num_mongrels = 3
+    @port_prefix = 100
+  end
+  
+  def start(single=nil)
+    if single.nil?
+      @num_mongrels.times do|port|
+        single_start(port)
+      end
+    else
+      single_start(single)
+    end
+  end
+
+  def stop(single=nil)
+    if single.nil?
+      @num_mongrels.times do|port|
+        single_stop(port)
+      end
+    else
+      single_stop(single)
+    end
+  end
+ 
+  def restart(single=nil)
+    if single.nil?
+      @num_mongrels.times do|port|
+        single_stop(port)
+        single_start(port)
+      end
+    else
+      single_stop(single)
+      single_start(single)
+    end
+  end
+
+private
+  def single_start(port)
+    options = @options
+    options[:port] = "#{@port_prefix}#{port}"
+    options[:pid] = "#{@app_root}/shared/pids/mongrel.#{@port_prefix}#{port}.pid"
+    options[:log] = "#{@app_root}/shared/log/mongrel.#{@port_prefix}#{port}.log"
+    
+    command = prepare('start', options)
+    puts command.inspect
+    system(command)
+  end
+
+  def single_stop(port)
+    options = {}
+    options[:pid] = "#{@app_root}/shared/pids/mongrel.#{@port_prefix}#{port}.pid"
+    options[:wait] = 1 # give it 1 second to finish requests
+    options[:chdir] = @options[:chdir]
+    command = prepare('stop', options)
+    puts command.inspect
+    system(command)
+  end
+
+
+  def prepare(cmd, options)
+    app_server = "/opt/local/bin/mongrel_rails"
+    # check if mongrel_rails is in our path
+    command = "#{app_server} #{cmd}"
+    options.each do|k,v|
+      command += " --#{k} #{v}"
+    end
+    command
+  end
+
+end
+
+runner = Runner.new
+
+case ARGV[0]
+when 'start'
+when 'stop'
+when 'restart'
+else
+  STDERR.puts "usage ./script/spin [start|stop|restart]"
+  exit(1)
+end
+
+runner.send(ARGV[0],ARGV[1])
