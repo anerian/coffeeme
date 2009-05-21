@@ -29,6 +29,7 @@
 		39474C570FC0C34400B1D410 /* CMAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 39474C560FC0C34400B1D410 /* CMAppConfig.m */; };
 		39760C0D0FC5B0CC00FF561D /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760C0C0FC5B0CC00FF561D /* app_icon.png */; };
 		39760C3B0FC5E8E600FF561D /* bg-map-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760C3A0FC5E8E600FF561D /* bg-map-mask.png */; };
+		39760C520FC5EBCB00FF561D /* tabAnerian.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760C510FC5EBCB00FF561D /* tabAnerian.png */; };
 		397D74A40FB24EF900ACE161 /* CMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74A30FB24EF900ACE161 /* CMStore.m */; };
 		397D74B40FB2519100ACE161 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */; };
 		397D74D90FB2585B00ACE161 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74D80FB2585B00ACE161 /* CoreLocation.framework */; };
@@ -119,6 +120,7 @@
 		39474C560FC0C34400B1D410 /* CMAppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppConfig.m; sourceTree = "<group>"; };
 		39760C0C0FC5B0CC00FF561D /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
 		39760C3A0FC5E8E600FF561D /* bg-map-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-map-mask.png"; sourceTree = "<group>"; };
+		39760C510FC5EBCB00FF561D /* tabAnerian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabAnerian.png; sourceTree = "<group>"; };
 		397D74A20FB24EF900ACE161 /* CMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStore.h; sourceTree = "<group>"; };
 		397D74A30FB24EF900ACE161 /* CMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStore.m; sourceTree = "<group>"; };
 		397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/lib/libsqlite3.0.dylib; sourceTree = SOURCE_ROOT; };
@@ -390,6 +392,7 @@
 				39760C050FC5AF8900FF561D /* Cups */,
 				3915B98C0FC4C9F1001BC45C /* shadow-top.png */,
 				3915B9840FC4A059001BC45C /* shadow-bottom.png */,
+				39760C510FC5EBCB00FF561D /* tabAnerian.png */,
 				39B972FB0FC2F97700BBFCE9 /* tabTrivia.png */,
 				39B972F40FC2C37500BBFCE9 /* tabCoffeeme.png */,
 				3930A28D0FC2525C00BB3848 /* tabNutrition.png */,
@@ -504,6 +507,7 @@
 				0997723E0FC48CBC0051D2A1 /* cup-7.png in Resources */,
 				39760C0D0FC5B0CC00FF561D /* app_icon.png in Resources */,
 				39760C3B0FC5E8E600FF561D /* bg-map-mask.png in Resources */,
+				39760C520FC5EBCB00FF561D /* tabAnerian.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
