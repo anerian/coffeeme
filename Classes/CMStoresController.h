@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CMModalView.h"
 #import "CMDetailController.h"
 #import "CMBaseController.h"
 #import "CMLocation.h"

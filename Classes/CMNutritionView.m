@@ -130,7 +130,10 @@
 }
 
 - (void)dealloc {
-    [super dealloc];
+  [title_ release];
+  [value_ release];
+  [daily_ release];
+  [super dealloc];
 }
 
 @end
@@ -148,7 +151,6 @@
 
 - (id)initWithFrame:(CGRect)frame {
   if (self = [super initWithFrame:frame]) {        
-    // self.backgroundColor = HexToUIColor(0xeae2d6);
     self.backgroundColor = [UIColor whiteColor];
 
     drinkName_ = [CMLabelMake(CGRectMake(20,10,280,48), 18, NO) retain];
@@ -230,7 +232,10 @@
 }
 
 - (void)dealloc {
+  [drink_ release];
   [metrics_ release];
+  [calories_ release];
+  [drinkName_ release];
   [super dealloc];
 }
 

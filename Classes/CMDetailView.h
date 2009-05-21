@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "CMStore.h"
-#import "CMMapView.h"
 
 @interface CMDetailView : UIView<TTImageViewDelegate, UIScrollViewDelegate> {
     CMStore *store_;

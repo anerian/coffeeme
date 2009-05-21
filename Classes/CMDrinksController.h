@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-
 @interface CMDrinksController : TTTableViewController <TTSearchTextFieldDelegate> {
-    NSArray *drinks_;
+  NSArray *drinks_;
 }
 
 @property (nonatomic, retain) NSArray *drinks;
