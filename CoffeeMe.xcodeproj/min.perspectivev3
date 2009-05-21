@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -279,14 +281,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>54</integer>
-									<integer>43</integer>
-									<integer>41</integer>
+									<integer>10</integer>
+									<integer>6</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 1059}, {346, 760}}</string>
+							<string>{{0, 0}, {346, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -319,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>CMTriviaView.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,7 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string></string>
+										<string>CMTriviaView.h</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>39760BCE0FC5A67A00FF561D</string>
 										<key>history</key>
 										<array>
 											<string>398680CF0FB33245006E151C</string>
@@ -415,20 +420,20 @@
 											<string>39B973BF0FC32A4800BBFCE9</string>
 											<string>39B9741A0FC338B800BBFCE9</string>
 											<string>39B9741B0FC338B800BBFCE9</string>
-											<string>39B9741C0FC338B800BBFCE9</string>
 											<string>39B9741E0FC338B800BBFCE9</string>
 											<string>39B9749D0FC35D7F00BBFCE9</string>
 											<string>39B9749E0FC35D7F00BBFCE9</string>
 											<string>39B9749F0FC35D7F00BBFCE9</string>
 											<string>3915B90B0FC479EB001BC45C</string>
 											<string>3915B96E0FC49D41001BC45C</string>
-											<string>3915B96F0FC49D41001BC45C</string>
 											<string>3915B9700FC49D41001BC45C</string>
 											<string>3915B9710FC49D41001BC45C</string>
 											<string>3915B9800FC4A01D001BC45C</string>
 											<string>3915B9880FC4C9B3001BC45C</string>
 											<string>3915B9BC0FC4CCE4001BC45C</string>
 											<string>3915B9E40FC4EFF7001BC45C</string>
+											<string>39760BCB0FC5A67A00FF561D</string>
+											<string>39760BCC0FC5A67A00FF561D</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -484,7 +489,6 @@
 											<string>39868D8A0FBC6C60006E151C</string>
 											<string>39868DAB0FBC8517006E151C</string>
 											<string>39868EC00FBCCE6B006E151C</string>
-											<string>39868EC10FBCCE6B006E151C</string>
 											<string>39868EC20FBCCE6B006E151C</string>
 											<string>39868EC30FBCCE6B006E151C</string>
 											<string>39868F420FBCE3BA006E151C</string>
@@ -530,6 +534,7 @@
 											<string>3915B9730FC49D41001BC45C</string>
 											<string>3915B9740FC49D41001BC45C</string>
 											<string>3915B9BE0FC4CCE4001BC45C</string>
+											<string>39760BCD0FC5A67A00FF561D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -569,8 +574,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1072, 356}}</string>
-										<key>RubberWindowFrame</key>
-										<string>-1 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -625,6 +628,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1072, 356}}</string>
+										<key>RubberWindowFrame</key>
+										<string>-1 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -840,6 +845,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>39760BCF0FC5A67A00FF561D</string>
 		<string>39760B870FC5924B00FF561D</string>
 		<string>39760B880FC5924B00FF561D</string>
 		<string>/Users/min/workspace/anerian/github/coffeeme/CoffeeMe.xcodeproj</string>

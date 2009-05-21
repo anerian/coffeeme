@@ -13,25 +13,21 @@
 @implementation CMDetailController
 
 - (id)initWithStore:(CMStore *)store {
-    if (self = [super init]) {
-        store_ = [store retain];
+  if (self = [super init]) {
+    store_ = [store retain];
         
-        self.title = @"Details";
-    }
-    return self;
+    self.title = @"Details";
+  }
+  return self;
 }
 
-
 - (void)loadView {
-    [super loadView];
-    self.view = [[[CMDetailView alloc] initWithFrame:self.view.bounds withStore:store_] autorelease];
+  [super loadView];
+  self.view = [[[CMDetailView alloc] initWithFrame:self.view.bounds withStore:store_] autorelease];
 }
 
 - (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
+  [super didReceiveMemoryWarning];
 }
 
 - (void)viewDidUnload {
@@ -39,10 +35,9 @@
 	// e.g. self.myOutlet = nil;
 }
 
-
 - (void)dealloc {
-    [super dealloc];
+  [store_ release];
+  [super dealloc];
 }
-
 
 @end

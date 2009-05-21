@@ -23,7 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Release;
 		activeExecutable = 397D74710FB23DF000ACE161 /* CoffeeMe */;
-		activeSDKPreference = iphonesimulator2.2.1;
+		activeSDKPreference = iphoneos2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CoffeeMe */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* CoffeeMe */,
@@ -169,6 +169,10 @@
 			39760AD50FC500F500FF561D = 39760AD50FC500F500FF561D /* PBXBookmark */;
 			39760B0E0FC57E5200FF561D = 39760B0E0FC57E5200FF561D /* PBXBookmark */;
 			39760B100FC57E5500FF561D = 39760B100FC57E5500FF561D /* PBXBookmark */;
+			39760BCB0FC5A67A00FF561D /* PBXTextBookmark */ = 39760BCB0FC5A67A00FF561D /* PBXTextBookmark */;
+			39760BCC0FC5A67A00FF561D /* PBXTextBookmark */ = 39760BCC0FC5A67A00FF561D /* PBXTextBookmark */;
+			39760BCD0FC5A67A00FF561D /* PBXTextBookmark */ = 39760BCD0FC5A67A00FF561D /* PBXTextBookmark */;
+			39760BCE0FC5A67A00FF561D /* PBXTextBookmark */ = 39760BCE0FC5A67A00FF561D /* PBXTextBookmark */;
 			397D748A0FB24E8D00ACE161 = 397D748A0FB24E8D00ACE161 /* PBXTextBookmark */;
 			397D749F0FB24ED200ACE161 = 397D749F0FB24ED200ACE161 /* PlistBookmark */;
 			397D74C20FB2540A00ACE161 = 397D74C20FB2540A00ACE161 /* PBXTextBookmark */;
@@ -320,6 +324,13 @@
 		userBuildSettings = {
 		};
 	};
+	3915B8D50FC45C61001BC45C /* bg.jpg */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.jpeg;
+		name = bg.jpg;
+		path = /Users/min/workspace/anerian/github/coffeeme/Images/bg.jpg;
+		sourceTree = "<absolute>";
+	};
 	3915B90B0FC479EB001BC45C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 397D74A30FB24EF900ACE161 /* CMStore.m */;
@@ -458,6 +469,104 @@
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 797;
+	};
+	3930A1AF0FC20FD700BB3848 /* coffeeme_steam-6.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-6.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-6.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1B00FC20FD700BB3848 /* coffeeme_steam-10.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-10.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-10.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1B10FC20FD700BB3848 /* coffeeme_steam-9.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-9.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-9.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1B20FC20FD700BB3848 /* coffeeme_steam-3.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-3.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-3.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1B30FC20FD700BB3848 /* coffeeme_steam-11.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-11.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-11.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1B40FC20FD700BB3848 /* coffeeme_steam-8.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-8.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-8.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1B50FC20FD700BB3848 /* coffeeme_steam-1.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-1.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-1.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1B60FC20FD700BB3848 /* coffeeme_steam-2.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-2.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-2.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1B70FC20FD700BB3848 /* coffeeme_steam-4.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-4.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-4.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1B80FC20FD700BB3848 /* coffeeme_steam-12.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-12.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-12.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1B90FC20FD700BB3848 /* coffeeme_steam-14.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-14.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-14.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1BA0FC20FD700BB3848 /* coffeeme_steam-5.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-5.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-5.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1BB0FC20FD700BB3848 /* coffeeme_steam-7.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-7.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-7.png";
+		sourceTree = "<absolute>";
+	};
+	3930A1BC0FC20FD700BB3848 /* coffeeme_steam-13.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "coffeeme_steam-13.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/coffeeme_steam-13.png";
+		sourceTree = "<absolute>";
 	};
 	3930A1CC0FC210BF00BB3848 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -692,6 +801,46 @@
 	39760B100FC57E5500FF561D /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 3915B98C0FC4C9F1001BC45C /* shadow-top.png */;
+	};
+	39760BCB0FC5A67A00FF561D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3915B91A0FC47AAA001BC45C /* CMStyleSheet.m */;
+		name = "CMStyleSheet.m: 132";
+		rLen = 0;
+		rLoc = 6382;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 4508;
+	};
+	39760BCC0FC5A67A00FF561D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398686C10FB8C96B006E151C /* CMTriviaView.h */;
+		name = "CMTriviaView.h: 21";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
+	};
+	39760BCD0FC5A67A00FF561D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3915B91A0FC47AAA001BC45C /* CMStyleSheet.m */;
+		name = "CMStyleSheet.m: 132";
+		rLen = 0;
+		rLoc = 6382;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 4508;
+	};
+	39760BCE0FC5A67A00FF561D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398686C10FB8C96B006E151C /* CMTriviaView.h */;
+		name = "CMTriviaView.h: 21";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
 	};
 	397D74710FB23DF000ACE161 /* CoffeeMe */ = {
 		isa = PBXExecutable;
@@ -1417,6 +1566,27 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
+	39868C0B0FBB6090006E151C /* bg-shadow-bottom.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "bg-shadow-bottom.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/bg-shadow-bottom.png";
+		sourceTree = "<absolute>";
+	};
+	39868C0C0FBB6090006E151C /* bg-shadow-top.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "bg-shadow-top.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/bg-shadow-top.png";
+		sourceTree = "<absolute>";
+	};
+	39868C140FBB6090006E151C /* pin-blue.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "pin-blue.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/pin-blue.png";
+		sourceTree = "<absolute>";
+	};
 	39868C2E0FBB6139006E151C /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 39868C2F0FBB6139006E151C /* cup.png */;
@@ -1455,6 +1625,13 @@
 		lastKnownFileType = image.png;
 		name = "pin-orange.png";
 		path = "/Users/min/workspace/anerian/github/coffeeme/Images/pin-orange.png";
+		sourceTree = "<absolute>";
+	};
+	39868C480FBB6301006E151C /* app_icon.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = app_icon.png;
+		path = /Users/min/workspace/anerian/github/coffeeme/Images/app_icon.png;
 		sourceTree = "<absolute>";
 	};
 	39868C4E0FBB63D9006E151C /* PBXBookmark */ = {
@@ -1844,6 +2021,20 @@
 			sepNavVisRange = "{0, 583}";
 		};
 	};
+	39868E170FBCB380006E151C /* bg-detail.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "bg-detail.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/bg-detail.png";
+		sourceTree = "<absolute>";
+	};
+	39868E9F0FBCC7D4006E151C /* bg-detail-content.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "bg-detail-content.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/bg-detail-content.png";
+		sourceTree = "<absolute>";
+	};
 	39868EBA0FBCCE6B006E151C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 39868D950FBC782C006E151C /* CMDrinksDataSource.m */;
@@ -1915,6 +2106,13 @@
 			sepNavSelRange = "{1163, 0}";
 			sepNavVisRange = "{0, 771}";
 		};
+	};
+	39868F240FBCDF8A006E151C /* bg-pot.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "bg-pot.png";
+		path = "/Users/min/workspace/anerian/github/coffeeme/Images/bg-pot.png";
+		sourceTree = "<absolute>";
 	};
 	39868F260FBCDFB1006E151C /* CMCoffeePotView.h */ = {
 		uiCtxt = {
@@ -2122,6 +2320,13 @@
 		rType = 0;
 		vrLen = 1485;
 		vrLoc = 714;
+	};
+	398B49700FBEF6BE0075DB78 /* steam_5.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = steam_5.png;
+		path = /Users/min/workspace/anerian/github/coffeeme/Images/steam_5.png;
+		sourceTree = "<absolute>";
 	};
 	39B973580FC3080E00BBFCE9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
