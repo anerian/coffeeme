@@ -20,8 +20,8 @@ class StoresController < ApplicationController
       values = []
       conditions = options.delete(:conditions).map{|k,v| values << v; "#{k}=?" }.join(' ')
       conditions << " AND " if not conditions.blank?
-      conditions << " (street LIKE ? OR city LIKE ? OR state LIKE ? OR phone LIKE ?)"
-      4.times { values << "%#{filter}%" }
+      conditions << " (street LIKE ? OR city LIKE ? OR state LIKE ? OR phone LIKE ? OR zip LIKE ?)"
+      5.times { values << "%#{filter}%" }
       conditions = [conditions] + values
       logger.debug("filters: #{conditions.inspect}")
       options.merge!(:conditions => conditions)
