@@ -26,14 +26,11 @@
   if (state == UIControlStateNormal) {
   return 
     [TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:8] next:
-    // [TTInsetStyle styleWithInset:UIEdgeInsetsMake(1, 0, 0, 0) next:
     [TTShadowStyle styleWithColor:HexToUIColor(0xc99865) blur:0 offset:CGSizeMake(0, -1) next:
     [TTShadowStyle styleWithColor:HexToUIColor(0xcfffff) blur:1 offset:CGSizeMake(0, -1) next:
     [TTShadowStyle styleWithColor:HexToUIColor(0xcfffff) blur:1 offset:CGSizeMake(0, 1) next:
     [TTShadowStyle styleWithColor:HexToUIColor(0xa87f54) blur:0 offset:CGSizeMake(0, 1) next:
     [TTLinearGradientFillStyle styleWithColor1:HexToUIColor(0xeddabe) color2:HexToUIColor(0xc99865) next:
-    // [TTInsetStyle styleWithInset:UIEdgeInsetsMake(0, -1, -1, -1) next:
-    // [TTSolidBorderStyle styleWithColor:HexToUIColor(0xffffff) width:1 next:
     [TTBoxStyle styleWithPadding:UIEdgeInsetsMake(10, 12, 9, 12) next:
     [TTTextStyle styleWithFont:[UIFont boldSystemFontOfSize:12]  color:HexToUIColor(0x45290f)
                  minimumFontSize:8 shadowColor:[UIColor colorWithWhite:1 alpha:0.8]
@@ -93,7 +90,6 @@
       [TTInsetStyle styleWithInset:UIEdgeInsetsMake(9, 1, 8, 1) next:
       [TTShadowStyle styleWithColor:RGBACOLOR(255,255,255,0.8) blur:0 offset:CGSizeMake(0, 1) next:
       [TTLinearGradientFillStyle styleWithColor1:HexToUIColor(0x4d3a26) color2:HexToUIColor(0x25190c) next:
-      // [TTInnerShadowStyle styleWithColor:RGBACOLOR(0,0,0,0.3) blur:1 offset:CGSizeMake(1, 1) next:
       [TTInsetStyle styleWithInset:UIEdgeInsetsMake(-1, -1, -1, -1) next:
       [TTBoxStyle styleWithPadding:UIEdgeInsetsMake(0, 10, 0, 10) next:
       [TTTextStyle styleWithFont:[UIFont boldSystemFontOfSize:12]  color:[UIColor whiteColor]
@@ -109,10 +105,28 @@
 }
 
 - (TTStyle*)tabStrip {
-  // UIColor* border = [TTSTYLEVAR(tabTintColor) multiplyHue:0 saturation:0 value:0.4];
   return
     [TTLinearGradientFillStyle styleWithColor1:HexToUIColor(0xeddabe) color2:HexToUIColor(0xc99865) next:
     [TTFourBorderStyle styleWithTop:nil right:nil bottom:HexToUIColor(0x25190c) left:nil width:1 next:nil]];
+}
+
+- (TTStyle*)titleLabel {
+  TTTextStyle *style =   
+    [TTTextStyle styleWithFont:[UIFont boldSystemFontOfSize:18] color:HexToUIColor(0x45290f)
+    minimumFontSize:8 shadowColor:[UIColor whiteColor]
+    shadowOffset:CGSizeMake(0, 1) next:nil];
+  style.textAlignment = UITextAlignmentLeft;  
+  return style;
+}
+
+- (TTStyle*)descriptionLabel {
+  TTTextStyle *style =   
+    [TTTextStyle styleWithFont:[UIFont boldSystemFontOfSize:16] color:HexToUIColor(0x45290f)
+    minimumFontSize:16 shadowColor:[UIColor whiteColor]
+    shadowOffset:CGSizeMake(0, 1) next:nil];
+  style.textAlignment = UITextAlignmentLeft;  
+  style.lineBreakMode = UILineBreakModeWordWrap;
+  return style;
 }
 
 @end

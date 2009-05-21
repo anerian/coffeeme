@@ -113,7 +113,7 @@ distance = distance_, userLatitude = userLatitude_, userLongitude = userLongitud
 }
 
 - (NSString *)gmapUrl {
-    return [NSString stringWithFormat:@"http://maps.google.com/staticmap?center=%f,%f&zoom=14&size=280x280&maptype=mobile&key=%2&sensor=false", self.latitude, self.longitude, GMAP_KEY];
+    return [NSString stringWithFormat:@"http://maps.google.com/staticmap?center=%f,%f&zoom=14&size=280x200&maptype=mobile&key=%2&sensor=false", self.latitude, self.longitude, GMAP_KEY];
 }
 
 - (void)dealloc {
