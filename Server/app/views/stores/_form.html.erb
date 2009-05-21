@@ -74,6 +74,7 @@
       map.addOverlay(marker);
 
       $("reset").observe("click", function(e) { 
+        map.setCenter(point, map.getZoom());
         marker.setLatLng(point);
         e.stop();
       });
@@ -86,7 +87,7 @@
             alert(address +  " not found");
           }
           else {
-            map.setCenter(pt, 13);
+            map.setCenter(pt, map.getZoom());
             marker.setLatLng(pt);
             $("store_longitude").value = pt.lng();
             $("store_latitude").value = pt.lat();
