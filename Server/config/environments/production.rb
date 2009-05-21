@@ -1,4 +1,5 @@
 # Settings specified here will take precedence over those in config/environment.rb
+MAP_API_KEY="ABQIAAAAEPPfOf82D9FXQ-BvzuODNBQLTXgoTMxSEAkNf7yd7LWM3ImslRT48RFsd0cJuOw5ZgLHnvt17knO-w"
 
 # The production environment is meant for finished, "live" apps.
 # Code is not reloaded between requests
