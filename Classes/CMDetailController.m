@@ -7,7 +7,6 @@
 //
 
 #import "CMDetailController.h"
-#import "CMDetailView.h"
 
 
 @implementation CMDetailController
@@ -23,7 +22,8 @@
 
 - (void)loadView {
   [super loadView];
-  self.view = [[[CMDetailView alloc] initWithFrame:self.view.bounds withStore:store_] autorelease];
+  detailView_ = [[CMDetailView alloc] initWithFrame:self.view.bounds withStore:store_]; 
+  [self.view addSubview:detailView_];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,6 +37,7 @@
 
 - (void)dealloc {
   [store_ release];
+  [detailView_ release];
   [super dealloc];
 }
 

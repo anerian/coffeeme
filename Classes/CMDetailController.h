@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CMDetailView.h"
 #import "CMStore.h"
 
 
 @interface CMDetailController : UIViewController {
-    CMStore *store_;
+  CMDetailView *detailView_;
+  CMStore *store_;
 }
 
 - (id)initWithStore:(CMStore *)store;

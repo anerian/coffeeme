@@ -54,12 +54,9 @@ static CMLocation *instance;
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
-  DLog(@"verticalAccuracty: %f", newLocation.verticalAccuracy);
-  DLog(@"verticalAccuracty: %f", newLocation.horizontalAccuracy);
   if (abs([newLocation.timestamp timeIntervalSinceDate:[NSDate date]]) < 5) {
     
     [self stop];
-    DLog(@"verticalAccuracty: %f", newLocation.verticalAccuracy);
     self.currentLocation = newLocation;
 
     [[NSNotificationCenter defaultCenter] postNotificationName:@"location:updated" object:newLocation];

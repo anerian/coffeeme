@@ -5,27 +5,6 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
-    #import <CoreLocation/CoreLocation.h>
-    #import <QuartzCore/CAAnimation.h>
     #import "Three20/Three20.h"
     #import "CoffeeMe.h"
-    
-    @interface UIProgressHUD : NSObject
-    - (void) show: (BOOL) yesOrNo;
-    - (UIProgressHUD *) initWithWindow: (UIView *) window;
-    @end
-    
-    #define HexToUIColor(c) [UIColor colorWithRed:((c>>16)&0xFF)/255.0 green:((c>>8)&0xFF)/255.0 blue:(c&0xFF)/255.0 alpha:1.0]
-    
-    #define GMAP_KEY @"ABQIAAAAPbIrQY6Tw4qExHaj02Mk2hRVqMhVQ_5kbSl3aRaLvxPKrOmdqRQ20bPBuwPn-AtQx0rYiRgLXkADFQ"
-    
-    #define DEG2RAD(degrees) (M_PI * degrees / 180)
-    #define RAD2DEG(radians) (radians * 180 / M_PI)
-    
-    #ifdef DEBUG
-    #define DLog(...) NSLog(__VA_ARGS__)
-    #else
-    #define DLog(...) /* */
-    #endif
-    #define ALog(...) NSLog(__VA_ARGS__)
 #endif

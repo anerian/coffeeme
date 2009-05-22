@@ -15,10 +15,10 @@
     store_ = [store retain];
     self.backgroundColor = HexToUIColor(0xeddabe);
     
-    UIImageView *icon_ = [[[UIImageView alloc] initWithFrame:CGRectMake(20, 10, 49, 62)] autorelease];
+    UIImageView *icon_ = [[UIImageView alloc] initWithFrame:CGRectMake(20, 10, 49, 62)];
     icon_.image = [UIImage imageNamed:[NSString stringWithFormat:@"cup-%d.png", store.type]];
     
-    TTLabel *storeType_ = [[[TTLabel alloc] initWithFrame:CGRectMake(80,10,220,24)] autorelease];
+    TTLabel *storeType_ = [[TTLabel alloc] initWithFrame:CGRectMake(80,10,220,24)];
     storeType_.backgroundColor = [UIColor clearColor];
     storeType_.style = TTSTYLE(titleLabel);
     storeType_.text = CMShopType(store.type);
@@ -35,11 +35,11 @@
     mapIt_.frame = CGRectMake(165,80,135,50);
     [mapIt_ addTarget:self action:@selector(mapIt) forControlEvents:UIControlEventTouchUpInside];
     
-    TTImageView *map_ = [[[TTImageView alloc] initWithFrame:CGRectMake(20, 140, 280, 200)] autorelease];
+    TTImageView *map_ = [[TTImageView alloc] initWithFrame:CGRectMake(20, 140, 280, 200)];
     map_.backgroundColor = [UIColor clearColor];
     map_.url = [store gmapUrl];
     
-    UIImageView *mapMask_ = [[[UIImageView alloc] initWithFrame:map_.frame] autorelease];
+    UIImageView *mapMask_ = [[UIImageView alloc] initWithFrame:map_.frame];
     mapMask_.image = [[UIImage imageNamed:@"bg-map-mask.png"] stretchableImageWithLeftCapWidth:40 topCapHeight:40];
     
     [self addSubview:icon_];
@@ -49,6 +49,11 @@
     [self addSubview:mapIt_];
     [self addSubview:map_];
     [self addSubview:mapMask_];
+    
+    [icon_ release];
+    [storeType_ release];
+    [map_ release];
+    [mapMask_ release];
   }
   return self;
 }
@@ -66,7 +71,8 @@
 # pragma mark Private Methods
 
 - (void)dealloc {
-  [store_ release];  
+  NSLog(@"dealloc detail view");
+  [store_ release];
   [super dealloc];
 }
 

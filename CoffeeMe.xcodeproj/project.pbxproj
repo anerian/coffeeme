@@ -30,9 +30,9 @@
 		39760C0D0FC5B0CC00FF561D /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760C0C0FC5B0CC00FF561D /* app_icon.png */; };
 		39760C3B0FC5E8E600FF561D /* bg-map-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760C3A0FC5E8E600FF561D /* bg-map-mask.png */; };
 		39760C520FC5EBCB00FF561D /* tabAnerian.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760C510FC5EBCB00FF561D /* tabAnerian.png */; };
+		39760E250FC6873A00FF561D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39760E240FC6873A00FF561D /* CoreLocation.framework */; };
 		397D74A40FB24EF900ACE161 /* CMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D74A30FB24EF900ACE161 /* CMStore.m */; };
 		397D74B40FB2519100ACE161 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */; };
-		397D74D90FB2585B00ACE161 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D74D80FB2585B00ACE161 /* CoreLocation.framework */; };
 		397D751D0FB2A52700ACE161 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D751C0FB2A52700ACE161 /* QuartzCore.framework */; };
 		398681040FB336D6006E151C /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 398681030FB336D3006E151C /* libThree20.a */; };
 		398681080FB33720006E151C /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 398681070FB33720006E151C /* Three20.bundle */; };
@@ -49,7 +49,6 @@
 		39868A850FBA2A0A006E151C /* CMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868A840FBA2A0A006E151C /* CMLocation.m */; };
 		39868B4C0FBB1A2C006E151C /* CMBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868B4B0FBB1A2C006E151C /* CMBaseController.m */; };
 		39868BB20FBB3A33006E151C /* CMSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868BB10FBB3A33006E151C /* CMSettingsController.m */; };
-		39868BEE0FBB5985006E151C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39868BED0FBB5985006E151C /* OpenGLES.framework */; };
 		39868C190FBB6090006E151C /* bg-cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C0A0FBB6090006E151C /* bg-cell.png */; };
 		39868C1D0FBB6090006E151C /* cup-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C0E0FBB6090006E151C /* cup-0.png */; };
 		39868C1E0FBB6090006E151C /* cup-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C0F0FBB6090006E151C /* cup-1.png */; };
@@ -121,10 +120,10 @@
 		39760C0C0FC5B0CC00FF561D /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
 		39760C3A0FC5E8E600FF561D /* bg-map-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-map-mask.png"; sourceTree = "<group>"; };
 		39760C510FC5EBCB00FF561D /* tabAnerian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabAnerian.png; sourceTree = "<group>"; };
+		39760E240FC6873A00FF561D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = SOURCE_ROOT; };
 		397D74A20FB24EF900ACE161 /* CMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMStore.h; sourceTree = "<group>"; };
 		397D74A30FB24EF900ACE161 /* CMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStore.m; sourceTree = "<group>"; };
 		397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/lib/libsqlite3.0.dylib; sourceTree = SOURCE_ROOT; };
-		397D74D80FB2585B00ACE161 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = SOURCE_ROOT; };
 		397D751C0FB2A52700ACE161 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = SOURCE_ROOT; };
 		398680F90FB336D3006E151C /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20.xcodeproj; sourceTree = "<group>"; };
 		398681070FB33720006E151C /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Three20.bundle; sourceTree = "<group>"; };
@@ -154,7 +153,6 @@
 		39868B4B0FBB1A2C006E151C /* CMBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBaseController.m; sourceTree = "<group>"; };
 		39868BB00FBB3A33006E151C /* CMSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSettingsController.h; sourceTree = "<group>"; };
 		39868BB10FBB3A33006E151C /* CMSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSettingsController.m; sourceTree = "<group>"; };
-		39868BED0FBB5985006E151C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = "<group>"; };
 		39868C0A0FBB6090006E151C /* bg-cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-cell.png"; sourceTree = "<group>"; };
 		39868C0E0FBB6090006E151C /* cup-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-0.png"; sourceTree = "<group>"; };
 		39868C0F0FBB6090006E151C /* cup-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-1.png"; sourceTree = "<group>"; };
@@ -201,10 +199,9 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
 				397D74B40FB2519100ACE161 /* libsqlite3.0.dylib in Frameworks */,
-				397D74D90FB2585B00ACE161 /* CoreLocation.framework in Frameworks */,
 				397D751D0FB2A52700ACE161 /* QuartzCore.framework in Frameworks */,
 				398681040FB336D6006E151C /* libThree20.a in Frameworks */,
-				39868BEE0FBB5985006E151C /* OpenGLES.framework in Frameworks */,
+				39760E250FC6873A00FF561D /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +275,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				39868BED0FBB5985006E151C /* OpenGLES.framework */,
+				39760E240FC6873A00FF561D /* CoreLocation.framework */,
 				397D751C0FB2A52700ACE161 /* QuartzCore.framework */,
-				397D74D80FB2585B00ACE161 /* CoreLocation.framework */,
 				397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -600,6 +596,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -618,6 +615,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
