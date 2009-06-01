@@ -159,7 +159,6 @@
   [self.tableView reloadData];
   
   if ([stores_ count] == 0) {
-    NSLog(@"stores are empty");
     [self invalidateViewState:TTViewEmpty];
   }
 }
@@ -254,7 +253,6 @@
 }
 
 - (void)updateDataView {
-  NSLog(@"updateDataView");
 }
 
 - (NSString*)titleForActivity {

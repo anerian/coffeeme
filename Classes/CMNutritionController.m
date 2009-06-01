@@ -15,8 +15,6 @@
     for (CMDrink *drink in drinks_) if (drink.milk == 2 && drink.size == 1) currentDrink_ = [drink retain];
     
     if (!currentDrink_) currentDrink_ = [drinks_ objectAtIndex:0];
-    
-    NSLog(@"current drink: %@", currentDrink_);
 }
 
 - (id)initWithDrinkName:(NSString *)drinkName {
@@ -123,7 +121,6 @@
     for (CMDrink *drink in drinks_) {
         if (drink.milk == [[milkTypes_ objectAtIndex:[picker_ selectedRowInComponent:0]] intValue] && 
         drink.size == [[sizes_ objectAtIndex:[picker_ selectedRowInComponent:1]] intValue]) {
-            NSLog(@"found");
             nutritionView_.drink = drink;
         }
     }

@@ -71,7 +71,6 @@
 # pragma mark Private Methods
 
 - (void)dealloc {
-  NSLog(@"dealloc detail view");
   [store_ release];
   [super dealloc];
 }
