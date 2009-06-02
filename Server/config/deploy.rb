@@ -58,5 +58,4 @@ namespace :deploy do
   task :restart, :roles => :app, :except => { :no_release => true } do
     rails.restart
   end
-
 end

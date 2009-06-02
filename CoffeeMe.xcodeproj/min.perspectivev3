@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39760E4A0FC68B4300FF561D</string>
+										<string>397611C00FD4D85100FF561D</string>
 										<key>history</key>
 										<array>
 											<string>398681B30FB359BA006E151C</string>
@@ -722,8 +722,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {682, 127}}</string>
-									<string>{{682, 0}, {714, 127}}</string>
+									<string>{{0, 0}, {681, 129}}</string>
+									<string>{{681, 0}, {715, 129}}</string>
 								</array>
 							</dict>
 							<key>VerticalSplitView</key>
@@ -738,8 +738,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {1396, 127}}</string>
-									<string>{{0, 127}, {1396, 119}}</string>
+									<string>{{0, 0}, {1396, 129}}</string>
+									<string>{{0, 129}, {1396, 117}}</string>
 								</array>
 							</dict>
 						</dict>
@@ -769,10 +769,10 @@
 								<string>Value</string>
 								<real>85</real>
 								<string>Summary</string>
-								<real>484</real>
+								<real>485</real>
 							</array>
 							<key>Frame</key>
-							<string>{{682, 0}, {714, 127}}</string>
+							<string>{{681, 0}, {715, 129}}</string>
 							<key>RubberWindowFrame</key>
 							<string>44 55 1396 823 0 0 1440 878 </string>
 						</dict>
@@ -800,14 +800,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>39760B700FC58AD000FF561D</string>
+				<string>397612020FD4DE1C00FF561D</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>39760B710FC58AD000FF561D</string>
-				<string>39760B720FC58AD000FF561D</string>
-				<string>39760B730FC58AD000FF561D</string>
-				<string>39760B740FC58AD000FF561D</string>
-				<string>39760B6B0FC58ACC00FF561D</string>
+				<string>397612030FD4DE1C00FF561D</string>
+				<string>397612040FD4DE1C00FF561D</string>
+				<string>397612050FD4DE1C00FF561D</string>
+				<string>397612060FD4DE1C00FF561D</string>
+				<string>397612070FD4DE1C00FF561D</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -837,8 +837,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>39760B870FC5924B00FF561D</string>
-		<string>39760B880FC5924B00FF561D</string>
 		<string>/Users/min/workspace/anerian/github/coffeeme/CoffeeMe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
