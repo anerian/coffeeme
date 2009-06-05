@@ -157,7 +157,7 @@
     drinkName_.numberOfLines = 2;
     drinkName_.textColor = CMNutritionTextColor;
 
-    metrics_ = [[[UIScrollView alloc] initWithFrame:CGRectMake(20,120,280,267)] retain];
+    metrics_ = [[[UIScrollView alloc] initWithFrame:CGRectMake(20,120,280,247)] retain];
     metrics_.contentSize = CGSizeMake(280,330); 
     metrics_.showsVerticalScrollIndicator = NO;
     metrics_.alwaysBounceVertical = YES;

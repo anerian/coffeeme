@@ -11,11 +11,11 @@
 	<key>CFBundleIconFile</key>
 	<string>app_icon.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.anerian.coffeeme</string>
+	<string>com.anerian.*</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>CoffeeMe</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>

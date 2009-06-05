@@ -23,7 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 397D74710FB23DF000ACE161 /* CoffeeMe */;
-		activeSDKPreference = iphoneos2.2.1;
+		activeSDKPreference = iphonesimulator2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CoffeeMe */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* CoffeeMe */,
@@ -66,7 +66,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					833,
+					789,
 					20,
 					48,
 					43,
@@ -105,12 +105,32 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 265608542;
-			PBXWorkspaceStateSaveDate = 265608542;
+			PBXPerProjectTemplateStateSaveDate = 265844904;
+			PBXWorkspaceStateSaveDate = 265844904;
+		};
+		perUserProjectItems = {
+			3902DD360FD878A300BD9335 = 3902DD360FD878A300BD9335 /* PlistBookmark */;
+			392FC9590FD878BA00EB14D7 /* PlistBookmark */ = 392FC9590FD878BA00EB14D7 /* PlistBookmark */;
+			392FC95E0FD970EF00EB14D7 /* PlistBookmark */ = 392FC95E0FD970EF00EB14D7 /* PlistBookmark */;
+			396DE69C0FD876DF004902BE = 396DE69C0FD876DF004902BE /* PlistBookmark */;
+			396EE37B0FD84D1100BE0225 = 396EE37B0FD84D1100BE0225 /* PlistBookmark */;
+			396EE37D0FD84D1100BE0225 = 396EE37D0FD84D1100BE0225 /* PlistBookmark */;
 		};
 		sourceControlManager = 397D74810FB23DFA00ACE161 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	3902DD360FD878A300BD9335 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 3;
+		rLoc = 0;
 	};
 	3915B91A0FC47AAA001BC45C /* CMStyleSheet.m */ = {
 		uiCtxt = {
@@ -118,6 +138,30 @@
 			sepNavSelRange = "{6382, 0}";
 			sepNavVisRange = "{4508, 1219}";
 		};
+	};
+	392FC9590FD878BA00EB14D7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 3;
+		rLoc = 0;
+	};
+	392FC95E0FD970EF00EB14D7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 4;
+		rLoc = 0;
 	};
 	39474C1E0FC0437B00B1D410 /* CMNutritionCell.h */ = {
 		uiCtxt = {
@@ -139,6 +183,40 @@
 			sepNavSelRange = "{318, 0}";
 			sepNavVisRange = "{0, 318}";
 		};
+	};
+	396DE69C0FD876DF004902BE /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	396EE37B0FD84D1100BE0225 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 39474C530FC0C0D800B1D410 /* AppConfig.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/min/workspace/anerian/github/coffeeme/AppConfig.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	396EE37D0FD84D1100BE0225 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 39474C530FC0C0D800B1D410 /* AppConfig.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/min/workspace/anerian/github/coffeeme/AppConfig.plist;
+		rLen = 0;
+		rLoc = 2147483647;
 	};
 	397D74710FB23DF000ACE161 /* CoffeeMe */ = {
 		isa = PBXExecutable;
