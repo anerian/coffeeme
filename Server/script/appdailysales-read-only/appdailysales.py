@@ -54,7 +54,7 @@ password = 'anerian-rocks'
 outputDirectory = ''
 unzipFile = False
 verbose = False
-daysToDownload = 10
+daysToDownload = 1
 dateToDownload = None
 # ----------------------------------------------------
 
