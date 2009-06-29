@@ -1,0 +1,22 @@
+<h1>iphone sales reports</h1>
+<p>sales reports are updated daily</p>
+<h2>Total Sales over all time: <%= @total_sales %></h2>
+<h3>Total Sales this month: <%= @sales_this_month %></h3>
+<%
+  chd = []
+  max = 0
+  days = []
+  @reports.each do|report|
+    chd << report.units
+    days << report.date.strftime("%d")
+    max = report.units if report.units > max
+  end
+  chd = chd.join(',')
+  days = days.join('|')
+%>
+<img class="report" src="http://chart.apis.google.com/chart?chco=44AA44&chs=520x400&cht=bvg&chd=t:<%= chd %>&chds=0,<%= max %>&chxt=x,y&chxl=0:|<%= days %>|1:||<%= max / 2 %>|<%= max %>"/>
+<ul>
+<% for report in @reports do %>
+  <li><%= report.product %> sold <%= report.units %> on <%= report.date %></li>
+<% end %>
+</ul>

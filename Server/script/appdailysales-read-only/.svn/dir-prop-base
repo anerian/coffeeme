@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 58
+download.py
+*.zip
+BeautifulSoup-hide.py
+ads.py
+*.txt
+*.gz
+
+END
