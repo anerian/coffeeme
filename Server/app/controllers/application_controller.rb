@@ -5,26 +5,36 @@ class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
   Users = {"anerian" => "anerian-rocks"}.freeze
-  before_filter :authenticate
+  before_filter :digest_authenticate
 
   # Scrub sensitive parameters from your log
-  # filter_parameter_logging :password
+  filter_parameter_logging :password
+
   def secret
     render :text => "Password Required!"
   end 
 
 private
-  def authenticate
-    realm = "Coffee ME"
-    if !session[:authenticated]
-      success = authenticate_or_request_with_http_digest(realm) do |name|
-        Users[name]
+  def digest_authenticate
+    
+    if !session[:user_name] or !Users.key?(session[:user_name])
+
+      success = authenticate_or_request_with_http_digest("Coffee ME") do |name|
+        @user_name = name
+        logger.debug("authenticate user name: #{name.inspect}")
+        if Users.key?(name)
+          Users[name]
+        else
+          false
+        end
       end
+
       if success
-        session[:authenticated] = true
+        session[:user_name] = @user_name
       else
         request_http_digest_authentication("Admin", "Authentication failed")
       end
+
     end
   end 
 end
