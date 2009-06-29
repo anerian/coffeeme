@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
 
-system("python appdailysales.py")
-system("ruby parse.rb")
+root = File.expand_path(File.dirname(__FILE__))
+system("/usr/bin/python #{File.join(root,'appdailysales.py')}")
+system("/opt/local/bin/ruby #{File.join(root,'parse.rb')}")
