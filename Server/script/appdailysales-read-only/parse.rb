@@ -5,14 +5,19 @@ require 'zlib'
 require 'rubygems'
 require 'fastercsv'
 require 'date'
+RLogger = ActiveRecord::Base.logger
 
-archives = File.join(File.dirname(__FILE__),"archives")
+RLogger.info("checking daily report in #{RAILS_ROOT}")
+
+Root = File.join(RAILS_ROOT,"script", "appdailysales-read-only")
+
+archives = File.join(Root,"archives")
 
 if not File.exist?(archives)
   system("mkdir -p #{archives}")
 end
 
-Dir["#{File.dirname(__FILE__)}/*.gz"].each do|file|
+Dir["#{Root}/*.gz"].each do|file|
   buffer = nil
   Zlib::GzipReader.open(file) {|gz| buffer = gz.read }
   rows = []
@@ -29,5 +34,5 @@ Dir["#{File.dirname(__FILE__)}/*.gz"].each do|file|
       Report.create :product => product, :units => units, :date => date
     end
   end
-  system("mv #{file} #{File.dirname(__FILE__)}/archives/")
+  system("mv #{file} #{Root}/archives/")
 end
