@@ -14,7 +14,9 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/coffeeme.sqlite3
+  adapter: mysql
+  database: coffeeme
+  username: coffeeme
+  password: coffeeme-rocks
   pool: 5
-  timeout: 5000
+  host: 127.0.0.1
