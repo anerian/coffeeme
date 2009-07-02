@@ -65,7 +65,6 @@
   UIImageView *shadow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"shadow-bottom.png"]];
   shadow.frame = CGRectMake(0,self.tableView.frame.origin.y,320,29);
   [self.view addSubview:shadow];
-
   [self.view addSubview:self.tableView];
 
 
@@ -113,6 +112,16 @@
   spinner_ = [[[UIBarButtonItem alloc] initWithCustomView:indicator_] retain];
   
   self.navigationItem.rightBarButtonItem = refresh_;
+  
+  self.navigationItem.leftBarButtonItem = 
+      [[[UIBarButtonItem alloc] initWithTitle:@"Map" 
+                                        style:UIBarButtonItemStyleBordered
+                                       target:self 
+                                      action:@selector(showMap)] autorelease];
+}
+
+- (void)showMap {
+  
 }
 
 - (void)dealloc {

@@ -17,9 +17,11 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		39151BD90FDF20F70044D4C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 39151BD80FDF20F70044D4C1 /* Default.png */; };
 		3915B91B0FC47AAA001BC45C /* CMStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915B91A0FC47AAA001BC45C /* CMStyleSheet.m */; };
 		3915B9850FC4A059001BC45C /* shadow-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 3915B9840FC4A059001BC45C /* shadow-bottom.png */; };
 		3915B98D0FC4C9F1001BC45C /* shadow-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 3915B98C0FC4C9F1001BC45C /* shadow-top.png */; };
+		391D45EB0FFD1779005AE647 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391D45EA0FFD1779005AE647 /* MapKit.framework */; };
 		392ABD6C0FC2010700603120 /* anerian-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 392ABD690FC2010700603120 /* anerian-logo.png */; };
 		392ABD6D0FC2010700603120 /* cup-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 392ABD6A0FC2010700603120 /* cup-3.png */; };
 		392ABD6E0FC2010700603120 /* cup-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 392ABD6B0FC2010700603120 /* cup-4.png */; };
@@ -55,7 +57,6 @@
 		39868C1F0FBB6090006E151C /* cup-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C100FBB6090006E151C /* cup-2.png */; };
 		39868C790FBB6457006E151C /* bg-trivia.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868C770FBB6457006E151C /* bg-trivia.png */; };
 		39868CBD0FBB6F4E006E151C /* bg-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868CBC0FBB6F4E006E151C /* bg-coffee.png */; };
-		39868CE20FBB7E9E006E151C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 39868CE10FBB7E9E006E151C /* Default.png */; };
 		39868D210FBC53CE006E151C /* CMDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D200FBC53CE006E151C /* CMDrink.m */; };
 		39868D700FBC67C7006E151C /* CMStoreTypesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D6F0FBC67C7006E151C /* CMStoreTypesController.m */; };
 		39868D730FBC67D0006E151C /* CMDrinksController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39868D720FBC67D0006E151C /* CMDrinksController.m */; };
@@ -105,9 +106,11 @@
 		28A0AB4B0D9B1048005BE974 /* CoffeeMe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeMe_Prefix.pch; sourceTree = "<group>"; };
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39151BD80FDF20F70044D4C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3915B91A0FC47AAA001BC45C /* CMStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMStyleSheet.m; sourceTree = "<group>"; };
 		3915B9840FC4A059001BC45C /* shadow-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow-bottom.png"; sourceTree = "<group>"; };
 		3915B98C0FC4C9F1001BC45C /* shadow-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadow-top.png"; sourceTree = "<group>"; };
+		391D45EA0FFD1779005AE647 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		392ABD690FC2010700603120 /* anerian-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anerian-logo.png"; sourceTree = "<group>"; };
 		392ABD6A0FC2010700603120 /* cup-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-3.png"; sourceTree = "<group>"; };
 		392ABD6B0FC2010700603120 /* cup-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-4.png"; sourceTree = "<group>"; };
@@ -159,7 +162,6 @@
 		39868C100FBB6090006E151C /* cup-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cup-2.png"; sourceTree = "<group>"; };
 		39868C770FBB6457006E151C /* bg-trivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-trivia.png"; sourceTree = "<group>"; };
 		39868CBC0FBB6F4E006E151C /* bg-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-coffee.png"; sourceTree = "<group>"; };
-		39868CE10FBB7E9E006E151C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		39868D1F0FBC53CE006E151C /* CMDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDrink.h; sourceTree = "<group>"; };
 		39868D200FBC53CE006E151C /* CMDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDrink.m; sourceTree = "<group>"; };
 		39868D3D0FBC5989006E151C /* CoffeeMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeMe.h; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				397D751D0FB2A52700ACE161 /* QuartzCore.framework in Frameworks */,
 				398681040FB336D6006E151C /* libThree20.a in Frameworks */,
 				39760E250FC6873A00FF561D /* CoreLocation.framework in Frameworks */,
+				391D45EB0FFD1779005AE647 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +278,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				391D45EA0FFD1779005AE647 /* MapKit.framework */,
 				39760E240FC6873A00FF561D /* CoreLocation.framework */,
 				397D751C0FB2A52700ACE161 /* QuartzCore.framework */,
 				397D74B30FB2519100ACE161 /* libsqlite3.0.dylib */,
@@ -383,6 +387,7 @@
 		39868C080FBB6090006E151C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				39151BD80FDF20F70044D4C1 /* Default.png */,
 				39760C3A0FC5E8E600FF561D /* bg-map-mask.png */,
 				39760C0C0FC5B0CC00FF561D /* app_icon.png */,
 				39760C050FC5AF8900FF561D /* Cups */,
@@ -394,7 +399,6 @@
 				3930A28D0FC2525C00BB3848 /* tabNutrition.png */,
 				392ABD690FC2010700603120 /* anerian-logo.png */,
 				398690140FBDC419006E151C /* bg-cell-selected.png */,
-				39868CE10FBB7E9E006E151C /* Default.png */,
 				39868CBC0FBB6F4E006E151C /* bg-coffee.png */,
 				39868C770FBB6457006E151C /* bg-trivia.png */,
 				39868C0A0FBB6090006E151C /* bg-cell.png */,
@@ -483,7 +487,6 @@
 				39868C1F0FBB6090006E151C /* cup-2.png in Resources */,
 				39868C790FBB6457006E151C /* bg-trivia.png in Resources */,
 				39868CBD0FBB6F4E006E151C /* bg-coffee.png in Resources */,
-				39868CE20FBB7E9E006E151C /* Default.png in Resources */,
 				398690150FBDC419006E151C /* bg-cell-selected.png in Resources */,
 				3986903C0FBDE392006E151C /* Nutrition.xib in Resources */,
 				39474C540FC0C0D800B1D410 /* AppConfig.plist in Resources */,
@@ -504,6 +507,7 @@
 				39760C0D0FC5B0CC00FF561D /* app_icon.png in Resources */,
 				39760C3B0FC5E8E600FF561D /* bg-map-mask.png in Resources */,
 				39760C520FC5EBCB00FF561D /* tabAnerian.png in Resources */,
+				39151BD90FDF20F70044D4C1 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,22 +595,61 @@
 			};
 			name = Release;
 		};
-		C01FCF4F08A954540054247B /* Debug */ = {
+		39E99D140FDF192F00379B9E /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anerian";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anerian";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "Three20/src/**";
+				INFOPLIST_FILE = "CoffeeMe-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "BFCC4757-100E-4391-B38E-A4F4515C7C45";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BFCC4757-100E-4391-B38E-A4F4515C7C45";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribution;
+		};
+		39E99D150FDF192F00379B9E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CoffeeMe_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"External/MapView/**",
+					../three20/src,
+				);
+				INFOPLIST_FILE = "CoffeeMe-Info.plist";
+				PRODUCT_NAME = CoffeeMe;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Min Kim (AP86A8496N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim (AP86A8496N)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "Three20/src/**";
+				INFOPLIST_FILE = "CoffeeMe-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDEBUG";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4425948B-329B-4E1D-B609-331ABCA779D3";
-				SDKROOT = iphoneos2.2.1;
+				PROVISIONING_PROFILE = "A2EE83E5-3569-49B7-A76C-74184D133C5F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A2EE83E5-3569-49B7-A76C-74184D133C5F";
+				SDKROOT = iphoneos3.0;
 			};
 			name = Debug;
 		};
@@ -614,16 +657,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Min Kim (AP86A8496N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim (AP86A8496N)";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "Three20/src/**";
+				INFOPLIST_FILE = "CoffeeMe-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4425948B-329B-4E1D-B609-331ABCA779D3";
-				SDKROOT = iphoneos2.2.1;
+				PROVISIONING_PROFILE = "A2EE83E5-3569-49B7-A76C-74184D133C5F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A2EE83E5-3569-49B7-A76C-74184D133C5F";
+				SDKROOT = iphoneos3.0;
 			};
 			name = Release;
 		};
@@ -635,6 +681,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				39E99D150FDF192F00379B9E /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -644,6 +691,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				39E99D140FDF192F00379B9E /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

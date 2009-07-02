@@ -267,26 +267,22 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>398681070FB33720006E151C</string>
-								<string>080E96DDFE201D6D7F000001</string>
-								<string>398681720FB3523D006E151C</string>
-								<string>398682DC0FB4A376006E151C</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>39868C080FBB6090006E151C</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
+								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>71</integer>
-									<integer>52</integer>
+									<integer>30</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 817}, {346, 764}}</string>
+							<string>{{0, 0}, {346, 764}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -314,12 +310,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CoffeeMe-Info.plist</string>
+								<string>NSDateAdditions.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,19 +325,27 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CoffeeMe-Info.plist</string>
+										<string>NSDateAdditions.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>392FC95E0FD970EF00EB14D7</string>
+										<string>391D45FE0FFD181C005AE647</string>
 										<key>history</key>
 										<array>
 											<string>396EE37B0FD84D1100BE0225</string>
-											<string>3902DD360FD878A300BD9335</string>
+											<string>39151C5B0FDFFD9C0044D4C1</string>
+											<string>39151C5C0FDFFD9C0044D4C1</string>
+											<string>391D45F80FFD181C005AE647</string>
+											<string>391D45F90FFD181C005AE647</string>
+											<string>391D45FA0FFD181C005AE647</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>396EE37D0FD84D1100BE0225</string>
+											<string>39151C5E0FDFFD9C0044D4C1</string>
+											<string>39151C5F0FDFFD9C0044D4C1</string>
+											<string>391D45FC0FFD181C005AE647</string>
+											<string>391D45FD0FFD181C005AE647</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -379,8 +385,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1028, 356}}</string>
-										<key>RubberWindowFrame</key>
-										<string>44 55 1396 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -422,6 +426,8 @@
 								<dict>
 									<key>ContentConfiguration</key>
 									<dict>
+										<key>PBXBuildLogShowsTranscriptDefaultKey</key>
+										<string>{{0, 249}, {1028, 107}}</string>
 										<key>PBXProjectModuleGUID</key>
 										<string>XCMainBuildResultsModuleGUID</string>
 										<key>PBXProjectModuleLabel</key>
@@ -435,6 +441,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1028, 356}}</string>
+										<key>RubberWindowFrame</key>
+										<string>44 55 1396 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -462,11 +470,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>392FC95A0FD878BA00EB14D7</string>
+				<string>391D45B80FFD0BB6005AE647</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>392FC95B0FD878BA00EB14D7</string>
+				<string>391D45B90FFD0BB6005AE647</string>
 				<string>397D747B0FB23DFA00ACE161</string>
-				<string>392FC95C0FD878BA00EB14D7</string>
+				<string>391D45BA0FFD0BB6005AE647</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -613,14 +621,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>396EE3590FD7204200BE0225</string>
+				<string>391D45BB0FFD0BB6005AE647</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>396EE35A0FD7204200BE0225</string>
-				<string>396EE35B0FD7204200BE0225</string>
-				<string>396EE35C0FD7204200BE0225</string>
-				<string>396EE35D0FD7204200BE0225</string>
-				<string>396EE35E0FD7204200BE0225</string>
+				<string>391D45BC0FFD0BB6005AE647</string>
+				<string>391D45BD0FFD0BB6005AE647</string>
+				<string>391D45BE0FFD0BB6005AE647</string>
+				<string>391D45BF0FFD0BB6005AE647</string>
+				<string>391D45C00FFD0BB6005AE647</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -650,6 +658,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>391D45EF0FFD1793005AE647</string>
+		<string>391D45F00FFD1793005AE647</string>
 		<string>/Users/min/workspace/anerian/github/coffeeme/CoffeeMe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
