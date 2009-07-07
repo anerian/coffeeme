@@ -13,18 +13,19 @@
 
 
 @interface CMStoresController : CMBaseController<UITableViewDelegate, UITableViewDataSource, TTTabDelegate> {
-    UITableView *tableView_;
-    NSArray *stores_;
+  UITableView *tableView_;
+  MKMapView *map_;
+  NSArray *stores_;
 
-    BOOL isLoading_;
-    BOOL isDirty_;
+  BOOL isLoading_;
+  BOOL isDirty_;
     
-    UIBarButtonItem *spinner_;
-    UIBarButtonItem *refresh_;
+  UIBarButtonItem *spinner_;
+  UIBarButtonItem *refresh_;
     
-    CMStoreType storeFilter_;
+  CMStoreType storeFilter_;
     
-    TTActivityLabel* statusView_;
+  TTActivityLabel* statusView_;
 }
 
 @property(nonatomic, retain) UITableView *tableView;

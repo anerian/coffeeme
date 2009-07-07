@@ -57,6 +57,8 @@
 
 - (void)loadView {
   [super loadView];
+  
+  map_ = [[[MKMapView alloc] initWithFrame:self.view.frame] retain];
 
   self.tableView = [[[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain] autorelease];
   self.tableView.frame = CGRectMake(0,40,320,self.view.bounds.size.height-60);
@@ -64,9 +66,6 @@
   
   UIImageView *shadow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"shadow-bottom.png"]];
   shadow.frame = CGRectMake(0,self.tableView.frame.origin.y,320,29);
-  [self.view addSubview:shadow];
-  [self.view addSubview:self.tableView];
-
 
   NSArray *shops = [CMAppConfig objectForKey:@"shops"];
   NSMutableArray *items = [NSMutableArray arrayWithCapacity:0];
@@ -84,6 +83,8 @@
   tabBar_.delegate = self;
   tabBar_.tabItems = items;
   
+  [self.view addSubview:shadow];
+  [self.view addSubview:self.tableView];
   [self.view addSubview:tabBar_];
 }
 
@@ -117,11 +118,20 @@
       [[[UIBarButtonItem alloc] initWithTitle:@"Map" 
                                         style:UIBarButtonItemStyleBordered
                                        target:self 
-                                      action:@selector(showMap)] autorelease];
+                                       action:@selector(showMap)] autorelease];
 }
 
 - (void)showMap {
-  
+  [self.tableView removeFromSuperview];
+  [self.view addSubview:map_];
+
+  CATransition *animation = [CATransition animation];
+  [animation setDuration:0.5];
+  [animation setType:kCATransitionPush];
+  [animation setSubtype:kCATransitionFromBottom];
+  [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
+
+  [[self.view layer] addAnimation:animation forKey:@"SwitchToView1"];
 }
 
 - (void)dealloc {

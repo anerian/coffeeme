@@ -8,7 +8,6 @@
 
 #import "CMLocation.h"
 
-
 @implementation CMLocation
 
 @synthesize currentLocation;
@@ -55,7 +54,6 @@ static CMLocation *instance;
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
   if (abs([newLocation.timestamp timeIntervalSinceDate:[NSDate date]]) < 5) {
-    
     [self stop];
     self.currentLocation = newLocation;
 
@@ -64,10 +62,10 @@ static CMLocation *instance;
 }
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
-    UIAlertView *alert;
-    alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[error description] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    [alert show];
-    [alert release];
+  UIAlertView *alert;
+  alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[error description] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+  [alert show];
+  [alert release];
 }
 
 @end
