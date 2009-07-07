@@ -191,6 +191,12 @@
 			392CF68D1003EA60000F0B23 /* PBXTextBookmark */ = 392CF68D1003EA60000F0B23 /* PBXTextBookmark */;
 			392CF68E1003EA60000F0B23 /* PBXTextBookmark */ = 392CF68E1003EA60000F0B23 /* PBXTextBookmark */;
 			392CF68F1003EA61000F0B23 /* PBXTextBookmark */ = 392CF68F1003EA61000F0B23 /* PBXTextBookmark */;
+			392CF6991003EE2F000F0B23 /* PBXTextBookmark */ = 392CF6991003EE2F000F0B23 /* PBXTextBookmark */;
+			392CF69A1003EE2F000F0B23 /* PBXTextBookmark */ = 392CF69A1003EE2F000F0B23 /* PBXTextBookmark */;
+			392CF69B1003EE2F000F0B23 /* PBXTextBookmark */ = 392CF69B1003EE2F000F0B23 /* PBXTextBookmark */;
+			392CF69C1003EE2F000F0B23 /* PBXTextBookmark */ = 392CF69C1003EE2F000F0B23 /* PBXTextBookmark */;
+			392CF69F1003EE37000F0B23 /* PBXTextBookmark */ = 392CF69F1003EE37000F0B23 /* PBXTextBookmark */;
+			392CF6A01003EE5E000F0B23 /* PBXTextBookmark */ = 392CF6A01003EE5E000F0B23 /* PBXTextBookmark */;
 			396EE37B0FD84D1100BE0225 = 396EE37B0FD84D1100BE0225 /* PlistBookmark */;
 			396EE37D0FD84D1100BE0225 = 396EE37D0FD84D1100BE0225 /* PlistBookmark */;
 		};
@@ -790,6 +796,64 @@
 		vrLen = 1519;
 		vrLoc = 7573;
 	};
+	392CF6991003EE2F000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1519;
+		vrLoc = 7573;
+	};
+	392CF69A1003EE2F000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: object cannot be set - either readonly property or no setter found";
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		rLen = 1;
+		rLoc = 94;
+		rType = 1;
+	};
+	392CF69B1003EE2F000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1519;
+		vrLoc = 7573;
+	};
+	392CF69C1003EE2F000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 93";
+		rLen = 0;
+		rLoc = 3001;
+		rType = 0;
+		vrLen = 1442;
+		vrLoc = 2371;
+	};
+	392CF69F1003EE37000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 362";
+		rLen = 0;
+		rLoc = 11946;
+		rType = 0;
+		vrLen = 1524;
+		vrLoc = 2472;
+	};
+	392CF6A01003EE5E000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 354";
+		rLen = 0;
+		rLoc = 11644;
+		rType = 0;
+		vrLen = 1524;
+		vrLoc = 2472;
+	};
 	39474C1E0FC0437B00B1D410 /* CMNutritionCell.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1379, 256}}";
@@ -893,9 +957,9 @@
 	};
 	398681740FB35297006E151C /* CMStoresController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1083, 4300}}";
-			sepNavSelRange = "{4616, 17}";
-			sepNavVisRange = "{4110, 1075}";
+			sepNavIntBoundsRect = "{{0, 0}, {966, 5568}}";
+			sepNavSelRange = "{11644, 0}";
+			sepNavVisRange = "{2472, 1524}";
 		};
 	};
 	398681760FB352A6006E151C /* CMTriviaController.h */ = {

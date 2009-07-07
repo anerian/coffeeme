@@ -321,7 +321,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CAAnimation.h</string>
+								<string>CMStoresController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +329,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CAAnimation.h</string>
+										<string>CMStoresController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>392CF68F1003EA61000F0B23</string>
+										<string>392CF6A01003EE5E000F0B23</string>
 										<key>history</key>
 										<array>
 											<string>396EE37B0FD84D1100BE0225</string>
@@ -353,8 +353,8 @@
 											<string>392CF3AA1002630B000F0B23</string>
 											<string>392CF3AB1002630B000F0B23</string>
 											<string>392CF64C1003A862000F0B23</string>
-											<string>392CF64D1003A862000F0B23</string>
-											<string>392CF68E1003EA60000F0B23</string>
+											<string>392CF6991003EE2F000F0B23</string>
+											<string>392CF69A1003EE2F000F0B23</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -377,6 +377,7 @@
 											<string>392CF3B81002630B000F0B23</string>
 											<string>392CF6501003A862000F0B23</string>
 											<string>392CF6511003A862000F0B23</string>
+											<string>392CF69B1003EE2F000F0B23</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

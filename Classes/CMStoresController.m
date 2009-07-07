@@ -62,6 +62,7 @@
   
   for (NSValue *value in coordinates) {
     CLLocationCoordinate2D coord = {0.0f, 0.0f};
+    
     [value getValue:&coord];
     if (coord.longitude > maxCoord.longitude) {
       maxCoord.longitude = coord.longitude;
@@ -76,6 +77,7 @@
       minCoord.latitude = coord.latitude;
     }
   }
+  
   MKCoordinateRegion region = {{0.0f, 0.0f}, {0.0f, 0.0f}};
   region.center.longitude = (minCoord.longitude + maxCoord.longitude) / 2.0;
   region.center.latitude = (minCoord.latitude + maxCoord.latitude) / 2.0;
@@ -89,6 +91,8 @@
   
   map_ = [[[MKMapView alloc] initWithFrame:self.view.frame] retain];
   map_.delegate = self;
+  map_.showsUserLocation = YES;
+  // map_.userLocationVisible = YES;
 
   self.tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
   self.tableView.frame = CGRectMake(0,40,320,self.view.bounds.size.height-60);
@@ -224,14 +228,6 @@
   [map_ addAnnotations:stores_];
   [self recenterMap];
   
-  // CLLocation *location = [CMLocation instance].currentLocation;
-  // MKCoordinateRegion region = {{0.0f, 0.0f}, {0.0f, 0.0f}};
-  // region.center = location.coordinate;
-  // region.span.longitudeDelta = 0.15f;
-  // region.span.latitudeDelta = 0.15f;
-  // [map_ setRegion:region animated:YES];
-  
-  
   if ([stores_ count] == 0) {
     [self invalidateViewState:TTViewEmpty];
   }
@@ -288,21 +284,18 @@
   
   NSLog(@"annotation: %f,%f", annotation.coordinate.latitude, annotation.coordinate.longitude);
 
-  // if (annotation != mapView.userLocation) {
+  if (annotation != mapView.userLocation) {
     view = (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:@"MKPinAnnotationViewIdentifier"];
     if (nil == view) {
       view = [[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"MKPinAnnotationViewIdentifier"] autorelease];
-      // view.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+      view.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
     }
     [view setPinColor:MKPinAnnotationColorRed];
-    // [view setCanShowCallout:YES];
+    [view setCanShowCallout:YES];
     [view setAnimatesDrop:YES];
-  // } else {
-  //   // CLLocation *location = [[CLLocation alloc] 
-  //   //                         initWithLatitude:annotation.coordinate.latitude
-  //   //                         longitude:annotation.coordinate.longitude];
-  //   // [self setCurrentLocation:location];
-  // }
+  } // else {
+  //     [self setCurrentLocation:[CMLocation instance].currentLocation];
+  //   }
   return view;
 }
 
