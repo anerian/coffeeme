@@ -167,6 +167,30 @@
 			392CF62810039FE5000F0B23 /* PlistBookmark */ = 392CF62810039FE5000F0B23 /* PlistBookmark */;
 			392CF62910039FE6000F0B23 /* PlistBookmark */ = 392CF62910039FE6000F0B23 /* PlistBookmark */;
 			392CF62A10039FEA000F0B23 /* PlistBookmark */ = 392CF62A10039FEA000F0B23 /* PlistBookmark */;
+			392CF64C1003A862000F0B23 /* PlistBookmark */ = 392CF64C1003A862000F0B23 /* PlistBookmark */;
+			392CF64D1003A862000F0B23 /* PBXTextBookmark */ = 392CF64D1003A862000F0B23 /* PBXTextBookmark */;
+			392CF64E1003A862000F0B23 /* PBXTextBookmark */ = 392CF64E1003A862000F0B23 /* PBXTextBookmark */;
+			392CF6501003A862000F0B23 /* PlistBookmark */ = 392CF6501003A862000F0B23 /* PlistBookmark */;
+			392CF6511003A862000F0B23 /* PBXTextBookmark */ = 392CF6511003A862000F0B23 /* PBXTextBookmark */;
+			392CF6521003A862000F0B23 /* PBXTextBookmark */ = 392CF6521003A862000F0B23 /* PBXTextBookmark */;
+			392CF6541003A864000F0B23 /* PBXTextBookmark */ = 392CF6541003A864000F0B23 /* PBXTextBookmark */;
+			392CF65D1003C4F3000F0B23 /* PlistBookmark */ = 392CF65D1003C4F3000F0B23 /* PlistBookmark */;
+			392CF65E1003C4F3000F0B23 /* PlistBookmark */ = 392CF65E1003C4F3000F0B23 /* PlistBookmark */;
+			392CF65F1003C4F3000F0B23 /* PBXTextBookmark */ = 392CF65F1003C4F3000F0B23 /* PBXTextBookmark */;
+			392CF6601003C4F7000F0B23 /* PBXTextBookmark */ = 392CF6601003C4F7000F0B23 /* PBXTextBookmark */;
+			392CF6611003C520000F0B23 /* PBXTextBookmark */ = 392CF6611003C520000F0B23 /* PBXTextBookmark */;
+			392CF6621003C522000F0B23 /* PBXTextBookmark */ = 392CF6621003C522000F0B23 /* PBXTextBookmark */;
+			392CF6631003C528000F0B23 /* PBXTextBookmark */ = 392CF6631003C528000F0B23 /* PBXTextBookmark */;
+			392CF66D1003DE5C000F0B23 /* PBXTextBookmark */ = 392CF66D1003DE5C000F0B23 /* PBXTextBookmark */;
+			392CF66E1003DE60000F0B23 /* PBXTextBookmark */ = 392CF66E1003DE60000F0B23 /* PBXTextBookmark */;
+			392CF6721003DEA4000F0B23 /* PBXTextBookmark */ = 392CF6721003DEA4000F0B23 /* PBXTextBookmark */;
+			392CF6731003DEA4000F0B23 /* PBXTextBookmark */ = 392CF6731003DEA4000F0B23 /* PBXTextBookmark */;
+			392CF6751003DEA8000F0B23 /* PBXTextBookmark */ = 392CF6751003DEA8000F0B23 /* PBXTextBookmark */;
+			392CF6761003DEAA000F0B23 /* PBXTextBookmark */ = 392CF6761003DEAA000F0B23 /* PBXTextBookmark */;
+			392CF6771003DEAC000F0B23 /* PBXTextBookmark */ = 392CF6771003DEAC000F0B23 /* PBXTextBookmark */;
+			392CF68D1003EA60000F0B23 /* PBXTextBookmark */ = 392CF68D1003EA60000F0B23 /* PBXTextBookmark */;
+			392CF68E1003EA60000F0B23 /* PBXTextBookmark */ = 392CF68E1003EA60000F0B23 /* PBXTextBookmark */;
+			392CF68F1003EA61000F0B23 /* PBXTextBookmark */ = 392CF68F1003EA61000F0B23 /* PBXTextBookmark */;
 			396EE37B0FD84D1100BE0225 = 396EE37B0FD84D1100BE0225 /* PlistBookmark */;
 			396EE37D0FD84D1100BE0225 = 396EE37D0FD84D1100BE0225 /* PlistBookmark */;
 		};
@@ -506,6 +530,266 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
+	392CF64C1003A862000F0B23 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	392CF64D1003A862000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 130";
+		rLen = 17;
+		rLoc = 4616;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 4110;
+	};
+	392CF64E1003A862000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF64F1003A862000F0B23 /* CAAnimation.h */;
+		rLen = 1;
+		rLoc = 243;
+		rType = 1;
+	};
+	392CF64F1003A862000F0B23 /* CAAnimation.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CAAnimation.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAAnimation.h;
+		sourceTree = "<absolute>";
+	};
+	392CF6501003A862000F0B23 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	392CF6511003A862000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398681740FB35297006E151C /* CMStoresController.m */;
+		name = "CMStoresController.m: 130";
+		rLen = 17;
+		rLoc = 4616;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 4110;
+	};
+	392CF6521003A862000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1387;
+		vrLoc = 7637;
+	};
+	392CF6531003A862000F0B23 /* CAAnimation.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CAAnimation.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAAnimation.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {966, 4192}}";
+			sepNavSelRange = "{8776, 23}";
+			sepNavVisRange = "{7573, 1519}";
+		};
+	};
+	392CF6541003A864000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1387;
+		vrLoc = 7637;
+	};
+	392CF65D1003C4F3000F0B23 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	392CF65E1003C4F3000F0B23 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/min/workspace/anerian/github/coffeeme/CoffeeMe-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	392CF65F1003C4F3000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 7637;
+	};
+	392CF6601003C4F7000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1475;
+		vrLoc = 7637;
+	};
+	392CF6611003C520000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1475;
+		vrLoc = 7637;
+	};
+	392CF6621003C522000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 7637;
+	};
+	392CF6631003C528000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1475;
+		vrLoc = 7637;
+	};
+	392CF66D1003DE5C000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1519;
+		vrLoc = 7573;
+	};
+	392CF66E1003DE60000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1519;
+		vrLoc = 7573;
+	};
+	392CF6721003DEA4000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 7637;
+	};
+	392CF6731003DEA4000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 7637;
+	};
+	392CF6751003DEA8000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1381;
+		vrLoc = 7573;
+	};
+	392CF6761003DEAA000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1381;
+		vrLoc = 7573;
+	};
+	392CF6771003DEAC000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1381;
+		vrLoc = 7573;
+	};
+	392CF68D1003EA60000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 7637;
+	};
+	392CF68E1003EA60000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 7637;
+	};
+	392CF68F1003EA61000F0B23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 392CF6531003A862000F0B23 /* CAAnimation.h */;
+		name = "CAAnimation.h: 257";
+		rLen = 23;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1519;
+		vrLoc = 7573;
+	};
 	39474C1E0FC0437B00B1D410 /* CMNutritionCell.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1379, 256}}";
@@ -609,9 +893,9 @@
 	};
 	398681740FB35297006E151C /* CMStoresController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {967, 4652}}";
-			sepNavSelRange = "{6365, 51}";
-			sepNavVisRange = "{5911, 949}";
+			sepNavIntBoundsRect = "{{0, 0}, {1083, 4300}}";
+			sepNavSelRange = "{4616, 17}";
+			sepNavVisRange = "{4110, 1075}";
 		};
 	};
 	398681760FB352A6006E151C /* CMTriviaController.h */ = {

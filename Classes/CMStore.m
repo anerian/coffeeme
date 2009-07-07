@@ -60,6 +60,10 @@ distance = distance_, userLatitude = userLatitude_, userLongitude = userLongitud
   return @"stores";
 }
 
+- (CLLocationCoordinate2D)coordinate {
+  return (CLLocationCoordinate2D){self.latitude, self.longitude};
+}
+
 - (NSString *)description {
   return [self address];
 }

@@ -55,12 +55,42 @@
                                                 object:nil];
 }
 
+- (void)recenterMap {
+  NSArray *coordinates = [map_ valueForKeyPath:@"annotations.coordinate"];
+  CLLocationCoordinate2D maxCoord = {-90.0f, -180.0f};
+  CLLocationCoordinate2D minCoord = {90.0f, 180.0f};
+  
+  for (NSValue *value in coordinates) {
+    CLLocationCoordinate2D coord = {0.0f, 0.0f};
+    [value getValue:&coord];
+    if (coord.longitude > maxCoord.longitude) {
+      maxCoord.longitude = coord.longitude;
+    }
+    if (coord.latitude > maxCoord.latitude) {
+      maxCoord.latitude = coord.latitude;
+    }
+    if (coord.longitude < minCoord.longitude) {
+      minCoord.longitude = coord.longitude;
+    }
+    if (coord.latitude < minCoord.latitude) {
+      minCoord.latitude = coord.latitude;
+    }
+  }
+  MKCoordinateRegion region = {{0.0f, 0.0f}, {0.0f, 0.0f}};
+  region.center.longitude = (minCoord.longitude + maxCoord.longitude) / 2.0;
+  region.center.latitude = (minCoord.latitude + maxCoord.latitude) / 2.0;
+  region.span.longitudeDelta = maxCoord.longitude - minCoord.longitude;
+  region.span.latitudeDelta = maxCoord.latitude - minCoord.latitude;
+  [map_ setRegion:region animated:YES];
+}
+
 - (void)loadView {
   [super loadView];
   
   map_ = [[[MKMapView alloc] initWithFrame:self.view.frame] retain];
+  map_.delegate = self;
 
-  self.tableView = [[[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain] autorelease];
+  self.tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
   self.tableView.frame = CGRectMake(0,40,320,self.view.bounds.size.height-60);
   self.view.backgroundColor = HexToUIColor(0x865836);
   
@@ -111,14 +141,12 @@
   [indicator_ startAnimating];
   
   spinner_ = [[[UIBarButtonItem alloc] initWithCustomView:indicator_] retain];
+
+  btnMap_  = [[[UIBarButtonItem alloc] initWithTitle:@"Map" style:UIBarButtonItemStyleBordered target:self action:@selector(showMap)] retain];
+  btnList_ = [[[UIBarButtonItem alloc] initWithTitle:@"List" style:UIBarButtonItemStyleBordered target:self action:@selector(showList)] retain];
   
   self.navigationItem.rightBarButtonItem = refresh_;
-  
-  self.navigationItem.leftBarButtonItem = 
-      [[[UIBarButtonItem alloc] initWithTitle:@"Map" 
-                                        style:UIBarButtonItemStyleBordered
-                                       target:self 
-                                       action:@selector(showMap)] autorelease];
+  self.navigationItem.leftBarButtonItem  = btnMap_;
 }
 
 - (void)showMap {
@@ -132,6 +160,23 @@
   [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
 
   [[self.view layer] addAnimation:animation forKey:@"SwitchToView1"];
+  
+  self.navigationItem.leftBarButtonItem = btnList_;
+}
+
+- (void)showList {
+  [map_ removeFromSuperview];
+  [self.view addSubview:self.tableView];
+
+  CATransition *animation = [CATransition animation];
+  [animation setDuration:0.5];
+  [animation setType:kCATransitionPush];
+  [animation setSubtype:kCATransitionFromTop];
+  [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
+
+  [[self.view layer] addAnimation:animation forKey:@"SwitchToView2"];
+  
+  self.navigationItem.leftBarButtonItem = btnMap_;
 }
 
 - (void)dealloc {
@@ -176,6 +221,16 @@
   isLoading_ = NO;
 
   [self.tableView reloadData];
+  [map_ addAnnotations:stores_];
+  [self recenterMap];
+  
+  // CLLocation *location = [CMLocation instance].currentLocation;
+  // MKCoordinateRegion region = {{0.0f, 0.0f}, {0.0f, 0.0f}};
+  // region.center = location.coordinate;
+  // region.span.longitudeDelta = 0.15f;
+  // region.span.latitudeDelta = 0.15f;
+  // [map_ setRegion:region animated:YES];
+  
   
   if ([stores_ count] == 0) {
     [self invalidateViewState:TTViewEmpty];
@@ -224,6 +279,31 @@
   if (!stores_) return 0;
   
 	return [stores_ count];
+}
+
+#pragma mark MKMapViewDelegate
+
+- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {
+  MKPinAnnotationView *view = nil;
+  
+  NSLog(@"annotation: %f,%f", annotation.coordinate.latitude, annotation.coordinate.longitude);
+
+  // if (annotation != mapView.userLocation) {
+    view = (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:@"MKPinAnnotationViewIdentifier"];
+    if (nil == view) {
+      view = [[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"MKPinAnnotationViewIdentifier"] autorelease];
+      // view.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    }
+    [view setPinColor:MKPinAnnotationColorRed];
+    // [view setCanShowCallout:YES];
+    [view setAnimatesDrop:YES];
+  // } else {
+  //   // CLLocation *location = [[CLLocation alloc] 
+  //   //                         initWithLatitude:annotation.coordinate.latitude
+  //   //                         longitude:annotation.coordinate.longitude];
+  //   // [self setCurrentLocation:location];
+  // }
+  return view;
 }
 
 #pragma mark Alert methods

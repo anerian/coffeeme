@@ -9,7 +9,7 @@
 #import "CMModel.h"
 
 
-@interface CMStore : CMModel<CMModel> {
+@interface CMStore : CMModel<CMModel, MKAnnotation> {
   NSString *address_;
   NSString *phone_;
     
@@ -24,16 +24,17 @@
   CLLocationCoordinate2D userCoordinate_;
 }
 
-@property (nonatomic, retain) NSString *address;
-@property (nonatomic, retain) NSString *phone;
+@property(nonatomic, retain) NSString *address;
+@property(nonatomic, retain) NSString *phone;
 
-@property (nonatomic, assign) CMStoreType type;
+@property(nonatomic) CMStoreType type;
 
-@property (nonatomic, assign) double latitude;
-@property (nonatomic, assign) double longitude;
-@property (nonatomic, assign) double userLatitude;
-@property (nonatomic, assign) double userLongitude;
-@property (nonatomic, assign) double distance;
+@property(nonatomic) double latitude;
+@property(nonatomic) double longitude;
+@property(nonatomic) double userLatitude;
+@property(nonatomic) double userLongitude;
+@property(nonatomic) double distance;
+@property(nonatomic, readonly) CLLocationCoordinate2D coordinate;
 
 + (NSArray *)nearby:(CLLocationCoordinate2D)coordinate withType:(CMStoreType)type;
 

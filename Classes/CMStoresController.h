@@ -12,7 +12,7 @@
 #import "CMLocation.h"
 
 
-@interface CMStoresController : CMBaseController<UITableViewDelegate, UITableViewDataSource, TTTabDelegate> {
+@interface CMStoresController : CMBaseController<UITableViewDelegate, UITableViewDataSource, MKMapViewDelegate, TTTabDelegate> {
   UITableView *tableView_;
   MKMapView *map_;
   NSArray *stores_;
@@ -22,6 +22,8 @@
     
   UIBarButtonItem *spinner_;
   UIBarButtonItem *refresh_;
+  UIBarButtonItem *btnMap_;
+  UIBarButtonItem *btnList_;
     
   CMStoreType storeFilter_;
     
