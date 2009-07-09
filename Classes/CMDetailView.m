@@ -47,12 +47,10 @@
     [self addSubview:address_];
     [self addSubview:call_];
     [self addSubview:mapIt_];
-    [self addSubview:map_];
     [self addSubview:mapMask_];
     
     [icon_ release];
     [storeType_ release];
-    [map_ release];
     [mapMask_ release];
   }
   return self;

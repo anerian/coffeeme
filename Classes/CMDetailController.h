@@ -11,9 +11,10 @@
 #import "CMStore.h"
 
 
-@interface CMDetailController : UIViewController {
+@interface CMDetailController : UIViewController<MKMapViewDelegate> {
   CMDetailView *detailView_;
   CMStore *store_;
+  MKMapView *mapView_;
 }
 
 - (id)initWithStore:(CMStore *)store;

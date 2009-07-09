@@ -293,9 +293,7 @@
     [view setPinColor:MKPinAnnotationColorRed];
     [view setCanShowCallout:YES];
     [view setAnimatesDrop:YES];
-  } // else {
-  //     [self setCurrentLocation:[CMLocation instance].currentLocation];
-  //   }
+  }
   return view;
 }
 
