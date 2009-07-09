@@ -20,24 +20,53 @@
     style:UITableViewStylePlain] autorelease];
 	self.tableView.autoresizingMask = 
     UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+  self.tableView.delegate = self;
+  self.tableView.dataSource = self;
   [self.view addSubview:self.tableView];
   
   self.navigationBarTintColor = HexToUIColor(0x2c1e10);
   self.statusBarStyle = UIStatusBarStyleBlackOpaque;
 }
 
+#pragma mark UITableViewDelegate
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+  static NSString *CellIdentifier = @"CMStoreTypeCell";
+	
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	
+	if (cell == nil) {
+		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+	}
+	
+	return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return 3;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  [tableView deselectRowAtIndexPath:indexPath animated:YES];
+  
+  CMDrinksController *drinksController = [[[CMDrinksController alloc] init] autorelease];
+  drinksController.drinks = [CMDrink forStore:indexPath.row];
+  
+  [self.navigationController pushViewController:drinksController animated:YES];
+}
+
 - (void)viewDidLoad {
-
-
-  
-  
-    // TTNavigationCenter* nav = [TTNavigationCenter defaultCenter];
-    // nav.mainViewController = self.navigationController;
-    // nav.delegate = self;
-    // nav.urlSchemes = [NSArray arrayWithObject:@"cm"];
-    // 
-    // [nav addView:@"drinks" controller:[CMDrinksController class]];
-    // self.navigationBarTintColor = HexToUIColor(0x372010);
+  // TTNavigationCenter* nav = [TTNavigationCenter defaultCenter];
+  // nav.mainViewController = self.navigationController;
+  // nav.delegate = self;
+  // nav.urlSchemes = [NSArray arrayWithObject:@"cm"];
+  // 
+  // [nav addView:@"drinks" controller:[CMDrinksController class]];
+  // self.navigationBarTintColor = HexToUIColor(0x372010);
 }
 
 - (id<TTTableViewDataSource>)createDataSource {
@@ -49,9 +78,9 @@
 }
 
 - (void)willNavigateToObject:(id)object inView:(NSString*)viewType withController:(UIViewController*)viewController {
-    NSIndexPath* indexPath = self.tableView.indexPathForSelectedRow;
+  NSIndexPath* indexPath = self.tableView.indexPathForSelectedRow;
 
-    ((CMDrinksController *)viewController).drinks = [CMDrink forStore:indexPath.row];
+  ((CMDrinksController *)viewController).drinks = [CMDrink forStore:indexPath.row];
 }
 
 - (void)didReceiveMemoryWarning {
