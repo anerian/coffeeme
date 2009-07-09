@@ -2,21 +2,38 @@
 <p>sales reports are updated daily</p>
 <h2>Total Sales over all time: <%= @total_sales %> $<%= @total_sales * 1.4 %></h2>
 <h3>Total Sales this month: <%= @sales_this_month %> $<%= @sales_this_month * 1.4 %></h3>
-<%
-  chd = []
-  max = 0
-  days = []
-  @reports.each do|report|
-    chd << report.units
-    days << report.date.strftime("%d")
-    max = report.units if report.units > max
-  end
-  chd = chd.join(',')
-  days = days.join('|')
-%>
-<img class="report" src="http://chart.apis.google.com/chart?chco=44AA44&chs=520x400&cht=bvg&chd=t:<%= chd %>&chds=0,<%= max %>&chxt=x,y&chxl=0:|<%= days %>|1:||<%= max / 2 %>|<%= max %>"/>
-<ul>
+
+<div style="margin:60px">
+<div id="report-visualize"></div>
+</div>
+
+<table id="report">
+  <caption><%= @reports.first.product %></caption>
+  <thead>
+    <tr>
+      <td>Date</td>
+      <th>Units</th>
+    </tr>
+  </thead>
+  <tbody>
 <% for report in @reports do %>
-  <li><%= report.product %> sold <%= report.units %> on <%= report.date %></li>
+  <tr>
+    <th><%= report.date %></th>
+    <td><%= report.units %></td>
+  </tr>
 <% end %>
-</ul>
+  </tbody>
+</table>
+
+<% content_for :head do %>
+  <%= stylesheet_link_tag 'visualize.jQuery' %>
+<% end %>
+<% content_for :foot do %>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<!--[if IE]><script type="text/javascript" src="/javascripts/excanvas.compiled.js"></script><![endif]-->
+<script type="text/javascript" src="/javascripts/visualize.jQuery.js"></script>
+<script type="text/javascript" src="/javascripts/editabletable.js"></script>
+<script type="text/javascript">
+  $('#report').visualize({width:850}).appendTo('#report-visualize');
+</script>
+<% end %>
