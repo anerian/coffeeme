@@ -36,8 +36,8 @@
 // TTTableViewDataSource
 
 - (NSString*)tableView:(UITableView*)tableView labelForObject:(id)object {
-    TTTableField* field = object;
-    return field.text;
+  TTTableTextItem* item = object;
+  return item.text;
 }
 
 - (void)tableView:(UITableView*)tableView prepareCell:(UITableViewCell*)cell forRowAtIndexPath:(NSIndexPath*)indexPath {
@@ -56,8 +56,7 @@
         for (CMDrink* drink in drinks_) {
             NSString *name = drink.name;
             if ([[name lowercaseString] rangeOfString:text].location == 0) {
-                TTTableField* field = [[[TTTableField alloc] initWithText:name url:TT_NULL_URL] autorelease];
-                [_items addObject:field];
+                [_items addObject:[TTTableTextItem itemWithText:name URL:TT_NULL_URL]];
             }
         }
     } else {
@@ -80,9 +79,8 @@
             section = [NSMutableArray array];
             [map setObject:section forKey:letter];
         }
-    
-        TTTableField* field = [[[TTTableField alloc] initWithText:name url:TT_NULL_URL] autorelease];
-        [section addObject:field];
+        
+        [section addObject:[TTTableTextItem itemWithText:name URL:TT_NULL_URL]];
     }
   
     [_items release];

@@ -14,6 +14,13 @@
 
 @synthesize drinks = drinks_;
 
+- (id)initWithStoreType:(NSString *)storeType {
+  if (self = [super init]) {
+    self.drinks = [CMDrink forStore:[storeType integerValue]];
+  }
+  return self;
+}
+
 - (void)loadView {
   CGRect appFrame = [UIScreen mainScreen].applicationFrame;
   self.view = [[[UIView alloc] initWithFrame:appFrame] autorelease];

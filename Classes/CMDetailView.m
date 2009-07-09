@@ -37,7 +37,6 @@
     
     TTImageView *map_ = [[TTImageView alloc] initWithFrame:CGRectMake(20, 140, 280, 200)];
     map_.backgroundColor = [UIColor clearColor];
-    map_.url = [store gmapUrl];
     
     UIImageView *mapMask_ = [[UIImageView alloc] initWithFrame:map_.frame];
     mapMask_.image = [[UIImage imageNamed:@"bg-map-mask.png"] stretchableImageWithLeftCapWidth:40 topCapHeight:40];

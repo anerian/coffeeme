@@ -10,7 +10,7 @@
 
 @implementation CMTrivia
 
-@synthesize pk = pk_, fact = fact_;
+@synthesize fact = fact_;
 
 - (id)initWithFMResultSet:(FMResultSet *)resultSet {
   if (self = [super init]) {

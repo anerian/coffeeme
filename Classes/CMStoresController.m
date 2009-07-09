@@ -229,7 +229,7 @@
   [self recenterMap];
   
   if ([stores_ count] == 0) {
-    [self invalidateViewState:TTViewEmpty];
+    // [self invalidateViewState:TTViewEmpty];
   }
 }
 
@@ -302,11 +302,11 @@
 - (void)hideAlert {
   self.navigationItem.rightBarButtonItem = refresh_;
   self.tableView.hidden = NO;
-  [self invalidateViewState:TTViewDataLoaded];
+  // [self invalidateViewState:TTViewDataLoaded];
 }
 
 - (void)showAlert {
-  [self invalidateViewState:TTViewLoading];
+  // [self invalidateViewState:TTViewLoading];
   self.navigationItem.rightBarButtonItem = spinner_;
   self.tableView.hidden = YES;
 }

@@ -9,6 +9,7 @@
 #import "CoffeeMeAppDelegate.h"
 #import "CMStore.h"
 #import "CMDrink.h"
+#import "CMDrinksController.h"
 #import "CMStoresController.h"
 #import "CMStoreTypesController.h"
 #import "CMTriviaController.h"
@@ -35,7 +36,12 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
   [TTStyleSheet setGlobalStyleSheet:[[[CMStyleSheet alloc] init] autorelease]];
+  
   [CMStore establishConnection];
+  
+  TTAppMap* appMap = [TTAppMap sharedMap];
+
+  [appMap addURL:@"cm://drinks/(initWithStoreType:)" create:[CMDrinksController class]];
 	
 	// setup tab bar controllers
 	NSMutableArray *viewControllers = [NSMutableArray arrayWithCapacity:3];

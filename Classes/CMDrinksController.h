@@ -14,4 +14,6 @@
 
 @property (nonatomic, retain) NSArray *drinks;
 
+- (id)initWithStoreType:(NSString *)storeType;
+
 @end

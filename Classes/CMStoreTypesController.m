@@ -27,20 +27,24 @@
 }
 
 - (void)viewDidLoad {
-    TTNavigationCenter* nav = [TTNavigationCenter defaultCenter];
-    nav.mainViewController = self.navigationController;
-    nav.delegate = self;
-    nav.urlSchemes = [NSArray arrayWithObject:@"cm"];
-    
-    [nav addView:@"drinks" controller:[CMDrinksController class]];
-    self.navigationBarTintColor = HexToUIColor(0x372010);
+
+
+  
+  
+    // TTNavigationCenter* nav = [TTNavigationCenter defaultCenter];
+    // nav.mainViewController = self.navigationController;
+    // nav.delegate = self;
+    // nav.urlSchemes = [NSArray arrayWithObject:@"cm"];
+    // 
+    // [nav addView:@"drinks" controller:[CMDrinksController class]];
+    // self.navigationBarTintColor = HexToUIColor(0x372010);
 }
 
 - (id<TTTableViewDataSource>)createDataSource {
   return [TTListDataSource dataSourceWithObjects:
-    [[[TTTableField alloc] initWithText:@"Starbucks" url:@"cm://drinks"] autorelease],
-    [[[TTTableField alloc] initWithText:@"Dunkin Donuts" url:@"cm://drinks"] autorelease],
-    [[[TTTableField alloc] initWithText:@"Caribou" url:@"cm://drinks"] autorelease],
+    [TTTableTextItem itemWithText:@"Starbucks" URL:@"cm://drinks/0"],
+    [TTTableTextItem itemWithText:@"Dunkin Donuts" URL:@"cm://drinks/1"],
+    [TTTableTextItem itemWithText:@"Caribou" URL:@"cm://drinks/2"],
     nil];
 }
 

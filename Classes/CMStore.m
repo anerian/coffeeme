@@ -11,7 +11,7 @@
 
 @implementation CMStore
 
-@synthesize pk = pk_, address = address_, phone = phone_, type = type_, latitude = latitude_, longitude = longitude_, 
+@synthesize address = address_, phone = phone_, type = type_, latitude = latitude_, longitude = longitude_, 
 distance = distance_, userLatitude = userLatitude_, userLongitude = userLongitude_;
 
 - (id)initWithFMResultSet:(FMResultSet *)resultSet {

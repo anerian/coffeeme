@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface CMStoreTypesController : TTTableViewController<TTNavigationDelegate> {
+@interface CMStoreTypesController : TTTableViewController {
 
 }
 
