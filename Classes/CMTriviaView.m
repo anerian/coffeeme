@@ -14,8 +14,7 @@
 
 - (id)init {
   if (self = [super initWithFrame:CGRectMake(0,0,320,276)]) {
-    self.userInteractionEnabled = YES;
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor clearColor];
   }
   return self;
 }
@@ -25,12 +24,14 @@
   [_text autorelease];
   _text = [text copy];
   [self setNeedsDisplay];
+  
+  [UIView beginAnimations:nil	context:NULL];
+  [UIView setAnimationDuration:1.0];
+  [UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self cache:YES];
+  [UIView commitAnimations];
 }
 
-- (void)drawRect:(CGRect)rect {
-  [[UIImage imageNamed:@"bg-corkboard.jpg"] drawAsPatternInRect:rect];
-  [[UIImage imageNamed:@"bg-sticky-pad.png"] drawInRect:CGRectMake(0,0,320,276)];
-  
+- (void)drawRect:(CGRect)rect {  
   [[UIImage imageNamed:@"bg-sticky.png"] drawInRect:CGRectMake(0,0,320,276)];
   
   if (!_text) return;
