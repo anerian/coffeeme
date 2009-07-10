@@ -80,14 +80,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 3912CEEA1006382800769E8B /* Three20.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20.a */;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
 			remoteInfo = Three20;
 		};
 		3912CEFE1006383B00769E8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3912CEEA1006382800769E8B /* Three20.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20 */;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
 			remoteInfo = Three20;
 		};
 /* End PBXContainerItemProxy section */
@@ -599,8 +599,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Anerian";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anerian";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Min Kim (AP86A8496N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim (AP86A8496N)";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -612,8 +612,8 @@
 					"-ObjC",
 				);
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "BFCC4757-100E-4391-B38E-A4F4515C7C45";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BFCC4757-100E-4391-B38E-A4F4515C7C45";
+				PROVISIONING_PROFILE = "70623634-47ED-45BA-A722-9A118E430EA9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "70623634-47ED-45BA-A722-9A118E430EA9";
 				SDKROOT = iphoneos3.0;
 			};
 			name = Distribution;
@@ -653,8 +653,8 @@
 					"-ObjC",
 				);
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "A2EE83E5-3569-49B7-A76C-74184D133C5F";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A2EE83E5-3569-49B7-A76C-74184D133C5F";
+				PROVISIONING_PROFILE = "70623634-47ED-45BA-A722-9A118E430EA9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "70623634-47ED-45BA-A722-9A118E430EA9";
 				SDKROOT = iphoneos3.0;
 			};
 			name = Debug;
@@ -676,8 +676,8 @@
 					"-ObjC",
 				);
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "A2EE83E5-3569-49B7-A76C-74184D133C5F";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A2EE83E5-3569-49B7-A76C-74184D133C5F";
+				PROVISIONING_PROFILE = "70623634-47ED-45BA-A722-9A118E430EA9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "70623634-47ED-45BA-A722-9A118E430EA9";
 				SDKROOT = iphoneos3.0;
 			};
 			name = Release;
