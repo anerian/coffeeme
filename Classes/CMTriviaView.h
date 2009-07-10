@@ -6,10 +6,20 @@
 //  Copyright 2009 Anerian LLC. All rights reserved.
 //
 
-@interface CMTriviaView : UIView {
+@interface CMTriviaPage : UIView {
   NSString *_text;
 }
 
 @property(nonatomic, copy) NSString *text;
+
+@end
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+@interface CMTriviaView : UIView {
+  CMTriviaPage *_page;
+}
+
+@property(nonatomic, readonly) CMTriviaPage *page;
 
 @end

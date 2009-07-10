@@ -8,12 +8,12 @@
 
 #import "CMTriviaView.h"
 
-@implementation CMTriviaView
+@implementation CMTriviaPage
 
 @synthesize text = _text;
 
-- (id)initWithFrame:(CGRect)frame {
-  if (self = [super initWithFrame:frame]) {
+- (id)init {
+  if (self = [super initWithFrame:CGRectMake(0,0,320,276)]) {
     self.userInteractionEnabled = YES;
     self.backgroundColor = [UIColor whiteColor];
   }
@@ -27,24 +27,51 @@
   [self setNeedsDisplay];
 }
 
+- (void)drawRect:(CGRect)rect {
+  [[UIImage imageNamed:@"bg-corkboard.jpg"] drawAsPatternInRect:rect];
+  [[UIImage imageNamed:@"bg-sticky-pad.png"] drawInRect:CGRectMake(0,0,320,276)];
+  
+  [[UIImage imageNamed:@"bg-sticky.png"] drawInRect:CGRectMake(0,0,320,276)];
+  
+  if (!_text) return;
+
+  [[UIColor blackColor] set];
+  [_text drawInRect:CGRectMake(45,20,225,400) 
+           withFont:[UIFont fontWithName:@"MarkerFelt-Thin" size:14]
+      lineBreakMode:UILineBreakModeWordWrap
+          alignment:UITextAlignmentCenter];
+}
+
+@end
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+@implementation CMTriviaView
+
+@synthesize page = _page;
+
+- (id)initWithFrame:(CGRect)frame {
+  if (self = [super initWithFrame:frame]) {
+    self.userInteractionEnabled = YES;
+    self.backgroundColor = [UIColor whiteColor];
+    _page = [[[CMTriviaPage alloc] init] retain];
+    
+    [self addSubview:_page];
+  }
+  return self;
+}
+
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
   // [self updateTrivia];
 }
 
 - (void)drawRect:(CGRect)rect {
-  if (!_text) return;
   [[UIImage imageNamed:@"bg-corkboard.jpg"] drawAsPatternInRect:rect];
-  
-  [_text drawInRect:CGRectMake(10,10,300,400) 
-           withFont:[UIFont boldSystemFontOfSize:16] 
-      lineBreakMode:UILineBreakModeWordWrap
-          alignment:UITextAlignmentCenter];
-  
-  // do the drawing in here
+  [[UIImage imageNamed:@"bg-sticky-pad.png"] drawInRect:CGRectMake(0,0,320,276)];
 }
 
 - (void)dealloc {
-  [_text release];
+  [_page release];
   [super dealloc];
 }
 

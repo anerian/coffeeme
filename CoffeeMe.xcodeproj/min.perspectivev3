@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -281,7 +279,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
 									<integer>22</integer>
 									<integer>20</integer>
 									<integer>0</integer>
@@ -316,12 +313,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>bg-corkboard.jpg</string>
+								<string>CMTriviaView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>bg-corkboard.jpg</string>
+										<string>CMTriviaView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>390246E61007BD8700F0517F</string>
+										<string>390247271007CDED00F0517F</string>
 										<key>history</key>
 										<array>
 											<string>396EE37B0FD84D1100BE0225</string>
@@ -373,8 +372,9 @@
 											<string>390246B010079BE600F0517F</string>
 											<string>390246B110079BE600F0517F</string>
 											<string>390246B210079BE600F0517F</string>
-											<string>390246E11007AEB400F0517F</string>
-											<string>390246E21007AEB400F0517F</string>
+											<string>390246EF1007C71000F0517F</string>
+											<string>3902471F1007CDC500F0517F</string>
+											<string>390247201007CDC500F0517F</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -423,6 +423,8 @@
 											<string>390246C110079BE600F0517F</string>
 											<string>390246C210079BE600F0517F</string>
 											<string>390246E31007AEB400F0517F</string>
+											<string>390246F11007C71000F0517F</string>
+											<string>390247211007CDC500F0517F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -735,6 +737,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>3902471C1007CAE500F0517F</string>
+		<string>3902471D1007CAE500F0517F</string>
 		<string>/Users/min/workspace/anerian/github/coffeeme/CoffeeMe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

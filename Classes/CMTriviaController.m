@@ -51,7 +51,7 @@
   
   CMTrivia *_trivia = [_trivias objectAtIndex:_currentIndex];
   _currentIndex++;
-  [((CMTriviaView*)self.view) setText:_trivia.fact];
+  [((CMTriviaView*)self.view).page setText:_trivia.fact];
 }
 
 - (void)dealloc {
