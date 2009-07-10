@@ -23,7 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Release;
 		activeExecutable = 397D74710FB23DF000ACE161 /* CoffeeMe */;
-		activeSDKPreference = iphoneos3.0;
+		activeSDKPreference = iphonesimulator3.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CoffeeMe */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* CoffeeMe */,
@@ -110,6 +110,23 @@
 		};
 		perUserProjectItems = {
 			390245B310069CD100F0517F /* PBXTextBookmark */ = 390245B310069CD100F0517F /* PBXTextBookmark */;
+			3902463E1007737400F0517F /* PBXTextBookmark */ = 3902463E1007737400F0517F /* PBXTextBookmark */;
+			3902463F1007737500F0517F /* PBXTextBookmark */ = 3902463F1007737500F0517F /* PBXTextBookmark */;
+			390246401007737900F0517F /* PBXTextBookmark */ = 390246401007737900F0517F /* PBXTextBookmark */;
+			390246411007737F00F0517F /* PBXTextBookmark */ = 390246411007737F00F0517F /* PBXTextBookmark */;
+			390246521007767800F0517F /* PBXTextBookmark */ = 390246521007767800F0517F /* PBXTextBookmark */;
+			390246531007767800F0517F /* PBXTextBookmark */ = 390246531007767800F0517F /* PBXTextBookmark */;
+			390246551007767800F0517F /* PBXTextBookmark */ = 390246551007767800F0517F /* PBXTextBookmark */;
+			390246561007767800F0517F /* PBXTextBookmark */ = 390246561007767800F0517F /* PBXTextBookmark */;
+			390246581007767800F0517F /* PBXTextBookmark */ = 390246581007767800F0517F /* PBXTextBookmark */;
+			390246591007767800F0517F /* PBXTextBookmark */ = 390246591007767800F0517F /* PBXTextBookmark */;
+			3902465B1007767800F0517F /* PBXTextBookmark */ = 3902465B1007767800F0517F /* PBXTextBookmark */;
+			3902465D1007767800F0517F /* PBXTextBookmark */ = 3902465D1007767800F0517F /* PBXTextBookmark */;
+			3902465E1007767800F0517F /* PBXTextBookmark */ = 3902465E1007767800F0517F /* PBXTextBookmark */;
+			390246601007767800F0517F /* PBXTextBookmark */ = 390246601007767800F0517F /* PBXTextBookmark */;
+			390246621007767800F0517F /* PBXTextBookmark */ = 390246621007767800F0517F /* PBXTextBookmark */;
+			390246631007767800F0517F /* PBXTextBookmark */ = 390246631007767800F0517F /* PBXTextBookmark */;
+			3902467E100778F600F0517F /* PBXTextBookmark */ = 3902467E100778F600F0517F /* PBXTextBookmark */;
 			3912CF2010063FE900769E8B = 3912CF2010063FE900769E8B /* PBXTextBookmark */;
 			3912CF2110063FE900769E8B = 3912CF2110063FE900769E8B /* PBXTextBookmark */;
 			3912CF2210063FE900769E8B = 3912CF2210063FE900769E8B /* PBXTextBookmark */;
@@ -186,6 +203,221 @@
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 0;
+	};
+	3902463E1007737400F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3912CFDF1006985900769E8B /* TTDefaultStyleSheet.m */;
+		name = "TTDefaultStyleSheet.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 949;
+		vrLoc = 0;
+	};
+	3902463F1007737500F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3912CFDF1006985900769E8B /* TTDefaultStyleSheet.m */;
+		name = "TTDefaultStyleSheet.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 949;
+		vrLoc = 0;
+	};
+	390246401007737900F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3912CFDF1006985900769E8B /* TTDefaultStyleSheet.m */;
+		name = "TTDefaultStyleSheet.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 228;
+		vrLoc = 0;
+	};
+	390246411007737F00F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3912CFDF1006985900769E8B /* TTDefaultStyleSheet.m */;
+		name = "TTDefaultStyleSheet.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 949;
+		vrLoc = 0;
+	};
+	390246521007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3912CFDF1006985900769E8B /* TTDefaultStyleSheet.m */;
+		name = "TTDefaultStyleSheet.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 949;
+		vrLoc = 0;
+	};
+	390246531007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 390246541007767800F0517F /* TTURLPattern.m */;
+		name = "TTURLPattern.m: 1";
+		rLen = 33;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 521;
+		vrLoc = 0;
+	};
+	390246541007767800F0517F /* TTURLPattern.m */ = {
+		isa = PBXFileReference;
+		name = TTURLPattern.m;
+		path = /Users/min/workspace/anerian/github/three20/src/TTURLPattern.m;
+		sourceTree = "<absolute>";
+	};
+	390246551007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868D950FBC782C006E151C /* CMDrinksDataSource.m */;
+		name = "CMDrinksDataSource.m: 83";
+		rLen = 11;
+		rLoc = 2438;
+		rType = 0;
+		vrLen = 784;
+		vrLoc = 1915;
+	};
+	390246561007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: Three20/TTURLMap.h: No such file or directory";
+		fRef = 390246571007767800F0517F /* TTURLPattern.h */;
+		rLen = 1;
+		rLoc = 0;
+		rType = 1;
+	};
+	390246571007767800F0517F /* TTURLPattern.h */ = {
+		isa = PBXFileReference;
+		name = TTURLPattern.h;
+		path = /Users/min/workspace/anerian/github/three20/src/Three20/TTURLPattern.h;
+		sourceTree = "<absolute>";
+	};
+	390246581007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3912CFDF1006985900769E8B /* TTDefaultStyleSheet.m */;
+		name = "TTDefaultStyleSheet.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 949;
+		vrLoc = 0;
+	};
+	390246591007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3902465A1007767800F0517F /* TTURLPattern.m */;
+		name = "TTURLPattern.m: 44";
+		rLen = 91;
+		rLoc = 1175;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 835;
+	};
+	3902465A1007767800F0517F /* TTURLPattern.m */ = {
+		isa = PBXFileReference;
+		name = TTURLPattern.m;
+		path = /Users/min/workspace/anerian/github/three20/src/TTURLPattern.m;
+		sourceTree = "<absolute>";
+	};
+	3902465B1007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3902465C1007767800F0517F /* TTURLPattern.h */;
+		name = "TTURLPattern.h: 28";
+		rLen = 0;
+		rLoc = 819;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 337;
+	};
+	3902465C1007767800F0517F /* TTURLPattern.h */ = {
+		isa = PBXFileReference;
+		name = TTURLPattern.h;
+		path = /Users/min/workspace/anerian/github/three20/src/Three20/TTURLPattern.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {966, 608}}";
+			sepNavSelRange = "{1030, 0}";
+			sepNavVisRange = "{0, 699}";
+		};
+	};
+	3902465D1007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868D950FBC782C006E151C /* CMDrinksDataSource.m */;
+		name = "CMDrinksDataSource.m: 83";
+		rLen = 0;
+		rLoc = 2452;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 1916;
+	};
+	3902465E1007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3902465F1007767800F0517F /* TTURLPattern.h */;
+		name = "TTURLPattern.h: 1";
+		rLen = 29;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 0;
+	};
+	3902465F1007767800F0517F /* TTURLPattern.h */ = {
+		isa = PBXFileReference;
+		name = TTURLPattern.h;
+		path = /Users/min/workspace/anerian/github/three20/src/Three20/TTURLPattern.h;
+		sourceTree = "<absolute>";
+	};
+	390246601007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 390246611007767800F0517F /* TTURLPattern.m */;
+		name = "TTURLPattern.m: 1";
+		rLen = 33;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 521;
+		vrLoc = 0;
+	};
+	390246611007767800F0517F /* TTURLPattern.m */ = {
+		isa = PBXFileReference;
+		name = TTURLPattern.m;
+		path = /Users/min/workspace/anerian/github/three20/src/TTURLPattern.m;
+		sourceTree = "<absolute>";
+	};
+	390246621007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868D950FBC782C006E151C /* CMDrinksDataSource.m */;
+		name = "CMDrinksDataSource.m: 83";
+		rLen = 11;
+		rLoc = 2438;
+		rType = 0;
+		vrLen = 784;
+		vrLoc = 1915;
+	};
+	390246631007767800F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 390246641007767800F0517F /* TTURLPattern.h */;
+		name = "TTURLPattern.h: 39";
+		rLen = 0;
+		rLoc = 1030;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 0;
+	};
+	390246641007767800F0517F /* TTURLPattern.h */ = {
+		isa = PBXFileReference;
+		name = TTURLPattern.h;
+		path = /Users/min/workspace/anerian/github/three20/src/Three20/TTURLPattern.h;
+		sourceTree = "<absolute>";
+	};
+	3902467E100778F600F0517F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39868D950FBC782C006E151C /* CMDrinksDataSource.m */;
+		name = "CMDrinksDataSource.m: 83";
+		rLen = 11;
+		rLoc = 2438;
+		rType = 0;
+		vrLen = 784;
+		vrLoc = 1915;
 	};
 	3912CF2010063FE900769E8B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -382,9 +614,9 @@
 		path = /Users/min/workspace/anerian/github/three20/src/TTDefaultStyleSheet.m;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {966, 9488}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 949}";
+			sepNavIntBoundsRect = "{{0, 0}, {1334, 9488}}";
+			sepNavSelRange = "{21294, 0}";
+			sepNavVisRange = "{0, 228}";
 		};
 	};
 	39151C5E0FDFFD9C0044D4C1 /* PlistBookmark */ = {
@@ -980,9 +1212,9 @@
 	};
 	39868D950FBC782C006E151C /* CMDrinksDataSource.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1334, 1712}}";
-			sepNavSelRange = "{2880, 0}";
-			sepNavVisRange = "{1814, 228}";
+			sepNavIntBoundsRect = "{{0, 0}, {966, 1568}}";
+			sepNavSelRange = "{2438, 11}";
+			sepNavVisRange = "{1915, 787}";
 		};
 	};
 	39868FA90FBD1D31006E151C /* CoffeeMe.m */ = {

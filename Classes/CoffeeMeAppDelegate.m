@@ -17,7 +17,6 @@
 #import "CMStyleSheet.h"
 
 
-
 @implementation CoffeeMeAppDelegate
 
 @synthesize window = window_;
@@ -75,7 +74,6 @@
   [splash_ removeFromSuperview];
   [splash_ release];
 }
-
 
 /*
 // Optional UITabBarControllerDelegate method

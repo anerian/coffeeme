@@ -110,6 +110,16 @@
     [TTFourBorderStyle styleWithTop:nil right:nil bottom:HexToUIColor(0x25190c) left:nil width:1 next:nil]];
 }
 
+- (TTStyle*)tabOverflowLeft {
+  UIImage* image = [UIImage imageNamed:@"overflowLeft.png"];
+  return [TTImageStyle styleWithImage:image next:nil];
+}
+
+- (TTStyle*)tabOverflowRight {
+  UIImage* image = [UIImage imageNamed:@"overflowRight.png"];
+  return [TTImageStyle styleWithImage:image next:nil];
+}
+
 - (TTStyle*)titleLabel {
   TTTextStyle *style =   
     [TTTextStyle styleWithFont:[UIFont boldSystemFontOfSize:18] color:HexToUIColor(0x45290f)
