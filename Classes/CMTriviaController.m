@@ -12,20 +12,26 @@
 
 - (id)init {
   if (self = [super init]) {
-    triviaView_ = [[[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame] retain];
+    self.supportsAccelerometer = YES;
+    self.navigationBarTintColor = HexToUIColor(0x372010);
+    _trivias = nil;
   }
   return self;
 }
 
 - (void)loadView {
   [super loadView];
-  self.view = triviaView_;
-  self.supportsAccelerometer = YES;
-  self.navigationBarTintColor = HexToUIColor(0x372010);
+  _triviaView = [[[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame] autorelease];
+  self.view = _triviaView;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
   [super viewWillAppear:animated];
+  
+  [_trivias release];
+  _trivias = [[CMTrivia allByRandomOrder] retain];
+  _currentIndex = 0;
+  
   [self refresh];
 }
 - (void)viewDidLoad {
@@ -40,16 +46,16 @@
   [self refresh];
 }
 
-- (void)userDidRotate:(float)angle {
-  [triviaView_ rotate:angle-90];
-}
-
 - (void)refresh {
-  [((CMTriviaView*)self.view) updateTrivia];
+  if (_currentIndex >= [_trivias count]) _trivias = 0;
+  
+  CMTrivia *_trivia = [_trivias objectAtIndex:_currentIndex];
+  _currentIndex++;
+  [((CMTriviaView*)self.view) setText:_trivia.fact];
 }
 
 - (void)dealloc {
-  [triviaView_ release];
+  [_triviaView release];
   [super dealloc];
 }
 

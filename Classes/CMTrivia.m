@@ -28,6 +28,10 @@
   return [self query:[NSString stringWithFormat:@"select id,fact from %@ where id >= (abs(random()) %% (select max(id) from %@)) limit 1", [self tableName], [self tableName] ]];
 }
 
++ (NSArray *)allByRandomOrder {
+  return [self query:[NSString stringWithFormat:@"select * from %@ order by random()", [self tableName] ]];
+}
+
 - (void)dealloc {
   [fact_ release];
   [super dealloc];

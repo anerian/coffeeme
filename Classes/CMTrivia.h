@@ -6,7 +6,6 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "CMModel.h"
 
 @interface CMTrivia : CMModel<CMModel> {
@@ -16,5 +15,6 @@
 @property (nonatomic, retain) NSString *fact;
 
 + (CMTrivia *)randomTrivia;
++ (NSArray *)allByRandomOrder;
 
 @end

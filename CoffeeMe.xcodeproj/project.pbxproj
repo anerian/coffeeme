@@ -19,6 +19,7 @@
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		390246911007955300F0517F /* overflowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 390246901007955300F0517F /* overflowLeft.png */; };
 		390246971007965600F0517F /* overflowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 390246961007965600F0517F /* overflowRight.png */; };
+		390246DF1007AE9500F0517F /* bg-corkboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390246DE1007AE9500F0517F /* bg-corkboard.jpg */; };
 		3912CEF31006382C00769E8B /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3912CEF21006382800769E8B /* libThree20.a */; };
 		3912CF021006387100769E8B /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3912CF011006387100769E8B /* Three20.bundle */; };
 		39151BD90FDF20F70044D4C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 39151BD80FDF20F70044D4C1 /* Default.png */; };
@@ -110,6 +111,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		390246901007955300F0517F /* overflowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overflowLeft.png; sourceTree = "<group>"; };
 		390246961007965600F0517F /* overflowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overflowRight.png; sourceTree = "<group>"; };
+		390246DE1007AE9500F0517F /* bg-corkboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-corkboard.jpg"; sourceTree = "<group>"; };
 		3912CEEA1006382800769E8B /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		3912CF011006387100769E8B /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = ../three20/src/Three20.bundle; sourceTree = SOURCE_ROOT; };
 		39151BD80FDF20F70044D4C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -391,6 +393,7 @@
 		39868C080FBB6090006E151C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				390246DE1007AE9500F0517F /* bg-corkboard.jpg */,
 				390246961007965600F0517F /* overflowRight.png */,
 				390246901007955300F0517F /* overflowLeft.png */,
 				39151BD80FDF20F70044D4C1 /* Default.png */,
@@ -516,6 +519,7 @@
 				3912CF021006387100769E8B /* Three20.bundle in Resources */,
 				390246911007955300F0517F /* overflowLeft.png in Resources */,
 				390246971007965600F0517F /* overflowRight.png in Resources */,
+				390246DF1007AE9500F0517F /* bg-corkboard.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

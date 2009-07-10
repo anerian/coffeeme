@@ -6,16 +6,10 @@
 //  Copyright 2009 Anerian LLC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "CMTrivia.h"
-
 @interface CMTriviaView : UIView {
-  UIImageView *cup_;
-  UIImageView *coffee_;
-  UITextView *fact_;
+  NSString *_text;
 }
 
-- (void)updateTrivia;
-- (void)rotate:(float)angle;
+@property(nonatomic, copy) NSString *text;
 
 @end

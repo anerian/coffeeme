@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -268,6 +270,7 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>3912CF011006387100769E8B</string>
+								<string>390245B110069CCE00F0517F</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>39868C080FBB6090006E151C</string>
@@ -278,8 +281,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
-									<integer>10</integer>
+									<integer>23</integer>
+									<integer>22</integer>
+									<integer>20</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -317,7 +321,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CMDrinksDataSource.m</string>
+								<string>bg-corkboard.jpg</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +329,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CMDrinksDataSource.m</string>
+										<string>bg-corkboard.jpg</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3902467E100778F600F0517F</string>
+										<string>390246E61007BD8700F0517F</string>
 										<key>history</key>
 										<array>
 											<string>396EE37B0FD84D1100BE0225</string>
@@ -358,11 +362,19 @@
 											<string>3912CF2110063FE900769E8B</string>
 											<string>3912CF2210063FE900769E8B</string>
 											<string>3912CF2310063FE900769E8B</string>
-											<string>3912CFBC100693E200769E8B</string>
-											<string>3912CFBE100693E200769E8B</string>
 											<string>390246521007767800F0517F</string>
 											<string>390246531007767800F0517F</string>
-											<string>390246621007767800F0517F</string>
+											<string>390246A710079BE600F0517F</string>
+											<string>390246A810079BE600F0517F</string>
+											<string>390246A910079BE600F0517F</string>
+											<string>390246AB10079BE600F0517F</string>
+											<string>390246AC10079BE600F0517F</string>
+											<string>390246AE10079BE600F0517F</string>
+											<string>390246B010079BE600F0517F</string>
+											<string>390246B110079BE600F0517F</string>
+											<string>390246B210079BE600F0517F</string>
+											<string>390246E11007AEB400F0517F</string>
+											<string>390246E21007AEB400F0517F</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -398,6 +410,19 @@
 											<string>390246591007767800F0517F</string>
 											<string>3902465D1007767800F0517F</string>
 											<string>390246601007767800F0517F</string>
+											<string>390246B410079BE600F0517F</string>
+											<string>390246B510079BE600F0517F</string>
+											<string>390246B610079BE600F0517F</string>
+											<string>390246B710079BE600F0517F</string>
+											<string>390246B810079BE600F0517F</string>
+											<string>390246BA10079BE600F0517F</string>
+											<string>390246BB10079BE600F0517F</string>
+											<string>390246BD10079BE600F0517F</string>
+											<string>390246BF10079BE600F0517F</string>
+											<string>390246C010079BE600F0517F</string>
+											<string>390246C110079BE600F0517F</string>
+											<string>390246C210079BE600F0517F</string>
+											<string>390246E31007AEB400F0517F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -476,8 +501,6 @@
 									<string>PBXCVSModule</string>
 								</dict>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXBuildLogShowsTranscriptDefaultKey</key>

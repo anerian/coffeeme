@@ -6,14 +6,15 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "CMBaseController.h"
 #import "CMTrivia.h"
 #import "CMTriviaView.h"
 
 
 @interface CMTriviaController : CMBaseController {
-    CMTriviaView *triviaView_;
+  CMTriviaView *_triviaView;
+  NSArray      *_trivias;
+  NSUInteger   _currentIndex;
 }
 
 - (void)refresh;
