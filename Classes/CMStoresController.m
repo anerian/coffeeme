@@ -215,6 +215,8 @@
 #pragma mark Notifications methods
 
 - (void)storesReceived:(NSNotification*)notify {
+  if (stores_) [map_ removeAnnotations:stores_];
+  
 	NSArray *stores = [notify object];
 
 	[stores retain];
@@ -282,8 +284,6 @@
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {
   MKPinAnnotationView *view = nil;
   
-  NSLog(@"annotation: %f,%f", annotation.coordinate.latitude, annotation.coordinate.longitude);
-
   if (annotation != mapView.userLocation) {
     view = (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:@"MKPinAnnotationViewIdentifier"];
     if (nil == view) {
@@ -295,6 +295,14 @@
     [view setAnimatesDrop:YES];
   }
   return view;
+}
+
+- (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
+  CMStore *store = (CMStore *)view.annotation;
+  
+  CMDetailController *detailController = [[[CMDetailController alloc] initWithStore:store] autorelease];
+    
+  [self.navigationController pushViewController:detailController animated:YES];
 }
 
 #pragma mark Alert methods

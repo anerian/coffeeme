@@ -14,20 +14,32 @@
 
 - (id)init {
   if (self = [super initWithFrame:CGRectMake(0,0,320,276)]) {
-    self.backgroundColor = [UIColor clearColor];
+    self.backgroundColor = [UIColor whiteColor];
+    self.opaque = NO;
   }
   return self;
 }
 
 - (void)setText:(NSString *)text {
-  NSLog(text);
   [_text autorelease];
   _text = [text copy];
   [self setNeedsDisplay];
+
+  //   CATransition *animation = [CATransition animation];
+  //   [animation setDelegate:self];
+  //   [animation setDuration:0.35];
+  //   [animation setTimingFunction:UIViewAnimationCurveEaseInOut];
+  // 
+  // animation.type = @"pageCurl";
+  // animation.fillMode = kCAFillModeForwards;
+  // animation.endProgress = 0.58;
+  // 
+  //   [animation setRemovedOnCompletion:NO];
+  //   [[self layer] addAnimation:animation forKey:@"pageCurlAnimation"];
   
-  [UIView beginAnimations:nil	context:NULL];
+  [UIView beginAnimations:nil  context:NULL];
   [UIView setAnimationDuration:1.0];
-  [UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self cache:YES];
+  [UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self cache:YES];
   [UIView commitAnimations];
 }
 
@@ -67,7 +79,7 @@
 }
 
 - (void)drawRect:(CGRect)rect {
-  [[UIImage imageNamed:@"bg-corkboard.jpg"] drawAsPatternInRect:rect];
+  // [[UIImage imageNamed:@"bg-corkboard.jpg"] drawAsPatternInRect:rect];
   [[UIImage imageNamed:@"bg-sticky-pad.png"] drawInRect:CGRectMake(0,0,320,276)];
 }
 

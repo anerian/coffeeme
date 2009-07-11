@@ -65,6 +65,10 @@ distance = distance_, userLatitude = userLatitude_, userLongitude = userLongitud
 }
 
 - (NSString *)title {
+  return CMShopType(type_);
+}
+
+- (NSString *)subtitle {
   return address_;
 }
 

@@ -52,8 +52,6 @@
 
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {
   MKPinAnnotationView *view = nil;
-  
-  NSLog(@"annotation: %f,%f", annotation.coordinate.latitude, annotation.coordinate.longitude);
 
   if (annotation != mapView.userLocation) {
     view = (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:@"MKPinAnnotationViewIdentifier"];
