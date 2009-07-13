@@ -19,26 +19,27 @@
     self.backgroundColor = [UIColor clearColor];
     self.opaque = NO;
     self.userInteractionEnabled = YES;
+    
     _isSwipe = NO;
   }
   return self;
 }
 
-- (void)setText:(NSString *)text animated:(BOOL)animated {
+- (void)setText:(NSString *)text swipe:(CMTriviaPageSwipe)swipe {
   [_text autorelease];
   _text = [text copy];
   [self setNeedsDisplay];
 
-  if (animated) {
+  if (swipe != CMTriviaPageSwipeNone) {
     [UIView beginAnimations:nil  context:NULL];
     [UIView setAnimationDuration:1.0];
-    [UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self cache:YES];
+    [UIView setAnimationTransition:((swipe == CMTriviaPageSwipeUp) ? UIViewAnimationTransitionCurlUp : UIViewAnimationTransitionCurlDown) forView:self cache:YES];
     [UIView commitAnimations];
   }
 }
 
 - (void)setText:(NSString *)text {
-  [self setText:text animated:YES];
+  [self setText:text swipe:CMTriviaPageSwipeUp];
 }
 
 - (void)drawRect:(CGRect)rect {  
@@ -56,6 +57,7 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+  _swipe   = CMTriviaPageSwipeNone;
   _isSwipe = NO;
   _startTouchPosition = [[touches anyObject] locationInView:self]; 
 }
@@ -67,23 +69,29 @@
 
   float moveSpeed = fabsf(deltaY / (touch.timestamp - _theSecondLastTime));
 
-  if (moveSpeed >= 1200.0) { 
+  if (moveSpeed >= 1000.0) { 
+    _isSwipe = YES;
+    
     if (_theSecondLastPosition.y > currentTouchPosition.y){ 
-      _isSwipe = YES;
-    } 
-  } 
+      _swipe = CMTriviaPageSwipeUp;
+    } else {
+      _swipe = CMTriviaPageSwipeDown;
+    }
+  } else if (!_isSwipe) {
+    _swipe = CMTriviaPageSwipeNone;
+  }
 
   _theSecondLastPosition = [touch locationInView:self]; 
   _theSecondLastTime = touch.timestamp;
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-  if (_isSwipe) {
-    if ([_delegate respondsToSelector:@selector(triviaPageDidSwipe)]) {
-      [_delegate triviaPageDidSwipe];
+  if (_swipe != CMTriviaPageSwipeNone) {
+    if ([_delegate respondsToSelector:@selector(triviaPage:didSwipe:)]) {
+      [_delegate triviaPage:self didSwipe:_swipe];
     }
   }
-  _isSwipe = NO;
+  _swipe = CMTriviaPageSwipeNone;
 }
 
 @end

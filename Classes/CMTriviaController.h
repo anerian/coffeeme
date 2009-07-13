@@ -17,6 +17,6 @@
   NSUInteger   _currentIndex;
 }
 
-- (void)refresh:(BOOL)animated;
+- (void)refresh:(CMTriviaPageSwipe)swipe;
 
 @end

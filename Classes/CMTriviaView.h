@@ -6,6 +6,12 @@
 //  Copyright 2009 Anerian LLC. All rights reserved.
 //
 
+typedef enum {
+  CMTriviaPageSwipeNone = 0,
+  CMTriviaPageSwipeUp,
+  CMTriviaPageSwipeDown
+} CMTriviaPageSwipe;
+
 @protocol CMTriviaPageDelegate;
 
 @interface CMTriviaPage : UIView {
@@ -14,19 +20,20 @@
   NSTimeInterval _theSecondLastTime;
   CGPoint        _theSecondLastPosition;
   BOOL           _isSwipe;
+  CMTriviaPageSwipe _swipe;
   id<CMTriviaPageDelegate>_delegate;
 }
 
 @property(nonatomic, copy) NSString *text;
 @property(nonatomic, assign) id<CMTriviaPageDelegate> delegate;
 
-- (void)setText:(NSString *)text animated:(BOOL)animated;
+- (void)setText:(NSString *)text swipe:(CMTriviaPageSwipe)swipe;
 
 @end
 
 @protocol CMTriviaPageDelegate<NSObject>
 
-- (void)triviaPageDidSwipe;
+- (void)triviaPage:(CMTriviaPage *)triviaPage didSwipe:(CMTriviaPageSwipe)swipe;
 
 @end
 
