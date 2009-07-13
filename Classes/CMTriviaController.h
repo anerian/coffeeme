@@ -17,6 +17,6 @@
   NSUInteger   _currentIndex;
 }
 
-- (void)refresh;
+- (void)refresh:(BOOL)animated;
 
 @end

@@ -24,15 +24,21 @@
   return self;
 }
 
-- (void)setText:(NSString *)text {
+- (void)setText:(NSString *)text animated:(BOOL)animated {
   [_text autorelease];
   _text = [text copy];
   [self setNeedsDisplay];
 
-  [UIView beginAnimations:nil  context:NULL];
-  [UIView setAnimationDuration:1.0];
-  [UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self cache:YES];
-  [UIView commitAnimations];
+  if (animated) {
+    [UIView beginAnimations:nil  context:NULL];
+    [UIView setAnimationDuration:1.0];
+    [UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self cache:YES];
+    [UIView commitAnimations];
+  }
+}
+
+- (void)setText:(NSString *)text {
+  [self setText:text animated:YES];
 }
 
 - (void)drawRect:(CGRect)rect {  

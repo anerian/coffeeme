@@ -20,6 +20,8 @@
 @property(nonatomic, copy) NSString *text;
 @property(nonatomic, assign) id<CMTriviaPageDelegate> delegate;
 
+- (void)setText:(NSString *)text animated:(BOOL)animated;
+
 @end
 
 @protocol CMTriviaPageDelegate<NSObject>

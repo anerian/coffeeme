@@ -33,26 +33,26 @@
   _trivias = [[CMTrivia allByRandomOrder] retain];
   _currentIndex = 0;
   
-  [self refresh];
+  [self refresh:NO];
 }
 - (void)viewDidLoad {
   self.navigationItem.rightBarButtonItem = 
     [[[UIBarButtonItem alloc] initWithTitle:@"More" 
                                       style:UIBarButtonItemStyleBordered
                                      target:self 
-                                     action:@selector(refresh)] autorelease];
+                                     action:@selector(flip)] autorelease];
 }
 
-- (void)userDidShake {
-  [self refresh];
+- (void)flip {
+  [self refresh:YES];
 }
 
-- (void)refresh {
+- (void)refresh:(BOOL)animated {
   if (_currentIndex >= [_trivias count]) _trivias = 0;
   
   CMTrivia *_trivia = [_trivias objectAtIndex:_currentIndex];
   _currentIndex++;
-  [((CMTriviaView*)self.view).page setText:_trivia.fact];
+  [((CMTriviaView*)self.view).page setText:_trivia.fact animated:animated];
 }
 
 - (void)dealloc {
@@ -61,7 +61,7 @@
 }
 
 - (void)triviaPageDidSwipe {
-  [self refresh];
+  [self refresh:YES];
 }
 
 @end
