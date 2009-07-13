@@ -15,7 +15,7 @@
 @synthesize text = _text, delegate = _delegate;
 
 - (id)init {
-  if (self = [super initWithFrame:CGRectMake(32,10,256,353)]) {
+  if (self = [super initWithFrame:CGRectMake(32,56,256,307)]) {
     self.backgroundColor = [UIColor clearColor];
     self.opaque = NO;
     self.userInteractionEnabled = YES;
@@ -36,13 +36,15 @@
 }
 
 - (void)drawRect:(CGRect)rect {  
-  [[UIImage imageNamed:@"bg-notesheet.png"] drawInRect:rect];
+  CGContextRef context = UIGraphicsGetCurrentContext();
+  [[UIImage imageNamed:@"bg-notesheet-bottom.png"] drawInRect:rect];
   
   if (!_text) return;
 
-  [HexToUIColor(0x382a0c) set];
-  [_text drawInRect:CGRectMake(10,60,self.width-20,400) 
-           withFont:[UIFont fontWithName:@"MarkerFelt-Thin" size:18]
+  [HexToUIColor(0x321d0e) set];
+  
+  [_text drawInRect:CGRectMake(10,10,self.width-20,self.height-20) 
+           withFont:[UIFont fontWithName:@"AmericanTypewriter" size:18]
       lineBreakMode:UILineBreakModeWordWrap
           alignment:UITextAlignmentCenter];
 }
@@ -102,7 +104,8 @@
 }
 
 - (void)drawRect:(CGRect)rect {
-  // [[UIImage imageNamed:@"bg-corkboard.jpg"] drawAsPatternInRect:rect];
+  [[UIImage imageNamed:@"bg-corkboard.jpg"] drawAsPatternInRect:rect];
+  [[UIImage imageNamed:@"bg-notesheet.png"] drawInRect:CGRectMake(32,10,256,353)];
   // [[UIImage imageNamed:@"bg-sticky-pad.png"] drawInRect:CGRectMake(0,0,320,276)];
 }
 

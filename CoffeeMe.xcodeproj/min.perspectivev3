@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -312,14 +314,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>397D747B0FB23DFA00ACE161</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CMTriviaView.h</string>
+								<string>bg-notesheet.png</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>397D747C0FB23DFA00ACE161</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CMTriviaView.h</string>
+										<string>bg-notesheet.png</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39410E7C100B8D4E00921167</string>
+										<string>39410EC2100BA3B500921167</string>
 										<key>history</key>
 										<array>
 											<string>396EE37B0FD84D1100BE0225</string>
@@ -372,9 +372,9 @@
 											<string>390246B110079BE600F0517F</string>
 											<string>390246B210079BE600F0517F</string>
 											<string>390246EF1007C71000F0517F</string>
-											<string>3902471F1007CDC500F0517F</string>
 											<string>39410E79100B8D4E00921167</string>
-											<string>39410E7A100B8D4E00921167</string>
+											<string>39410EB7100BA35A00921167</string>
+											<string>39410EB8100BA35A00921167</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -416,8 +416,8 @@
 											<string>390246C210079BE600F0517F</string>
 											<string>390246E31007AEB400F0517F</string>
 											<string>390246F11007C71000F0517F</string>
-											<string>390247211007CDC500F0517F</string>
 											<string>39410E7B100B8D4E00921167</string>
+											<string>39410EB9100BA35A00921167</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
