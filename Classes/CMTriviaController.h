@@ -11,7 +11,7 @@
 #import "CMTriviaView.h"
 
 
-@interface CMTriviaController : CMBaseController {
+@interface CMTriviaController : CMBaseController<CMTriviaPageDelegate> {
   CMTriviaView *_triviaView;
   NSArray      *_trivias;
   NSUInteger   _currentIndex;

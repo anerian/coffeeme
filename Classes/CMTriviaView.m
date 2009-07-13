@@ -10,12 +10,16 @@
 
 @implementation CMTriviaPage
 
-@synthesize text = _text;
+#define kDragDistance 50
+
+@synthesize text = _text, delegate = _delegate;
 
 - (id)init {
-  if (self = [super initWithFrame:CGRectMake(0,0,320,276)]) {
-    self.backgroundColor = [UIColor whiteColor];
+  if (self = [super initWithFrame:CGRectMake(32,10,256,353)]) {
+    self.backgroundColor = [UIColor clearColor];
     self.opaque = NO;
+    self.userInteractionEnabled = YES;
+    _isSwipe = NO;
   }
   return self;
 }
@@ -25,34 +29,53 @@
   _text = [text copy];
   [self setNeedsDisplay];
 
-  //   CATransition *animation = [CATransition animation];
-  //   [animation setDelegate:self];
-  //   [animation setDuration:0.35];
-  //   [animation setTimingFunction:UIViewAnimationCurveEaseInOut];
-  // 
-  // animation.type = @"pageCurl";
-  // animation.fillMode = kCAFillModeForwards;
-  // animation.endProgress = 0.58;
-  // 
-  //   [animation setRemovedOnCompletion:NO];
-  //   [[self layer] addAnimation:animation forKey:@"pageCurlAnimation"];
-  
   [UIView beginAnimations:nil  context:NULL];
   [UIView setAnimationDuration:1.0];
-  [UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self cache:YES];
+  [UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self cache:YES];
   [UIView commitAnimations];
 }
 
 - (void)drawRect:(CGRect)rect {  
-  [[UIImage imageNamed:@"bg-sticky.png"] drawInRect:CGRectMake(0,0,320,276)];
+  [[UIImage imageNamed:@"bg-notesheet.png"] drawInRect:rect];
   
   if (!_text) return;
 
-  [[UIColor blackColor] set];
-  [_text drawInRect:CGRectMake(45,20,225,400) 
-           withFont:[UIFont fontWithName:@"MarkerFelt-Thin" size:14]
+  [HexToUIColor(0x382a0c) set];
+  [_text drawInRect:CGRectMake(10,60,self.width-20,400) 
+           withFont:[UIFont fontWithName:@"MarkerFelt-Thin" size:18]
       lineBreakMode:UILineBreakModeWordWrap
           alignment:UITextAlignmentCenter];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+  _isSwipe = NO;
+  _startTouchPosition = [[touches anyObject] locationInView:self]; 
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+  UITouch *touch = [touches anyObject]; 
+  CGPoint currentTouchPosition = [touch locationInView:self]; 
+  float deltaY = currentTouchPosition.y - _theSecondLastPosition.y;
+
+  float moveSpeed = fabsf(deltaY / (touch.timestamp - _theSecondLastTime));
+
+  if (moveSpeed >= 1200.0) { 
+    if (_theSecondLastPosition.y > currentTouchPosition.y){ 
+      _isSwipe = YES;
+    } 
+  } 
+
+  _theSecondLastPosition = [touch locationInView:self]; 
+  _theSecondLastTime = touch.timestamp;
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+  if (_isSwipe) {
+    if ([_delegate respondsToSelector:@selector(triviaPageDidSwipe)]) {
+      [_delegate triviaPageDidSwipe];
+    }
+  }
+  _isSwipe = NO;
 }
 
 @end
@@ -66,7 +89,7 @@
 - (id)initWithFrame:(CGRect)frame {
   if (self = [super initWithFrame:frame]) {
     self.userInteractionEnabled = YES;
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor blackColor];
     _page = [[[CMTriviaPage alloc] init] retain];
     
     [self addSubview:_page];
@@ -80,7 +103,7 @@
 
 - (void)drawRect:(CGRect)rect {
   // [[UIImage imageNamed:@"bg-corkboard.jpg"] drawAsPatternInRect:rect];
-  [[UIImage imageNamed:@"bg-sticky-pad.png"] drawInRect:CGRectMake(0,0,320,276)];
+  // [[UIImage imageNamed:@"bg-sticky-pad.png"] drawInRect:CGRectMake(0,0,320,276)];
 }
 
 - (void)dealloc {

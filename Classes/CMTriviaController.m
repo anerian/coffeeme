@@ -22,6 +22,7 @@
 - (void)loadView {
   [super loadView];
   _triviaView = [[[CMTriviaView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame] autorelease];
+  _triviaView.page.delegate = self;
   self.view = _triviaView;
 }
 
@@ -57,6 +58,10 @@
 - (void)dealloc {
   [_triviaView release];
   [super dealloc];
+}
+
+- (void)triviaPageDidSwipe {
+  [self refresh];
 }
 
 @end

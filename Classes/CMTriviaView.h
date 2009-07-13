@@ -6,11 +6,25 @@
 //  Copyright 2009 Anerian LLC. All rights reserved.
 //
 
+@protocol CMTriviaPageDelegate;
+
 @interface CMTriviaPage : UIView {
-  NSString *_text;
+  NSString       *_text;
+  CGPoint        _startTouchPosition;
+  NSTimeInterval _theSecondLastTime;
+  CGPoint        _theSecondLastPosition;
+  BOOL           _isSwipe;
+  id<CMTriviaPageDelegate>_delegate;
 }
 
 @property(nonatomic, copy) NSString *text;
+@property(nonatomic, assign) id<CMTriviaPageDelegate> delegate;
+
+@end
+
+@protocol CMTriviaPageDelegate<NSObject>
+
+- (void)triviaPageDidSwipe;
 
 @end
 
