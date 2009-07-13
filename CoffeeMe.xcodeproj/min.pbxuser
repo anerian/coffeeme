@@ -21,7 +21,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = 397D74710FB23DF000ACE161 /* CoffeeMe */;
 		activeSDKPreference = iphoneos3.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CoffeeMe */;
@@ -239,6 +239,7 @@
 			39410EC2100BA3B500921167 /* PBXBookmark */ = 39410EC2100BA3B500921167 /* PBXBookmark */;
 			39410EC5100BA5D400921167 /* PBXBookmark */ = 39410EC5100BA5D400921167 /* PBXBookmark */;
 			39410EC7100BA61A00921167 /* PBXBookmark */ = 39410EC7100BA61A00921167 /* PBXBookmark */;
+			39410F65100BB01700921167 /* PBXBookmark */ = 39410F65100BB01700921167 /* PBXBookmark */;
 			396EE37B0FD84D1100BE0225 = 396EE37B0FD84D1100BE0225 /* PlistBookmark */;
 			396EE37D0FD84D1100BE0225 = 396EE37D0FD84D1100BE0225 /* PlistBookmark */;
 			39A88FF8100B7888006FE8DE = 39A88FF8100B7888006FE8DE /* PBXTextBookmark */;
@@ -1319,6 +1320,10 @@
 		isa = PBXBookmark;
 		fRef = 39A88FE5100B7722006FE8DE /* bg-notesheet.png */;
 	};
+	39410F65100BB01700921167 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 39A88FE5100B7722006FE8DE /* bg-notesheet.png */;
+	};
 	39474C1E0FC0437B00B1D410 /* CMNutritionCell.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1379, 256}}";
@@ -1541,9 +1546,9 @@
 	};
 	398686C20FB8C96B006E151C /* CMTriviaView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1334, 1932}}";
-			sepNavSelRange = "{3051, 0}";
-			sepNavVisRange = "{1023, 233}";
+			sepNavIntBoundsRect = "{{0, 0}, {1334, 2044}}";
+			sepNavSelRange = "{3179, 0}";
+			sepNavVisRange = "{1093, 129}";
 		};
 	};
 	39868A830FBA2A0A006E151C /* CMLocation.h */ = {
