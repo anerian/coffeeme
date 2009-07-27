@@ -45,6 +45,7 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
   [super viewWillDisappear:animated];
+  isLoading_ = NO;
   
   [[NSNotificationCenter defaultCenter] removeObserver:self 
                                                   name:@"stores:received" 
@@ -96,6 +97,7 @@
 
   self.tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
   self.tableView.frame = CGRectMake(0,40,320,self.view.bounds.size.height-60);
+  
   self.view.backgroundColor = HexToUIColor(0x865836);
   
   UIImageView *shadow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"shadow-bottom.png"]];
@@ -201,6 +203,7 @@
   
   if (!isDirty_) return;
   isDirty_ = NO;
+  
   NSAutoreleasePool *pool = [[NSAutoreleasePool alloc ]init];
   CLLocation *location = [CMLocation instance].currentLocation;
   

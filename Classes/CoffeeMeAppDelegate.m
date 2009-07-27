@@ -27,7 +27,8 @@
     
   UINavigationController *navigationController = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];
   navigationController.navigationBar.tintColor = HexToUIColor(0x372010);
-    
+  
+  // decrease reference counter, adding to navigtion controller increments it
   [viewController release];
     
   return navigationController;
@@ -36,7 +37,7 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
   [TTStyleSheet setGlobalStyleSheet:[[[CMStyleSheet alloc] init] autorelease]];
   
-  [CMStore establishConnection];
+  [CMModel establishConnection];
   
   TTAppMap* appMap = [TTAppMap sharedMap];
 
@@ -60,6 +61,7 @@
   splash_.image = [UIImage imageNamed:@"Default.png"];
   [window_ addSubview:splash_];
   [window_ bringSubviewToFront:splash_];
+  
   [UIView beginAnimations:nil context:nil];
   [UIView setAnimationDuration:1];
   [UIView setAnimationTransition:UIViewAnimationTransitionNone forView:window_ cache:YES];

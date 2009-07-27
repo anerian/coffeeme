@@ -30,6 +30,11 @@
     TTButton *call_ = [TTButton buttonWithStyle:@"embossedButton:" title:@"Call"];
     call_.frame = CGRectMake(20,80,135,50);
     [call_ addTarget:self action:@selector(call) forControlEvents:UIControlEventTouchUpInside];
+    [call_ setTitle:@"Call (N/A)" forState:UIControlStateDisabled];
+    
+    if (!store.phone || TTIsEmptyString(store.phone)) {
+      call_.enabled = NO;  
+    }
 
     TTButton *mapIt_ = [TTButton buttonWithStyle:@"embossedButton:" title:@"Get directions"];
     mapIt_.frame = CGRectMake(165,80,135,50);

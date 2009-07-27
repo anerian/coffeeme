@@ -91,6 +91,7 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
     
     [result close];
     
+    // TODO: min: need to handle this better
     if ([results count] == 1) return [results lastObject];
     
     return results;

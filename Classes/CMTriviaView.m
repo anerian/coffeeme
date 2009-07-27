@@ -42,7 +42,7 @@
   [self setText:text swipe:CMTriviaPageSwipeUp];
 }
 
-- (void)drawRect:(CGRect)rect {  
+- (void)drawRect:(CGRect)rect {
   CGContextRef context = UIGraphicsGetCurrentContext();
   [[UIImage imageNamed:@"bg-notesheet-bottom.png"] drawInRect:rect];
   
@@ -104,8 +104,6 @@
 
 - (id)initWithFrame:(CGRect)frame {
   if (self = [super initWithFrame:frame]) {
-    self.userInteractionEnabled = YES;
-    self.backgroundColor = [UIColor blackColor];
     _page = [[[CMTriviaPage alloc] init] retain];
     
     [self addSubview:_page];
@@ -113,14 +111,9 @@
   return self;
 }
 
-- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-  // [self updateTrivia];
-}
-
 - (void)drawRect:(CGRect)rect {
   [[UIImage imageNamed:@"bg-corkboard.jpg"] drawAsPatternInRect:rect];
   [[UIImage imageNamed:@"bg-notesheet.png"] drawInRect:CGRectMake(32,10,256,353)];
-  // [[UIImage imageNamed:@"bg-sticky-pad.png"] drawInRect:CGRectMake(0,0,320,276)];
 }
 
 - (void)dealloc {

@@ -85,14 +85,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 39410F4F100BAF9D00921167 /* Three20.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20.a */;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
 			remoteInfo = Three20;
 		};
 		39410F5A100BAFB700921167 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 39410F4F100BAF9D00921167 /* Three20.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20 */;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
 			remoteInfo = Three20;
 		};
 /* End PBXContainerItemProxy section */
@@ -619,8 +619,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Min Kim (AP86A8496N)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim (AP86A8496N)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anerian";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anerian";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -632,8 +632,8 @@
 					"-ObjC",
 				);
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "70623634-47ED-45BA-A722-9A118E430EA9";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "70623634-47ED-45BA-A722-9A118E430EA9";
+				PROVISIONING_PROFILE = "BFCC4757-100E-4391-B38E-A4F4515C7C45";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BFCC4757-100E-4391-B38E-A4F4515C7C45";
 				SDKROOT = iphoneos3.0;
 			};
 			name = Distribution;
@@ -658,8 +658,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Min Kim (AP86A8496N)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim (AP86A8496N)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anerian";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anerian";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -673,8 +673,8 @@
 					"-ObjC",
 				);
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "70623634-47ED-45BA-A722-9A118E430EA9";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "70623634-47ED-45BA-A722-9A118E430EA9";
+				PROVISIONING_PROFILE = "BFCC4757-100E-4391-B38E-A4F4515C7C45";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BFCC4757-100E-4391-B38E-A4F4515C7C45";
 				SDKROOT = iphoneos3.0;
 			};
 			name = Debug;
@@ -683,8 +683,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Min Kim (AP86A8496N)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Min Kim (AP86A8496N)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anerian";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anerian";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -696,8 +696,8 @@
 					"-ObjC",
 				);
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "70623634-47ED-45BA-A722-9A118E430EA9";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "70623634-47ED-45BA-A722-9A118E430EA9";
+				PROVISIONING_PROFILE = "BFCC4757-100E-4391-B38E-A4F4515C7C45";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BFCC4757-100E-4391-B38E-A4F4515C7C45";
 				SDKROOT = iphoneos3.0;
 			};
 			name = Release;
